@@ -1,0 +1,7 @@
+site:
+  title: narno.com
+  baseurl: http://narno.com/
+  baseline: Blabla.
+  author:
+    name: Arnaud Ligny
+    url: http://arnaudligny.fr
