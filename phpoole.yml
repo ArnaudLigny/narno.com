@@ -1,7 +1,78 @@
 site:
-  title: narno.com
-  baseurl: http://narno.com/
-  baseline: Blabla.
-  author:
-    name: Arnaud Ligny
-    url: http://arnaudligny.fr
+    title: Narno.com
+    baseurl: http://narno.com/
+    baseline: Développement Web, Magento, Drupal et jeux vidéo.
+    description: |
+        Narno.com est un weblog où je parle de mon expérience dans le développement web, et plus particulièrement de e-commerce avec Magento et de gestion de contenu avec Drupal.
+        Le tout saupoudré de geekeries et de jeux vidéo.
+    author:
+        name: Arnaud Ligny
+        url: http://arnaudligny.fr
+    menu:
+      main:
+        home:
+          id: home
+          name: Home
+          url: /
+          weight: 0
+        blog:
+          id: blog
+          name: Blog
+          url: blog/
+          weight: 10
+        forum:
+          id: forum
+          name: Forum
+          url: http://lesfourms.org
+          weight: 20
+        a-propos:
+          id: apropos
+          name: À propos
+          url: a-propos/
+          weight: 30
+        contact:
+          id: contact
+          name: Contact
+          url: contact/
+          weight: 40
+      rs:
+        twitter:
+          id: twitter
+          name: Twitter
+          url: http://twitter.com/narno
+          weight: 1
+        google:
+          id: google
+          name: Google+
+          url: https://plus.google.com/113514091842394570177?rel=author
+          weight: 2
+        googlepage:
+          id: googlepage
+          name: Page Google+
+          url: https://plus.google.com/118354857740841798328?rel=publisher
+          weight: 3
+        github:
+          id: github
+          name: GitHub
+          url: http://github.com/Narno
+          weight: 4
+        facebook:
+          id: facebook
+          name: Facebook
+          url: https://www.facebook.com/narno
+          weight: 5
+        drupal:
+          id: drupal
+          name: Drupal
+          url: http://drupal.org/user/141690
+          weight: 6
+        senscritique:
+          id: senscritique
+          name: SensCritique
+          url: http://senscritique.com/narno/
+          weight: 7
+        lastfm:
+          id: lastfm
+          name: last.fm
+          url: http://www.lastfm.fr/user/narn0
+          weight: 8
