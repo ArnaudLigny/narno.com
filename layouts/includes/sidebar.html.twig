@@ -1,25 +1,17 @@
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"{% if page.pathname == "index" %} checked{% endif %}>
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"{% if page.id == "index" %} checked{% endif %}>
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
   <nav class="sidebar-nav">
-{#
-    <a class="sidebar-nav-item{% if url(page) == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-#}
     {% for menu in site.menus.main|sortByWeight %}
-      {% if menu.name != null %}
-    <a class="sidebar-nav-item{% if url(page) == menu.url %} active{% endif %}" href="{{ menu.url }}">{{ menu.name }}</a>
-      {% endif %}
+    <a class="sidebar-nav-item{% if url(page) == url(menu.url) or url(page) == url(menu.url)|trim('/') %} active{% endif %}" href="{{ url(menu.url) }}">{{ menu.name }}</a>
     {% endfor %}
-{#
-    <a class="sidebar-nav-item" href="#">GitHub project</a>
-#}
-    <span class="sidebar-nav-item">Powered by <a href="{{ phpoole.url }}">PHPoole</a> v{{ phpoole.version }}</span>
+    <span class="sidebar-nav-item">Powered by <a href="{{ phpoole.url }}">PHPoole</a></span>
   </nav>
   <div class="sidebar-item">
     <p>
-      &copy; {{ "now"|date("Y") }}. All rights reserved.
+      &copy; Arnaud Ligny 2001-{{ "now"|date("Y") }}
     </p>
   </div>
 </div>

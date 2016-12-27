@@ -1,0 +1,17 @@
+{% extends 'index.html.twig' %}
+
+{% block content %}
+<div class="posts">
+  {% for post in site.pages|filterBy('section', 'blog')|sortByDate %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ url(post) }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <span class="post-date">{{ post.date|date("m/d/Y") }}</span>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}

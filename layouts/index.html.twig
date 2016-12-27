@@ -14,7 +14,8 @@
       </div>
       <div class="container content">
 {% block content %}
-{{ page.content }}
+{% include 'includes/home.html.twig' %}
+{% include 'includes/lastposts.html.twig' %}
 {% endblock content %}
       </div>
     </div>
@@ -33,6 +34,8 @@
         }, false);
       })(document);
     </script>
-    {#<pre>{{ dump(page) }}</pre>#}
+{% if site.debug == true %}
+    <pre>{{ dump(page) }}</pre>
+{% endif %}
   </body>
 </html>
