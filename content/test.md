@@ -1,5 +1,4 @@
 ---
-title: TEST
-star: true
+title: Test
 ---
-**TEST**
+Ceci est un test.

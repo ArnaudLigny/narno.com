@@ -1,4 +1,5 @@
 site:
+    debug: false
     title: Narno.com
     baseurl: http://narno.com/
     baseline: Développement Web, Magento, Drupal et jeux vidéo.
@@ -10,31 +11,11 @@ site:
         url: http://arnaudligny.fr
     menu:
       main:
-        home:
-          id: home
-          name: Home
-          url: /
-          weight: 0
-        blog:
-          id: blog
-          name: Blog
-          url: blog/
-          weight: 10
         forum:
           id: forum
           name: Forum
-          url: http://lesfourms.org
+          url: http://lesforums.org
           weight: 20
-        a-propos:
-          id: apropos
-          name: À propos
-          url: a-propos/
-          weight: 30
-        contact:
-          id: contact
-          name: Contact
-          url: contact/
-          weight: 40
       rs:
         twitter:
           id: twitter
