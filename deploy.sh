@@ -2,8 +2,8 @@
 set -e
 
 REPO="Narno/narno.com"
-SOURCE_BRANCH="source"
-TARGET_BRANCH="master"
+SOURCE_BRANCH="master"
+TARGET_BRANCH="gh-pages"
 SITE_DIR="_site"
 
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
