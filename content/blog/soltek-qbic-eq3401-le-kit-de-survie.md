@@ -1,7 +1,7 @@
 ---
 title: "Soltek QBic EQ3401 : le kit de survie"
 date: 02-01-2008
-tag: [drivers]
+tags: [drivers]
 permalink: blog/soltek-qbic-eq3401-le-kit-de-survie
 ---
 En faisant un peu de rangement dans "Mes Docmeunts", j'ai retrouvé une archive de secours en cas de réinstallation de mon mini-pc : le [Soltek QBic EQ3401](http://www.matbe.com/articles/lire/149/soltek-qbic-eq3401m-etudie-pour-le-silence/).

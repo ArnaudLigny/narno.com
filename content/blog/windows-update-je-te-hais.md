@@ -1,7 +1,7 @@
 ---
 title: "Windows Update : je te hais !"
 date: 12-12-2007
-tag: [humeur, Windows]
+tags: [humeur, Windows]
 permalink: blog/windows-update-je-te-hais
 ---
 Qui n'a jamais pesté sur Windows Update ? En effet, non content d'installer plein de trucs et de machins sans vraiment les justifier, Windows Update à la facheuse tendance à nous casser les *ouilles tant qu'il n'a pas redémarrer Windows : "a y est j'ai fini d'installer mes trucs, faut rebooter maintenant coco !". Et ça, à inetrvalle régulier, sous forme de boite de dialogue intrusive, jusqu'à ce que vous ayez cédé !

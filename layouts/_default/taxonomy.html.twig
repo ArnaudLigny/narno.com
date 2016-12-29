@@ -1,0 +1,12 @@
+{% extends 'index.html.twig' %}
+
+{% block content %}
+<h1 class="page-title">{{ page.singular|title }} "{{ page.title }}"</h1>
+<ul>
+{% for term in page.pages|sortByDate %}
+    <li>
+        <a href="{{ url(term) }}">{{ term.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}

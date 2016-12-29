@@ -1,7 +1,7 @@
 ---
 title: "Paris Web 2007 : j'y suis passé !"
 date: 12-12-2007
-tag: [accessibilité, Paris, web]
+tags: [accessibilité, Paris, web]
 permalink: blog/paris-web-2007-jy-suis-passe
 ---
 J'étais à [Paris Web 2007](http://2007.paris-web.fr/) pour la journée "libre" : pas de conférences mais des ateliers.

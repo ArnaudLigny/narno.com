@@ -1,6 +1,6 @@
 ---
 title: "Léo est né !"
-date: 12/10/2012
+date: 12-10-2012
 ---
 
 ![Léo est né !](/photos/leo.jpg)
