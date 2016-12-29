@@ -10,7 +10,7 @@
       </a>
     </h1>
     <span class="post-date">{{ post.date|date("d/m/Y") }}</span>
-    {{ post.content }}
+    {{ post.content|excerpt }}
   </div>
   {% endfor %}
 </div>
