@@ -9,7 +9,7 @@ Réalisé par Dean "Rocket" Hall, DayZ est encore en béta et son installation n
 
 Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai créé un installe(u)r qui se charge de télécharger les fichiers (dans la bonne version), de les installer où il faut et de créer un raccourci de lancement rapide sur le bureau.
 
-Pour le télécharger, rendez-vous sur le mini-site GitHub dédié : [_DayZ-Installer_](http://dayz-installer.narno.com/).
+Pour le télécharger, rendez-vous sur le mini-site GitHub dédié : [_DayZ-Installer_](http://narno-archives.github.io/DayZ-Installer/).
 
 ![Capture d'écran](/images/DayZ-Mod-Installer-0.0.1.5.png)
 
