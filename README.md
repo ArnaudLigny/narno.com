@@ -2,7 +2,7 @@ Source code of http://narno.com, generated with [PHPoole-library](https://github
 
 The website is automatically built and deployed through [Travis CI](https://travis-ci.org/Narno/narno.com).
 
-[![Build Status](https://travis-ci.org/Narno/narno.com.svg?branch=source)](https://travis-ci.org/Narno/narno.com)
+[![Build Status](https://travis-ci.org/Narno/narno.com.svg?branch=master)](https://travis-ci.org/Narno/narno.com)
 
 ## Install, build & deploy
 ```
