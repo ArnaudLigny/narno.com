@@ -26,9 +26,3 @@ Pour se faire il vous suffit de suivre ce mini tutorial :
 4. cliquez sur "Importer" et patientez ! :-)
 
 Depuis Picasa 3, l'opération s'est nettement simplifiée, alors n'hésitez plus ! :-)
-
-Logiciels utilisées :
-
-* [Picasa 3](http://picasa.google.com/)
-* [Flickr Uploadr](http://www.flickr.com/tools)
-* [picasa2flickr](http://picasa2flickr.sourceforge.net/install_v2.html)
