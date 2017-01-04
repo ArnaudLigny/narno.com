@@ -3,7 +3,7 @@ title: Config PC
 menu:
     main:
         name: Config PC
-        weight: 100
+        weight: 110
 ---
 
 La config de mon PC de jeu.
