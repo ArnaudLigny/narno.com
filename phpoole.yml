@@ -1,11 +1,10 @@
 site:
     debug: false
     title: Narno.com
-    baseurl: http://narno.org/narno.com/
-    baseline: Développement Web, Magento, Drupal et jeux vidéo.
+    baseurl: http://narno.com/
+    baseline: Développement Web et jeux vidéo.
     description: |
-        Narno.com est un weblog où je parle de mon expérience dans le développement web, et plus particulièrement de e-commerce avec Magento et de gestion de contenu avec Drupal.
-        Le tout saupoudré de geekeries et de jeux vidéo.
+        Narno.com est un weblog où je parle de mon expérience dans le développement web, de geekeries et de jeux vidéo.
     author:
         name: Arnaud Ligny
         url: http://arnaudligny.fr
