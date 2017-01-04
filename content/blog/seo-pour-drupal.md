@@ -17,14 +17,14 @@ Je vais présenter ici quelques optimisations à déployer sur votre site Drupal
 ##1. Activation des URL simplifiées
 
 Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionalité permet de transformer les URL contenant des paramètres de type GET en une URL unique.
-Par exemple `"/?q=node/1"` sera remplacée par `"/node/1"`.
+Par exemple `/?q=node/1` sera remplacée par `/node/1`.
 
 Note : votre hébergement doit supporter l'URL rewrting ([mod_rewrite d'Apache](http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html))
 
 ##2. Réécriture automatique des URL
 
 Quand les URL simplifiées sont active, il est possible de déterminer manuellement le chemin d'URL de chacun de ses noeuds, afin d'utiliser un nom compréhensible lorsque l'on créé un nouveau contenu.
-Par exemple `"/node/1"` devient `"/mon-article-interessant"`.
+Par exemple `/node/1` devient `/mon-article-interessant`.
 
 Néanmoins, il n'est pas très pratique de devoir systèmétiquement saisir ce nom manuellement.
 
@@ -58,10 +58,10 @@ Je m'explique : une page de contenu ne doit être accessible que par une seule e
 La problématique du duplicate content n'est pas le risque (inexistant sur un domaine unique) de se faire bannir de Google, mais plutôt de faciliter le travail des robots d'indexation de Google. En effet, les duplicatas de page de votre site seront également crawlés par les robots, même si le contenu est strictement identique à la page dupliquée. De ce fait, les robots de Google dépensent de l'énergie inutilement.
 Il n'y aurait pas de problème si le temps de passé par les robots que votre site était illimité. Ce n'est aps le cas : tout le temps passé à sacnner et à indexer des pages inutiles c'est; mécaniquement, du temps en moins pour d'autrets pages et par conséquence une moins bonne indexation de votre site.
 
-Si vous avez déployé le module Pathauto et que vous l'avez appliqué sur l'ensemble de votre site, plus aucun de vos contenus référençable ne devrait être accessible via l'URL "/node/xxxx". Et pourtant, par défaut c'est le cas avec Drupal.
-Pour remédier à cela, il est conseillé de modifier le fichier robots.txt afin d'y ajouter une rêgle d'exclusion adéquate : Disallow: /node/
+Si vous avez déployé le module Pathauto et que vous l'avez appliqué sur l'ensemble de votre site, plus aucun de vos contenus référençable ne devrait être accessible via l'URL `/node/xxxx`. Et pourtant, par défaut c'est le cas avec Drupal.
+Pour remédier à cela, il est conseillé de modifier le fichier `robots.txt` afin d'y ajouter une rêgle d'exclusion adéquate : `Disallow: /node/`.
 
-De même pour l'accès à une page de contenu via votre nom de domaine, il est important que l'URL soit unique. Ce qui arrive très souvent, c'est que l'on puisse accédé à une même page avec ou sans les "www". Par exemple : "http://www.narno.com/mon-article" et "http://narno.com/mon-article". Google interprète celà comme une duplication de contenu.
+De même pour l'accès à une page de contenu via votre nom de domaine, il est important que l'URL soit unique. Ce qui arrive très souvent, c'est que l'on puisse accédé à une même page avec ou sans les "www". Par exemple : `http://www.narno.com/mon-article` et `http://narno.com/mon-article`. Google interprète celà comme une duplication de contenu.
 
 La solution est de décommenter l'un des 2 blocs suivant dans le fichier ".htaccess" (situé à la racine de votre site) :
 
@@ -73,7 +73,7 @@ La solution est de décommenter l'un des 2 blocs suivant dans le fichier ".htacc
 #RewriteRule .* http://example.com/ [L,R=301] 
 ```
 
-Si vous décommentez le 1er, l'URL sera toujours "http://www.example.com", si vous décommentez le 2nd, l'URL sera toujours "http://example.com"
+Si vous décommentez le 1er, l'URL sera toujours `http://www.example.com`, si vous décommentez le 2nd, l'URL sera toujours `http://example.com`.
 
 De plus, Drupal adopte le même comportement que votre URL contienne un "/" ou pas : il affiche le contenu tel quel. On se retrouve à nouveau dans un cas de contenu dupliqué, puisque 2 URL différentes pour accédé à la même page.
 
