@@ -4,7 +4,7 @@ date: 31-10-2007
 tags: [Drupal]
 permalink: blog/afficher-votre-profil-ziki-sur-votre-blog-drupal
 ---
-Mon nouveau module pour [Drupal](/tag/drupal) est en chantier : [Ziki (API)](http://drupal.org/project/ziki).
+Mon nouveau module pour [Drupal](/tags/drupal) est en chantier : [Ziki (API)](http://drupal.org/project/ziki).
 
 Il s'agit d'un module intégrant l'[API Ziki](http://sites.google.com/a/ziki.com/docs/Home/API) (via parsing XML), et surtout d'un block affichant votre profil [Ziki](http://www.ziki.com/) (voir mon exemple dans la colonne de droite).
 
