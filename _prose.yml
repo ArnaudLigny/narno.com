@@ -1,0 +1,18 @@
+prose:
+  rooturl: 'content'
+  media: 'static'
+  metadata:
+    content/blog:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          value: "CURRENT_DATETIME"
+      - name: "test"
+        field:
+          element: "checkbox"
+          label: "Test"
+          value: false
