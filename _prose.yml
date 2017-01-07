@@ -7,6 +7,7 @@ prose:
         field:
           element: "text"
           label: "Title"
+          value: "page.md"
           placeholder: "Title"
       - name: "layout"
         field:
@@ -23,6 +24,7 @@ prose:
         field:
           element: "text"
           label: "Title"
+          value: "post.md"
           placeholder: "Title"
       - name: "date"
         field:
