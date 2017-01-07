@@ -19,10 +19,11 @@ prose:
           label: "Permalink"
           placeholder: "Permalink"
     content/blog:
-      - name: "title"
+       - name: "title"
         field:
           element: "text"
           label: "Title"
+          placeholder: "Title"
       - name: "date"
         field:
           element: "text"
@@ -47,8 +48,7 @@ prose:
           placeholder: "Permalink"
       - name: "star"
         field:
-          element: "button"
+          element: "checkbox"
           label: "Star"
           help: "Star a page on home page"
-          on: Yes
-          off: No
+          value: false
