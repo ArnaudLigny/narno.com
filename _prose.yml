@@ -6,17 +6,17 @@ prose:
       - name: "title"
         field:
           element: "text"
-          lable: "Title"
+          label: "Title"
       - name: "date"
         field:
           element: "text"
-          lable: "Date"
+          label: "Date"
           value: "CURRENT_DATETIME"
           placeholder: "Date"
       - name: "tags"
         field:
           element: "multiselect"
-          lable: "Tags"
+          label: "Tags"
           options:
             - name: "Jeux vidéo"
               value: "Jeux vidéo"
@@ -27,5 +27,5 @@ prose:
       - name: "permalink"
         field:
           element: "text"
-          lable: "Permalink"
+          label: "Permalink"
           placeholder: "Permalink"
