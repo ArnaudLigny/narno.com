@@ -10,9 +10,16 @@ prose:
       - name: "date"
         field:
           element: "text"
+          label: "Date"
           value: "CURRENT_DATETIME"
-      - name: "test"
+      - name: "tags"
         field:
-          element: "checkbox"
-          label: "Test"
-          value: false
+          element: "multiselect"
+          label: "Add tags"
+          placeholder: "Add tags"
+          alterable: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "Permalink"
