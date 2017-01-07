@@ -7,12 +7,17 @@ prose:
         field:
           element: "text"
           label: "Title"
-      - name: "menu"
+          placeholder: "Title"
+      - name: "layout"
         field:
           element: "text"
-          label: "Menu"
-          value: "main"
-          placeholder: "Menu"
+          label: "Layout"
+          placeholder: "Layout"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "Permalink"
     content/blog:
       - name: "title"
         field:
