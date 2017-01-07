@@ -1,5 +1,5 @@
 <div class="posts">
-  {% for post in site.pages|filterBy('star', 'true') %}
+  {% for post in site.pages|sortByDate|filterBy('star', 'true')|slice(0, 1) %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ url(post) }}">
