@@ -1,9 +1,10 @@
 ---
-date: '2017-01-07 20:15 +0100'
+date: '2017-01-07 20:45 +0100'
 star: false
-published: false
+published: true
 title: Test
-tags: [PHPoole]
+tags:
+  - PHPoole
 ---
 ## A New Post
 
