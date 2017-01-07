@@ -1,10 +1,10 @@
 ---
-date: '2017-01-07 22:15'
-star: false
+date: '2017-01-07 23:20'
+star: true
 published: false
-title: Test
+title: Reboot du blog ?
 tags:
   - PHPoole
-  - test
+  - Drupal
 ---
-test
+Reboot, peut-être, migration c'est certain !
