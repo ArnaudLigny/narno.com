@@ -31,7 +31,7 @@ prose:
           element: "text"
           label: "Date"
           value: "CURRENT_DATETIME"
-          placeholder: "Date"
+          placeholder: "YYYY-MM-DD HH:MM"
       - name: "tags"
         field:
           element: "multiselect"
