@@ -1,10 +1,9 @@
 ---
 date: '2017-01-07 20:15 +0100'
-star: true
+star: false
 published: false
-title: post.md
-tags:
-  - PHPoole
+title: Test
+tags: [PHPoole]
 ---
 ## A New Post
 
