@@ -6,20 +6,22 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "title"
       - name: "date"
         field:
           element: "text"
-          label: "Date"
           value: "CURRENT_DATETIME"
+          placeholder: "Date"
       - name: "tags"
         field:
           element: "multiselect"
-          label: "Add tags"
+          options:
+            - name: "Jeux vidéo"
+              value: "Jeux vidéo"
+            - name: "PHPoole"
+              value: "PHPoole"
           placeholder: "Add tags"
           alterable: true
       - name: "permalink"
         field:
           element: "text"
-          label: "Permalink"
           placeholder: "Permalink"
