@@ -2,6 +2,17 @@ prose:
   rooturl: 'content'
   media: 'static'
   metadata:
+    content:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "menu"
+        field:
+          element: "text"
+          label: "Menu"
+          value: "main"
+          placeholder: "Menu"
     content/blog:
       - name: "title"
         field:
@@ -29,3 +40,10 @@ prose:
           element: "text"
           label: "Permalink"
           placeholder: "Permalink"
+      - name: "star"
+        field:
+          element: "button"
+          label: "Star"
+          help: "Star a page on home page"
+          on: Yes
+          off: No
