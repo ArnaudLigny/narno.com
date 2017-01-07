@@ -19,7 +19,7 @@ prose:
           label: "Permalink"
           placeholder: "Permalink"
     content/blog:
-       - name: "title"
+      - name: "title"
         field:
           element: "text"
           label: "Title"
