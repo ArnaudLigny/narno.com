@@ -366,12 +366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-library.git",
-                "reference": "0e10694b4c825a631f1947105ce55afaca44d262"
+                "reference": "21b7948ae15703d192fc076010bfbcfe72d5dd05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-library/zipball/0e10694b4c825a631f1947105ce55afaca44d262",
-                "reference": "0e10694b4c825a631f1947105ce55afaca44d262",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-library/zipball/21b7948ae15703d192fc076010bfbcfe72d5dd05",
+                "reference": "21b7948ae15703d192fc076010bfbcfe72d5dd05",
                 "shasum": ""
             },
             "require": {
@@ -424,7 +424,7 @@
                 "twig",
                 "website"
             ],
-            "time": "2016-12-29 17:15:26"
+            "time": "2017-01-07 19:12:29"
         },
         {
             "name": "symfony/filesystem",
