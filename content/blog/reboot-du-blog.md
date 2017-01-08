@@ -6,6 +6,7 @@ title: Reboot du blog ?
 tags:
   - PHPoole
   - Drupal
+image: /images/new-plan-static-site-first.jpg
 ---
 Comme on dit chez moi :
 > p'têt ben qu'oui, p'têt ben qu'non !

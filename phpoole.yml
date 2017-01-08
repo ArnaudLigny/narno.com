@@ -8,6 +8,13 @@ site:
     author:
         name: Arnaud Ligny
         url: http://arnaudligny.fr
+    rs:
+        facebook:
+            admins: 516589570
+            email: me@narno.com
+            country: France
+        twitter:
+            username: Narno
     menu:
       main:
         forum:
