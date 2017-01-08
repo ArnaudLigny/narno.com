@@ -29,7 +29,6 @@
 {% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
 {% endif %}
-{% if page.content is defined %}
   <meta name="twitter:description" content="{{ page.content|excerpt }}" />
 {% else %}
   <meta name="twitter:description" content="{{ site.baseline }}" />
