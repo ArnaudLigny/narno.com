@@ -1,8 +1,15 @@
 ---
-title: "Skin Drupal pour Nintendo DS R4"
-date: 09-11-2008
-tags: [Drupal, jeux vidéo, Nintendo DS, R4]
+title: Skin Drupal pour Nintendo DS R4
+date: '2008-11-08'
+tags:
+  - Drupal
+  - jeux vidéo
+  - Nintendo DS
+  - R4
 permalink: blog/skin-drupal-pour-nintendo-ds-r4
+published: true
+star: false
+image: /images/nds-r4-drupal-skin.png
 ---
 J'ai récemment fais l'acquisition d'un [R4](http://www.r4ndsl.com/) pour Nintendo DS. Egalement connu sous le nom de "linker", cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.
 
