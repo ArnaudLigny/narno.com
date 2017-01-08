@@ -28,4 +28,6 @@ J'ai beaucoup aimé "jouer" avec [Drupal](/tags/drupal), mais il faut admettre q
 
 Bref, je ne me préoccupe plus de l'hébergement, tout en gardant la main sur mon contenu, avec un minimum d'effort ! \o/
 
-**Note :** les billets traitant de [Magento](http://arnaudligny.fr/tags/magento/) ont été déplacés vers mon [blog "pro"](http://arnaudligny.fr/blog/ "Le blog de Arnaud Ligny").
+**Notes :**
+1. L'ancienne version, motorisée par Drupal, reste disponible à l'adresse suivante : <http://drupal.narno.com>
+2. Les billets traitant de [Magento](http://arnaudligny.fr/tags/magento/) ont été déplacés vers mon [blog "pro"](http://arnaudligny.fr/blog/ "Le blog de Arnaud Ligny").
