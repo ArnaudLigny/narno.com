@@ -14,10 +14,12 @@ Comme on dit chez moi :
 
 Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !
 
+![]({{site.baseurl}}/images/new-plan-static-site-first.jpg)
+
 Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de [Drupal](/tags/drupal), ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé "jouer" avec [Drupal](/tags/drupal), mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.
 
-## _Narno.com_ est propulsé par :
+**_Narno.com_ est propulsé par :**
 * [GitHub](https://github.com/Narno/narno.com) : stockage, versionning des fichiers et hébergement
 * [PHPoole](http://phpoole.org/) : génère le site Web, en combinant les fichiers texte (écrit en [Markdown](https://daringfireball.net/projects/markdown/)) et les templates ([Twig](http://twig.sensiolabs.org/))
 * [Travis CI](https://travis-ci.org/Narno/narno.com) : automatise la génération et le déploiement
