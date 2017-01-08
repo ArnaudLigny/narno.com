@@ -26,9 +26,12 @@
   <meta name="twitter:site" content="@{{ site.rs.twitter.username }}" />
 {% if page.title is defined %}
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ page.content|excerpt }}" />
 {% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+{% if page.content is defined %}
+  <meta name="twitter:description" content="{{ page.content|excerpt }}" />
+{% else %}
   <meta name="twitter:description" content="{{ site.baseline }}" />
 {% endif %}
 {% if page.image is defined %}
