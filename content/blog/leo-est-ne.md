@@ -5,7 +5,7 @@ star: false
 published: true
 image: /photos/leo.jpg
 tags:
-  - 3615MaVie
+  - 3615 Ma Vie
 ---
 
 ![Léo est né !](/photos/leo.jpg)
