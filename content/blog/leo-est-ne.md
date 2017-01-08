@@ -1,7 +1,11 @@
 ---
-title: "Léo est né !"
-date: 12-10-2012
-star: true
+title: Léo est né !
+date: '2012-10-12'
+star: false
+published: true
+image: /photos/leo.jpg
+tags:
+  - 3615MaVie
 ---
 
 ![Léo est né !](/photos/leo.jpg)
