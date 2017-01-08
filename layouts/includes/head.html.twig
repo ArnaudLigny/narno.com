@@ -24,7 +24,11 @@
 {% endif %}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.rs.twitter.username }}" />
+{% if page.title is defined %}
+  <meta name="twitter:title" content="{{ page.title }}" />
+{% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
   <meta name="twitter:description" content="{{ site.baseline }}" />
 {% if page.image is defined %}
   <meta name="twitter:image" content="{{ url(page.image) }}" />
