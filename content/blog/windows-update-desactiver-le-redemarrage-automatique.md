@@ -1,8 +1,12 @@
 ---
-title: "Windows Update : Désactiver le redémarrage automatique"
-date: 15-02-2009
-tags: [Windows]
+title: 'Windows Update : Désactiver le redémarrage automatique'
+date: '2009-02-15'
+tags:
+  - Windows
 permalink: blog/windows-update-desactiver-le-redemarrage-automatique
+published: true
+star: false
+image: /images/strategie-groupe-windows-update.png
 ---
 Windows Update permet la mise à jour de Windows et de ses applications de manière automatique. Ce système est indispensable afin d'assurer la sécurité et la stabilité de l'OS.
 
