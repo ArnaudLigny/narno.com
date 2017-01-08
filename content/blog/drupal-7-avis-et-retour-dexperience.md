@@ -3,7 +3,7 @@ title: "Drupal 7 : avis et retour d'expérience"
 date: 10-02-2010
 tags: [Drupal]
 permalink: blog/drupal-7-avis-et-retour-dexperience
-alias: drupal-7-avis-et-retour-dexperience-0
+alias: blog/drupal-7-avis-et-retour-dexperience-0
 ---
 Drupal 7 est toujours en cours de développement (ou plutôt en cours de finition), néanmoins une version alpha à été publiée : l'occasion idéale de faire joujou avec la prochaine mouture de [Drupal](/tags/drupal).
 
