@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a0e2eb37b34789b0b8e0bcc39d714fb",
+    "content-hash": "6dec358aad34fb94fb6032351b42a48e",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -366,12 +366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-library.git",
-                "reference": "d30cee07c67fd93dfdd6bb59aaaea0de37b2093b"
+                "reference": "db5240046cb7cc1f112b870a5811b12fb9ff09cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-library/zipball/d30cee07c67fd93dfdd6bb59aaaea0de37b2093b",
-                "reference": "d30cee07c67fd93dfdd6bb59aaaea0de37b2093b",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-library/zipball/db5240046cb7cc1f112b870a5811b12fb9ff09cb",
+                "reference": "db5240046cb7cc1f112b870a5811b12fb9ff09cb",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
                 "symfony/filesystem": "^2.8",
                 "symfony/finder": "^2.7|^2.8",
                 "symfony/process": "^2.8",
-                "symfony/yaml": "^2.8",
+                "symfony/yaml": "^3.2",
                 "twig/twig": "^1.24"
             },
             "require-dev": {
@@ -424,7 +424,7 @@
                 "twig",
                 "website"
             ],
-            "time": "2017-01-07 22:51:55"
+            "time": "2017-01-09 23:27:05"
         },
         {
             "name": "symfony/filesystem",
@@ -575,25 +575,31 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.15",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "befb26a3713c97af90d25dd12e75621ef14d91ff"
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/befb26a3713c97af90d25dd12e75621ef14d91ff",
-                "reference": "befb26a3713c97af90d25dd12e75621ef14d91ff",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
+                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -620,7 +626,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14T16:15:57+00:00"
+            "time": "2016-12-10T10:07:06+00:00"
         },
         {
             "name": "twig/twig",
