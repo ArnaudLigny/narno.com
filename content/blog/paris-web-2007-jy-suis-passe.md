@@ -1,10 +1,9 @@
 ---
-title: 'Paris Web 2007 : j''y suis passé !'
-date: '2007-12-12'
+title: "Paris Web 2007 : j'y suis passé !"
+date: 2007-12-12
 tags:
   - accessibilité
-  - Paris
-  - web
+  - événement
 permalink: blog/paris-web-2007-jy-suis-passe
 published: true
 star: false
