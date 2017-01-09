@@ -1,7 +1,7 @@
 ---
 title: "Migration d'un forum phpBB2 vers phpBB3"
-date: 09-03-2009
-tags: [forum, migration, PHP]
+date: 2009-03-09
+tags: PHP
 permalink: blog/migration-dun-forum-phpbb2-vers-phpbb3
 ---
 Ça aura été pénible mais j'ai réussi à migrer le [forum phpBB de Kobuta.fr](http://www.kobuta.fr/forum) !
