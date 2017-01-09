@@ -4,7 +4,7 @@ site:
     baseurl: http://narno.com/
     baseline: Développement Web et jeux vidéo.
     description: |
-        Narno.com est un weblog où je parle de mon expérience dans le développement web, de geekeries et de jeux vidéo.
+        Narno.com est un weblog où je parle de développement web, de geekeries et de jeux vidéo.
     author:
         name: Arnaud Ligny
         url: http://arnaudligny.fr
