@@ -1,0 +1,36 @@
+var cacheName = 'narno-cache-v1';
+var urlsToCache = [];
+
+// pages
+{% for page in site.pages %}
+urlsToCache.push('{{ url(page) }}');
+{% endfor %}
+// CSS files
+urlsToCache.push("{{ url('/css/poole.css') }}");
+urlsToCache.push("{{ url('/css/syntax.css') }}");
+urlsToCache.push("{{ url('/css/lanyon.css') }}");
+urlsToCache.push("{{ url('/css/narno.com.css') }}");
+
+// serviceWorker.js
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(cacheName).then(function(cache) {
+      return cache.addAll(urlsToCache);
+    })
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      if (response) {
+        console.log('[SW] Serving cached: ' + event.request.url);
+
+        return response;
+      }
+      console.log('[SW] Fetching: ' + event.request.url);
+
+      return fetch(event.request);
+    })
+  );
+});
