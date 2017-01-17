@@ -5,37 +5,37 @@
     "name": "Narno.com",
     "description": "Narno.com, Développement Web et jeux vidéo",
     "icons": [{
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=48",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=48",
         "sizes": "48x48",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=72",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=72",
         "sizes": "72x72",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=96",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=96",
         "sizes": "96x96",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=144",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=144",
         "sizes": "144x144",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=168",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=168",
         "sizes": "168x168",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=192",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=192",
         "sizes": "192x192",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=250",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=250",
         "sizes": "250x250",
-        "type": "image/jpeg"
+        "type": "image/png"
     }, {
-        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b?s=300",
+        "src": "http://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=300",
         "sizes": "300x300",
-        "type": "image/jpeg"
+        "type": "image/png"
     }],
     "start_url": "/",
     "display": "standalone",
