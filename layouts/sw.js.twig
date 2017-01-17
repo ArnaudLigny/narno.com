@@ -1,29 +1,41 @@
-var cacheName = 'narno-cache-v1';
+var CACHE_VERSION = "{{ 'now'|date('U') }}";
+var CACHE_NAME = '{{ site.title|urlize }}';
+var CACHE = CACHE_NAME + '-v' + CACHE_VERSION;
 var urlsToCache = [];
 
-// pages
+// pre-cache
+urlsToCache.push("{{ url('manifest.json') }}");
+urlsToCache.push("{{ url('sw.js') }}");
+// pre-cache all pages
 {% for page in site.pages %}
 urlsToCache.push('{{ url(page) }}');
 {% endfor %}
-// CSS files
+// pre-cache CSS files
 urlsToCache.push("{{ url('css/poole.css') }}");
 urlsToCache.push("{{ url('css/syntax.css') }}");
 urlsToCache.push("{{ url('css/lanyon.css') }}");
 urlsToCache.push("{{ url('css/narno.com.css') }}");
 
-// serviceWorker.js
+// install service worker
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open(cacheName).then(function(cache) {
-      return cache.addAll(urlsToCache);
-    })
+    //self.skipWaiting(
+      caches.open(CACHE).then(function(cache) {
+        return cache.addAll(urlsToCache);
+      })
+    //)
   );
 });
+//self.addEventListener('activate', function(event) {
+//  event.waitUntil(self.clients.claim());
+//});
 
+// fetch
+/*
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request).then(function(response) {
-      if (response) {
+      if (response) { // response from cache
         console.log('[SW] Serving cached: ' + event.request.url);
 
         return response;
@@ -31,6 +43,38 @@ self.addEventListener('fetch', function(event) {
       console.log('[SW] Fetching: ' + event.request.url);
 
       return fetch(event.request);
+    })
+  );
+});
+*/
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      if (response) {
+        return response;
+      }
+
+      var fetchRequest = event.request.clone();
+      return fetch(fetchRequest).then(
+        function(response) {
+          if (!response
+            || response.status !== 200
+            || response.type !== 'basic'
+            //|| fetchRequest.mode !== 'same-origin'
+          ) {
+            return response;
+          }
+
+          var responseToCache = response.clone();
+          caches.open(CACHE).then(function(cache) {
+            if (!event.request.url.startsWith('data:')) {
+              cache.put(event.request, responseToCache);
+            }
+
+          });
+          return response;
+        }
+      );
     })
   );
 });
