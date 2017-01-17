@@ -1,7 +1,7 @@
 site:
     debug: false
     title: Narno.com
-    baseurl: http://narno.com/
+    baseurl: https://narno.com/
     baseline: Développement Web et jeux vidéo.
     description: |
         Narno.com est un weblog où je parle de développement web, de geekeries et de jeux vidéo.
