@@ -19,16 +19,16 @@ urlsToCache.push("{{ url('css/narno.com.css') }}");
 // install service worker
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    //self.skipWaiting(
+    self.skipWaiting(
       caches.open(CACHE).then(function(cache) {
         return cache.addAll(urlsToCache);
       })
-    //)
+    )
   );
 });
-//self.addEventListener('activate', function(event) {
-//  event.waitUntil(self.clients.claim());
-//});
+self.addEventListener('activate', function(event) {
+  event.waitUntil(self.clients.claim());
+});
 
 // fetch
 /*
