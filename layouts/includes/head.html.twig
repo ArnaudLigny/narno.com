@@ -9,35 +9,35 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   {% endspaceless %}</title>
-  <meta name="description" content="{{ site.baseline }}" />
-  <meta name="copyright" content="{{ site.author.name }}" />
-  <meta name="revisit-after" content="1 day" />
-  <meta property="fb:admins" content="{{ site.rs.facebook.admins }}" />
-  <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:country-name" content="{{ site.rs.facebook.country }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ url(page) }}" />
-  <meta property="og:email" content="{{ site.rs.facebook.email }}" />
+  <meta name="description" content="{{ site.baseline }}">
+  <meta name="copyright" content="{{ site.author.name }}">
+  <meta name="revisit-after" content="1 day">
+  <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:country-name" content="{{ site.rs.facebook.country }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ url(page) }}">
+  <meta property="og:email" content="{{ site.rs.facebook.email }}">
 {% if page.image is defined %}
-  <meta property="og:image" content="{{ url(page.image) }}"/>
+  <meta property="og:image" content="{{ url(page.image) }}">
 {% endif %}
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{ site.rs.twitter.username }}" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
 {% if page.title is defined %}
-  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
-  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:title" content="{{ site.title }}">
 {% endif %}
 {% if page.content is not empty %}
-  <meta name="twitter:description" content="{{ page.content|excerpt }}" />
+  <meta name="twitter:description" content="{{ page.content|excerpt }}">
 {% else %}
-  <meta name="twitter:description" content="{{ site.baseline }}" />
+  <meta name="twitter:description" content="{{ site.baseline }}">
 {% endif %}
 {% if page.image is defined %}
-  <meta name="twitter:image" content="{{ url(page.image) }}" />
+  <meta name="twitter:image" content="{{ url(page.image) }}">
 {% endif %}
   <meta name="theme-color" content="#202020">
-  <link rel="canonical" href="{{ site.baseurl }}" />
+  <link rel="canonical" href="{{ site.baseurl }}">
   <link rel="manifest" href="{{ url('manifest.json') }}">
   <link rel="stylesheet" href="{{ url('css/poole.css') }}">
   <link rel="stylesheet" href="{{ url('css/syntax.css') }}">
@@ -50,6 +50,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ url('apple-touch-icon-precomposed.png') }}">
   <link rel="apple-touch-startup-image" href="https://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=192">
   <meta name="msapplication-square310x310logo" content="https://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=310">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ url('rss.xml') }}">
 </head>
