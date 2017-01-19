@@ -3,7 +3,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>{% spaceless %}
-    {% if page.pathname == "index" %}
+    {% if page.id == "index" %}
       {{ site.title }} &middot; {{ site.baseline }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
@@ -45,11 +45,11 @@
   <link rel="stylesheet" href="{{ url('css/narno.com.css') }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
   <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-  <link rel="icon" sizes="192x192" href="https://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=192">
-  <link rel="apple-touch-icon" href="https://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=192">
+  <link rel="icon" sizes="192x192" href="{{ url('icon.png') }}">
+  <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ url('apple-touch-icon-precomposed.png') }}">
-  <link rel="apple-touch-startup-image" href="https://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=192">
-  <meta name="msapplication-square310x310logo" content="https://gravatar.com/avatar/9ea5082df57281310fa93db64c70f88b.png?s=310">
+  <link rel="apple-touch-startup-image" href="{{ url('apple-touch-startup-image.png') }}">
+  <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ url('rss.xml') }}">
