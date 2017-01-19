@@ -23,3 +23,8 @@ script:
 
 after_success:
   - bash deploy.sh
+  - "curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/4a1f5f6d78237b32b1855255227d0bdf/purge_cache\" \
+    -H \"X-Auth-Email: arnaud@ligny.org\" \
+    -H \"X-Auth-Key: ${Cloudflare_API}\" \
+    -H \"Content-Type: application/json\" \
+    --data '{\"purge_everything\":true}'"
