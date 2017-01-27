@@ -1,4 +1,4 @@
-Source code of http://narno.com, generated with [PHPoole-library](https://github.com/PHPoole/PHPoole-library).
+Source code of https://narno.com, generated with [PHPoole-library](https://github.com/PHPoole/PHPoole-library).
 
 The website is automatically built and deployed through [Travis CI](https://travis-ci.org/Narno/narno.com).
 
