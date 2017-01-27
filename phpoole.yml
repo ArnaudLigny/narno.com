@@ -7,7 +7,7 @@ site:
         Narno.com est un weblog où je parle de développement web, de geekeries et de jeux vidéo.
     author:
         name: Arnaud Ligny
-        url: http://arnaudligny.fr
+        url: https://arnaudligny.fr
     rs:
         facebook:
             admins: 516589570
@@ -26,7 +26,7 @@ site:
         twitter:
           id: twitter
           name: Twitter
-          url: http://twitter.com/narno
+          url: https://twitter.com/narno
           weight: 1
         google:
           id: google
@@ -41,7 +41,7 @@ site:
         github:
           id: github
           name: GitHub
-          url: http://github.com/Narno
+          url: https://github.com/Narno
           weight: 4
         facebook:
           id: facebook
@@ -51,12 +51,12 @@ site:
         drupal:
           id: drupal
           name: Drupal
-          url: http://drupal.org/user/141690
+          url: https://drupal.org/user/141690
           weight: 6
         senscritique:
           id: senscritique
           name: SensCritique
-          url: http://senscritique.com/narno/
+          url: https://senscritique.com/narno/
           weight: 7
         lastfm:
           id: lastfm
