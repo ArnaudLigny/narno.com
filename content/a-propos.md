@@ -4,7 +4,7 @@ menu: main
 published: true
 alias: contact
 ---
-_Narno.com_ est un weblog sur le thème du développement web, du e-commerce ([Magento](http://arnaudligny.fr/tags/Magento/)) et des jeux vidéo, redigé par [Arnaud Ligny](http://arnaudligny.fr/).
+_Narno.com_ est un weblog sur le thème du développement web, du e-commerce ([Magento](https://arnaudligny.fr/tags/magento/)) et des [jeux vidéo](https://narno.com/tags/jeux-video/), redigé par [Arnaud Ligny](http://arnaudligny.fr/).
 
 Consultant technique dans [un studio de production Web et mobile](http://adfab.fr/), je suis spécialisé dans l'avant-vente, la conception fonctionnelle & technique d'applications Web et mobile.
 
