@@ -20,21 +20,21 @@
   <meta property="og:email" content="{{ site.rs.facebook.email }}">
 {% if page.image is defined %}
   <meta property="og:image" content="{{ url(page.image) }}">
+  <meta name="twitter:image" content="{{ url(page.image) }}">
 {% endif %}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
 {% if page.title is defined %}
+  <meta property="og:title" content="{{ page.title }}">
   <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
+  <meta property="og:title" content="{{ site.title }}">
   <meta name="twitter:title" content="{{ site.title }}">
 {% endif %}
 {% if page.content is not empty %}
   <meta name="twitter:description" content="{{ page.content|excerpt }}">
 {% else %}
   <meta name="twitter:description" content="{{ site.baseline }}">
-{% endif %}
-{% if page.image is defined %}
-  <meta name="twitter:image" content="{{ url(page.image) }}">
 {% endif %}
   <meta name="theme-color" content="#202020">
   <link rel="canonical" href="{{ site.baseurl }}">
