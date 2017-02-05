@@ -73,7 +73,6 @@ site:
     serviceworker:
         enabled: true
         file: sw.js
-        scope: '/'
         precache:
             - icon.png
             - css/poole.css
