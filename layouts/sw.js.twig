@@ -61,13 +61,15 @@ self.addEventListener('fetch', function(event) {
 
   event.respondWith(
     caches.match(event.request).then(function(response) {
+      // return response from cache if exist
       if (response) {
         return response;
       }
-
+      // store visited ressource to cache
       var fetchRequest = event.request.clone();
       return fetch(fetchRequest).then(
         function(response) {
+          // ignore if response is not valid
           if (!response
             || response.status !== 200
             || response.type !== 'basic'
@@ -75,14 +77,14 @@ self.addEventListener('fetch', function(event) {
           ) {
             return response;
           }
-
           var responseToCache = response.clone();
           caches.open(CACHE).then(function(cache) {
-            if (!event.request.url.startsWith('data:')) {
-              console.log('[SW] Store ', event.request.url);
-              cache.put(event.request, responseToCache);
+            // ignore "data" URL
+            if (event.request.url.startsWith('data:')) {
+              return;
             }
-
+            console.log('[SW] Store ', event.request.url);
+            cache.put(event.request, responseToCache);
           });
           return response;
         }
