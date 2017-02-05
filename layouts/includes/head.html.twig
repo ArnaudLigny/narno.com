@@ -1,60 +1,60 @@
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>{% spaceless %}
-    {% if page.id == "index" %}
-      {{ site.title }} &middot; {{ site.baseline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  {% endspaceless %}</title>
-  <meta name="description" content="{{ site.baseline }}">
-  <meta name="copyright" content="{{ site.author.name }}">
-  <meta name="revisit-after" content="1 day">
-  <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:country-name" content="{{ site.rs.facebook.country }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ url(page) }}">
-  <meta property="og:email" content="{{ site.rs.facebook.email }}">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>{% spaceless %}
+      {% if page.id == "index" %}
+        {{ site.title }} &middot; {{ site.baseline }}
+      {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% endif %}
+    {% endspaceless %}</title>
+    <meta name="description" content="{{ site.baseline }}">
+    <meta name="copyright" content="{{ site.author.name }}">
+    <meta name="revisit-after" content="1 day">
+    <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:country-name" content="{{ site.rs.facebook.country }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url(page) }}">
+    <meta property="og:email" content="{{ site.rs.facebook.email }}">
 {% if page.image is defined %}
-  <meta property="og:image" content="{{ url(page.image) }}">
-  <meta name="twitter:image" content="{{ url(page.image) }}">
+    <meta property="og:image" content="{{ url(page.image) }}">
+    <meta name="twitter:image" content="{{ url(page.image) }}">
 {% endif %}
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
 {% if page.title is defined %}
-  <meta property="og:title" content="{{ page.title }}">
-  <meta name="twitter:title" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
-  <meta property="og:title" content="{{ site.title }}">
-  <meta name="twitter:title" content="{{ site.title }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta name="twitter:title" content="{{ site.title }}">
 {% endif %}
 {% if page.content is not empty %}
-  <meta name="twitter:description" content="{{ page.content|excerpt }}">
+    <meta name="twitter:description" content="{{ page.content|excerpt }}">
 {% else %}
-  <meta name="twitter:description" content="{{ site.baseline }}">
+    <meta name="twitter:description" content="{{ site.baseline }}">
 {% endif %}
-  <meta name="theme-color" content="#202020">
-  <link rel="canonical" href="{{ site.baseurl }}">
-  <link rel="manifest" href="{{ url('manifest.json') }}">
-  <link rel="stylesheet" href="{{ url('css/poole.css') }}">
-  <link rel="stylesheet" href="{{ url('css/syntax.css') }}">
-  <link rel="stylesheet" href="{{ url('css/lanyon.css') }}">
-  <link rel="stylesheet" href="{{ url('css/narno.com.css') }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-  <link rel="icon" sizes="192x192" href="{{ url('icon.png') }}">
-  <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ url('apple-touch-icon-precomposed.png') }}">
-  <link rel="apple-touch-startup-image" href="{{ url('apple-touch-startup-image.png') }}">
-  <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ url('rss.xml') }}">
-  <link href="https://twitter.com/Narno" rel="me">
-  <link href="https://github.com/Narno" rel="me">
-  <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
-  <link rel="webmention" href="https://webmention.io/narno.com/webmention">
-</head>
+    <meta name="theme-color" content="#202020">
+    <link rel="canonical" href="{{ site.baseurl }}">
+    <link rel="manifest" href="{{ url('manifest.json') }}">
+    <link rel="stylesheet" href="{{ url('css/poole.css') }}">
+    <link rel="stylesheet" href="{{ url('css/syntax.css') }}">
+    <link rel="stylesheet" href="{{ url('css/lanyon.css') }}">
+    <link rel="stylesheet" href="{{ url('css/narno.com.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
+    <link rel="icon" sizes="192x192" href="{{ url('icon.png') }}">
+    <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ url('apple-touch-icon-precomposed.png') }}">
+    <link rel="apple-touch-startup-image" href="{{ url('apple-touch-startup-image.png') }}">
+    <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ url('rss.xml') }}">
+    <link href="https://twitter.com/Narno" rel="me">
+    <link href="https://github.com/Narno" rel="me">
+    <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
+    <link rel="webmention" href="https://webmention.io/narno.com/webmention">
+  </head>

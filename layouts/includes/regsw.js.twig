@@ -1,0 +1,15 @@
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('{{ url("sw.js") }}').then(function(registration) {
+          console.log('[SW] Registration successful with scope: ', registration.scope);
+        }).catch(function(err) {
+          console.log('[SW] Registration failed: ', err);
+        });
+      }
+      navigator.webkitTemporaryStorage.queryUsageAndQuota(
+        function(usedBytes, grantedBytes) {
+          console.log('Cache size: ', (usedBytes/1048576).toFixed(2), ' / ', (grantedBytes/1048576).toFixed(2), 'Mo');
+        },
+        function(e) { console.log('Error', e); }
+      );
+    </script>

@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="posts">
-  {% for post in site.pages|sortByDate %}
+{% for post in site.pages|sortByDate %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ url(post) }}">
@@ -11,7 +11,7 @@
     </h1>
     {{ post.content|excerpt }}
   </div>
-  {% endfor %}
+{% endfor %}
 </div>
 {% if site.debug == true %}
 <pre>

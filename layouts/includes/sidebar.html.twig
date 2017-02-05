@@ -1,17 +1,17 @@
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
-  <nav class="sidebar-nav">
-    {% for menu in site.menus.main|sortByWeight %}
-    <a class="sidebar-nav-item{% if url(page) == url(menu.url) or url(page) == url(menu.url)|trim('/') %} active{% endif %}" href="{{ url(menu.url) }}">{{ menu.name }}</a>
-    {% endfor %}
-    <span class="sidebar-nav-item">Powered by <a href="{{ phpoole.url }}">PHPoole</a></span>
-  </nav>
-  <div class="sidebar-item">
-    <p>
-      &copy; 2001-{{ "now"|date("Y") }} Arnaud Ligny
-    </p>
-  </div>
-</div>
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+        <p>{{ site.description }}</p>
+      </div>
+      <nav class="sidebar-nav">
+{% for menu in site.menus.main|sortByWeight %}
+        <a class="sidebar-nav-item{% if url(page) == url(menu.url) or url(page) == url(menu.url)|trim('/') %} active{% endif %}" href="{{ url(menu.url) }}">{{ menu.name }}</a>
+{% endfor %}
+        <span class="sidebar-nav-item">Powered by <a href="{{ phpoole.url }}">PHPoole</a></span>
+      </nav>
+      <div class="sidebar-item">
+        <p>
+          &copy; 2001-{{ "now"|date("Y") }} Arnaud Ligny
+        </p>
+      </div>
+    </div>
