@@ -63,8 +63,17 @@ site:
           name: last.fm
           url: http://www.lastfm.fr/user/narn0
           weight: 8
+    manifest:
+        lang: fr-FR
+        start_url: /
+        display: standalone
+        orientation: portrait
+        background_color: '#ffffff'
+        theme_color: '#202020'
     serviceworker:
         enabled: true
+        file: sw.js
+        scope: '/'
         precache:
             - icon.png
             - css/poole.css
