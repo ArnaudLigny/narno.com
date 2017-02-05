@@ -1,3 +1,4 @@
+// service worker config
 var CACHE_VERSION = "{{ 'now'|date('U') }}";
 var CACHE_NAME = '{{ site.title|urlize }}';
 var CACHE = CACHE_NAME + '-v' + CACHE_VERSION;
@@ -6,6 +7,7 @@ var urlsToCache = [];
 // pre-cache
 urlsToCache.push("{{ url('manifest.json') }}");
 urlsToCache.push("{{ url('sw.js') }}");
+urlsToCache.push("{{ url('icon.png') }}");
 // pre-cache all pages
 {% for page in site.pages %}
 urlsToCache.push('{{ url(page) }}');
@@ -18,36 +20,48 @@ urlsToCache.push("{{ url('css/narno.com.css') }}");
 
 // install service worker
 self.addEventListener('install', function(event) {
+  console.log('[SW] Install');
   event.waitUntil(
     self.skipWaiting(
       caches.open(CACHE).then(function(cache) {
+        console.log('[SW] Caching');
         return cache.addAll(urlsToCache);
       })
     )
   );
 });
+
+// activate service worker
 self.addEventListener('activate', function(event) {
+  console.log('[SW] Activate');
+  event.waitUntil(
+    caches.keys().then(function(keyList) {
+      return Promise.all(keyList.map(function(key) {
+        if (key !== CACHE) {
+          console.log('[SW] Removing old cache', key);
+          return caches.delete(key);
+        }
+      }));
+    })
+  );
   event.waitUntil(self.clients.claim());
 });
 
-// fetch
-/*
+// fetch data
 self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request).then(function(response) {
-      if (response) { // response from cache
-        console.log('[SW] Serving cached: ' + event.request.url);
+  console.log('[SW] Fetch ', event.request.url);
 
-        return response;
-      }
-      console.log('[SW] Fetching: ' + event.request.url);
+  // ignore non-GET requests
+  if (event.request.method !== 'GET') {
+    return;
+  }
 
-      return fetch(event.request);
-    })
-  );
-});
-*/
-self.addEventListener('fetch', function(event) {
+  // ignore non-local resources
+  url = new URL(event.request.url);
+  if (!(url.origin == location.origin)) {
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then(function(response) {
       if (response) {
@@ -68,6 +82,7 @@ self.addEventListener('fetch', function(event) {
           var responseToCache = response.clone();
           caches.open(CACHE).then(function(cache) {
             if (!event.request.url.startsWith('data:')) {
+              console.log('[SW] Store ', event.request.url);
               cache.put(event.request, responseToCache);
             }
 
