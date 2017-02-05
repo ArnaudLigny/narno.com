@@ -5,18 +5,17 @@ var CACHE = CACHE_NAME + '-v' + CACHE_VERSION;
 var urlsToCache = [];
 
 // pre-cache
-urlsToCache.push("{{ url('manifest.json') }}");
-urlsToCache.push("{{ url('sw.js') }}");
-urlsToCache.push("{{ url('icon.png') }}");
+urlsToCache.push('{{ url('manifest.json') }}');
 // pre-cache all pages
 {% for page in site.pages %}
 urlsToCache.push('{{ url(page) }}');
 {% endfor %}
-// pre-cache CSS files
-urlsToCache.push("{{ url('css/poole.css') }}");
-urlsToCache.push("{{ url('css/syntax.css') }}");
-urlsToCache.push("{{ url('css/lanyon.css') }}");
-urlsToCache.push("{{ url('css/narno.com.css') }}");
+// pre-cache files
+{% if site.serviceworker is defined %}
+{% for file in site.serviceworker.precache %}
+urlsToCache.push('{{ url(file) }}');
+{% endfor %}
+{% endif %}
 
 // install service worker
 self.addEventListener('install', function(event) {

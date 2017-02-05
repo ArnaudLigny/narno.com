@@ -63,3 +63,11 @@ site:
           name: last.fm
           url: http://www.lastfm.fr/user/narn0
           weight: 8
+    serviceworker:
+        enabled: true
+        precache:
+            - icon.png
+            - css/poole.css
+            - css/syntax.css
+            - css/lanyon.css
+            - css/narno.com.css
