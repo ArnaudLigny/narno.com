@@ -1,7 +1,7 @@
       <div class="lastposts">
         <h2>Derniers billets du blog</h2>
         <ul>
-{% for post in site.pages|filterBy('section', 'blog')|sortByDate|slice(0, 10) %}
+{% for post in site.pages|filterBy('section', 'blog')|sortByDate|slice(0, 5) %}
           <li><a href="{{ url(post) }}">{{ post.title }}</a></li>
 {% endfor %}
         </ul>
