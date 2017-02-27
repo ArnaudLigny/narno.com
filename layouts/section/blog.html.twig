@@ -2,18 +2,30 @@
 
 {% block content %}
 <div class="posts">
-  {% for post in site.pages|filterBy('section', 'blog')|sortByDate %}
+{% if page.pagination is defined %}
+{% for post in page.pagination.pages %}
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ url(post) }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <h1 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h1>
     <span class="post-date">{{ post.date|date("j M Y") }}</span>
     {{ post.content|excerpt }}
   </div>
-  {% endfor %}
+{% endfor %}
+{% endif %}
 </div>
+
+<div class="pagination">
+{% if page.pagination.prev is defined %}
+  <a class="pagination-item older" href="{{ url(page.pagination.prev) }}">&lsaquo; Précédent</a>
+{% else %}
+  <span class="pagination-item older">&lsaquo; Précédent</span>
+{% endif %}
+{% if page.pagination.next is defined %}
+  <a class="pagination-item newer" href="{{ url(page.pagination.next) }}">Suivant &rsaquo;</a>
+{% else %}
+  <span class="pagination-item newer">Suivant &rsaquo;</span>
+{% endif %}
+</div>
+
 {% if site.debug == true %}
 <pre>
 Layout: {{ _self.getTemplateName() }}
