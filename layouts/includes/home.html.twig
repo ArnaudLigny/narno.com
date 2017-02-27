@@ -1,31 +1,16 @@
       <div class="posts">
-        {% for post in site.pages|filterBy('star', 'true')|sortByDate|slice(0, 1) %}
+{% for post in site.pages|filterBy('star', 'true')|sortByDate|slice(0, 1) %}
         <div class="post">
-          <h1 class="post-title">
-            <a href="{{ url(post) }}">
-              {{ post.title }}
-            </a>
-          </h1>
+          <h1 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h1>
           <span class="post-date">{{ post.date|date("j M Y") }}</span>
+{% if post.destination is not defined %}
+{% set readtime = readtime(post.content) %}
+{% if readtime < 1 %}
+{% set readtime = "< 1" %}
+{% endif %}
+          <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
+{% endif %}
           {{ post.content }}
         </div>
-        {% endfor %}
+{% endfor %}
       </div>
-      {#
-      <div class="pagination">
-        {% if page.pagination.next %}
-          <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-        {% else %}
-          <span class="pagination-item older">Older</span>
-        {% endif %}
-        {% if page.pagination.prev %}
-          {% if paginator.page == 2 %}
-            <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-          {% else %}
-            <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-          {% endif %}
-        {% else %}
-          <span class="pagination-item newer">Newer</span>
-        {% endif %}
-      </div>
-      #}
