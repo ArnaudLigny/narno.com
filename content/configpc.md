@@ -5,8 +5,7 @@ menu:
         name: Config PC
         weight: 110
 ---
-
-La config de mon PC de jeu.
+La configuration (matérielle) de mon PC de jeu.
 
 | Composant       | Description |
 | --------------- | ----------- |
