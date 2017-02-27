@@ -71,7 +71,7 @@ site:
         background_color: '#ffffff'
         theme_color: '#202020'
     serviceworker:
-        enabled: true
+        enabled: false
         file: sw.js
         precache:
             - icon.png
