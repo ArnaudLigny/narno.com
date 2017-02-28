@@ -10,17 +10,12 @@ _Narno.com_ est un blog sur le thème du développement web (avec du [Drupal](/t
 
 ## L'auteur
 
-### Perso
+<img title="Avatar de Arnaud Ligny" style="float:right;" src="https://gravatar.com/avatar/f3fcff94a06971a1c4471c0385280a64?s=128">
+<img title="Avatar de Narno" style="float:right;" src="https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=128">
 
-![Photo de Narno](https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=128)
+Je suis connu sous le pseudo de _Narno_, geek, papa, gamer, travailleur dans les Internets, [contributeur open-source](https://github.com/Narno), agnostique, humaniste, cycliste, amateur de bière.
 
-Je suis geek, papa, gamer, travailleur dans les Internets, [contributeur open-source](https://github.com/Narno), agnostique, humaniste, cycliste, amateur de bière.
-
-### Pro
-
-![Photo de Arnaud Ligny](https://gravatar.com/avatar/f3fcff94a06971a1c4471c0385280a64?s=128)
-
-Je suis [consultant technique](http://arnaudligny.fr/) dans [un studio de production Web et mobile](http://adfab.fr/), spécialisé dans l'avant-vente, la conception fonctionnelle & technique d'applications Web et mobile.
+Je suis également [consultant technique](http://arnaudligny.fr/) dans [un studio de production Web et mobile](http://adfab.fr/), spécialisé dans l'avant-vente, la conception fonctionnelle & technique d'applications Web et mobile.
 
 ----
 
