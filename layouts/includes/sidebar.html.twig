@@ -7,11 +7,25 @@
 {% for menu in site.menus.main|sortByWeight %}
         <a class="sidebar-nav-item{% if url(page) == url(menu.url) or url(page) == url(menu.url)|trim('/') %} active{% endif %}" href="{{ url(menu.url) }}">{{ menu.name }}</a>
 {% endfor %}
-        <span class="sidebar-nav-item">Powered by <a href="{{ phpoole.url }}">PHPoole</a></span>
       </nav>
       <div class="sidebar-item">
-        <p>
-          &copy; 2001-{{ "now"|date("Y") }} Arnaud Ligny
-        </p>
+        <ul class="social inline">
+          <li>
+            <a rel="me" title="S'abonner au flux" href="{{ url('rss.xml') }}"><svg width="16" height="20" class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a>
+          </li>
+          <li>
+            <a rel="me" title="M'envoyer un mail" href="mailto:me@narno.com"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
+          </li>
+          <li>
+            <a rel="me" title="Me suivre sur Twitter" href="https://twitter.com/Narno"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
+          </li>
+          <li>
+            <a rel="me" title="Me suivre sur GitHub" href="https://github.com/Narno"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar-item">
+        <p>&copy; 2001-{{ "now"|date("Y") }} <a href="{{ site.author.url }}">{{ site.author.name }}</a></p>
+        <p>Powered by <a href="{{ phpoole.url }}">PHPoole</a> &amp; <a href="https://github.com/poole/lanyon">Lanyon</a></p>
       </div>
     </div>
