@@ -43,9 +43,7 @@
     {{ dump(page) }}
     </pre>
 {% endif %}
-{% if site.serviceworker is defined and site.serviceworker.enabled %}
 {% include 'includes/regsw.js.twig' %}
-{% endif %}
 {% include 'includes/ga.js.twig' %}
   </body>
 </html>

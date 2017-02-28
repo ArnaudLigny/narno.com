@@ -1,11 +1,19 @@
     <script>
       if ('serviceWorker' in navigator) {
+{% if site.serviceworker is defined %}
         navigator.serviceWorker.register('{{ url("sw.js") }}').then(function(registration) {
           console.log('[SW] Registration successful with scope: ', registration.scope);
+{% if not site.serviceworker.enabled %}
+          registration.unregister().then(function(boolean) {
+            console.log('[SW] Unregister');
+          });
+{% endif %}
         }).catch(function(err) {
-          console.log('[SW] Registration failed: ', err);
+          console.log('[SW] Failed: ', err);
         });
+{% endif %}
       }
+      /* browser storage */
       navigator.webkitTemporaryStorage.queryUsageAndQuota(
         function(usedBytes, grantedBytes) {
           console.log('Cache size: ', (usedBytes/1048576).toFixed(2), ' / ', (grantedBytes/1048576).toFixed(2), 'Mo');
