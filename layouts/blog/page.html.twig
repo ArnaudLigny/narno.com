@@ -10,6 +10,13 @@
   {% endif %}
       <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
   {{ page.content }}
+  <footer class="tags">
+{% if page.tags is defined %}
+{% for tag in page.tags %}
+    <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
+{% endfor %}
+{% endif %}
+  </footer>
   <aside class="comments">
 {% include 'includes/comments.html.twig' %}
   </aside>
