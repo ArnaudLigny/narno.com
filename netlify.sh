@@ -1,6 +1,3 @@
-#!/bin/bash
-set -e
-
 echo "Switch to PHP 5.6.29"
 source ~/.phpbrew/bashrc
 phpbrew switch 5.6.29
