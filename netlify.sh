@@ -6,7 +6,7 @@ php -v
 
 echo "Composer install"
 composer -V
-composer install
+composer install -q
 
 echo "Run PHPoole build"
 #php phpoole.phar build
