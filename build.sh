@@ -8,3 +8,5 @@ php -v
 
 echo "Run PHPoole build"
 php phpoole.phar build
+
+exit 0
