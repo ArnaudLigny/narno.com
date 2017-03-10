@@ -1,7 +1,7 @@
 echo "Switching to PHP 5.6.30"
+export PHPBREW_SKIP_INIT=1
 echo "[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc" >> ~/.bashrc
 source ~/.phpbrew/bashrc
-export PHPBREW_SKIP_INIT=1
 phpbrew switch 5.6.29
 
 echo "Running Composer"
