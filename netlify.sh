@@ -1,8 +1,8 @@
 echo "Switching to PHP 5.6.30"
-export PHPBREW_SKIP_INIT=1
 echo "[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc" >> ~/.bashrc
 source ~/.phpbrew/bashrc
-phpbrew switch 5.6.29
+phpbrew switch 5.6.30
+php -v
 
 echo "Running Composer"
 composer install -q
