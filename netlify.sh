@@ -7,9 +7,11 @@ phpbrew switch 5.6.30
 #echo "Running Composer"
 #composer install -q
 
+echo "Downloading PHPoole"
+curl -sSOL https://phpoole.org/phpoole.phar
+
 echo "Running PHPoole"
 #php build.php -e=prod
-curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar build
 
 exit 0
