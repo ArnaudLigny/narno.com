@@ -1,11 +1,11 @@
-echo "Switch to PHP 5.6.29"
+echo "Switching to PHP 5.6.29"
 source ~/.phpbrew/bashrc
 phpbrew switch 5.6.29
 
-echo "Composer install"
+echo "Running Composer"
 composer install -q
 
-echo "Run PHPoole build"
+echo "Running PHPoole"
 #php phpoole.phar build
 php build.php -e=prod
 
