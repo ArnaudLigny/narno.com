@@ -1,22 +1,22 @@
 ---
 date: '2017-10-16'
 star: false
-published: false
+published: true
 title: Pourquoi ne pas juste dire "merci" ?
 tags:
   - CyclisteUrbain
 ---
 ## Préambule
 
-Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville - Paris.
+Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville : Paris.
 
 ## Mauvais combat
 
-Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo), la fermeture des voies sur berge et les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/) créés pas mal d'émois sur Twitter et Facebook.
+Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) et les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/) créés des émois sur Twitter et Facebook.
 
-On en arrive à une situation absurbe où, plutôt d'être critique sur les origines réelles des bouchons et de la solution, on en arrive à critiquer quelques aménagements visant à promouvoir la solution vélo et à réduire la polution dans Paris.
+On en arrive à une situation absurbe où, plutôt d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire dans Paris...
 
-Aussi, c'est un sujet récurrent avec des amis ou la famille, plus ou moins cocernés par le sujet, dont ma tante Yvone.
+Aussi, c'est un sujet récurrent avec des amis et des memebres de ma famille, plus ou moins concernés par le sujet, ou au fait de la réalité des parisiens.
 
 Y compris sur les réseaux sociaux.
 
@@ -24,7 +24,7 @@ Ainsi, **voici un exemple très parlant** : la question de ma tata Yvonne suite 
 
 > Question: combien de personnes feront du vélo cet hiver ? Sous la pluie et les intempéries ? Je ne trouve pas raisonnable ce qui se passe aujourd’hui. Il faut trouver un équilibre entre les voies piétons, cyclistes et automobiles et cesser une mauvaise ambiance dans la capitale.
 
-**Ma réponse, rédigée sur mon téléphone, d'une traite :**
+**Et ma réponse, rédigée sur mon téléphone, d'une traite :**
 
 > Chère tata, je circule à vélo dans Paris et sa région depuis plus de 3 ans maintenant, avec d'abord un vélo trop petit pour moi, puis un Velib' et enfin un vrai bon vélo adapté à ma morphologie, résistant, fiable et confortable.
 > Je n'ai qu'à de très rares occasions abandonné ma monture à cause du froid ou de la pluie.
@@ -49,6 +49,3 @@ Ainsi, **voici un exemple très parlant** : la question de ma tata Yvonne suite 
 > Pourquoi ne pas juste dire "merci" ?
 >
 > Arnaud, ton neveu qui t'embrasse fort.
-
-<3
-
