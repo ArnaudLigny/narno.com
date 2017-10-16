@@ -16,6 +16,8 @@ site:
             country: France
         twitter:
             username: Narno
+        github:
+            username: Narno
     menu:
       main:
         forum:
@@ -27,7 +29,7 @@ site:
         twitter:
           id: twitter
           name: Twitter
-          url: https://twitter.com/narno
+          url: https://twitter.com/Narno
           weight: 1
         google:
           id: google
@@ -57,12 +59,12 @@ site:
         senscritique:
           id: senscritique
           name: SensCritique
-          url: https://senscritique.com/narno/
+          url: https://www.senscritique.com/Narno
           weight: 7
         lastfm:
           id: lastfm
           name: last.fm
-          url: http://www.lastfm.fr/user/narn0
+          url: https://www.last.fm/fr/user/narn0
           weight: 8
     manifest:
         lang: fr-FR
