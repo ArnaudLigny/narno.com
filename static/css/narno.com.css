@@ -41,3 +41,11 @@
   width: 1rem;
   height: 1rem;
 }
+
+.copy {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 75%;
+  font-style: italic;
+  color: #999;
+}
