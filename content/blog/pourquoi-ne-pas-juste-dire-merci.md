@@ -6,6 +6,7 @@ title: Pourquoi ne pas juste dire "merci" ?
 tags:
   - Cycliste urbain
 typora-copy-images-to: ..\..\static\images
+image: /images/yehudamoon-2017-03-20.gif
 ---
 ## Préambule
 
