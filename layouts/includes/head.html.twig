@@ -14,18 +14,18 @@
     <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:country-name" content="{{ site.rs.facebook.country }}">
 {% if page.section == 'blog' %}
 {% if page.tags is defined %}
     <meta name="keywords" content="{{ page.tags|merge(site.keywords)|join(', ') }}">
 {% endif %}
     <meta property="og:type" content="article" />
 {% else %}
+    <meta property="og:country-name" content="{{ site.rs.facebook.country }}">
+    <meta property="og:email" content="{{ site.rs.facebook.email }}">
     <meta name="keywords" content="{{ site.keywords|join(', ') }}">
     <meta property="og:type" content="website" />
 {% endif %}
     <meta property="og:url" content="{{ url(page) }}">
-    <meta property="og:email" content="{{ site.rs.facebook.email }}">
 {% if page.image is defined %}
     <meta property="og:image" content="{{ url(page.image) }}">
     <meta name="twitter:image" content="{{ url(page.image) }}">
