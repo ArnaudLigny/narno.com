@@ -29,6 +29,8 @@
 {% if page.image is defined %}
     <meta property="og:image" content="{{ url(page.image) }}">
     <meta name="twitter:image" content="{{ url(page.image) }}">
+{% else %}
+    <meta property="og:image" content="https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=300">
 {% endif %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
