@@ -5,12 +5,15 @@ published: true
 title: Pourquoi ne pas juste dire "merci" ?
 tags:
   - CyclisteUrbain
+typora-copy-images-to: ..\..\static\images
 ---
 ## Préambule
 
 Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville : Paris.
 
 ## Mauvais combat
+
+![yehudamoon-2017-03-20](/images/yehudamoon-2017-03-20.gif)
 
 Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) et les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/) créés des émois sur Twitter et Facebook.
 
@@ -49,3 +52,6 @@ Ainsi, **voici un exemple très parlant** : la question de ma tata Yvonne suite 
 > Pourquoi ne pas juste dire "merci" ?
 >
 > Arnaud, ton neveu qui t'embrasse fort.
+
+[Comics source](http://yehudamoon.com/comic/2017-03-20/).
+
