@@ -13,7 +13,7 @@
     <meta name="revisit-after" content="1 day">
     <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale" content="{{ site.locale }}" />
 {% if page.section == 'blog' %}
 {% if page.tags is defined %}
     <meta name="keywords" content="{{ page.tags|merge(site.keywords)|join(', ') }}">
@@ -48,7 +48,7 @@
     <meta property="og:description" content="{{ site.baseline }}">
     <meta name="twitter:description" content="{{ site.baseline }}">
 {% endif %}
-    <meta name="theme-color" content="#202020">
+    <meta name="theme-color" content="{{ site.manifest.theme_color }}">
     <link rel="canonical" href="{{ site.baseurl }}">
     <link rel="manifest" href="{{ url('manifest.webmanifest') }}">
     <link rel="stylesheet" href="/{{ minify('css/poole.css') }}">
@@ -64,9 +64,9 @@
     <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/Narno">
-    <link href="https://twitter.com/Narno" rel="me">
-    <link href="https://github.com/Narno" rel="me">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.rss }}">
+    <link href="https://twitter.com/{{ site.rs.twitter.username }}" rel="me">
+    <link href="https://github.com/{{ site.rs.github.username }}" rel="me">
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/narno.com/webmention">
   </head>
