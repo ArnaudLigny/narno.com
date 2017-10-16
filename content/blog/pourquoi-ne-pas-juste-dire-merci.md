@@ -15,19 +15,17 @@ Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vou
 
 ![yehudamoon-2017-03-20](/images/yehudamoon-2017-03-20.gif)
 
-Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) et les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/) créés des émois sur Twitter et Facebook.
+Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la mairie de Paris mis en avant dans la presse par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) ou encore les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/), créé des émois sur les réseaux sociaux.
 
-On en arrive à une situation absurbe où, plutôt d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire dans Paris...
+On en arrive à une situation absurbe où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.
 
-Aussi, c'est un sujet récurrent avec des amis et des memebres de ma famille, plus ou moins concernés par le sujet, ou au fait de la réalité des parisiens.
+Aussi pour moi c'est un sujet récurrent de discussion avec des amis et des memebres de ma famille, plus ou moins concernés par le sujet ou pas toujours au fait de la réalité du quotidien des parisiens vélotafeurs.
 
-Y compris sur les réseaux sociaux.
-
-Ainsi, **voici un exemple très parlant** : la question de ma tata Yvonne suite à la publication d'un [post sur Facebook](https://www.facebook.com/parisenselle/posts/1432701586815776).
+**La remarque de ma tata Yvonne** ci-dessous, suite à la publication d'un [post Facebook](https://www.facebook.com/parisenselle/posts/1432701586815776) de [Paris en Selle](https://parisenselle.fr/), n'est qu'une illustration parmi tant d'autres :
 
 > Question: combien de personnes feront du vélo cet hiver ? Sous la pluie et les intempéries ? Je ne trouve pas raisonnable ce qui se passe aujourd’hui. Il faut trouver un équilibre entre les voies piétons, cyclistes et automobiles et cesser une mauvaise ambiance dans la capitale.
 
-**Et ma réponse, rédigée sur mon téléphone, d'une traite :**
+**Ma réponse, rédigée sur mon téléphone, d'une traite :**
 
 > Chère tata, je circule à vélo dans Paris et sa région depuis plus de 3 ans maintenant, avec d'abord un vélo trop petit pour moi, puis un Velib' et enfin un vrai bon vélo adapté à ma morphologie, résistant, fiable et confortable.
 > Je n'ai qu'à de très rares occasions abandonné ma monture à cause du froid ou de la pluie.
@@ -54,4 +52,3 @@ Ainsi, **voici un exemple très parlant** : la question de ma tata Yvonne suite 
 > Arnaud, ton neveu qui t'embrasse fort.
 
 [Comics source](http://yehudamoon.com/comic/2017-03-20/).
-
