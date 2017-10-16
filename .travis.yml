@@ -1,26 +1,19 @@
 language: php
-
 php:
   - 7
-
 sudo: false
-
 branches:
   only:
     - master
-
 cache:
   directories:
     - vendor
     - $COMPOSER_CACHE_DIR
-
 before_script:
   - phpenv config-rm xdebug.ini
   - composer install --no-interaction
-
 script:
   - php build.php -e=prod
-
 after_success:
   - bash deploy.sh
   - "curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/${Cloudflare_zone}/purge_cache\" \
