@@ -50,18 +50,18 @@
 {% endif %}
     <meta name="theme-color" content="#202020">
     <link rel="canonical" href="{{ site.baseurl }}">
-    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="manifest" href="{{ url('manifest.webmanifest') }}">
     <link rel="stylesheet" href="/{{ minify('css/poole.css') }}">
     <link rel="stylesheet" href="/{{ minify('css/syntax.css') }}">
     <link rel="stylesheet" href="/{{ minify('css/lanyon.css') }}">
     <link rel="stylesheet" href="/{{ minify('css/narno.com.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" sizes="192x192" href="/icon.png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-precomposed.png">
-    <link rel="apple-touch-startup-image" href="/apple-touch-startup-image.png">
-    <meta name="msapplication-square310x310logo" content="/msapplication-square310x310logo.png">
+    <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
+    <link rel="icon" sizes="192x192" href="{{ url('icon.png') }}">
+    <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ url('apple-touch-icon-precomposed.png') }}">
+    <link rel="apple-touch-startup-image" href="{{ url('apple-touch-startup-image.png') }}">
+    <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/Narno">
