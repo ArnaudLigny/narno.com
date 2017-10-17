@@ -1,11 +1,12 @@
 {% extends 'index.html.twig' %}
 
 {% block content %}
+<h1>Le blog</h1>
 <div class="posts">
 {% if page.pagination is defined %}
 {% for post in page.pagination.pages %}
   <div class="post">
-    <h1 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h1>
+    <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
     <span class="post-date">{{ post.date|date("j M Y") }}</span>
 {% if post.destination is not defined %}
 {% set readtime = readtime(post.content) %}
