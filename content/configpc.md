@@ -4,8 +4,9 @@ menu:
     main:
         name: Config PC
         weight: 110
+image: images/CanHard-IX.jpg
 ---
-La configuration (matérielle) de mon PC de jeu.
+## La configuration (matérielle) de mon PC de jeu.
 
 | Composant       | Description |
 | --------------- | ----------- |
