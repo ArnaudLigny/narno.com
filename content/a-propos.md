@@ -10,8 +10,8 @@ _Narno.com_ est un blog sur le thème du développement web (avec du [Drupal](/t
 
 ## L'auteur
 
-<img title="Avatar de Arnaud Ligny" style="float:right;" src="https://gravatar.com/avatar/f3fcff94a06971a1c4471c0385280a64?s=128">
-<img title="Avatar de Narno" style="float:right;" src="https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=128">
+<img alt="Avatar de Arnaud Ligny" title="Arnaud Ligny" src="https://gravatar.com/avatar/f3fcff94a06971a1c4471c0385280a64?s=128" style="float:right;">
+<img alt="Avatar de Narno" title="Narno" src="https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=128" style="float:right;">
 
 Je suis connu sous le pseudo de _Narno_, geek, papa, gamer, travailleur dans les Internets, [contributeur open-source](https://github.com/Narno), agnostique, humaniste, cycliste, amateur de bière.
 
