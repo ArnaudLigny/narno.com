@@ -20,7 +20,7 @@ Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vou
 Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la mairie de Paris mis en avant dans la presse par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) ou encore les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/), créé des émois sur les réseaux sociaux.
 
 On en arrive à une situation absurbe où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.
-
+<!-- excerpt -->
 Aussi pour moi c'est un sujet récurrent de discussion avec des amis et des membres de ma famille, plus ou moins concernés par le sujet ou pas toujours au fait de la réalité du quotidien des parisiens vélotafeurs.
 
 **La remarque de ma tata Yvonne** ci-dessous, suite à la publication d'un [post Facebook](https://www.facebook.com/parisenselle/posts/1432701586815776) de [Paris en Selle](https://parisenselle.fr/), n'est qu'une illustration parmi tant d'autres :
