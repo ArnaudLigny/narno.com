@@ -52,6 +52,14 @@
             "@type": "Person",
             "name": "{{ site.author.name }}"
           },
+          "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{ url('icon.png') }}"
+            }
+          },
           "description": "{{ page.content|striptags|excerpt|escape }}"
         }
       </script>
