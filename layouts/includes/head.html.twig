@@ -1,14 +1,13 @@
+{% if page.id == "index" %}
+{% set title = site.title ~ ' &middot; ' ~ site.baseline %}
+{% else %}
+{% set title = page.title|e ~ ' &middot; ' ~ site.title %}
+{% endif %}
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title>{% spaceless %}
-      {% if page.id == "index" %}
-        {{ site.title }} &middot; {{ site.baseline }}
-      {% else %}
-        {{ page.title|e }} &middot; {{ site.title }}
-      {% endif %}
-    {% endspaceless %}</title>
+    <title>{{ title }}</title>
     <meta name="copyright" content="{{ site.author.name }}">
     <meta name="revisit-after" content="1 day">
     <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
