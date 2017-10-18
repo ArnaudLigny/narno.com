@@ -53,3 +53,8 @@
   font-style: italic;
   color: #999;
 }
+
+.webmention-mention {
+  margin-bottom: 1em;
+  font-size: smaller;
+}
