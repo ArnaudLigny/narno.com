@@ -17,6 +17,15 @@
 {% endfor %}
 {% endif %}
   </footer>
+  <footer class="twitter">
+    <a class="twitter-share-button"
+href="https://twitter.com/share"
+data-text="{{ page.title|e }}"
+data-url="{{ url(page) }}"
+data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
+data-related="narno">
+Tweet</a>
+  </footer>
   <aside class="webmentions">
 {% include 'includes/webmention.html.twig' %}
   </aside>
@@ -25,4 +34,5 @@
   </aside>
 </div>
 <script id="dsq-count-scr" src="//narno.disqus.com/count.js" async></script>
+{% include 'includes/twitter.js.twig' %}
 {% endblock content %}
