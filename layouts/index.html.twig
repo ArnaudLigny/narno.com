@@ -13,10 +13,10 @@
         </div>
       </div>
       <div class="container content">
-{% block content %}
 {% include 'includes/jsonld.js.twig' %}
+{% block content %}
 {% include 'includes/home.html.twig' %}
-<hr />
+        <hr />
 {% include 'includes/lastposts.html.twig' %}
 {% endblock content %}
       </div>

@@ -1,12 +1,34 @@
       <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "name": "Narno.com",
-        "url": "https://narno.com/",
-        "sameAs": [
-          "https://twitter.com/Narno",
-          "https://github.com/Narno"
-        ]
-      }
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "{{ site.title }}",
+          "url": "{{ url('/', true) }}",
+          "sameAs": [
+            "https://twitter.com/{{ site.rs.twitter.username }}",
+            "https://github.com/{{ site.rs.github.username }}"
+          ]
+        }
+{% if page.section == 'blog' %}
+        ,
+        {
+          "@context": "http://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ url(page.section) }}",
+              "name": "{{ page.section|capitalize }}"
+            }
+          },{
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "{{ url(page) }}",
+              "name": "{{ page.title }}",
+            }
+          }]
+        }
+{% endif %}
       </script>
