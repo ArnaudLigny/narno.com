@@ -9,8 +9,9 @@
             "https://github.com/{{ site.rs.github.username }}"
           ]
         }
+      </script>
 {% if page.section == 'blog' %}
-        ,
+      <script type="application/ld+json">
         {
           "@context": "http://schema.org",
           "@type": "BreadcrumbList",
@@ -26,7 +27,7 @@
             "position": 2,
             "item": {
               "@id": "{{ url(page) }}",
-              "name": "{{ page.title }}",
+              "name": "{{ page.title|escape }}"
             }
           }]
         }
