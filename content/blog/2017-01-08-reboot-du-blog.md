@@ -7,6 +7,8 @@ tags:
   - PHPoole
   - Drupal
 image: /images/new-plan-static-site-first.jpg
+typora-copy-images-to: ../../static/images
+typora-root-url: ../../static
 ---
 Comme on dit chez moi :
 > p'têt ben qu'oui, p'têt ben qu'non !
