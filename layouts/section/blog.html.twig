@@ -19,7 +19,6 @@
 {% if post.image is defined %}
     <a href="{{ url(post) }}"><img class="center" src="{{ url(post.image) }}" alt="Image d'illustration"></a>
 {% endif %}
-    <!--<p>{{ post.content|excerpt|trim('<br />') }}</p>-->
     <footer class="readmore">
       <a href="{{ url(post) }}">Lire le billet ›</a>
     </footer>
