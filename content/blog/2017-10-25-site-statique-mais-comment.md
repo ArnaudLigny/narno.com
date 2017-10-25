@@ -1,11 +1,10 @@
 ---
-tite: Narno.com est un site Web statique : mais comment ?
+tite: 'Narno.com est un site Web statique : mais comment ?'
 date: 2017-10-25
 tags:
  - statique
+published: false
 ---
-
-
 
 Dans mon billet intitulé [*Reboot du blog*](/blog/reboot-du-blog) j'indiquais que *Narno.com* était maintenant un site statique : mais en pratique, comment ça marche ?
 
