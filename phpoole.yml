@@ -9,7 +9,7 @@ site:
     author:
         name: Arnaud Ligny
         url: https://arnaudligny.fr
-    ga: UA-387892-1
+    googleanalytics: 387892-1
     rs:
         facebook:
             admins: 516589570
