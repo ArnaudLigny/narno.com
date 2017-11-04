@@ -1,6 +1,6 @@
 ---
 title: 'Narno.com est un site Web statique : mais comment ?'
-date: 'Wed Oct 25 2017 02:00:00 GMT+0200 (CEST)'
+date: '2017-10-25'
 tags:
   - statique
 published: false
