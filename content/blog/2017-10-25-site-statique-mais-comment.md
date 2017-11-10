@@ -1,8 +1,9 @@
 ---
 title: 'Narno.com est un site Web statique : mais comment ?'
-date: 'Wed Oct 25 2017 02:00:00 GMT+0200 (CEST)'
+date: '2017-10-25'
 tags:
-  - statique
+  - Site statique
+  - Dev Web
 published: false
 star: false
 ---
@@ -22,8 +23,16 @@ Ainsi, pour *Narno.com* j'ai utilisé [PHPoole](https://phpoole.org) (la solutio
 
 ### Le principe
 
-Le principe est simple : J'ai utiisé un thème clef en main (à savoir l'excellent [Lanyon](http://lanyon.poole.org) créé par [XXX]()), dans lequel j'ai ajouté quelques varaibles afin de le personnaliser, j'ai converti les billets en fichiers [Markdown](), et enfin, j'ai fusionné le tout pour en faire un nouveau blog, consultable depuis un navigateur ! :smile:
+Il est très simple, j'ai :
+
+1. utilisé un thème clef en main (à savoir l'excellent [Lanyon](https://github.com/poole/lanyon) créé par [Mark Otto](https://github.com/mdo))
+2. j'y ai ajouté quelques variables afin de le personnaliser (nom, description, menu, etc.)
+3. j'ai converti les anciens billets en fichiers [Markdown]()
+4. j'ai fusionné le tout avec [PHPoole](https://phpoole.org) ! :smile:
 
 ### La pratique
 
-to do
+Entrons maintenant dans le détail de la mise en oeuvre, les outils, les scripts, etc.
+
+#### Le thème / les templates
+
