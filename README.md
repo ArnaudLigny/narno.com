@@ -9,7 +9,7 @@ The website is automatically built and deployed through [Travis CI](https://trav
 composer install
 ```
 
-## Build and run locally
+## Build & run locally
 ```bash
 php scripts/build.php -e=dev
 ```
