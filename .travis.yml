@@ -5,18 +5,15 @@ sudo: false
 branches:
   only:
     - master
-cache:
-  directories:
-    - vendor
-    - $COMPOSER_CACHE_DIR
-# install dependencies
-before_install:
-  - phpenv config-rm xdebug.ini
+# download PHPoole
 install:
-  - composer install --no-interaction
+  - curl -SOL https://phpoole.org/phpoole.phar
+# check version
+before_script:
+  - php phpoole.phar -v
 # build
 script:
-  - php scripts/build.php -e=prod
+  - php phpoole.phar build
 # deploy
 deploy:
   provider: pages
