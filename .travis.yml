@@ -9,13 +9,24 @@ cache:
   directories:
     - vendor
     - $COMPOSER_CACHE_DIR
-before_script:
+# install dependencies
+before_install:
   - phpenv config-rm xdebug.ini
+install:
   - composer install --no-interaction
+# build
 script:
   - php scripts/build.php -e=prod
-after_success:
-  - bash scripts/deploy.sh
+# deploy
+deploy:
+  provider: pages
+    skip_cleanup: true
+    github_token: $GH_TOKEN
+    local_dir: _site
+    on:
+      branch: master
+# clear cache
+after_deploy:
   - "curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/${Cloudflare_zone}/purge_cache\" \
     -H \"X-Auth-Email: arnaud@ligny.org\" \
     -H \"X-Auth-Key: ${Cloudflare_API}\" \
