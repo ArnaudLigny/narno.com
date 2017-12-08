@@ -1,4 +1,4 @@
-Source code of [narno.com](https://narno.com), generated with [PHPoole-library](https://github.com/PHPoole/PHPoole-library).
+Source code of [narno.com](https://narno.com), generated with [PHPoole](https://phpoole.org).
 
 The website is automatically built and deployed through [Travis CI](https://travis-ci.org/Narno/narno.com) when content is modified.
 
@@ -6,17 +6,12 @@ The website is automatically built and deployed through [Travis CI](https://trav
 
 ## Install
 ```bash
-composer install
+git clone https://github.com/Narno/narno.com.git
+cd narno.com
+curl -SOL https://phpoole.org/phpoole.phar
 ```
 
 ## Build & run locally
 ```bash
-php scripts/build.php -e=dev
-```
-
-## Build & deploy
-```bash
-php scripts/build.php -e=prod
-export GH_TOKEN=GITHUB_TOKEN
-sh scripts/deploy.sh
+php phpoole.phar build --serve
 ```
