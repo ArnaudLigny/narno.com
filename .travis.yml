@@ -5,16 +5,16 @@ sudo: false
 branches:
   only:
     - master
-# download PHPoole
+# Download PHPoole
 install:
   - curl -SOL https://phpoole.org/phpoole.phar
-# check version
+# Display PHPoole version
 before_script:
   - php phpoole.phar -v
-# build
+# Run PHPoole build
 script:
   - php phpoole.phar build
-# deploy
+# Deploy to GitHub Pages
 deploy:
   provider: pages
   skip_cleanup: true
@@ -22,7 +22,7 @@ deploy:
   local_dir: _site
   on:
     branch: master
-# clear cache
+# Flush Cloudflare cache
 after_deploy:
   - "curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/${Cloudflare_zone}/purge_cache\" \
     -H \"X-Auth-Email: arnaud@ligny.org\" \
