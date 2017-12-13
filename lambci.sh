@@ -7,6 +7,6 @@ php phpoole.phar build
 
 . ~/init/ruby 2.3.4
 gem install dpl
-echo $LAMBCI_REPO
-cd $LAMBCI_REPO/_site
+echo $HOME/$LAMBCI_REPO
+cd $HOME/$LAMBCI_REPO/_site
 dpl --provider=pages --github-token=$GITHUB_TOKEN --target-branch=test
