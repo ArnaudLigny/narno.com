@@ -10,6 +10,6 @@ curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 php phpoole.phar build
 
-ls BUILD_DIR_SITE
+ls $BUILD_DIR_SITE
 
 #dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=/tmp/lambci/build/$LAMBCI_REPO/_site --target-branch=test
