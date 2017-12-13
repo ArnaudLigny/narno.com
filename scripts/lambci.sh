@@ -7,4 +7,4 @@ curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 php phpoole.phar build
 
-bash deploy.sh
+bash scripts/deploy.sh
