@@ -4,3 +4,5 @@
 curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 php phpoole.phar build
+
+gem install dpl
