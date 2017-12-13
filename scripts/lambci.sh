@@ -1,10 +1,14 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 
-BUILD_PATH=/tmp/lambci/build/$LAMBCI_REPO/
-
+# Init PHP
 . ~/init/php 7.1.2
+
+# Download PHPoole
 curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
+
+# Build
 php phpoole.phar build
 
+# Deploy
 bash scripts/deploy.sh
