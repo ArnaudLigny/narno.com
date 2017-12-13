@@ -11,4 +11,4 @@ php phpoole.phar -v
 php phpoole.phar build
 
 cd $BUILD_PATH
-dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=_site --target-branch=test
+dpl --provider=pages --github-token=$GITHUB_TOKEN --repo=Narno/narno.com --target-branch=test --local-dir=_site
