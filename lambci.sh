@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-BUILD_PATH=/tmp/lambci/build/$LAMBCI_REPO/_site
+BUILD_PATH=/tmp/lambci/build/$LAMBCI_REPO/
 
 . ~/init/ruby 2.3.4
 gem install dpl
@@ -11,4 +11,4 @@ php phpoole.phar -v
 php phpoole.phar build
 
 cd $BUILD_PATH
-dpl --provider=pages --github-token=$GITHUB_TOKEN --target-branch=test
+dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=_site --target-branch=test
