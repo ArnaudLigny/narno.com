@@ -12,7 +12,7 @@ cp -R $SITE_DIR $HOME/$SITE_DIR
 cd $HOME
 git config --global user.name "Build Bot"
 git config --global user.email "build@narno.com"
-git clone --quiet --branch=$TARGET_BRANCH https://${GH_TOKEN}@github.com/${REPO}.git gh-pages > /dev/null
+git clone --quiet --branch=$TARGET_BRANCH https://${GITHUB_TOKEN}@github.com/${REPO}.git gh-pages > /dev/null
 cp -R gh-pages/.git $HOME/.git
 rm -rf gh-pages/*
 cp -R $HOME/.git gh-pages/.git
