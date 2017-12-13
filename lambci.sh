@@ -7,4 +7,4 @@ php phpoole.phar build
 
 . ~/init/ruby 2.3.4
 gem install dpl
-dpl --provider=pages --github-token=GITHUB_TOKEN --local-dir=./_site --target-branch=test
+dpl --provider=pages --github-token=$GITHUB_TOKEN --local-dir=./_site --target-branch=test
