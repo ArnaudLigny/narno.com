@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-BUILD_DIR_SITE=/tmp/lambci/build/$LAMBCI_REPO/_site
+BUILD_DIR_SITE=/tmp/lambci/build/$LAMBCI_REPO/_site/
 
 . ~/init/ruby 2.3.4
 gem install dpl
