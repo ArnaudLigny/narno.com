@@ -22,7 +22,9 @@
 href="https://twitter.com/share"
 data-text="{{ page.title|e }}"
 data-url="{{ url(page) }}"
+{% if page.tags is defined %}
 data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
+{% endif %}
 data-related="narno">
 Tweet</a>
   </footer>
