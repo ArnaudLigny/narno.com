@@ -1,5 +1,6 @@
 ---
 title: Config PC
+permalink: configpc
 menu:
     main:
         name: Config PC
