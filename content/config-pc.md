@@ -3,7 +3,7 @@ title: Config PC
 permalink: configpc
 menu:
     main:
-        name: Config PC
+        name: Ma config PC
         weight: 110
 image: images/CanHard-IX.jpg
 ---
