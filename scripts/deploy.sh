@@ -3,7 +3,7 @@ set -e
 
 REPO="Narno/narno.com"
 SOURCE_BRANCH="master"
-TARGET_BRANCH="test"
+TARGET_BRANCH="gh-pages"
 SITE_DIR="_site"
 
 echo "Start deploy to GitHub pages..."
