@@ -1,14 +1,12 @@
 ---
 title: Mon vélo
 menu:
-    main:
-        name: Mon vélo
-        weight: 120
+  main:
+    name: Mon vélo
+    weight: 115
 image: images/kh15_voyager_dlx.png
 ---
-## Mon vélo
-
-> kalkhoff VOYAGER DLX 27-G
+## kalkhoff VOYAGER DLX 27-G
 
 | Composant | Description |
 | --------- | ----------- |
