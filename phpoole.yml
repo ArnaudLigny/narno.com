@@ -25,7 +25,7 @@ site:
           id: forum
           name: Forum
           url: http://lesforums.org
-          weight: 120
+          weight: 200
       rs:
         twitter:
           id: twitter
