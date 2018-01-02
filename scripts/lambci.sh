@@ -11,4 +11,4 @@ php phpoole.phar -v
 php phpoole.phar build
 
 # Deploy and flush cache
-bash scripts/deploy.sh && scripts/cache.sh
+bash scripts/deploy.sh && bash scripts/cache.sh
