@@ -1,13 +1,13 @@
 ---
-title: Config PC
+title: Ma config PC
 permalink: configpc
 menu:
-    main:
-        name: Ma config PC
-        weight: 110
+  main:
+    name: Ma config PC
+    weight: 110
 image: images/CanHard-IX.jpg
 ---
-## La configuration (matérielle) de mon PC de jeu.
+## La configuration matérielle de mon PC de jeu.
 
 | Composant       | Description |
 | --------------- | ----------- |
