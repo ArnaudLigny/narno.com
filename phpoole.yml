@@ -1,5 +1,4 @@
 site:
-    debug: false
     title: Narno.com
     baseurl: https://narno.com/
     baseline: Dev Web, vélo, bière et jeux vidéo !
@@ -83,3 +82,4 @@ site:
             - css/syntax.css
             - css/lanyon.css
             - css/narno.com.css
+    debug: false
