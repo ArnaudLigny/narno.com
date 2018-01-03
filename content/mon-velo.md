@@ -6,28 +6,29 @@ menu:
     weight: 115
 image: images/kh15_voyager_dlx.png
 ---
-## kalkhoff VOYAGER DLX 27-G
+## Kalkhoff VOYAGER DLX 27-G
 
 | Composant | Description |
 | --------- | ----------- |
-| Frame | Trekking 1.0 alloy |
-| Fork | Suntour NEX, alloy, adjustable |
-| Brakes | Shimano M396,hydraulic disc brake |
-| Brake lever | Shimano M396 |
+| Cadre | Trekking 1.0 alliage |
+| Fourche | Suntour NEX, alliage, réglable |
+| Freins | Shimano M396 (à disque hydraulique) |
 | Cassette | Shimano Alivio |
-| Rear derailleur | Shimano Deore |
-| Shifter | Shimano Deore |
-| Crankset | Shimano Deore |
-| Gear ratio | front 48/36/26, rear 11-34 |
-| Handlebar | Concept Trekking Riser |
-| Stem | Concept SL |
-| Saddle | Concept Trekking |
-| Seatpost | Concept SL |
-| Hubs | front: Shimano 3D37, hub dynamo, rear: Shimano Alivio |
-| Rims | Rodi Freeway |
-| Tires | Schwalbe Citizen Light, 37-622 |
-| Headlight | AXA Pico 30, LED with parking light |
-| Backlight | AXA Slim Steady, with parking light |
-| Carrier | Sport 2-leg, alloy |
+| Dérailleur arrière | Shimano Deore |
+| Manettes de dérailleur | Shimano Deore |
+| Pédalier | Shimano Deore |
+| Dentition | avant : 48/36/26, arrière : 11-34 |
+| Guidon | Concept Trekking Riser |
+| Potence | Concept SL |
+| Selle | Concept Trekking |
+| Tube de selle | Concept SL |
+| Moyeu | avant : Dynamo Shimano 3D37, arrière : Shimano Alivio |
+| Jantes | Rodi Freeway |
+| Pneux | Schwalbe Marathon Plus (28x1.40,700x35C /	37-622) |
+| Eclairage avant | Busch & Müller Lumotec IQ Cyo T Senso Plus |
+| Eclairage arrière | Trelock LS 613 Duo Flat |
+| Porte-bagages | Sport 2-leg, alliage |
+| Siège enfant | Guppy Junior |
+| Sonette(s) | Knog Oi, Decathlon 300 B'Twin |
 
 _([Site officiel](https://www.kalkhoff-bikes.com/en/bikes/2017/bike/fitness/voyager-dlx-27-g.html))_
