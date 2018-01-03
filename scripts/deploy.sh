@@ -1,5 +1,4 @@
-#!/bin/bash
-set -e
+#!/bin/bash -e
 
 REPO="Narno/narno.com"
 SOURCE_BRANCH="master"
@@ -21,4 +20,5 @@ cp -Rf $HOME/$SITE_DIR/* .
 git add -Af .
 git commit -m "Build Bot pushed to $TARGET_BRANCH"
 git push -fq origin $TARGET_BRANCH > /dev/null
+
 exit 0
