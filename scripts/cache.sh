@@ -1,5 +1,4 @@
-#!/bin/bash
-set -e
+#!/bin/bash -e
 
 if [ -z "${Cloudflare_zone}" ]; then
   echo "Need to set Cloudflare_zone variable"
@@ -15,4 +14,5 @@ curl -X DELETE "https://api.cloudflare.com/client/v4/zones/${Cloudflare_zone}/pu
     -H "X-Auth-Key: ${Cloudflare_API}" \
     -H "Content-Type: application/json" \
     --data "{'purge_everything':true}"
+
 exit 0
