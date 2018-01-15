@@ -83,3 +83,4 @@ site:
             - css/lanyon.css
             - css/narno.com.css
     debug: false
+theme: lanyon
