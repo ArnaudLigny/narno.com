@@ -4,7 +4,7 @@ menu: main
 published: true
 alias: contact
 ---
-_Narno.com_ est un blog sur le thème du développement web ([Drupal](/tags/drupal/), [Magento](/tags/magento/), etc.), du [vélo](/tags/vélo/) et des [jeux vidéo](/tags/jeux-video/).
+_Narno.com_ est un blog sur le thème du développement web ([Drupal](/tags/drupal/), [Magento](/tags/magento/), etc.), du [vélo](/tags/velo/) et des [jeux vidéo](/tags/jeux-video/).
 
 ----
 
