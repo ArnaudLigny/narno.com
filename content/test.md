@@ -1,5 +1,5 @@
 ---
-title: Test
-layout: test.html
+title: Recherche
+layout: recherche.html
 published: true
 ---
