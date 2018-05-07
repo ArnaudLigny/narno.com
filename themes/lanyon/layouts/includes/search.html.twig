@@ -1,0 +1,16 @@
+      <div class="lastposts">
+        <h2>Rechercher avec Qwant</h2>
+        <form method="GET" action="https://www.qwant.com" id="form" onsubmit="addSiteSearch()">
+          <input type="text" name="q" id="query" size="31" maxlength="255" value="">
+          <input type="hidden" name="l" value="fr">
+          <input type="submit" name="btnG" value="Rechercher">
+        </form>
+        <script type="text/javascript">
+        function encodeHTML(s) {
+          return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        }
+        function addSiteSearch() {
+          document.getElementById('query').value = encodeHTML(document.getElementById('query').value) + " site:narno.com";
+        }
+        </script>
+      </div>
