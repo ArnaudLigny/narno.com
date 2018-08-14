@@ -1,4 +1,4 @@
-> Source code of [narno.com](https://narno.com), generated with [PHPoole](https://phpoole.org).
+> Source of [narno.com](https://narno.com) (generated with [PHPoole](https://phpoole.org)).
 
 The website is automatically built and deployed through [LambCI](https://github.com/lambci/lambci) when content is modified.
 
@@ -11,7 +11,7 @@ cd narno.com
 curl -SOL https://phpoole.org/phpoole.phar
 ```
 
-## Build & run locally
+## Build & serve locally
 ```bash
-php phpoole.phar build --serve
+php phpoole.phar serve
 ```
