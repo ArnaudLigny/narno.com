@@ -11,10 +11,10 @@
       <div class="sidebar-item">
         <ul class="social inline">
           <li>
-            <a rel="me" title="S'abonner au flux" href="/rss.xml"><svg width="16" height="20" class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a>
+            <a rel="me" title="S'abonner au flux RSS" href="/rss.xml"><svg width="16" height="20" class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a>
           </li>
           <li>
-            <a rel="me" title="M'envoyer un mail" href="mailto:me@narno.com"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
+            <a rel="me" title="M'envoyer un e-mail" href="mailto:me@narno.com"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
           </li>
           <li>
             <a rel="me" title="Me suivre sur Twitter" href="https://twitter.com/Narno"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
@@ -25,7 +25,7 @@
         </ul>
       </div>
       <div class="sidebar-item">
-        <p>&copy; 2001-{{ "now"|date("Y") }} <a href="{{ site.author.url }}">{{ site.author.name }}</a></p>
+        <p>&copy; 2001-{{ "now"|date("Y") }} {{ site.author.name }}</p>
         <p>Powered by <a href="{{ phpoole.url }}">PHPoole</a> &amp; <a href="https://github.com/poole/lanyon">Lanyon</a></p>
       </div>
     </div>
