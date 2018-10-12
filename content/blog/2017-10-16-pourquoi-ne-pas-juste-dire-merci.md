@@ -24,11 +24,11 @@ On en arrive à une situation absurbe où, plutôt que d'être critique sur les 
 <!-- excerpt -->
 Aussi pour moi c'est un sujet récurrent de discussion avec des amis et des membres de ma famille, plus ou moins concernés par le sujet ou pas toujours au fait de la réalité du quotidien des parisiens vélotafeurs.
 
-**La remarque de ma tata Yvonne** ci-dessous, suite à la publication d'un [post Facebook](https://www.facebook.com/parisenselle/posts/1432701586815776) de [Paris en Selle](https://parisenselle.fr/), n'est qu'une illustration parmi tant d'autres :
+**La remarque de ma tante (que j'adore !)** ci-dessous, suite à la publication d'un [post Facebook](https://www.facebook.com/parisenselle/posts/1432701586815776) de [Paris en Selle](https://parisenselle.fr/), n'est qu'une illustration parmi tant d'autres :
 
 > Question: combien de personnes feront du vélo cet hiver ? Sous la pluie et les intempéries ? Je ne trouve pas raisonnable ce qui se passe aujourd’hui. Il faut trouver un équilibre entre les voies piétons, cyclistes et automobiles et cesser une mauvaise ambiance dans la capitale.
 
-**Ma réponse sur [Facebook](https://www.facebook.com/parisenselle/posts/1432701586815776?comment_id=1442018189217449&reply_comment_id=1445512238868044), rédigée sur mon téléphone, d'une traite :**
+**Ma réponse sur Facebook, rédigée sur mon téléphone, d'une traite :**
 
 > Chère tata, je circule à vélo dans Paris et sa région depuis plus de 3 ans maintenant, avec d'abord un vélo trop petit pour moi, puis un Velib' et enfin un vrai bon vélo adapté à ma morphologie, résistant, fiable et confortable.
 > Je n'ai qu'à de très rares occasions abandonné ma monture à cause du froid ou de la pluie.
