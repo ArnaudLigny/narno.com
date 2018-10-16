@@ -6,6 +6,7 @@ tags:
   - Dev Web
 published: false
 star: false
+typora-root-url: ../../static
 ---
 
 Dans mon billet intitulé [*Reboot du blog*](/blog/reboot-du-blog) j'indiquais que *Narno.com* était maintenant un site statique : mais en pratique, comment ça marche ?

@@ -7,6 +7,7 @@ permalink: blog/windows-update-desactiver-le-redemarrage-automatique
 published: true
 star: false
 image: /images/strategie-groupe-windows-update.png
+typora-root-url: ../../static
 ---
 Windows Update permet la mise à jour de Windows et de ses applications de manière automatique. Ce système est indispensable afin d'assurer la sécurité et la stabilité de l'OS.
 

@@ -7,6 +7,7 @@ permalink: blog/left-4-dead-pre-commande
 published: true
 star: false
 image: /images/left4dead.jpg
+typora-root-url: ../../static
 ---
 Je viens de pré-commander [Left 4 Dead](http://store.steampowered.com/app/500/) sur Steam cette semaine, afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).
 

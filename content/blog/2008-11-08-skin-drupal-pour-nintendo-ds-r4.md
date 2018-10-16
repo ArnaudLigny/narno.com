@@ -8,6 +8,7 @@ permalink: blog/skin-drupal-pour-nintendo-ds-r4
 published: true
 star: false
 image: /images/nds-r4-drupal-skin.png
+typora-root-url: ../../static
 ---
 J'ai récemment fais l'acquisition d'un [R4](http://www.r4ndsl.com/) pour Nintendo DS. Egalement connu sous le nom de "linker", cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.
 

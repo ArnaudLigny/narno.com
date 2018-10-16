@@ -6,6 +6,7 @@ tags:
 published: true
 star: false
 image: /images/DayZ-Mod-Installer-0.0.1.5.png
+typora-root-url: ../../static
 ---
 [_DayZ Mod_](http://dayzmod.com/) est un mod (modification) du jeu [ARMA II](http://www.arma2.com/). Ce mod vous plonge dans un monde apocalyptique ou seule la survie compte et ou les zombies et les bandits ne vous épargnerons pas !
 
