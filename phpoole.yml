@@ -9,6 +9,10 @@ site:
         name: Arnaud Ligny
         url: https://arnaudligny.fr
     googleanalytics: 387892-1
+    fmpages:
+      manifest:
+        layout: manifest
+        permalink: manifest.webmanifest
     rs:
         facebook:
             admins: 516589570
