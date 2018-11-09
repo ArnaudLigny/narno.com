@@ -22,7 +22,7 @@
     <meta name="keywords" content="{{ site.keywords|join(', ') }}">
     <meta property="og:type" content="website" />
 {% endif %}
-    <meta property="og:url" content="{{ url(page) }}">
+    <meta property="og:url" content="{{ url(page, {'canonical': true}) }}">
 {% if page.image is defined %}
     <meta property="og:image" content="{{ url(page.image, {'canonical': true}) }}">
     <meta name="twitter:image" content="{{ url(page.image, {'canonical': true}) }}">
