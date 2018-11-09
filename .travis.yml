@@ -13,7 +13,7 @@ before_script:
   - php phpoole.phar -v
 # Run PHPoole build
 script:
-  - php phpoole.phar build
+  - php phpoole.phar build -q
 # Deploy to GitHub Pages
 deploy:
   provider: pages
