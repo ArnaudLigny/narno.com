@@ -13,6 +13,9 @@ site:
       manifest:
         layout: manifest
         permalink: manifest.webmanifest
+      serviceworker:
+        layout: sw.js
+        permalink: sw.js
     rs:
         facebook:
             admins: 516589570
