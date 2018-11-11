@@ -10,6 +10,8 @@ site:
         url: https://arnaudligny.fr
     googleanalytics: 387892-1
     fmpages:
+      /code:
+        redirect: https://github.com/Narno
       manifest:
         layout: manifest
         permalink: manifest.webmanifest
