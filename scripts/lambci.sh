@@ -1,14 +1,15 @@
 #!/bin/bash -e
 
-# Init PHP
 . ~/init/php 7.1.2
 
-# Download PHPoole
+echo "Downloading PHPoole"
 curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 
-# Build
+echo "Started PHPoole build"
 php phpoole.phar build -q
+echo "Finished PHPoole build"
 
-# Deploy
+echo "Started website deploy"
 bash scripts/deploy.sh
+echo "Finished website deploy"
