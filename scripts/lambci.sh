@@ -10,6 +10,4 @@ echo "Started PHPoole build"
 php phpoole.phar build -q
 echo "Finished PHPoole build"
 
-echo "Started website deploy"
 bash scripts/deploy.sh
-echo "Finished website deploy"
