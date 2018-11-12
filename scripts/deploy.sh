@@ -5,7 +5,7 @@ SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 SITE_DIR="_site"
 
-echo "Start deploy to GitHub pages..."
+echo "Started deploy to GitHub Pages"
 
 cp -R $SITE_DIR $HOME/$SITE_DIR
 cd $HOME
@@ -20,5 +20,7 @@ cp -Rf $HOME/$SITE_DIR/* .
 git add -Af .
 git commit -m "Build Bot pushed to $TARGET_BRANCH"
 git push -fq origin $TARGET_BRANCH > /dev/null
+
+echo "Finished deploy to GitHub Pages"
 
 exit 0
