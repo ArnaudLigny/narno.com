@@ -6,6 +6,10 @@ echo "Downloading PHPoole"
 curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 
+echo "Started Theme(s) installation"
+php /tmp/lambci/home/.phpenv/bin/composer
+echo "Finished Theme(s) installation"
+
 echo "Started PHPoole build"
 php phpoole.phar build -q
 echo "Finished PHPoole build"
