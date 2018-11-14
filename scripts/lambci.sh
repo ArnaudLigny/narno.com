@@ -7,7 +7,7 @@ curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 
 echo "Started Theme(s) installation"
-php /tmp/lambci/home/.phpenv/bin/composer
+composer install
 echo "Finished Theme(s) installation"
 
 echo "Started PHPoole build"
