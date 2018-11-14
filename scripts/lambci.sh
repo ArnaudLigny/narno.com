@@ -6,9 +6,9 @@ echo "Downloading PHPoole"
 curl -SOL https://phpoole.org/phpoole.phar
 php phpoole.phar -v
 
-echo "Started Theme(s) installation"
+echo "Started themes installation"
 composer install
-echo "Finished Theme(s) installation"
+echo "Finished themes installation"
 
 echo "Started PHPoole build"
 php phpoole.phar build -q
