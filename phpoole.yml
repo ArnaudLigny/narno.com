@@ -89,3 +89,4 @@ theme:
   - serviceworker
   - lanyon
   - hyde
+editor: atom
