@@ -2,16 +2,16 @@
 
 . ~/init/php 7.1.2
 
-echo "Downloading PHPoole"
-curl -SOL https://phpoole.org/phpoole.phar
-php phpoole.phar -v
+echo "Downloading Cecil"
+curl -SOL https://cecil.app/cecil.phar
+php cecil.phar -v
 
 echo "Started themes installation"
 composer install
 echo "Finished themes installation"
 
-echo "Started PHPoole build"
-php phpoole.phar build -q
-echo "Finished PHPoole build"
+echo "Started Cecil build"
+php cecil.phar build -q
+echo "Finished Cecil build"
 
 bash scripts/deploy.sh
