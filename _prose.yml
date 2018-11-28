@@ -40,8 +40,8 @@ prose:
           options:
             - name: "Jeux vidéo"
               value: "Jeux vidéo"
-            - name: "PHPoole"
-              value: "PHPoole"
+            - name: "Cecil"
+              value: "Cecil"
           placeholder: "Add tags"
           alterable: true
       - name: "permalink"
