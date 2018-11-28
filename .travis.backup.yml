@@ -5,15 +5,15 @@ sudo: false
 branches:
   only:
     - master
-# Download PHPoole
+# Download Cecil
 install:
-  - curl -SOL https://phpoole.org/phpoole.phar
-# Display PHPoole version
+  - curl -SOL https://cecil.app/cecil.phar
+# Display Cecil version
 before_script:
-  - php phpoole.phar -v
-# Run PHPoole build
+  - php cecil.phar -v
+# Run Cecil build
 script:
-  - php phpoole.phar build -q
+  - php cecil.phar build -q
 # Deploy to GitHub Pages
 deploy:
   provider: pages
