@@ -21,7 +21,7 @@ Je suis également [consultant web & mobile](https://arnaudligny.fr) dans [un st
 ## Le blog
 
 Ce blog est [statique](https://frank.taillandier.me/2016/03/08/les-gestionnaires-de-contenu-statique/), c'est à dire qu'il n'est pas motorisé par un quelconque CMS (ex: [Drupal](/tags/drupal), Wordpress, etc.) :
-* Il est généré par [PHPoole](http://phpoole.org)
+* Il est généré par [Cecil](https://cecil.app)
 * Il est hébergé sur [GitHub Pages](https://pages.github.com/)
 * Le code source est versionné via [GitHub](https://github.com/Narno/narno.com)
 * Le nom de domaine est géré par [Gandi](http://gandi.net)
