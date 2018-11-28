@@ -1,6 +1,6 @@
 {
   "require": {
-    "phpoole/theme-hyde": "^1.10",
-    "phpoole/theme-serviceworker": "^1.0"
+    "cecil/theme-hyde": "^1.10",
+    "cecil/theme-serviceworker": "^1.0"
   }
 }
