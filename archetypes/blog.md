@@ -4,6 +4,6 @@ date: '%date%'
 draft: true
 ---
 
-# My new blog post
+# Blog post title
 
 lorem ipsum.
