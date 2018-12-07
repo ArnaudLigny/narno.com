@@ -4,6 +4,6 @@ date: '%date%'
 draft: true
 ---
 
-# Blog post title
+# Titre
 
-lorem ipsum.
+Texte.
