@@ -4,6 +4,6 @@ date: '%date%'
 draft: true
 ---
 
-# Titre
+# Titre du billet
 
 Texte.
