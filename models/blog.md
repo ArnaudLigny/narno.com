@@ -6,4 +6,4 @@ draft: true
 
 # Titre du billet
 
-Texte.
+Contenu du billet.
