@@ -4,7 +4,7 @@ permalink: configpc
 menu:
   main:
     name: Mon PC
-    weight: 110
+    weight: 120
 image: images/CanHard-IX.jpg
 ---
 
