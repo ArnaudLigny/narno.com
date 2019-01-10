@@ -1,12 +1,16 @@
 {% extends 'index.html.twig' %}
 
+{% set taxonomy = page %}
+
 {% block content %}
-<h1 class="page-title">{{ page.singular|title }} "{{ page.title }}"</h1>
-<ul>
-{% for term in page.pages|sortByDate %}
+  <!--<h1 class="page-title">{{ taxonomy.singular|title }} "{{ taxonomy.title }}"</h1>-->
+  <h1 class="page-title">{{ taxonomy.title }}</h1>
+  {{ taxonomy.content }}
+  <ul>
+{% for post in taxonomy.pages|sortByDate %}
     <li>
-        <a href="{{ url(term) }}">{{ term.title }}</a>
+      <a href="{{ url(post) }}">{{ post.title }}</a>
     </li>
 {% endfor %}
-</ul>
+  </ul>
 {% endblock %}
