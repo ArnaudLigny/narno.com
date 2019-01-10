@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-. ~/init/php 7.1
+. ~/init/php 7.1.24
 
 echo "Downloading Cecil"
 curl -SOL https://cecil.app/cecil.phar
