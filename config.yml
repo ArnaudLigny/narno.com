@@ -28,6 +28,12 @@ site:
           name: Forum
           url: http://lesforums.org
           weight: 1000
+        tags:
+          id: tags/
+          disabled: true
+        tags/velo:
+          id: tags/velo/
+          disabled: true
       rs:
         twitter:
           id: twitter
