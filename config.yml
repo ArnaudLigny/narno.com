@@ -26,7 +26,7 @@ site:
         forum:
           id: forum
           name: Forum
-          url: http://lesforums.org
+          url: https://lesforums.org
           weight: 1000
       rs:
         twitter:
