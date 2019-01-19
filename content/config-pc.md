@@ -8,7 +8,9 @@ menu:
 image: images/CanHard-IX.jpg
 ---
 
-## La configuration matérielle de mon PC de jeu.
+## La configuration matérielle de mon PC de jeu
+
+![CanHard IX](/images/CanHard-IX.jpg)
 
 | Composant       | Description |
 | --------------- | ----------- |
