@@ -1,11 +1,13 @@
 {% extends 'index.html.twig' %}
 
+{% set taxonomy = page %}
+
 {% block content %}
-<h1 class="page-title">{{ page.plural|title }}</h1>
+<h1 class="page-title">{{ taxonomy.plural|title }}</h1>
 <ul class="list-no-style">
-{% for name, term in page.terms %}
+{% for name, term in taxonomy.terms %}
   <li>
-    <h2><a href="{{ url(page.plural ~ '/' ~ name) }}">{{ name }}</a> ({{ term|length }})</h2>
+    <h2><a href="{{ url(taxonomy.plural ~ '/' ~ name) }}">{{ name }}</a> ({{ term|length }})</h2>
     <ul>
 {% for page in term %}
       <li><a href="{{ url(page) }}">{{ page.title }}</a></li>

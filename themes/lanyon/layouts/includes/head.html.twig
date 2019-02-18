@@ -31,13 +31,8 @@
 {% endif %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
-{% if page.title is defined %}
-    <meta property="og:title" content="{{ page.title|e }}">
-    <meta name="twitter:title" content="{{ page.title|e }}">
-{% else %}
-    <meta property="og:title" content="{{ site.title }}">
-    <meta name="twitter:title" content="{{ site.title }}">
-{% endif %}
+    <meta property="og:title" content="{{ title }}">
+    <meta name="twitter:title" content="{{ title }}">
 {% if page.content is not empty %}
     <meta name="description" content="{{ page.content|striptags|excerpt(165) }}">
     <meta property="og:description" content="{{ page.content|striptags|excerpt }}">
