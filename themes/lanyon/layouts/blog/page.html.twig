@@ -28,13 +28,15 @@ data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
 data-related="narno">
 Tweet</a>
   </footer>
+{% if site.comments %}
   <aside class="webmentions">
 {% include 'includes/webmention.html.twig' %}
   </aside>
   <aside class="comments">
 {% include 'includes/comments.html.twig' %}
   </aside>
+  <script id="dsq-count-scr" src="//narno.disqus.com/count.js" async></script>
+{% endif %}
 </div>
-<script id="dsq-count-scr" src="//narno.disqus.com/count.js" async></script>
 {% include 'includes/twitter.js.twig' %}
 {% endblock content %}

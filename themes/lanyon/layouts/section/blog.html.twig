@@ -36,15 +36,15 @@
 </div>
 
 <div class="pagination">
-{% if page.pagination.prev is defined %}
-  <a class="pagination-item older" href="{{ url(page.pagination.prev) }}">&lsaquo; Précédent</a>
+{% if page.pagination.links.prev is defined %}
+  <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
 {% else %}
-  <span class="pagination-item older">&lsaquo; Précédent</span>
+  <span class="pagination-item older">&lsaquo; Nouveau</span>
 {% endif %}
-{% if page.pagination.next is defined %}
-  <a class="pagination-item newer" href="{{ url(page.pagination.next) }}">Suivant &rsaquo;</a>
+{% if page.pagination.links.next is defined %}
+  <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
 {% else %}
-  <span class="pagination-item newer">Suivant &rsaquo;</span>
+  <span class="pagination-item newer">Précédent &rsaquo;</span>
 {% endif %}
 </div>
 

@@ -1,6 +1,5 @@
 ---
 title: Mon PC
-permalink: configpc
 menu:
   main:
     name: Mon PC

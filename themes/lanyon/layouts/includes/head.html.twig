@@ -43,7 +43,7 @@
     <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
     <meta name="theme-color" content="{{ site.manifest.theme_color }}">
-    <link rel="canonical" href="{{ site.baseurl }}">
+{% include 'includes/alternates.html.twig' %}
     <link rel="manifest" href="{{ url('manifest.webmanifest') }}">
     <link rel="stylesheet" href="/{{ minify('css/poole.css') }}">
     <link rel="stylesheet" href="/{{ minify('css/syntax.css') }}">
@@ -58,7 +58,6 @@
     <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ url('rss.xml') }}">
     <link href="https://twitter.com/{{ site.rs.twitter.username }}" rel="me">
     <link href="https://github.com/{{ site.rs.github.username }}" rel="me">
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
