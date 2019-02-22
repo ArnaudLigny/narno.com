@@ -1,6 +1,5 @@
 ---
 title: 'Le blog avance !'
-layout: redirect.html
-destination: /
+redirect: /
 date: 2008-12-08
 ---

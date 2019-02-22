@@ -13,7 +13,7 @@ Dans ce cas, se pose la question : dois-je abandonner Flickr au profit de Picasa
 Non, car depuis la version 3 de Picasa, [picasa2flickr](http://picasa2flickr.sourceforge.net/install_v2.html) s'intègre de manière transparente et sans "bidouilles".
 
 Pour se faire il vous suffit de suivre ce mini tutorial :
-
+<!-- excerpt -->
 ## Installation
 1. installez [Picasa 3](http://picasa.google.com/) (si vous utiliser encore la v2)
 2. installez [Flickr Uploadr](http://www.flickr.com/tools/) et authentifiez-vous

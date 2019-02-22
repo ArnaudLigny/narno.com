@@ -6,7 +6,7 @@ permalink: blog/migration-dun-forum-phpbb2-vers-phpbb3
 ---
 Ça aura été pénible mais j'ai réussi à migrer le [forum phpBB de Kobuta.fr](http://www.kobuta.fr/forum) !
 
-##Petite introduction
+## Petite introduction
 
 Pour rappel, phpBB est certainement la solution de forum PHP la plus connu et la plus populaire, sans doute parceque la première arrivée avec PHP, son installation et sa prise sont simple, et enfin, compatible avec les hébergements lowcost (free.fr & co).
 
@@ -17,8 +17,8 @@ Depuis, la version phpBB 3 est sorti (fin 2007, soit environ 2 ans après les pr
 
 Pour en revenir au sujet initial, Kobuta.fr avait fermer son forum dès que le contrôle en a été perdu : inscription et posts de robots spammeurs, hacking et donc risque pour l'hébergeur.
 Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que le [blog de Oni](http://www.kobuta.fr/blog/)). Oni souhaitait que nous réinstallions l'ancien forum phpBB 2 en lecture seule afin de permettre aux membres d'accéder au contenu de certains billets et à leurs messages privés.
-
-##Les problèmes techniques commencent ici
+<!-- excerpt -->
+## Les problèmes techniques commencent ici
 
 Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
 En effet, la plupart des anciennes plateformes à la phpBB étaient déployées "à l'européenne", c'est à dire :
@@ -30,7 +30,7 @@ De ce fait, quand on passe une plateforme full UTF-8 telle que la dernière mout
 
 Voici, en quelques lignes, ce qu'il faut faire pour migrer un phpBB 2 ISO/latin vers un phpBB 3 UTF-8/utf8_bin.
 
-###Si vous n'utilisez pas la dernière version de phpBB 2 :
+### Si vous n'utilisez pas la dernière version de phpBB 2 :
 
 Il va donc falloir commencer à mettre à jour votre installation vers la version 2.0.23.
 
@@ -39,9 +39,9 @@ Il va donc falloir commencer à mettre à jour votre installation vers la versio
 3. mettez à jour votre BDD via le script "install/update_to_latest.php"
 4. remplacez vos fichiers par ceux présent dans l'archive correspondant à votre mise à jour de version (si vous avez installer des mods dans tout les sens, je ne peux pas vous aider, le [forum phpBB FR](http://forums.phpbb-fr.com/) est là pour ça)
  
-###Vous utilisez déjà la dernière version de phpBB 2 :
+### Vous utilisez déjà la dernière version de phpBB 2 :
 
-####phpBB 2 :
+#### phpBB 2 :
 1. modifier l'encodage de votre BDD actuelle pour utf8_bin (tables comprise)
 2. modifier la valeur de la variable
 
@@ -57,7 +57,7 @@ $lang['ENCODING'] = 'UTF-8'
 
 (voir le fichier "language/lang_french/lang_main.php")
 
-####phpBB 3 :
+#### phpBB 3 :
 1. téléchargez la dernière version de phpBB 3 en version complète
 2. décompressez les fichiers dans un autre répertoire que votre forum actuel : la migration se base sur la BDD, mais pas sur les fichiers : dites au revoir à votre thème custom !
 3. démarrer l'installation d'une version vierge de phpBB 3, en prenant garde à utiliser la même BDD que celle utilisée par votre phpBB 2 : choisissez un autre préfixe de table afin de ne pas risquer d'en écraser une.

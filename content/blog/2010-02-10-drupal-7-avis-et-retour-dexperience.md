@@ -10,7 +10,7 @@ Drupal 7 est toujours en cours de développement (ou plutôt en cours de finitio
 Je pense que nombreux sont ceux qui attendent cette nouvelle version, très prometteuse, tout particulièrement en terme d'ergonomie et d'[interface utilisateur](http://www.d7ux.org/).
 
 A défaut de rédiger un billet critique basée sur mes essais de la version alpha (je manque de courage et de temps), j'ai compilé quelques articles et billets traitant du sujet :
-
+<!-- excerpt -->
 * [Drupal 7, les nouveautés](http://arnumeral.fr/articles/drupal/drupal-7-les-nouveautes) : Yoran, par anticipation (juin 2009) annonçait les nouveautés que nous réservait la version 7 de Drupal, avec quelques hypothétiques qui ont on trouvées réponse depuis. Billet plutôt complet pour l'époque et critique.
 * [Drupal 7, quoi de neuf à l’horizon ?](http://juliendubois.fr/drupal_blog/drupal-7-quoi-de-neuf-a-lhorizon/) : billet de Julien Dubois (très à l'aise avec le CMS) décrivant les nouveautés de Drupal 7.
 * [À l'aube de Drupal 7](http://www.linalis.com/actualites/articles-presse/-laube-drupal-7) : billet un peu austère (blog d'entreprise) mais qui remet bien en contexte les choix fonctionnels et techniques à l'origine de la version 7 de Drupal.
