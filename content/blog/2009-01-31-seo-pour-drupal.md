@@ -13,6 +13,7 @@ Je vais présenter ici quelques optimisations à déployer sur votre site Drupal
 3. Génération du Sitemap XML
 4. Ajout de meta données
 5. Eviter le contenu dupliqué (duplicate content)
+
 <!-- excerpt -->
 ## 1. Activation des URL simplifiées
 
