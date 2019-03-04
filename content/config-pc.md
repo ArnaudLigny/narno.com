@@ -5,6 +5,7 @@ menu:
     name: Mon PC
     weight: 120
 image: images/CanHard-IX.jpg
+slug: configpc
 ---
 
 ## La configuration matérielle de mon PC de jeu
