@@ -8,17 +8,13 @@
   <div class="post">
     <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
     <span class="post-date">{{ post.date|date("j M Y") }}</span>
-{% if post.destination is not defined %}
 {% set readtime = readtime(post.content) %}
-{% if readtime < 1 %}
-{% set readtime = "< 1" %}
-{% endif %}
+{% if readtime < 1 %}{% set readtime = "< 1" %}{% endif %}
     <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
-{% endif %}
-
-{% if post.image is defined %}
+{# if post.image is defined %}
     <a href="{{ url(post) }}"><img class="center" src="{{ url(post.image) }}" alt="Image d'illustration"></a>
-{% endif %}
+{% endif #}
+    {{ post.content|excerptHtml }}
     <footer class="readmore">
       <a href="{{ url(post) }}">Lire le billet ›</a>
     </footer>
@@ -36,15 +32,15 @@
 </div>
 
 <div class="pagination">
-{% if page.pagination.prev is defined %}
-  <a class="pagination-item older" href="{{ url(page.pagination.prev) }}">&lsaquo; Précédent</a>
+{% if page.pagination.links.prev is defined %}
+  <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
 {% else %}
-  <span class="pagination-item older">&lsaquo; Précédent</span>
+  <span class="pagination-item older">&lsaquo; Nouveau</span>
 {% endif %}
-{% if page.pagination.next is defined %}
-  <a class="pagination-item newer" href="{{ url(page.pagination.next) }}">Suivant &rsaquo;</a>
+{% if page.pagination.links.next is defined %}
+  <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
 {% else %}
-  <span class="pagination-item newer">Suivant &rsaquo;</span>
+  <span class="pagination-item newer">Précédent &rsaquo;</span>
 {% endif %}
 </div>
 

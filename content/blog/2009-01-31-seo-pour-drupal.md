@@ -14,14 +14,15 @@ Je vais présenter ici quelques optimisations à déployer sur votre site Drupal
 4. Ajout de meta données
 5. Eviter le contenu dupliqué (duplicate content)
 
-##1. Activation des URL simplifiées
+<!-- excerpt -->
+## 1. Activation des URL simplifiées
 
 Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionalité permet de transformer les URL contenant des paramètres de type GET en une URL unique.
 Par exemple `/?q=node/1` sera remplacée par `/node/1`.
 
 Note : votre hébergement doit supporter l'URL rewrting ([mod_rewrite d'Apache](http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html))
 
-##2. Réécriture automatique des URL
+## 2. Réécriture automatique des URL
 
 Quand les URL simplifiées sont active, il est possible de déterminer manuellement le chemin d'URL de chacun de ses noeuds, afin d'utiliser un nom compréhensible lorsque l'on créé un nouveau contenu.
 Par exemple `/node/1` devient `/mon-article-interessant`.
@@ -32,7 +33,7 @@ Pour remédier à cela, on pourra utiliser le module [Pathautho](http://drupal.o
 
 Note : si vous appliquez ce module sur un site existant, prenez garde à ne pas rennomer des pages existante et déjà référencées par les moteurs de recherche.
 
-##3. Génération du Sitemap XML
+## 3. Génération du Sitemap XML
 
 Maintenant que nous avons des URL "propre", il serait judicieux d'en informer les moteurs de recherche via un [sitemap XML](https://www.google.com/webmasters/tools/docs/fr/protocol.html) bien construit.
 
@@ -41,14 +42,14 @@ L'objectif est de rendre les moteurs de recherche plus réctifs sur le référen
 
 Voici donc le module que j'ai retenu : [XML Sitemap](http://drupal.org/project/gsitemap).
 
-##4. Ajout de meta données
+## 4. Ajout de meta données
 
 Même s'il on considère aujourd'hui que les mots clefs sont négligés par les moteurs de recherche, il n'en reste pas moins que la description est importante : c'est elle qui sera visible sur les pages de résultats de Google, entre le titre de la page et l'URL.
 
 Encore une fois, pour simplifier la génération des méta tags, je conseil l'utilisation du module [Meta tags](http://drupal.org/project/nodewords).
 Ce dernier permet d'insérer automatiquement le "teaser", du contenu de votre page, dans la balise de description de la page (entyre autre).
 
-##5. Eviter le contenu dupliqué (duplicate content)
+## 5. Eviter le contenu dupliqué (duplicate content)
 
 Un dernier point important, ne risquez pas de vous faire bannir de Google à cause de contenus dupliqués ! En effet, Google considère celà comme une pratique douteuse de référencement.
 Je m'explique : une page de contenu ne doit être accessible que par une seule et unique URL.

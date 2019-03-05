@@ -1,6 +1,5 @@
 ---
 date: '2017-10-16'
-star: true
 published: true
 title: Pourquoi ne pas juste dire "merci" ?
 tags:
