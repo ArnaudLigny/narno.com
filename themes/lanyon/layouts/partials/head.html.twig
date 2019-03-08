@@ -34,13 +34,13 @@
     <meta property="og:title" content="{{ title }}">
     <meta name="twitter:title" content="{{ title }}">
 {% if page.content is not empty %}
-    <meta name="description" content="{{ page.content|striptags|excerpt(165) }}">
-    <meta property="og:description" content="{{ page.content|striptags|excerpt }}">
-    <meta name="twitter:description" content="{{ page.content|striptags|excerpt }}">
+    <meta name="description" content="{{ page.content|striptags|e|excerpt(165) }}">
+    <meta property="og:description" content="{{ page.content|striptags|e|excerpt }}">
+    <meta name="twitter:description" content="{{ page.content|striptags|e|excerpt }}">
 {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}">
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.description|e }}">
+    <meta property="og:description" content="{{ site.description|e }}">
+    <meta name="twitter:description" content="{{ site.description|e }}">
 {% endif %}
     <meta name="theme-color" content="{{ site.manifest.theme_color }}">
 {% include 'partials/alternates.html.twig' %}
