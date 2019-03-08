@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ab5412222643be94c75d77257aafa0f",
+    "content-hash": "24b527202ddb6932f9e2fa4a4006169f",
     "packages": [
         {
             "name": "cecil/theme-hyde",
