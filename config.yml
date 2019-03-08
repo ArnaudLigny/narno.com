@@ -8,7 +8,7 @@ site:
   author:
     name: Arnaud Ligny
     url: https://arnaudligny.fr
-  googleanalytics: 387892-1
+  googleanalytics: UA-387892-1
   virtualpages:
     code:
       redirect: https://github.com/Narno

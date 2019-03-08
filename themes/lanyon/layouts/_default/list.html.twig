@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="posts">
-{% for post in site.pages|sortByDate %}
+{% for post in site.pages.all|sortByDate %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ url(post) }}">

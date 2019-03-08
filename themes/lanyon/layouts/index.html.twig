@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
-{% include 'includes/head.html.twig' %}
+{% include 'partials/head.html.twig' %}
   <body>
-{% include 'includes/sidebar.html.twig' %}
+{% include 'partials/sidebar.html.twig' %}
     <div class="wrap">
       <div class="masthead">
         <div class="container">
@@ -13,12 +13,12 @@
         </div>
       </div>
       <div class="container content">
-{% include 'includes/jsonld.js.twig' %}
+{% include 'partials/jsonld.js.twig' %}
 {% block content %}
-{% include 'includes/home.html.twig' %}
+{% include 'partials/home.html.twig' %}
         <hr />
-{% include 'includes/lastposts.html.twig' %}
-{# include 'includes/search.html.twig' #}
+{% include 'partials/lastposts.html.twig' %}
+{# include 'partials/search.html.twig' #}
 {% endblock content %}
       </div>
     </div>
@@ -37,15 +37,15 @@
         }, false);
       })(document);
     </script>
-{# include 'includes/footer.html.twig' #}
-{% include 'includes/svg.html.twig' %}
+{# include 'partials/footer.html.twig' #}
+{% include 'partials/svg.html.twig' %}
 {% if site.debug == true %}
     <pre>
     Layout: {{ _self.getTemplateName() }}
     {{ dump(page) }}
     </pre>
 {% endif %}
-{% include 'includes/regsw.js.twig' %}
-{% include 'includes/googleanalytics.js.twig' %}
+{% include 'partials/regsw.js.twig' %}
+{% include 'partials/googleanalytics.js.twig' %}
   </body>
 </html>
