@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cecil/theme-hyde",
-            "version": "1.12.2",
+            "version": "1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-hyde.git",
-                "reference": "97e5a0ac1c19909805d017d8ff4f08f2c1f78e1a"
+                "reference": "40ed2f84c249102853fd5d56868264661730b143"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/97e5a0ac1c19909805d017d8ff4f08f2c1f78e1a",
-                "reference": "97e5a0ac1c19909805d017d8ff4f08f2c1f78e1a",
+                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/40ed2f84c249102853fd5d56868264661730b143",
+                "reference": "40ed2f84c249102853fd5d56868264661730b143",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "cecil",
                 "theme"
             ],
-            "time": "2019-01-15T17:01:23+00:00"
+            "time": "2019-03-05T18:19:48+00:00"
         },
         {
             "name": "cecil/theme-installer",
@@ -93,16 +93,16 @@
         },
         {
             "name": "cecil/theme-serviceworker",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-serviceworker.git",
-                "reference": "d37d012fe531db54fc1d75fb8f4ae5094fcb3a19"
+                "reference": "7bd45700bf99904feb3d954e124ddf8bb6375b94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/d37d012fe531db54fc1d75fb8f4ae5094fcb3a19",
-                "reference": "d37d012fe531db54fc1d75fb8f4ae5094fcb3a19",
+                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/7bd45700bf99904feb3d954e124ddf8bb6375b94",
+                "reference": "7bd45700bf99904feb3d954e124ddf8bb6375b94",
                 "shasum": ""
             },
             "require": {
@@ -125,7 +125,7 @@
                 "service worker",
                 "theme"
             ],
-            "time": "2018-11-28T01:34:58+00:00"
+            "time": "2019-03-08T14:45:56+00:00"
         }
     ],
     "packages-dev": [],
