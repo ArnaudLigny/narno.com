@@ -1,5 +1,6 @@
 ---
 title: À propos
+date: 2017-10-17
 menu: main
 published: true
 alias: contact
