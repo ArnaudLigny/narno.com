@@ -4,7 +4,7 @@ date: 2017-10-16
 tags:
   - Cycliste urbain
   - Vélo
-image: /images/yehudamoon-2017-03-20-first-case.gif
+image: /images/yehudamoon-2017-03-20-first-case.png
 published: true
 typora-root-url: ../../static
 ---
@@ -14,7 +14,7 @@ Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vou
 
 ## Mauvais combat
 
-![yehudamoon-2017-03-20](/images/yehudamoon-2017-03-20.gif)
+![yehudamoon-2017-03-20](/images/yehudamoon-2017-03-20.png)
 
 Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la mairie de Paris mis en avant dans la presse par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) ou encore les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/), créé des émois sur les réseaux sociaux.
 
