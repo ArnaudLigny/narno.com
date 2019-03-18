@@ -1,5 +1,6 @@
 ---
 title: Mon vélo
+date: 2019-01-19
 menu:
   main:
     name: Mon vélo
