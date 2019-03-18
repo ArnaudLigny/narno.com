@@ -5,6 +5,7 @@ menu:
     name: Mon vélo
     weight: 130
 image: images/kh15_voyager_dlx.png
+typora-root-url: ../static
 ---
 
 ## Kalkhoff Voyager DLX 27-G

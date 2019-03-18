@@ -1,11 +1,9 @@
 ---
-title: Installer DayZ facilement
-date: '2012-07-07'
-tags:
-  - jeux vidéo
-published: true
-star: false
+title: "Installer DayZ facilement"
+date: 2012-07-07
+tags: jeux vidéo
 image: /images/DayZ-Mod-Installer-0.0.1.5.png
+published: true
 typora-root-url: ../../static
 ---
 [_DayZ Mod_](http://dayzmod.com/) est un mod (modification) du jeu [ARMA II](http://www.arma2.com/). Ce mod vous plonge dans un monde apocalyptique ou seule la survie compte et ou les zombies et les bandits ne vous épargnerons pas !

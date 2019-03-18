@@ -1,8 +1,8 @@
 ---
 title: "Picasa vers Flickr : importer vos photos simplement"
 date: 24-01-2009
-tags: [photos]
-permalink: blog/picasa-vers-flickr-importer-vos-photos-simplement
+tags: photos
+path: blog/picasa-vers-flickr-importer-vos-photos-simplement
 ---
 J'utilise [Picasa](http://picasa.google.com/) pour gérer mes albums photos : application propre et clair, système d'import depuis n'importe quel APN, navigation fluide et moteur de recherche made in Google.
 

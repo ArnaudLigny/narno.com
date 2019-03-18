@@ -1,11 +1,9 @@
 ---
-title: eZ Publish 4.0 apporte le support PHP 5
+title: "eZ Publish 4.0 apporte le support PHP 5"
 date: 06-10-2007
-tags:
-  - PHP
-permalink: blog/ez-publish-4-0-apporte-le-support-php-5
+tags: PHP
+path: blog/ez-publish-4-0-apporte-le-support-php-5
 published: false
-star: false
 ---
 > La prochaine version de eZ Publish, 4.0, vient d'être publiée en alpha, avec le support attendu de PHP 5. Il est désormais possible de faire tourner le célèbre CMS sur une plate-forme PHP 5.
 > 

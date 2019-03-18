@@ -6,6 +6,7 @@ menu:
     weight: 120
 image: images/CanHard-IX.jpg
 slug: configpc
+typora-root-url: ../static
 ---
 
 ## La configuration matérielle de mon PC de jeu

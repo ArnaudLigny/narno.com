@@ -1,12 +1,11 @@
 ---
-date: '2017-01-08 17:33'
-published: true
-title: Reboot du blog ?
+title: "Reboot du blog ?"
+date: 2017-01-08 17:33
 tags:
   - Cecil
   - Drupal
 image: /images/new-plan-static-site-first.jpg
-typora-copy-images-to: ../../static/images
+published: true
 typora-root-url: ../../static
 ---
 Comme on dit chez moi :

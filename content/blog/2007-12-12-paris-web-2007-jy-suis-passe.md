@@ -4,10 +4,9 @@ date: 2007-12-12
 tags:
   - accessibilité
   - événement
-permalink: blog/paris-web-2007-jy-suis-passe
-published: true
-star: false
+path: blog/paris-web-2007-jy-suis-passe
 image: /photos/paris-web-2007.jpg
+published: true
 typora-root-url: ../../static
 ---
 J'étais à [Paris Web 2007](https://www.paris-web.fr/2007/) pour la journée "libre" : pas de conférences mais des ateliers.

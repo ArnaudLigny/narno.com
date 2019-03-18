@@ -2,7 +2,7 @@
 title: "Migration d'un forum phpBB2 vers phpBB3"
 date: 2009-03-09
 tags: PHP
-permalink: blog/migration-dun-forum-phpbb2-vers-phpbb3
+path: blog/migration-dun-forum-phpbb2-vers-phpbb3
 ---
 Ça aura été pénible mais j'ai réussi à migrer le [forum phpBB de Kobuta.fr](http://www.kobuta.fr/forum) !
 
@@ -38,7 +38,7 @@ Il va donc falloir commencer à mettre à jour votre installation vers la versio
 2. rapatriez en local (on travail toujours en local avant de tout casser !) votre forum
 3. mettez à jour votre BDD via le script "install/update_to_latest.php"
 4. remplacez vos fichiers par ceux présent dans l'archive correspondant à votre mise à jour de version (si vous avez installer des mods dans tout les sens, je ne peux pas vous aider, le [forum phpBB FR](http://forums.phpbb-fr.com/) est là pour ça)
- 
+
 ### Vous utilisez déjà la dernière version de phpBB 2 :
 
 #### phpBB 2 :

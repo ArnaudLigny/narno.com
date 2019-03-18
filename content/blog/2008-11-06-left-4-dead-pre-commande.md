@@ -1,12 +1,10 @@
 ---
-title: 'Left 4 Dead : pré-commande'
-date: '2008-11-06'
-tags:
-  - jeux vidéo
-permalink: blog/left-4-dead-pre-commande
-published: true
-star: false
+title: "Left 4 Dead : pré-commande"
+date: 2008-11-06
+tags: jeux vidéo
+path: blog/left-4-dead-pre-commande
 image: /images/left4dead.jpg
+published: true
 typora-root-url: ../../static
 ---
 Je viens de pré-commander [Left 4 Dead](http://store.steampowered.com/app/500/) sur Steam cette semaine, afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).
