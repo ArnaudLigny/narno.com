@@ -1,5 +1,6 @@
 ---
 title: Mon PC
+date: 2019-01-19
 menu:
   main:
     name: Mon PC
