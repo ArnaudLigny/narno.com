@@ -1,12 +1,12 @@
 ---
 title: "Mon PC"
-date: 2019-01-19
+date: 2019-03-20
+slug: configpc
 menu:
   main:
     name: "Mon PC"
     weight: 120
 image: images/CanHard-IX.jpg
-slug: configpc
 typora-root-url: ../static
 ---
 
@@ -26,7 +26,7 @@ typora-root-url: ../static
 | SSD             | [Crucial BX100 500 Go](http://www.crucial.fr/fra/fr/macbook-pro-(13-pouces,-d%C3%A9but-2011)/CT6512438) |
 | HDD             | [WD Caviar Black S-ATA 3 1 To](https://www.wdc.com/fr-fr/products/internal-storage/wd-black-desktop.html#WD1003FZEX) |
 | Écran           | [iiyama Prolite B2206WS 22"](http://iiyama.com/fr_fr/produits/prolite-b2206ws-1/) |
-| Souris          | ~[SteelSeries XAI](http://www.lesnumeriques.com/souris/steelseries-xai-p7147/test.html)~ [Razer Mamba Wireless](https://www.razer.com/fr-fr/gaming-mice/razer-mamba-wireless) |
+| Souris          | [~~SteelSeries XAI~~](http://www.lesnumeriques.com/souris/steelseries-xai-p7147/test.html) [Razer Mamba Wireless](https://www.razer.com/fr-fr/gaming-mice/razer-mamba-wireless) |
 | Tapis           | [Razer Firefly](https://www.razer.com/fr-fr/gaming-mouse-mats/razer-firefly) |
 | Clavier         | [Razer BlackWidow Chroma](https://www.razer.com/fr-fr/gaming-keyboards-keypads/razer-blackwidow-chroma) |
 | Casque          | [Logitech G930](https://www.logitechg.fr/fr-fr/products/gaming-audio/g930-7-1-wireless-gaming-headset.html) |
