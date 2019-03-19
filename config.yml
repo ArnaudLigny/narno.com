@@ -74,8 +74,8 @@ site:
     start_url: /
     display: standalone
     orientation: portrait
-    background_color: '#ffffff'
-    theme_color: '#202020'
+    background_color: "#ffffff"
+    theme_color: "#202020"
   serviceworker:
     enabled: true
     precache:
