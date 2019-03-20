@@ -26,3 +26,5 @@ Ce blog est [statique](https://frank.taillandier.me/2016/03/08/les-gestionnaires
 * Il est hébergé sur [GitHub Pages](https://pages.github.com)
 * Le code source est versionné via [GitHub](https://github.com/Narno/narno.com)
 * Le nom de domaine est géré par [Gandi](http://gandi.net)
+
+Les billets sont couverts par la license [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
