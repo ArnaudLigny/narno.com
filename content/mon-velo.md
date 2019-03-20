@@ -1,9 +1,9 @@
 ---
-title: Mon vélo
-date: 2019-01-19
+title: "Mon vélo"
+date: 2019-03-20
 menu:
   main:
-    name: Mon vélo
+    name: "Mon vélo"
     weight: 130
 image: images/kh15_voyager_dlx.png
 typora-root-url: ../static
@@ -17,7 +17,7 @@ typora-root-url: ../static
 | --------- | ----------- |
 | Cadre | Trekking 1.0 alliage |
 | Fourche | Suntour NEX, alliage, réglable |
-| Freins | Shimano M396 (à disque hydraulique) |
+| Freins | [Shimano M396](https://bike.shimano.com/fr-FR/product/component/acera-t3000/BL-M396.html) (à disque hydraulique) |
 | Cassette | Shimano Alivio |
 | Dérailleur arrière | Shimano Deore |
 | Manettes de dérailleur | Shimano Deore |
@@ -27,13 +27,13 @@ typora-root-url: ../static
 | Potence | Concept SL |
 | Selle | Concept Trekking |
 | Tube de selle | Concept SL |
-| Moyeu | avant : Dynamo Shimano 3D37, arrière : Shimano Alivio |
+| Moyeu | avant : [Dynamo Shimano 3D37](https://bike.shimano.com/en-NZ/product/component/shimano/DH-3D37-QR.html), arrière : Shimano Alivio |
 | Jantes | Rodi Freeway |
-| Pneux | Schwalbe Marathon Plus (28x1.40,700x35C /	37-622) |
-| Eclairage avant | Busch & Müller Lumotec IQ Cyo T Senso Plus |
-| Eclairage arrière | Trelock LS 613 Duo Flat |
+| Pneux | [Schwalbe Marathon Plus](https://www.schwalbe.com/fr/tour-reader/marathon-plus.html) (28x1.40,700x35C /	37-622) |
+| Eclairage avant | [Busch & Müller Lumotec IQ Cyo T Senso Plus](http://en.bumm.de/produkte/dynamo-scheinwerfer/lumotec-iq-cyo-t.html) |
+| Eclairage arrière | [Trelock LS 613 Duo Flat](https://www.trelock.de/web/en/licht/dynamo/dynamo-ruecklicht.php) |
 | Porte-bagages | Sport 2-leg, alliage |
-| Siège enfant | Guppy Junior |
-| Sonette(s) | Knog Oi, Decathlon 300 B'Twin |
+| Siège enfant | [Guppy Junior](https://www.polisport.com/fr/velo/produits/sieges-bebe-de-velo/guppy-junior/?id=71&pid=212) |
+| Sonette(s) | [Knog Oi](https://www.knog.com.au/oi-bike-bells/oi-bike-bell-large.html), [Decathlon 520 B'Twin](https://www.decathlon.fr/sonnette-velo-520-id_8200975.html) |
 
 _([Site officiel](https://www.kalkhoff-bikes.com/en/bikes/2017/bike/fitness/voyager-dlx-27-g.html))_
