@@ -34,41 +34,31 @@ site:
         name: "Twitter"
         url: https://twitter.com/Narno
         weight: 1
-      google:
-        id: google
-        name: "Google+"
-        url: https://plus.google.com/113514091842394570177?rel=author
-        weight: 2
-      googlepage:
-        id: googlepage
-        name: "Page Google+"
-        url: https://plus.google.com/118354857740841798328?rel=publisher
-        weight: 3
-      github:
-        id: github
-        name: "GitHub"
-        url: https://github.com/Narno
-        weight: 4
       facebook:
         id: facebook
         name: "Facebook"
         url: https://www.facebook.com/narno
-        weight: 5
+        weight: 2
+      github:
+        id: github
+        name: "GitHub"
+        url: https://github.com/Narno
+        weight: 3
       drupal:
         id: drupal
         name: "Drupal"
         url: https://drupal.org/user/141690
-        weight: 6
+        weight: 4
       senscritique:
         id: senscritique
         name: "SensCritique"
         url: https://www.senscritique.com/Narno
-        weight: 7
+        weight: 5
       lastfm:
         id: lastfm
         name: "last.fm"
         url: https://www.last.fm/fr/user/narn0
-        weight: 8
+        weight: 6
   manifest:
     lang: fr-FR
     start_url: /
