@@ -4,7 +4,7 @@
 
 The website is automatically built by [Cecil](https://cecil.app) and deployed through [LambCI](https://github.com/lambci/lambci) when content is updated.
 
-[![Build Status](https://s3.amazonaws.com/lambci-buildresults-1w0y4nab0105t/gh/Narno/narno.com/branches/master/d968dc9e875fbd4e53e47bde3ace533b.svg)](https://s3.amazonaws.com/lambci-buildresults-1w0y4nab0105t/gh/Narno/narno.com/branches/master/21a79e65d8719f0e3e4f032a47a8c26a.html)
+[![Build Status](https://s3.amazonaws.com/lambci-buildresults-1w0y4nab0105t/gh/Narno/narno.com/branches/master/fd5e52981e29ce8934c8cbe710702fbe.svg)](https://s3.amazonaws.com/lambci-buildresults-1w0y4nab0105t/gh/Narno/narno.com/branches/master/e638084c8aae0d6dd5d80f3f7ba6c2d8.html)
 
 ## Install
 ```bash
