@@ -67,7 +67,7 @@ site:
     background_color: "#ffffff"
     theme_color: "#202020"
   serviceworker:
-    enabled: true
+    enabled: false
     precache:
       - icon.png
       - css/poole.css

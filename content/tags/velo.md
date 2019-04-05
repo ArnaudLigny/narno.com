@@ -6,4 +6,4 @@ menu:
     weight: 115
 ---
 
-## Billets sur le thème du vélo
+> Billets sur le thème du vélo.
