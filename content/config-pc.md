@@ -1,13 +1,13 @@
 ---
 title: "Mon PC"
 date: 2019-03-20
-slug: configpc
 menu:
   main:
     name: "Mon PC"
     weight: 120
 image: images/CanHard-IX.jpg
 typora-root-url: ../static
+alias: configpc
 ---
 
 ## La configuration matérielle de mon PC de jeu
