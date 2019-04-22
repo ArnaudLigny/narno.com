@@ -2,7 +2,7 @@
 title: "Windows Update : je te hais !"
 date: 12-12-2007
 tags:
-  - humeur
+  - Humeur
   - Windows
 path: blog/windows-update-je-te-hais
 ---

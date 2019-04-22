@@ -1,7 +1,7 @@
 ---
 title: "Installer DayZ facilement"
 date: 2012-07-07
-tags: jeux vidéo
+tags: Jeux vidéo
 image: /images/DayZ-Mod-Installer-0.0.1.5.png
 published: true
 typora-root-url: ../../static

@@ -1,7 +1,7 @@
 ---
 title: "Left 4 Dead : pré-commande"
 date: 2008-11-06
-tags: jeux vidéo
+tags: Jeux vidéo
 path: blog/left-4-dead-pre-commande
 image: /images/left4dead.jpg
 published: true

@@ -3,7 +3,7 @@ title: "Skin Drupal pour Nintendo DS R4"
 date: 2008-11-08
 tags:
   - Drupal
-  - jeux vidéo
+  - Jeux vidéo
 image: /images/nds-r4-drupal-skin.png
 path: blog/skin-drupal-pour-nintendo-ds-r4
 published: true

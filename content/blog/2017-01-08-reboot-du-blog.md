@@ -2,7 +2,7 @@
 title: "Reboot du blog ?"
 date: 2017-01-08 17:33
 tags:
-  - Cecil
+  - SSG
   - Drupal
 image: /images/new-plan-static-site-first.jpg
 published: true
