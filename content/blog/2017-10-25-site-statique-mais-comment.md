@@ -9,7 +9,7 @@ typora-root-url: ../../static
 ---
 
 Dans mon billet intitulé [*Reboot du blog*](/blog/reboot-du-blog) j'indiquais que *Narno.com* était maintenant un site statique : mais en pratique, comment ça marche ?
-<!-- excerpt -->
+<!-- break -->
 ## Qu'appelle-t-on un "site statique" ?
 
 Un site Web peut-être qualifié de "site statique" quand il répond aux caractéristiques suivantes :
