@@ -14,4 +14,7 @@ echo "Started Cecil build"
 php cecil.phar build --verbose
 echo "Finished Cecil build"
 
-bash scripts/deploy.sh
+if [ $? = 0 ]
+then
+  bash scripts/deploy.sh
+fi
