@@ -1,6 +1,6 @@
 ---
 title: "Afficher votre profil Ziki sur votre blog Drupal"
-date: 31/10/2007
+date: 2007-10-31
 tags: [Drupal, Dev]
 path: blog/afficher-votre-profil-ziki-sur-votre-blog-drupal
 ---
