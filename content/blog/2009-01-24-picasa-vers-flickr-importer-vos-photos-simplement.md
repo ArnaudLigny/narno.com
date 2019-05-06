@@ -1,6 +1,6 @@
 ---
 title: "Picasa vers Flickr : importer vos photos simplement"
-date: 24/01/2009
+date: 2009-01-24
 tags: Photos
 path: blog/picasa-vers-flickr-importer-vos-photos-simplement
 ---
