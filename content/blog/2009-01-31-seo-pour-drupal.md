@@ -1,9 +1,7 @@
 ---
 title: "SEO pour Drupal"
-date: 31-01-2009
-tags:
-  - Drupal
-  - SEO
+date: 31/01/2009
+tags: [Drupal, SEO, Dev]
 path: blog/seo-pour-drupal
 ---
 Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.
