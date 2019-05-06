@@ -13,7 +13,7 @@ echo "Finished themes installation"
 echo "Started Cecil build"
 php cecil.phar build --verbose
 
-# test build
+# build success?
 if [ $? = 0 ]
 then
   echo "Finished Cecil build"
