@@ -21,7 +21,7 @@
     <a class="twitter-share-button"
 href="https://twitter.com/share"
 data-text="{{ page.title|e }}"
-data-url="{{ url(page) }}"
+data-url="{{ url(page, {canonical:true}) }}"
 {% if page.tags is defined %}
 data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
 {% endif %}
