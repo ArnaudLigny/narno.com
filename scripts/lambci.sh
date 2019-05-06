@@ -19,5 +19,5 @@ then
   echo "Finished Cecil build"
   bash scripts/deploy.sh
 else
-  echo "Error during build"
+  return 1
 fi
