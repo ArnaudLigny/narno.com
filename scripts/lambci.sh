@@ -12,9 +12,12 @@ echo "Finished themes installation"
 
 echo "Started Cecil build"
 php cecil.phar build --verbose
-echo "Finished Cecil build"
 
+# test build
 if [ $? = 0 ]
 then
+  echo "Finished Cecil build"
   bash scripts/deploy.sh
+else
+  echo "Error during build"
 fi
