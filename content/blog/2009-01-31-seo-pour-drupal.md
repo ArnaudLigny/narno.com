@@ -1,6 +1,6 @@
 ---
 title: "SEO pour Drupal"
-date: 31/01/2009
+date: 2009-01-31
 tags: [Drupal, SEO, Dev]
 path: blog/seo-pour-drupal
 ---
