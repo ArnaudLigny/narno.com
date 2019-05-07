@@ -2,8 +2,8 @@
 title: "Narno.com est un site Web statique : mais comment ?"
 date: 2017-10-25
 tags:
-  - SSG
   - Développement
+  - SSG
 published: false
 typora-root-url: ../../static
 ---

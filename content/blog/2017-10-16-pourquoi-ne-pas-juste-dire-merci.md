@@ -2,8 +2,8 @@
 title: "Pourquoi ne pas juste dire « merci » ?"
 date: 2017-10-16
 tags:
-  - Cycliste urbain
   - Vélo
+  - Cycliste urbain
 image: /images/yehudamoon-2017-03-20-first-case.png
 published: true
 typora-root-url: ../../static

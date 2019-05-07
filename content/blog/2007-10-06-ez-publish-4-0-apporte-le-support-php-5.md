@@ -1,7 +1,9 @@
 ---
 title: "eZ Publish 4.0 apporte le support PHP 5"
 date: 06/10/2007
-tags: [PHP, Développement]
+tags:
+  - Développement
+  - PHP
 path: blog/ez-publish-4-0-apporte-le-support-php-5
 published: false
 ---

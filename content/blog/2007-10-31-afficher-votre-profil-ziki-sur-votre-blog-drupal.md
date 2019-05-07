@@ -1,7 +1,9 @@
 ---
 title: "Afficher votre profil Ziki sur votre blog Drupal"
 date: 2007-10-31
-tags: [Drupal, Développement]
+tags:
+  - Développement
+  - Drupal
 path: blog/afficher-votre-profil-ziki-sur-votre-blog-drupal
 ---
 Mon nouveau module pour [Drupal](/tags/drupal) est en chantier : [Ziki (API)](http://drupal.org/project/ziki).

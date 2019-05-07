@@ -1,7 +1,9 @@
 ---
 title: "Wikio vote : module de vote pour Drupal"
 date: 2008-01-13
-tags: [Drupal, Développement]
+tags:
+  - Développement
+  - Drupal
 path: blog/wikio-vote-module-de-vote-pour-drupal
 ---
 Je viens de terminer la première release (de développement) de mon nouveau module pour Drupal : _Wikio vote_.
