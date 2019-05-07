@@ -33,6 +33,11 @@
     <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
     <meta property="og:title" content="{{ title }}">
     <meta name="twitter:title" content="{{ title }}">
+{% if page.description is defined %}
+    <meta name="description" content="{{ page.description|striptags|e|excerpt(165) }}">
+    <meta property="og:description" content="{{ page.description|striptags|e|excerpt }}">
+    <meta name="twitter:description" content="{{ page.description|striptags|e|excerpt }}">
+{% else %}
 {% if page.content is not empty %}
     <meta name="description" content="{{ page.content|striptags|e|excerpt(165) }}">
     <meta property="og:description" content="{{ page.content|striptags|e|excerpt }}">
@@ -41,6 +46,7 @@
     <meta name="description" content="{{ site.description|e }}">
     <meta property="og:description" content="{{ site.description|e }}">
     <meta name="twitter:description" content="{{ site.description|e }}">
+{% endif %}
 {% endif %}
     <meta name="theme-color" content="{{ site.manifest.theme_color }}">
 {% include 'partials/alternates.html.twig' %}
