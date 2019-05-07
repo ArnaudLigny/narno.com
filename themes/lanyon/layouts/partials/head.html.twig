@@ -22,10 +22,10 @@
     <meta name="keywords" content="{{ site.keywords|join(', ') }}">
     <meta property="og:type" content="website" />
 {% endif %}
-    <meta property="og:url" content="{{ url(page, {'canonical': true}) }}">
+    <meta property="og:url" content="{{ url(page, {canonical:true}) }}">
 {% if page.image is defined %}
-    <meta property="og:image" content="{{ url(page.image, {'canonical': true}) }}">
-    <meta name="twitter:image" content="{{ url(page.image, {'canonical': true}) }}">
+    <meta property="og:image" content="{{ url(page.image, {canonical:true}) }}">
+    <meta name="twitter:image" content="{{ url(page.image, {canonical:true}) }}">
 {% else %}
     <meta property="og:image" content="https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=300">
 {% endif %}
