@@ -1,5 +1,6 @@
 ---
 title: "Mes vélos"
+description: "Présentation rapide de mes vélos ! 🚲"
 date: 2019-03-20
 updated: 2019-05-07
 menu:
