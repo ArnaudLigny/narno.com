@@ -5,7 +5,7 @@ menu: main
 published: true
 alias: contact
 ---
-_Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vidéo](/tags/jeux-video/) et de [développement](developpement) web.
+_Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vidéo](/tags/jeux-video/) et de [développement](/tags/developpement) web.
 
 ----
 
