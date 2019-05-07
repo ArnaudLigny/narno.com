@@ -1,15 +1,30 @@
 ---
-title: "Mon vélo"
+title: "Mes vélos"
 date: 2019-03-20
+updated: 2019-05-07
 menu:
   main:
-    name: "Mon vélo"
+    name: "Mes vélos"
     weight: 130
-image: images/kh15_voyager_dlx.png
+image: images/bullitt-bluebird.jpg
+alias: "mon-velo"
 typora-root-url: ../static
 ---
 
-## Kalkhoff Voyager DLX 27-G
+- [Bullitt Bluebird](#bullitt-bluebird)
+- [Kalkhoff Voyager](#kalkhoff-voyager-dlx-27-g)
+
+----
+
+## Bullitt Bluebird ## {#bullitt-bluebird}
+
+![Bullitt Bluebird](/images/bullitt-bluebird.jpg)
+
+_([Site officiel](http://www.larryvsharry.com/technical-info/))_
+
+----
+
+## Kalkhoff Voyager DLX 27-G ## {#kalkhoff-voyager}
 
 ![Kalkhoff Voyager DLX 27-G](/images/kh15_voyager_dlx.png)
 
