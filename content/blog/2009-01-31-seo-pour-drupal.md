@@ -1,18 +1,18 @@
 ---
 title: "SEO pour Drupal"
 date: 2009-01-31
-tags: [Drupal, SEO, Dev]
+tags: [Drupal, SEO, Développement]
 path: blog/seo-pour-drupal
 ---
 Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.
 
 Je vais présenter ici quelques optimisations à déployer sur votre site Drupal :
 
-1. Activation des URL simplifiées
-2. Réécriture automatique des URL
-3. Génération du Sitemap XML
-4. Ajout de meta données
-5. Eviter le contenu dupliqué (duplicate content)
+- 1. Activation des URL simplifiées
+- 2. Réécriture automatique des URL
+- 3. Génération du Sitemap XML
+- 4. Ajout de meta données
+- 5. Eviter le contenu dupliqué (duplicate content)
 
 <!-- excerpt -->
 ## 1. Activation des URL simplifiées

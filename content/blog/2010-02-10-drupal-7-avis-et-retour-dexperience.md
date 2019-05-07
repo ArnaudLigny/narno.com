@@ -1,7 +1,7 @@
 ---
 title: "Drupal 7 : avis et retour d'expérience"
 date: 10/02/2010
-tags: [Drupal, Dev]
+tags: [Drupal, Développement]
 path: blog/drupal-7-avis-et-retour-dexperience
 alias: blog/drupal-7-avis-et-retour-dexperience-0
 ---

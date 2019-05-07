@@ -3,7 +3,7 @@ title: "Paris Web 2007 : j'y suis passé !"
 date: 2007-12-12
 tags:
   - Accessibilité
-  - Événement
+  - Développement
 path: blog/paris-web-2007-jy-suis-passe
 image: /photos/paris-web-2007.jpg
 published: true

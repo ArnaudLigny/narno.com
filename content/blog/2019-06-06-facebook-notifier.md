@@ -1,7 +1,7 @@
 ---
 title: "Notificateur Facebook pour navigateur"
 date: 2019-05-06
-tags: dev
+tags: Développement
 image: /images/F-Notifier-screenshot.png
 publish: true
 typora-root-url: ../../static

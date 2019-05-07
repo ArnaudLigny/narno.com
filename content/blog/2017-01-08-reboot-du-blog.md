@@ -1,7 +1,7 @@
 ---
 title: "Reboot du blog ?"
 date: 2017-01-08 17:33
-tags: [Drupal, SSG, Dev]
+tags: [Drupal, SSG, Développement]
 image: /images/new-plan-static-site-first.jpg
 published: true
 typora-root-url: ../../static
