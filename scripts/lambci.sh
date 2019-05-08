@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
-. ~/init/php 7.0.32
+. ~/init/php 7.1.27
 
-echo "Enabling PHP Intl extension"
-php -d extension=intl
+#echo "Enabling PHP Intl extension"
+#php -d extension=intl
 
 echo "Downloading Cecil"
 curl -SOL https://cecil.app/cecil.phar
