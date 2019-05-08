@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-. ~/init/php 7.1.27
+. ~/init/php 7.2.16
 
 echo "Enabling PHP Intl extension"
 php -d extension=intl
