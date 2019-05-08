@@ -15,6 +15,10 @@ site:
   virtualpages:
     code:
       redirect: https://github.com/Narno
+    le-blog-avance:
+      redirect: /
+      title: "Le blog avance !"
+      date: 2008-12-08
   rs:
     facebook:
       admins: 516589570
