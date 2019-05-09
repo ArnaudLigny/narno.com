@@ -7,7 +7,7 @@ publish: true
 typora-root-url: ../../static
 ---
 
-Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : **je souhaite être notifié** quand un amis ou un contact m'identifie sur une photo ou m'envoie un message.
+Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : **je souhaite être notifié quand un amis ou un contact m'identifie sur une photo ou m'envoie un message**.
 
 Ainsi, il y a quelques années, j'avais développé une extension pour navigateur web (tout d'abord pour Chrome, puis pour Firefox avec l'arrivée des [WebExtensions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions)).
 
