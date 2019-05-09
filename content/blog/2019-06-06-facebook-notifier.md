@@ -13,6 +13,6 @@ Ainsi, il y a quelques années, j'avais développé une extension pour navigateu
 
 Son principe est très simple : une fois installée, celle-ci affiche un badge avec le nombre de notifications non lues, qu'il s'agisse d'une réponse à un publication ou d'un message de discussion instantanée.
 
-[![F-Notifier-screenshot](/images/F-Notifier-screenshot.png)](https://github.com/Narno/F-Notifier)
+[![F-Notifier screenshot](/images/F-Notifier-screenshot.png)](https://github.com/Narno/F-Notifier#f-notifier)
 
-> [***F-Notifier***](https://github.com/Narno/F-Notifier) est disponible à la fois pour [Google Chrome](https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn) et pour [Mozilla Firefox](https://addons.mozilla.org/fr/firefox/addon/f-notifier/), et son code source peut être consulté sur [GitHub](https://github.com/Narno/F-Notifier).
+> [***F-Notifier***](https://github.com/Narno/F-Notifier#f-notifier) est disponible à la fois pour [Google Chrome](https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn) et pour [Mozilla Firefox](https://addons.mozilla.org/fr/firefox/addon/f-notifier/), et son code source peut être consulté sur [GitHub](https://github.com/Narno/F-Notifier).
