@@ -9,7 +9,7 @@ typora-root-url: ../../static
 ---
 Je viens de pré-commander [Left 4 Dead](http://store.steampowered.com/app/500/) sur Steam cette semaine, afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).
 
-![](/images/left4dead.jpg)
+![Left 4 Dead](/images/left4dead.jpg)
 
 Bon, pour le moment c'est pas gagner : le téléchargement est terriblement lent (dois y avoir des amateurs !) et je n'ai pas pu le lancer avant de rentrer du taff. Bref, en patientant, j'écris ce petit billet.
 
