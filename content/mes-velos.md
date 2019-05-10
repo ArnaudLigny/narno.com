@@ -13,7 +13,7 @@ typora-root-url: ../static
 ---
 
 - [Bullitt Bluebird](#bullitt-bluebird)
-- [Kalkhoff Voyager](#kalkhoff-voyager-dlx-27-g)
+- [Kalkhoff Voyager](#kalkhoff-voyager)
 
 ----
 
