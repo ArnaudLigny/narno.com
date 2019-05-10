@@ -7,7 +7,7 @@ publish: true
 typora-root-url: ../../static
 ---
 
-> Dans la série des extensions pour navigateur que j'ai développé ces dernières années et que j'utilise encore au quotidien, il existe également [***Open New Tab After Current Tab***](https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn) pour Chrome.
+> Dans la série des extensions pour navigateur web que j'ai développé ces dernières années et que j'utilise encore au quotidien il existe également [***Open New Tab After Current Tab***](https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn) pour Chrome.
 
 Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.
 
