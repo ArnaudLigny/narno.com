@@ -2,7 +2,7 @@
 title: "Chrome : ouvrir un nouvel onglet après l'onglet actif"
 date: 2019-05-10
 tags: Développement
-image: /images/Open-New-Tab-After-Current-Tab.gif
+image: /images/Open-New-Tab-After-Current-Tab.jpg
 publish: true
 typora-root-url: ../../static
 ---
