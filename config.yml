@@ -4,7 +4,11 @@ site:
   baseline: "dev web, vélo, bière et jeu vidéo !"
   description: "Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo."
   keywords: [narno, blog, développement web, vélo, jeu vidéo]
-  locale: fr_FR
+  language: fr-fr
+  languages:
+    fr-fr:
+      name: Français
+      locale: fr_FR
   date:
     format: "j M Y"
     timezone: "Europe/Paris"

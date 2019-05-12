@@ -12,7 +12,7 @@
     <meta name="revisit-after" content="1 day">
     <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:locale" content="{{ site.locale }}" />
+    <meta property="og:locale" content="{{ config.locale }}" />
 {% if page.section == 'blog' %}
 {% if page.tags is defined %}
     <meta name="keywords" content="{{ page.tags|merge(site.keywords)|join(', ') }}">
