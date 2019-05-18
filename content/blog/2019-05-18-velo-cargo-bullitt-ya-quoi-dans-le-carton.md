@@ -57,7 +57,7 @@ Vous noterez que mis à part la béquille, le cadre est entièrement nu :
 
 ![IMG_20190412_135745](/images/bullitt-carton/IMG_20190412_135745.jpg)
 
-### Direction et roulement
+### Directions et roulements
 
 ![IMG_20190412_140408](/images/bullitt-carton/IMG_20190412_140408.jpg)
 
