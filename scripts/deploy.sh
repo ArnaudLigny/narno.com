@@ -6,7 +6,7 @@ REPOSITORY="Narno/narno.com"
 TARGET_BRANCH="gh-pages"
 SITE_DIR="_site"
 
-echo "Started deploy to GitHub Pages"
+echo "Started deploy to $REPOSITORY/$TARGET_BRANCH"
 
 cp -R $SITE_DIR $HOME/$SITE_DIR
 cd $HOME
@@ -19,9 +19,9 @@ cp -R $HOME/.git gh-pages/.git
 cd gh-pages
 cp -Rf $HOME/$SITE_DIR/* .
 git add -Af .
-git commit -m "$USER_NAME pushed to $TARGET_BRANCH"
+git commit -m "$USER_NAME push updated website"
 git push -fq origin $TARGET_BRANCH > /dev/null
 
-echo "Finished deploy to GitHub Pages"
+echo "Finished deploy"
 
 exit 0
