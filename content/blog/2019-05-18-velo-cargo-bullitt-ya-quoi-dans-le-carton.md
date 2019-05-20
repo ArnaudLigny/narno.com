@@ -15,7 +15,7 @@ Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que
 
 ## Alors, ya quoi dans le carton ?
 
-Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2m40, que ça pourrait être sympa de partager mon expérience.
+Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2m40 et surtout que contient le carton, que ça pourrait être sympa de partager mon expérience.
 
 Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.
 
@@ -23,11 +23,11 @@ Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.
 
 ![IMG_20190412_133507](/images/bullitt-carton/IMG_20190412_133507.jpg)
 
-Le carton en lui même, arrivé par transporteur sur une palette, est superbement illustré et amplifie le côté "cadeau de Noël avant l'heure" ! 🎅
+Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté "cadeau de Noël avant l'heure" ! 🎅
 
 ### Ouverture
 
-Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html)), voici comment se présente l'agencement du cadre et des différents accessoires et autres pièces  :
+Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html)), voici comment se présente l'agencement du cadre, des différents accessoires et autres pièces  :
 
 ![IMG_20190412_134655](/images/bullitt-carton/IMG_20190412_134655.jpg)
 
