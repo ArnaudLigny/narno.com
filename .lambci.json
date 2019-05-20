@@ -1,3 +1,10 @@
 {
-  "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh"
+  "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
+  "branches": {
+    "master": true,
+    "preview": {
+      "build": true,
+      "cmd": "pouet"
+    }
+  }
 }
