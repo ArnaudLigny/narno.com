@@ -4,7 +4,7 @@
     "master": true,
     "preview": {
       "build": true,
-      "cmd": "pouet"
+      "cmd": "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
     }
   }
 }
