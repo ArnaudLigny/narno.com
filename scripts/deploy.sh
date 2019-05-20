@@ -3,7 +3,6 @@
 USER_NAME="Build Bot"
 USER_EMAIL="build@narno.com"
 REPOSITORY="Narno/narno.com"
-SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 SITE_DIR="_site"
 
