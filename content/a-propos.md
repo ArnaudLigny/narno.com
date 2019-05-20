@@ -22,9 +22,10 @@ Je suis également [consultant web & mobile](https://arnaudligny.fr) dans [un st
 ## Le blog
 
 Ce blog est [statique](https://frank.taillandier.me/2016/03/08/les-gestionnaires-de-contenu-statique/), c'est à dire qu'il n'est pas motorisé par un quelconque CMS (ex: [Drupal](/tags/drupal), Wordpress, etc.) :
-* Il est généré par [Cecil](https://cecil.app)
-* Il est hébergé sur [GitHub Pages](https://pages.github.com)
-* Le code source est versionné via [GitHub](https://github.com/Narno/narno.com)
-* Le nom de domaine est géré par [Gandi](https://gandi.net)
+* Le thème HTML/CSS utilisé est [Poole/Lanyon](http://getpoole.com) ;
+* Il est généré par [Cecil](https://cecil.app) ;
+* Il est hébergé sur [GitHub Pages](https://pages.github.com) ;
+* Le code source est versionné via [GitHub](https://github.com/Narno/narno.com) ;
+* Le nom de domaine est géré par [Gandi](https://gandi.net).
 
-Les billets sont couverts par la license [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+Sauf mention particulière, le contenu de ce site est sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) <a title="Licence" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><svg width="16" height="20" class="icon icon-cc"><use xlink:href="#icon-cc"></use></svg></a>.
