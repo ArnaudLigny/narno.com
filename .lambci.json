@@ -2,9 +2,9 @@
   "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
   "branches": {
     "master": true,
-    "preview": {
+    "drafts": {
       "build": true,
-      "cmd": "pouet"
+      "cmd": "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
     }
   }
 }

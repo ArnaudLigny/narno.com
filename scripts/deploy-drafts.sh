@@ -2,7 +2,7 @@
 
 USER_NAME="Build Bot"
 USER_EMAIL="build@narno.com"
-REPOSITORY="Narno/narno.com"
+REPOSITORY="Narno/drafts.narno.com"
 TARGET_BRANCH="gh-pages"
 SITE_DIR="_site"
 
