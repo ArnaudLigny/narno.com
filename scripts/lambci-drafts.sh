@@ -11,7 +11,7 @@ composer install
 echo "Finished themes installation"
 
 echo "Started Cecil build (with drafts)"
-php cecil.phar build --verbose --drafts --baseurl=https://narno.org/drafts.narno.com/
+php cecil.phar build --verbose --drafts --baseurl=https://drafts.narno.com/
 
 # build success? can deploy?
 if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy-drafts.sh; else return 1; fi
