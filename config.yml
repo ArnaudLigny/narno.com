@@ -23,6 +23,13 @@ site:
       redirect: /
       title: "Le blog avance !"
       date: 2008-12-08
+    cname:
+      layout: cname
+      output: ghpages
+  output:
+    formats:
+      ghpages:
+        mediatype: 'text/plain'
   rs:
     facebook:
       admins: 516589570
