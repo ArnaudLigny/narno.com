@@ -18,6 +18,7 @@ rm -rf gh-pages/*
 cp -R $HOME/.git gh-pages/.git
 cd gh-pages
 cp -Rf $HOME/$SITE_DIR/* .
+echo "narno.com" > CNAME
 git add -Af .
 git commit -m "$USER_NAME push updated website"
 git push -fq origin $TARGET_BRANCH > /dev/null
