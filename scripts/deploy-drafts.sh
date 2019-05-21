@@ -18,6 +18,7 @@ rm -rf gh-pages/*
 cp -R $HOME/.git gh-pages/.git
 cd gh-pages
 cp -Rf $HOME/$SITE_DIR/* .
+echo "drafts.narno.com" > CNAME
 echo "User-agent: *\nDisallow: /" > robots.txt
 git add -Af .
 git commit -m "$USER_NAME push updated website"
