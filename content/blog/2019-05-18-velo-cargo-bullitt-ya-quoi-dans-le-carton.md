@@ -35,6 +35,11 @@ Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.l
 
 ![IMG_20190412_135020](/images/bullitt-carton/IMG_20190412_135020.jpg)
 
+Sur la photo ci-dessus on peut voir, fixés au cadre :
+
+- la fourche (en haut)
+- le tube et la barre de direction (en bas)
+
 ### Le cadre
 
 Vous noterez que mis à part la béquille, le cadre est entièrement nu :
