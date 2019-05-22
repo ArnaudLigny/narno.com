@@ -1,6 +1,7 @@
 ---
 title: "Vélo cargo Bullitt : ya quoi dans le carton ?"
 date: 2019-05-18
+updated: 2019-05-23
 tags: Vélo
 image: /images/bullitt-carton/IMG_20190413_112340.jpg
 published: true
