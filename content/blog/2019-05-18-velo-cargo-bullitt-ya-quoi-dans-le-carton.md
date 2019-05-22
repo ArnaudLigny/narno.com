@@ -7,10 +7,9 @@ draft: true
 typora-root-url: ../../static
 ---
 
-Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique [Bullitt Bluebird de Larry vs Harry](https://www.larryvsharry.com/) !
+Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique vélo cargo Bullitt Bluebird de [Larry vs Harry](https://www.larryvsharry.com/) !
 
 ![IMG_20190413_112340](/images/bullitt-carton/IMG_20190413_112340.jpg)
-
 <!-- break -->
 
 ## Alors, ya quoi dans le carton ?

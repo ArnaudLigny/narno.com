@@ -11,6 +11,7 @@ composer install
 echo "Finished themes installation"
 
 echo "Started Cecil build (with drafts)"
+export CECIL_SITE_TITLE="Narno.com (drafts)"
 php cecil.phar build --verbose --drafts --baseurl=https://drafts.narno.com/
 
 # build success? can deploy?
