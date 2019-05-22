@@ -74,7 +74,7 @@ Alors là, c’est vraiment du caviar pour le montage :
 1. Le système de frein – hydraulique – est déjà prêt : il ne reste plus qu’à passer le câble le long du cadre et à fixer l’étrier sur la fourche ! 👌
 2. Idem pour le câble du Nexus qui est déjà de la bonne longueur.
 
-### Directions et roulements
+### Direction et roulements
 
 ![IMG_20190412_140408](/images/bullitt-carton/IMG_20190412_140408.jpg)
 
@@ -88,7 +88,7 @@ Pour être complète cette photo aurait du contenir le tube (d’environ 70 cm d
 
 Si vous avez pris l’option (et vous devriez) : éclairage par dynamo (dans la roue avant) [Busch & Müller Lumotec IQ Avy Plus N](https://www.bumm.de/en/products/dynamo-scheinwerfer/produkt/162rtsndi.html) et Secula.
 
-
+---
 
 Et voilà !
 
