@@ -1,7 +1,7 @@
 ---
 title: "Vélo cargo Bullitt : ya quoi dans le carton ?"
 date: 2019-05-18
-updated: 2019-05-23
+updated: 2019-05-26
 tags: Vélo
 image: /images/bullitt-carton/IMG_20190413_112340.jpg
 published: true
@@ -81,13 +81,13 @@ Alors là, c’est vraiment du caviar pour le montage :
 
 Entretoises, roulements et le fameux [Easyup Stemlifter](http://shop.larryvsharry.com/shop/handlebar-stems-grips/easyup-stemlifter.html).
 
-Pour être complète cette photo aurait du contenir le tube (d’environ 70 cm descendant verticalement depuis le guidon en lieu et place de la fourche sur un vélo traditionnel) et la [barre de direction](http://shop.larryvsharry.com/shop/brakes-and-spare-parts/steering-arm-complete-w-balljoint.html).
+Pour être complète cette photo aurait du contenir le tube (d’environ 70 cm descendant verticalement depuis le guidon en lieu et place de la fourche sur un vélo traditionnel) et la [barre de direction](http://shop.larryvsharry.com/shop/brakes-and-spare-parts/steering-arm-complete-w-balljoint.html) reliée à la fourche.
 
 ### Éclairages
 
 ![IMG_20190412_135408](/images/bullitt-carton/IMG_20190412_135408.jpg)
 
-Si vous avez pris l’option (et vous devriez) : éclairage par dynamo (dans la roue avant) [Busch & Müller Lumotec IQ Avy Plus N](https://www.bumm.de/en/products/dynamo-scheinwerfer/produkt/162rtsndi.html) et Secula.
+Si vous avez pris l’option (et vous devriez) : éclairage par dynamo (dans la roue avant) [Busch & Müller Lumotec IQ Avy Plus N](https://www.bumm.de/en/products/dynamo-scheinwerfer/produkt/162rtsndi.html) et [Secula](https://www.bumm.de/en/products/dynamo-rucklichter/produkt/331-2ask.html?).
 
 ---
 
@@ -95,4 +95,4 @@ Et voilà !
 
 Si j’ai le courage j’essaierai de détailler un peu plus le montage dans un autre billet.
 
-Retenez que ça reste très facile, y compris pour un néophyte comme moi, d’autant plus après avoir trouvé le [manuel officiel](https://www.dropbox.com/s/dn2dmlgpumy79u9/Bullitt%20manual%202018%20NL.pdf?dl=0) après 1 heure de montage ! 😄
+Retenez que ça reste très facile, y compris pour un néophyte comme moi, d’autant plus une fois qu’on a mis la main sur le [manuel officiel](https://www.dropbox.com/s/dn2dmlgpumy79u9/Bullitt%20manual%202018%20NL.pdf?dl=0) après 1 heure de montage ! 😄
