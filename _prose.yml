@@ -15,10 +15,10 @@ prose:
           element: "text"
           label: "Layout"
           placeholder: "Layout"
-      - name: "permalink"
+      - name: "path"
         field:
           element: "text"
-          label: "Permalink"
+          label: "Path"
           placeholder: "Permalink"
     content/blog:
       - name: "title"
@@ -33,25 +33,32 @@ prose:
           label: "Date"
           value: "CURRENT_DATETIME"
           placeholder: "YYYY-MM-DD HH:MM"
+      - name: "updated"
+        field:
+          element: "text"
+          label: "Updated"
+          value: "CURRENT_DATETIME"
+          placeholder: "YYYY-MM-DD HH:MM"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          placeholder: "image.jpg"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Tags"
           options:
+            - name: "Vélo"
+              value: "Vélo"
+            - name: "Développement"
+              value: "Développement"
             - name: "Jeux vidéo"
               value: "Jeux vidéo"
-            - name: "Cecil"
-              value: "Cecil"
           placeholder: "Add tags"
           alterable: true
-      - name: "permalink"
+      - name: "path"
         field:
           element: "text"
-          label: "Permalink"
+          label: "Path"
           placeholder: "Permalink"
-      - name: "star"
-        field:
-          element: "checkbox"
-          label: "Star"
-          help: "Star a page on home page"
-          value: false
