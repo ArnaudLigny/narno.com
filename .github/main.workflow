@@ -1,8 +1,14 @@
 workflow "Cecil Action" {
   resolves = [
+    "Composer Install",
     "Action: Build static site",
   ]
   on = "push"
+}
+
+action "Composer Install" {
+  uses = "pxgamer/composer-action@master"
+  args = "install"
 }
 
 action "Action: Build static site" {
