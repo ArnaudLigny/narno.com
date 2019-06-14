@@ -1,17 +1,17 @@
-workflow "Build static site" {
+workflow "Cecil Action" {
   resolves = [
-    "Run build",
+    "Action: Build static site",
   ]
   on = "push"
 }
 
-action "Run build" {
+action "Action: Build static site" {
   uses = "Cecilapp/Cecil-Action@master"
   needs = "Filter master branch"
   args = "--baseurl=https://example.com/"
 }
 
-action "Filter master branch" {
+action "Action: Filter master branch" {
   uses = "actions/bin/filter@master"
   args = "branch master"
 }
