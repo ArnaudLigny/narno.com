@@ -7,7 +7,7 @@ workflow "Cecil Action" {
 
 action "Action: Build static site" {
   uses = "Cecilapp/Cecil-Action@master"
-  needs = "Filter master branch"
+  needs = "Action: Filter master branch"
   args = "--baseurl=https://example.com/"
 }
 
