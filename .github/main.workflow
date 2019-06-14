@@ -23,3 +23,4 @@ action "Composer Install" {
   uses = "pxgamer/composer-action@master"
   args = "install"
 }
+
