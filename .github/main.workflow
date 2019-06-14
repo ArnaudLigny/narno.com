@@ -1,4 +1,4 @@
-workflow "Cecil build" {
+workflow "Build static site" {
   resolves = [
     "Cecil Action",
   ]
