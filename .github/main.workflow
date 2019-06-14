@@ -5,7 +5,7 @@ workflow "Cecil Action" {
   on = "push"
 }
 
-action "Build static site" {
+action "Build Cecil static site" {
   uses = "Cecilapp/Cecil-Action@master"
   needs = [
     "Filter master branch",
