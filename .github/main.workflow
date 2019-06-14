@@ -1,6 +1,6 @@
 workflow "Build static site" {
   resolves = [
-    "Cecil Action",
+    "Run build",
   ]
   on = "push"
 }
