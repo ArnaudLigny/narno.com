@@ -5,7 +5,7 @@ workflow "Build static site" {
   on = "push"
 }
 
-action "Cecil Action" {
+action "Run build" {
   uses = "Cecilapp/Cecil-Action@master"
   needs = "Filter master branch"
   args = "--baseurl=https://example.com/"
