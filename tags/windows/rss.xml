@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Narno.com - Windows</title>
+    <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
+    <lastBuildDate>2009-02-15T01:00:00+01:00</lastBuildDate>
+    <link>https://narno.com/tags/windows/</link>
+    <item>
+      <guid>https://narno.com/blog/windows-update-desactiver-le-redemarrage-automatique/</guid>
+      <title>Windows Update : Désactiver le redémarrage automatique</title>
+      <description><![CDATA[<p>Windows Update permet la mise à jour de Windows et de ses applications de manière automatique. Ce système est indispensable afin d'assurer la sécurité et la stabilité de l'OS.</p>
+<p>Une fois la mise à jour installée, Windows demande à l'utilisateur s'il doit / peut redémarrer l'ordinateur maintenant. Dans le principe c'est logique de faire la demande à l'utilisateur, ce qui l'est moins c'est que lorsque l'on clique sur "Redémarrer plus tard", Windows va vous balancer cette fenêtre à la figure jusqu'à ce que vous ayez redémarré... <a href="http://narno.com/blog/windows-update-je-te-hais">ça devient vite pénible</a> !</p>
+<p>Alors voici une astuce simple pour palier à cet inconvénient.</p>
+<span id="more"></span>
+<p>Pour cela il suffit de modifier un des paramètres du panel de <a href="http://www.google.fr/search?q=windows+%22strat%C3%A9gie+de+groupe%22">Stratégie de groupe de Windows</a> :</p>
+<ol>
+<li>Démarrer &gt; Exécuter</li>
+<li>Saisir <strong><em>gpedit.msc</em></strong>, valider</li>
+<li>Ouvrir Configuration ordinateur &gt; Modèles d'administration &gt; Composants Windows &gt; Windows Update</li>
+<li>Double-cliquer sur "Pas de redémarrage automatique..."</li>
+<li>Choisir l'option <strong><em>Activé</em></strong>, valider</li>
+</ol>
+<p><img src="/images/strategie-groupe-windows-update.png" alt="" /></p>
+<p>Et voilà, maintenant vous avez le choix ! :-)</p>]]></description>
+      <pubDate>2009-02-15T01:00:00+01:00</pubDate>
+      <link>https://narno.com/blog/windows-update-desactiver-le-redemarrage-automatique/</link>
+    </item>
+    <item>
+      <guid>https://narno.com/blog/windows-update-je-te-hais/</guid>
+      <title>Windows Update : je te hais !</title>
+      <description><![CDATA[<p>Qui n'a jamais pesté sur Windows Update ? En effet, non content d'installer plein de trucs et de machins sans vraiment les justifier, Windows Update à la facheuse tendance à nous casser les *ouilles tant qu'il n'a pas redémarrer Windows : "a y est j'ai fini d'installer mes trucs, faut rebooter maintenant coco !". Et ça, à inetrvalle régulier, sous forme de boite de dialogue intrusive, jusqu'à ce que vous ayez cédé !</p>
+<p>Mais bordel, on a bien compris qu'il fallait redémarrer pour que ces mises à jour soient prisent en compte ! Reste que si on choisi de cliquee sur "Redémarrer plus tard" c'est qu'il  ya une bonne raison !
+Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voulant cliquer sur un lien Web ou sur un bouton d'une application, voilà que cette saloperie de boite de dialogue réapparait et PAF ! directe sur le bouton "Redémarrer maintenant" ! N'espèrez pas avoir le temps de sauvegarder votre travail, c'est trop tard ! Autant Windows est lent à démarrer, autant il est furieusement rapide à s'éteindre dans ces cas là, bref...</p>
+<p>Je suis sur Windows XP Pro, j'espère que le problème ne s'est pas perpétué sur Vista...</p>]]></description>
+      <pubDate>2007-12-12T01:00:00+01:00</pubDate>
+      <link>https://narno.com/blog/windows-update-je-te-hais/</link>
+    </item>
+  </channel>
+</rss>
