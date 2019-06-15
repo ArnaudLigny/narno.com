@@ -17,7 +17,7 @@ echo "Started Cecil build"
 php cecil.phar build --verbose
 
 echo "Write CNAME"
-echo "narno.com" >> _site/CNAME
+echo "narno.com" > _site/CNAME
 
 # build success? can deploy?
 if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy.sh; else return 1; fi
