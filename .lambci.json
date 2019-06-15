@@ -1,7 +1,7 @@
 {
   "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
   "branches": {
-    "master": true,
+    "master": false,
     "drafts": {
       "build": true,
       "cmd": "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
