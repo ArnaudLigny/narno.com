@@ -26,6 +26,7 @@ action "Build Cecil static site" {
 
 action "Deploy to GitHub Pages" {
   uses = "maxheld83/ghpages@v0.2.1"
+  needs = "Build Cecil static site"
   env = {
     BUILD_DIR = "_site/"
   }
