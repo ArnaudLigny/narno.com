@@ -1,4 +1,4 @@
-workflow "Build with Cecil and deploy to GitHub Pages" {
+workflow "Build and deploy" {
   resolves = [
     "Build with Cecil and deploy to GitHub Pages",
   ]
