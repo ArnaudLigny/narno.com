@@ -1,6 +1,6 @@
 workflow "Cecil Action" {
   resolves = [
-    "Build Cecil static site",
+    "Deploy to GitHub Pages",
   ]
   on = "push"
 }
