@@ -21,7 +21,7 @@ action "Build Cecil static site" {
     "Filter master branch",
     "Composer Install",
   ]
-  args = "--baseurl=https://example.com/"
+  args = "--baseurl=https://narno.com/"
 }
 
 action "Deploy to GitHub Pages" {
