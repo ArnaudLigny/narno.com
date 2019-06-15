@@ -24,9 +24,15 @@ action "Build Cecil static site" {
   args = "--baseurl=https://narno.com/"
 }
 
+action "Write CNAME" {
+  uses = "actions/bin/sh@master"
+  needs = "Build Cecil static site"
+  args = ["echo narno.com >> _site/CNAME"]
+}
+
 action "Deploy to GitHub Pages" {
   uses = "maxheld83/ghpages@v0.2.1"
-  needs = "Build Cecil static site"
+  needs = "Write CNAME"
   env = {
     BUILD_DIR = "_site/"
   }
