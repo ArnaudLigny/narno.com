@@ -1,6 +1,6 @@
-workflow "Cecil Action" {
+workflow "Build with Cecil and deploy to GitHub Pages" {
   resolves = [
-    "Deploy to GitHub Pages",
+    "Build with Cecil and deploy to GitHub Pages",
   ]
   on = "push"
 }
@@ -30,7 +30,7 @@ action "Write CNAME" {
   args = ["echo \"narno.com\" > _site/CNAME"]
 }
 
-action "Deploy to GitHub Pages" {
+action "Build with Cecil and deploy to GitHub Pages" {
   uses = "maxheld83/ghpages@v0.2.1"
   needs = "Write CNAME"
   env = {
