@@ -1,5 +1,5 @@
 // service worker config
-var CACHE_VERSION = "1560639665";
+var CACHE_VERSION = "1560642826";
 var CACHE_NAME = 'narno-com';
 var CACHE = CACHE_NAME + '-v' + CACHE_VERSION;
 var urlsToCache = [];
