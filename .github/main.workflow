@@ -5,6 +5,16 @@ workflow "Cecil Action" {
   on = "push"
 }
 
+action "Filter master branch" {
+  uses = "actions/bin/filter@master"
+  args = "branch master"
+}
+
+action "Composer Install" {
+  uses = "pxgamer/composer-action@master"
+  args = "install"
+}
+
 action "Build Cecil static site" {
   uses = "Cecilapp/Cecil-Action@master"
   needs = [
@@ -14,12 +24,11 @@ action "Build Cecil static site" {
   args = "--baseurl=https://example.com/"
 }
 
-action "Filter master branch" {
-  uses = "actions/bin/filter@master"
-  args = "branch master"
-}
-
-action "Composer Install" {
-  uses = "pxgamer/composer-action@master"
-  args = "install"
+action "Deploy to GitHub Pages" {
+  uses = "maxheld83/ghpages@v0.2.1"
+  needs = "Build Cecil static site"
+  env = {
+    BUILD_DIR = "_site/"
+  }
+  secrets = ["GH_PAT"]
 }
