@@ -25,10 +25,11 @@ action "Build Cecil static site" {
 }
 
 action "Deploy to GitHub Pages" {
-  uses = "maxheld83/ghpages@v0.2.1"
-  needs = "Build Cecil static site"
+  uses = "peaceiris/actions-gh-pages@v1.0.1"
+  needs = ["Build Cecil static site"]
   env = {
-    BUILD_DIR = "_site/"
+    PUBLISH_DIR = "_site/"
+    PUBLISH_BRANCH = "gh-pages"
   }
   secrets = ["GITHUB_TOKEN"]
 }
