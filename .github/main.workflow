@@ -30,5 +30,5 @@ action "Deploy to GitHub Pages" {
   env = {
     BUILD_DIR = "_site/"
   }
-  secrets = ["GH_PAT"]
+  secrets = ["GITHUB_TOKEN"]
 }
