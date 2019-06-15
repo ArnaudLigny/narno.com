@@ -10,7 +10,7 @@ action "Filter master branch" {
   args = "branch master"
 }
 
-action "Composer Install" {
+action "Install theme(s)" {
   uses = "pxgamer/composer-action@master"
   args = "install"
 }
@@ -19,7 +19,7 @@ action "Build Cecil static site" {
   uses = "Cecilapp/Cecil-Action@master"
   needs = [
     "Filter master branch",
-    "Composer Install",
+    "Install theme(s)",
   ]
   args = "--baseurl=https://narno.com/"
 }
