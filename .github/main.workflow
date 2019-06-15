@@ -32,3 +32,4 @@ action "Deploy to GitHub Pages" {
   }
   secrets = ["GITHUB_TOKEN"]
 }
+
