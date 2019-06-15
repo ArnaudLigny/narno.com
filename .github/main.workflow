@@ -27,7 +27,7 @@ action "Build Cecil static site" {
 action "Write CNAME" {
   uses = "actions/bin/sh@master"
   needs = "Build Cecil static site"
-  args = ["echo \"narno.com\" >> _site/CNAME"]
+  args = ["echo \"narno.com\" > _site/CNAME"]
 }
 
 action "Deploy to GitHub Pages" {
