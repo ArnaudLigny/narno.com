@@ -33,3 +33,4 @@ action "Build static site and deploy to gh-pages" {
   }
   secrets = ["GITHUB_TOKEN"]
 }
+
