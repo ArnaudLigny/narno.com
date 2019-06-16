@@ -1,6 +1,6 @@
 workflow "Build and deploy" {
   resolves = [
-    "Deploy to GitHub Pages",
+    "Deploy to GH Pages",
   ]
   on = "push"
 }
@@ -24,7 +24,7 @@ action "Build Cecil static site" {
   args = "--baseurl=https://narno.com/"
 }
 
-action "Deploy to GitHub Pages" {
+action "Deploy to GH Pages" {
   uses = "Cecilapp/GHPages-deploy-Action@master"
   needs = "Build Cecil static site"
   env = {
