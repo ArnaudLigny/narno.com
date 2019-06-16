@@ -30,7 +30,7 @@ action "Build static site and deploy to gh-pages" {
   env = {
     BUILD_DIR = "_site/"
     CNAME = "narno.com"
+    NO_JEKYLL = "toutafé !"
   }
   secrets = ["GITHUB_TOKEN"]
 }
-
