@@ -32,5 +32,5 @@ action "Deploy to GH Pages" {
     CNAME = "narno.com"
     EMAIL = "arnaud@ligny.org"
   }
-  secrets = ["GITHUB_PAT"]
+  secrets = ["GH_TOKEN"]
 }
