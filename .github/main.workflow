@@ -30,7 +30,6 @@ action "Deploy to GH Pages" {
   env = {
     BUILD_DIR = "_site/"
     CNAME = "narno.com"
-    JEKYLL_SITE = "NO"
   }
   secrets = ["GITHUB_TOKEN"]
 }
