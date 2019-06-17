@@ -32,4 +32,5 @@ action "Deploy to GH Pages" {
     CNAME = "narno.com"
     EMAIL = "arnaud@ligny.org"
   }
+  secrets = ["GH_TOKEN"]
 }
