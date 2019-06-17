@@ -28,6 +28,7 @@ action "Deploy to GH Pages" {
   uses = "Cecilapp/GHPages-deploy-Action@master"
   needs = "Build Cecil static site"
   env = {
+    EMAIL = "arnaud+github@ligny.fr"
     BUILD_DIR = "_site/"
     CNAME = "narno.com"
   }
