@@ -30,7 +30,7 @@ action "Deploy to GH Pages" {
   env = {
     BUILD_DIR = "_site/"
     CNAME = "narno.com"
-    EMAIL = "github@narno.org"
+    EMAIL = "arnaud@ligny.org"
   }
   secrets = ["GITHUB_TOKEN"]
 }
