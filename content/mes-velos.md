@@ -5,7 +5,6 @@ date: 2019-03-20
 updated: 2019-05-07
 menu:
   main:
-    name: "Mes vélos"
     weight: 130
 image: images/bullitt-bluebird.jpg
 alias: "mon-velo"
