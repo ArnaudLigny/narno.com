@@ -7,7 +7,7 @@
 {% for post in page.pagination.pages %}
   <div class="post">
     <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
-    <span class="post-date">{{ post.date|date("j M Y") }}</span>
+    {#<span class="post-date">{{ post.date|date("j M Y") }}</span>#}
     <span class="post-date">{{ page.date|localizeddate('long', 'none') }}</span>
 {% set readtime = readtime(post.content) %}
 {% if readtime < 1 %}{% set readtime = "1" %}{% endif %}
