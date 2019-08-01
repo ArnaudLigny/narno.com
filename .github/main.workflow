@@ -25,7 +25,7 @@ action "Build Cecil static site" {
 }
 
 action "Deploy to GH Pages" {
-  uses = "Cecilapp/GHPages-deploy-Action@master"
+  uses = "Cecilapp/GitHub-Pages-deploy@master"
   needs = "Build Cecil static site"
   env = {
     BUILD_DIR = "_site/"
