@@ -31,4 +31,4 @@ alias: configpc
 | Casque          | [Logitech G930](https://www.logitechg.fr/fr-fr/products/gaming-audio/g930-7-1-wireless-gaming-headset.html) |
 | OS              | Windows 7 64 bits |
 
-_([CanHard IX](http://www.materiel.net/ordinateur/materiel-net-canhard-ix-70538.html) modifiée)_
+_([CanHard IX](https://web.archive.org/web/20110914061133/http://www.materiel.net/ordinateur/materiel-net-canhard-ix-70538.html) modifiée)_
