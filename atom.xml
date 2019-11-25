@@ -310,7 +310,7 @@
 <p>Ce blog est <a href="https://frank.taillandier.me/2016/03/08/les-gestionnaires-de-contenu-statique/">statique</a>, c'est à dire qu'il n'est pas motorisé par un quelconque CMS (ex: <a href="/tags/drupal">Drupal</a>, Wordpress, etc.) :</p>
 <ul>
 <li>Le thème HTML/CSS utilisé est <a href="http://getpoole.com">Poole/Lanyon</a> ;</li>
-<li>Il est généré par <a href="https://cecil.app">Cecil</a> ;</li>
+<li>Il est généré par <a href="https://cecil.app">Cecil</a> et <a href="https://github.com/lambci/lambci">LambCI</a>;</li>
 <li>Il est hébergé sur <a href="https://pages.github.com">GitHub Pages</a> ;</li>
 <li>Le code source est versionné via <a href="https://github.com/Narno/narno.com">GitHub</a> ;</li>
 <li>Le nom de domaine est géré par <a href="https://gandi.net">Gandi</a>.</li>
