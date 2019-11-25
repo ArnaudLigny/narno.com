@@ -23,7 +23,7 @@ Je suis également [consultant web & mobile](https://arnaudligny.fr) dans [un st
 
 Ce blog est [statique](https://frank.taillandier.me/2016/03/08/les-gestionnaires-de-contenu-statique/), c'est à dire qu'il n'est pas motorisé par un quelconque CMS (ex: [Drupal](/tags/drupal), Wordpress, etc.) :
 * Le thème HTML/CSS utilisé est [Poole/Lanyon](http://getpoole.com) ;
-* Il est généré par [Cecil](https://cecil.app) ;
+* Il est généré par [Cecil](https://cecil.app) et [LambCI](https://github.com/lambci/lambci);
 * Il est hébergé sur [GitHub Pages](https://pages.github.com) ;
 * Le code source est versionné via [GitHub](https://github.com/Narno/narno.com) ;
 * Le nom de domaine est géré par [Gandi](https://gandi.net).
