@@ -1,6 +1,6 @@
 {
   "require": {
-    "cecil/theme-hyde": "^1.14",
+    "cecil/theme-hyde": "^1.15",
     "cecil/theme-serviceworker": "^1.2"
   }
 }
