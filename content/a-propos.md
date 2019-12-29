@@ -15,7 +15,7 @@ _Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vi
 
 Je suis connu sous le pseudo de _Narno_, geek, papa, gamer, travailleur dans les Internets, [contributeur open-source](/code), agnostique, humaniste, cycliste urbain, amateur de bière.
 
-Je suis également [consultant web & mobile](https://arnaudligny.fr) dans [un studio de production et d'innovation](https://adfab.fr).
+Je suis également [consultant web, mobile & e-commerce](https://arnaudligny.fr) dans [un studio de production et d'innovation](https://adfab.fr).
 
 ----
 
