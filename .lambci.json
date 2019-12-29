@@ -7,9 +7,10 @@
     "drafts": {
       "build": true,
       "env": {
-        "DOMAIN": "drafts.narno.com"
+        "DOMAIN": "drafts.narno.com",
+        "REPOSITORY": "Narno/drafts.narno.com"
       },
-      "cmd": "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
+      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh disallow"
     }
   }
 }
