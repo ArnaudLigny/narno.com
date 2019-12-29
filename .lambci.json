@@ -2,10 +2,7 @@
   "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
   "branches": {
     "master": {
-      "build": true,
-      "env": {
-        "CECIL_TITLE": "TEST"
-      }
+      "build": true
     },
     "drafts": {
       "build": true,
@@ -13,7 +10,7 @@
         "DOMAIN": "drafts.narno.com",
         "REPOSITORY": "Narno/drafts.narno.com"
       },
-      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh disallow"
+      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh draft"
     }
   }
 }
