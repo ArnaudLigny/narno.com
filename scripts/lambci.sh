@@ -11,7 +11,13 @@ composer install
 echo "Finished themes installation"
 
 echo "Started Cecil build"
-php cecil.phar build --verbose
+if [ -n "$1" ]; then
+  if [ "$1" = "draft" ]; then
+    php cecil.phar build --verbose --draft
+  fi
+else
+  php cecil.phar build --verbose
+fi
 
 # build success? can deploy?
-if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy.sh; else return 1; fi
+if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy.sh $1; else return 1; fi
