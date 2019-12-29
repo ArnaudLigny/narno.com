@@ -19,7 +19,7 @@ if [ -z "$SITE_DIR" ]; then
   SITE_DIR="_site"
 fi
 
-echo "Started deploy to $REPOSITORY/$TARGET_BRANCH - https://$DOMAIN"
+echo "Started deploy to $REPOSITORY/$TARGET_BRANCH"
 
 cp -R $SITE_DIR $HOME/$SITE_DIR
 cd $HOME
@@ -38,10 +38,14 @@ if [ -n "$1" ]; then
     Disallow: /" > robots.txt
   fi
 fi
-git add -Af .
-git commit -m "$USER_NAME push updated website"
-git push -fq origin $TARGET_BRANCH > /dev/null
+if [ -z "$(git status --porcelain)" ]; then
+  echo "Nothing to deploy"
+else
+  git add -Af .
+  git commit -m "$USER_NAME published a site update"
+  git push -fq origin $TARGET_BRANCH > /dev/null
+fi
 
-echo "Finished deploy"
+echo "Finished deploy: https://$DOMAIN"
 
 exit 0
