@@ -1,13 +1,13 @@
 language: php
 php:
-  - 7.2
+  - 7.3
 sudo: false
 branches:
   only:
     - master
 # Download Cecil
 install:
-  - curl -SOL https://cecil.app/cecil.phar
+  - curl -sSOL https://cecil.app/cecil.phar
 # Display Cecil version
 before_script:
   - php cecil.phar -v
