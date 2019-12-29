@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>TEST - SSG</title>
+    <title>Narno.com - SSG</title>
     <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
     <lastBuildDate>2017-01-08T18:33:00+01:00</lastBuildDate>
     <link>https://narno.com/tags/ssg/</link>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>TEST - Blog</title>
+    <title>Narno.com - Blog</title>
     <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
     <lastBuildDate>2019-05-18T02:00:00+02:00</lastBuildDate>
     <link>https://narno.com/blog/</link>
