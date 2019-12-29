@@ -12,8 +12,8 @@ echo "Finished themes installation"
 
 echo "Started Cecil build"
 if [ -n "$1" ]; then
-  if [ "$1" = "draft" ]; then
-    php cecil.phar build --verbose --draft
+  if [ "$1" = "drafts" ]; then
+    php cecil.phar build --verbose --drafts
   fi
 else
   php cecil.phar build --verbose
