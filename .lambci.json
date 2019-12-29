@@ -1,10 +1,15 @@
 {
-  "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
-  "branches": {
-    "master": true,
-    "drafts": {
-      "build": true,
-      "cmd": "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
+  cmd: "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
+  branche: {
+    master: {
+      build: true,
+      env: {
+        TEST: "TESTAGE",
+      },
+    },
+    drafts: {
+      build: true,
+      cmd: "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
     }
   }
 }
