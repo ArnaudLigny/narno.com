@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/picasa-vers-flickr-importer-vos-photos-simplement/</id>
-      <title>Picasa vers Flickr : importer vos photos simplement</title>
-      <content type="html">
-        <![CDATA[<p>J'utilise <a href="http://picasa.google.com/">Picasa</a> pour gérer mes albums photos : application propre et clair, système d'import depuis n'importe quel APN, navigation fluide et moteur de recherche made in Google.</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/picasa-vers-flickr-importer-vos-photos-simplement/</id>
+    <title>Picasa vers Flickr : importer vos photos simplement</title>
+    <content type="html">
+      <![CDATA[<p>J'utilise <a href="http://picasa.google.com/">Picasa</a> pour gérer mes albums photos : application propre et clair, système d'import depuis n'importe quel APN, navigation fluide et moteur de recherche made in Google.</p>
 <p>De l'autre, j'utilise <a href="http://www.flickr.com/tools/">Flickr</a> pour la gestion et la publication online de mes photos. Flickr est pour moi la meilleur solution en ligne (pour 24 euros/an dans sa version <a href="http://www.flickr.com/upgrade/">Pro</a>).
 En effet, je pourrai utiliser <a href="http://picasaweb.google.fr/">Picasaweb</a>, puisque parfaitement intégrée à Picasa, mais la plateforme de Google n'atteind pas le niveau de Flickr, qui nettement plus complet !</p>
 <p>Dans ce cas, se pose la question : dois-je abandonner Flickr au profit de Picasaweb afin de me simplifier la vie ?
@@ -35,9 +35,9 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
 <li>cliquez sur "Importer" et patientez ! :-)</li>
 </ol>
 <p>Depuis Picasa 3, l'opération s'est nettement simplifiée, alors n'hésitez plus ! :-)</p>]]>
-      </content>
-      <link href="https://narno.com/blog/picasa-vers-flickr-importer-vos-photos-simplement/" rel="alternate" type="text/html" />
-      <published>2009-01-24T01:00:00+01:00</published>
-      <updated>2009-01-24T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/picasa-vers-flickr-importer-vos-photos-simplement/" rel="alternate" type="text/html" />
+    <published>2009-01-24T01:00:00+01:00</published>
+    <updated>2009-01-24T01:00:00+01:00</updated>
+  </entry>
 </feed>

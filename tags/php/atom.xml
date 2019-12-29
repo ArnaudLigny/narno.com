@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
-      <title>Migration d'un forum phpBB2 vers phpBB3</title>
-      <content type="html">
-        <![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
+    <title>Migration d'un forum phpBB2 vers phpBB3</title>
+    <content type="html">
+      <![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
 <h2>Petite introduction</h2>
 <p>Pour rappel, phpBB est certainement la solution de forum PHP la plus connu et la plus populaire, sans doute parceque la première arrivée avec PHP, son installation et sa prise sont simple, et enfin, compatible avec les hébergements lowcost (free.fr &amp; co).</p>
 <p>phpBB version 2 est (ou plutôt à été !) la branche de référence (pour ma part je n'ai même plus souvenir de la version 1...) et la plus utilisée sur le net (encore aujourd'hui, malgré la sortie de la version 3). Elle à finalement été décriée il y a maintenant quelques année par les communauté, principalement à cause de ses problèmes de sécurité à répétition : de nombreux forum se faisaient hackés par des <a href="http://fr.wikipedia.org/wiki/Script_kiddies">scripts kiddies</a> et nombreux étaient ceux (dont moi à l'époque) qui cherchaient une solution alternative (mais la migration était souvent pénible...).
@@ -62,9 +62,9 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <p>En cas de soucis, vous pourrez toujours recommencer, car l'outil de migration fourni pas phpBB n'écrase pas votre ancien forum : il alimente votre nouveau forum avec les données de l'ancien.</p>
 <p>Bref, quand j'y pense, sans ces soucis d'encodage et les temps de chargement/traitement, ça aurait été plié en quelques minutes...</p>
 <p>Le résultat ici : <a href="http://www.kobuta.fr/forum">http://www.kobuta.fr/forum</a> :-)</p>]]>
-      </content>
-      <link href="https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/" rel="alternate" type="text/html" />
-      <published>2009-03-09T01:00:00+01:00</published>
-      <updated>2009-03-09T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/" rel="alternate" type="text/html" />
+    <published>2009-03-09T01:00:00+01:00</published>
+    <updated>2009-03-09T01:00:00+01:00</updated>
+  </entry>
 </feed>

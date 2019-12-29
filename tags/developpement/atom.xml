@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/chrome-open-new-tab-after-current-tab/</id>
-      <title>Chrome : ouvrir un nouvel onglet après l'onglet actif</title>
-      <content type="html">
-        <![CDATA[<blockquote>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/chrome-open-new-tab-after-current-tab/</id>
+    <title>Chrome : ouvrir un nouvel onglet après l'onglet actif</title>
+    <content type="html">
+      <![CDATA[<blockquote>
 <p>Dans la série des extensions pour navigateur web que j'ai développé ces dernières années et que j'utilise encore au quotidien il existe également <a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><strong><em>Open New Tab After Current Tab</em></strong></a> pour Chrome.</p>
 </blockquote>
 <p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
@@ -24,16 +24,16 @@
 <blockquote>
 <p><a href="https://github.com/Narno/Open-New-Tab-After-Current-Tab#open-new-tab-after-current-tab"><strong><em>Open New Tab After Current Tab</em></strong></a> est disponible sur le <a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan">Chrome Web Sore</a>, et son code source peut être consulté sur <a href="https://github.com/Narno/Open-New-Tab-After-Current-Tab">GitHub</a>.</p>
 </blockquote>]]>
-      </content>
-      <link href="https://narno.com/blog/chrome-open-new-tab-after-current-tab/" rel="alternate" type="text/html" />
-      <published>2019-05-10T02:00:00+02:00</published>
-      <updated>2019-05-10T02:00:00+02:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/facebook-notifier/</id>
-      <title>Notificateur Facebook pour navigateur web</title>
-      <content type="html">
-        <![CDATA[<p>Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : <strong>je souhaite être notifié quand un amis ou un contact m'identifie sur une photo ou m'envoie un message</strong>.</p>
+    </content>
+    <link href="https://narno.com/blog/chrome-open-new-tab-after-current-tab/" rel="alternate" type="text/html" />
+    <published>2019-05-10T02:00:00+02:00</published>
+    <updated>2019-05-10T02:00:00+02:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/facebook-notifier/</id>
+    <title>Notificateur Facebook pour navigateur web</title>
+    <content type="html">
+      <![CDATA[<p>Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : <strong>je souhaite être notifié quand un amis ou un contact m'identifie sur une photo ou m'envoie un message</strong>.</p>
 <p>Ainsi, il y a quelques années, j'avais développé une extension pour navigateur web (tout d'abord pour Chrome, puis pour Firefox avec l'arrivée des <a href="https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions">WebExtensions</a>).</p>
 <p>Le principe de <a href="https://github.com/Narno/F-Notifier#f-notifier"><strong><em>F-Notifier</em></strong></a> principe est très simple : une fois installée, celle-ci affiche un badge avec le nombre de notifications non lues, qu'il s'agisse d'une réponse à un publication ou d'un message de discussion instantanée.</p>
 <p><a href="https://github.com/Narno/F-Notifier#f-notifier"><img src="/images/F-Notifier-screenshot.png" alt="F-Notifier screenshot" /></a></p>
@@ -41,16 +41,16 @@
 <blockquote>
 <p><a href="https://github.com/Narno/F-Notifier#f-notifier"><strong><em>F-Notifier</em></strong></a> est disponible à la fois pour <a href="https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn">Google Chrome</a> et pour <a href="https://addons.mozilla.org/fr/firefox/addon/f-notifier/">Mozilla Firefox</a>, et son code source peut être consulté sur <a href="https://github.com/Narno/F-Notifier">GitHub</a>.</p>
 </blockquote>]]>
-      </content>
-      <link href="https://narno.com/blog/facebook-notifier/" rel="alternate" type="text/html" />
-      <published>2019-05-06T02:00:00+02:00</published>
-      <updated>2019-05-06T02:00:00+02:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/reboot-du-blog/</id>
-      <title>Reboot du blog ?</title>
-      <content type="html">
-        <![CDATA[<p>Comme on dit chez moi :</p>
+    </content>
+    <link href="https://narno.com/blog/facebook-notifier/" rel="alternate" type="text/html" />
+    <published>2019-05-06T02:00:00+02:00</published>
+    <updated>2019-05-06T02:00:00+02:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/reboot-du-blog/</id>
+    <title>Reboot du blog ?</title>
+    <content type="html">
+      <![CDATA[<p>Comme on dit chez moi :</p>
 <blockquote>
 <p>p'têt ben qu'oui, p'têt ben qu'non !</p>
 </blockquote>
@@ -73,16 +73,16 @@ J'ai beaucoup aimé "jouer" avec <a href="/tags/drupal">Drupal</a>, mais il faut
 <li>L'ancienne version, motorisée par Drupal, reste disponible à l'adresse suivante : <a href="http://drupal.narno.com">http://drupal.narno.com</a></li>
 <li>Les billets traitant de <a href="/tags/magento/">Magento</a> ont été déplacés vers mon <a href="http://arnaudligny.fr/blog/" title="Le blog de Arnaud Ligny">blog "pro"</a>.</li>
 </ol>]]>
-      </content>
-      <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
-      <published>2017-01-08T18:33:00+01:00</published>
-      <updated>2017-01-08T18:33:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
-      <title>Drupal 7 : avis et retour d'expérience</title>
-      <content type="html">
-        <![CDATA[<p>Drupal 7 est toujours en cours de développement (ou plutôt en cours de finition), néanmoins une version alpha à été publiée : l'occasion idéale de faire joujou avec la prochaine mouture de <a href="/tags/drupal">Drupal</a>.</p>
+    </content>
+    <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
+    <published>2017-01-08T18:33:00+01:00</published>
+    <updated>2017-01-08T18:33:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
+    <title>Drupal 7 : avis et retour d'expérience</title>
+    <content type="html">
+      <![CDATA[<p>Drupal 7 est toujours en cours de développement (ou plutôt en cours de finition), néanmoins une version alpha à été publiée : l'occasion idéale de faire joujou avec la prochaine mouture de <a href="/tags/drupal">Drupal</a>.</p>
 <p>Je pense que nombreux sont ceux qui attendent cette nouvelle version, très prometteuse, tout particulièrement en terme d'ergonomie et d'<a href="http://www.d7ux.org/">interface utilisateur</a>.</p>
 <p>A défaut de rédiger un billet critique basée sur mes essais de la version alpha (je manque de courage et de temps), j'ai compilé quelques articles et billets traitant du sujet :</p>
 <!-- excerpt -->
@@ -100,16 +100,16 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
 <li><a href="http://drupal.org/project/drupal">Télécharger Drupal</a> (liste des versions)</li>
 <li>Participer à la <a href="http://localize.drupal.org/translate/languages/fr/view?project=drupal&amp;status=0&amp;release=17706&amp;search=&amp;author=&amp;context=all&amp;limit=10">traduction de Drupal 7</a></li>
 </ul>]]>
-      </content>
-      <link href="https://narno.com/blog/drupal-7-avis-et-retour-dexperience/" rel="alternate" type="text/html" />
-      <published>2010-10-02T02:00:00+02:00</published>
-      <updated>2010-10-02T02:00:00+02:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
-      <title>Migration d'un forum phpBB2 vers phpBB3</title>
-      <content type="html">
-        <![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
+    </content>
+    <link href="https://narno.com/blog/drupal-7-avis-et-retour-dexperience/" rel="alternate" type="text/html" />
+    <published>2010-10-02T02:00:00+02:00</published>
+    <updated>2010-10-02T02:00:00+02:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
+    <title>Migration d'un forum phpBB2 vers phpBB3</title>
+    <content type="html">
+      <![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
 <h2>Petite introduction</h2>
 <p>Pour rappel, phpBB est certainement la solution de forum PHP la plus connu et la plus populaire, sans doute parceque la première arrivée avec PHP, son installation et sa prise sont simple, et enfin, compatible avec les hébergements lowcost (free.fr &amp; co).</p>
 <p>phpBB version 2 est (ou plutôt à été !) la branche de référence (pour ma part je n'ai même plus souvenir de la version 1...) et la plus utilisée sur le net (encore aujourd'hui, malgré la sortie de la version 3). Elle à finalement été décriée il y a maintenant quelques année par les communauté, principalement à cause de ses problèmes de sécurité à répétition : de nombreux forum se faisaient hackés par des <a href="http://fr.wikipedia.org/wiki/Script_kiddies">scripts kiddies</a> et nombreux étaient ceux (dont moi à l'époque) qui cherchaient une solution alternative (mais la migration était souvent pénible...).
@@ -157,16 +157,16 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <p>En cas de soucis, vous pourrez toujours recommencer, car l'outil de migration fourni pas phpBB n'écrase pas votre ancien forum : il alimente votre nouveau forum avec les données de l'ancien.</p>
 <p>Bref, quand j'y pense, sans ces soucis d'encodage et les temps de chargement/traitement, ça aurait été plié en quelques minutes...</p>
 <p>Le résultat ici : <a href="http://www.kobuta.fr/forum">http://www.kobuta.fr/forum</a> :-)</p>]]>
-      </content>
-      <link href="https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/" rel="alternate" type="text/html" />
-      <published>2009-03-09T01:00:00+01:00</published>
-      <updated>2009-03-09T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/seo-pour-drupal/</id>
-      <title>SEO pour Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
+    </content>
+    <link href="https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/" rel="alternate" type="text/html" />
+    <published>2009-03-09T01:00:00+01:00</published>
+    <updated>2009-03-09T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/seo-pour-drupal/</id>
+    <title>SEO pour Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
 <p>Je vais présenter ici quelques optimisations à déployer sur votre site Drupal :</p>
 <ul>
 <li>
@@ -235,30 +235,30 @@ Pour remédier à cela, il est conseillé de modifier le fichier <code>robots.tx
 <p>La solution est d'ajouter la règle suivante dans le fichier ".htaccess" juste après la ligne "RewriteBase" :</p>
 <pre><code class="language-apache">RewriteCond %{HTTP_HOST} ^(www.)?narno\.com$ [NC]
 RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
-      </content>
-      <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
-      <published>2009-01-31T01:00:00+01:00</published>
-      <updated>2009-01-31T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
-      <title>Wikio vote : module de vote pour Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Je viens de terminer la première release (de développement) de mon nouveau module pour Drupal : <em>Wikio vote</em>.</p>
+    </content>
+    <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
+    <published>2009-01-31T01:00:00+01:00</published>
+    <updated>2009-01-31T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
+    <title>Wikio vote : module de vote pour Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Je viens de terminer la première release (de développement) de mon nouveau module pour Drupal : <em>Wikio vote</em>.</p>
 <p>Il s'agit d'un module de vote comparable à <a href="http://drupal.org/project/scooperceci"><em>Scooper Ceci</em></a>, pour le site de publication de news <a href="http://www.wikio.fr/">Wikio</a>. <em>Wikio vote</em> vous permet d'insérer un bouton de vote dans 2 formats différents (gros bouton ou bouton en ligne), de déterminer son poids dans le node, dans quel type de contenu l'afficher et enfin sa visibilité (dans l'aperçu, dans la page complète ou dans les 2).</p>
 <p>Le code est basé sur mon module <em>Scooper Ceci</em> (lui même insipré de <a href="http://drupal.org/project/diggthis">Digg This</a>) et du code du <a href="http://www.wikio.fr/addtoyoursite?id=3992">plugin de vote Wikio dédié à Dotclear 2</a>.</p>
 <p>Pour le téléchargement et les remarques, ça se passe ici : <a href="http://drupal.org/project/wikiovote"><strong>Wikio vote pour Drupal</strong></a></p>
 <p>Note : le bouton n'est visible qu'à partir du moment où votre article à été publié (contrainte de l'algo fourni par Wikio).</p>]]>
-      </content>
-      <link href="https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/" rel="alternate" type="text/html" />
-      <published>2008-01-13T01:00:00+01:00</published>
-      <updated>2008-01-13T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
-      <title>Paris Web 2007 : j'y suis passé !</title>
-      <content type="html">
-        <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée "libre" : pas de conférences mais des ateliers.</p>
+    </content>
+    <link href="https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/" rel="alternate" type="text/html" />
+    <published>2008-01-13T01:00:00+01:00</published>
+    <updated>2008-01-13T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
+    <title>Paris Web 2007 : j'y suis passé !</title>
+    <content type="html">
+      <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée "libre" : pas de conférences mais des ateliers.</p>
 <p><img src="/photos/paris-web-2007.jpg" alt="" /></p>
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>
@@ -269,22 +269,22 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
 </ul>
 <p>Note : <a href="https://www.paris-web.fr/2007/Presentations-des-intervenants.html">les présentations des intervenants de Paris Web 2007 sont en ligne</a>.</p>
 <p><em>Photo de <a href="https://www.flickr.com/photos/miaouss/2260346562/">Xuan NGUYEN</a>.</em></p>]]>
-      </content>
-      <link href="https://narno.com/blog/paris-web-2007-jy-suis-passe/" rel="alternate" type="text/html" />
-      <published>2007-12-12T01:00:00+01:00</published>
-      <updated>2007-12-12T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
-      <title>Afficher votre profil Ziki sur votre blog Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Mon nouveau module pour <a href="/tags/drupal">Drupal</a> est en chantier : <a href="http://drupal.org/project/ziki">Ziki (API)</a>.</p>
+    </content>
+    <link href="https://narno.com/blog/paris-web-2007-jy-suis-passe/" rel="alternate" type="text/html" />
+    <published>2007-12-12T01:00:00+01:00</published>
+    <updated>2007-12-12T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
+    <title>Afficher votre profil Ziki sur votre blog Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Mon nouveau module pour <a href="/tags/drupal">Drupal</a> est en chantier : <a href="http://drupal.org/project/ziki">Ziki (API)</a>.</p>
 <p>Il s'agit d'un module intégrant l'<a href="http://sites.google.com/a/ziki.com/docs/Home/API">API Ziki</a> (via parsing XML), et surtout d'un block affichant votre profil <a href="http://www.ziki.com/">Ziki</a> (voir mon exemple dans la colonne de droite).</p>
 <p>Cette première béta est fonctionnelle, mais ni optimisée (il manque l'intégration du cache Drupal, afin d'éviter un requètage systématique sur l'API Ziki), ni très fourni en options.</p>
 <p>En attendant, elle fonctionne et je vous invite donc à <a href="http://drupal.org/project/ziki">télécharger Ziki 5.x-1.0-beta</a> et à proposer des options supplémentaires! ;-)</p>]]>
-      </content>
-      <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
-      <published>2007-10-31T01:00:00+01:00</published>
-      <updated>2007-10-31T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
+    <published>2007-10-31T01:00:00+01:00</published>
+    <updated>2007-10-31T01:00:00+01:00</updated>
+  </entry>
 </feed>

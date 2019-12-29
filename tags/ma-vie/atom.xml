@@ -10,15 +10,15 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/leo-est-ne/</id>
-      <title>Léo est né !</title>
-      <content type="html">
-        <![CDATA[<p><img src="/photos/leo.jpg" alt="Léo est né !" /></p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/leo-est-ne/</id>
+    <title>Léo est né !</title>
+    <content type="html">
+      <![CDATA[<p><img src="/photos/leo.jpg" alt="Léo est né !" /></p>
 <p>Léo est né le 8 octobre. Nous nous portons très bien tous les 3 ! :-)</p>]]>
-      </content>
-      <link href="https://narno.com/blog/leo-est-ne/" rel="alternate" type="text/html" />
-      <published>2012-10-12T02:00:00+02:00</published>
-      <updated>2012-10-12T02:00:00+02:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/leo-est-ne/" rel="alternate" type="text/html" />
+    <published>2012-10-12T02:00:00+02:00</published>
+    <updated>2012-10-12T02:00:00+02:00</updated>
+  </entry>
 </feed>

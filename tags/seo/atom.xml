@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/seo-pour-drupal/</id>
-      <title>SEO pour Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/seo-pour-drupal/</id>
+    <title>SEO pour Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
 <p>Je vais présenter ici quelques optimisations à déployer sur votre site Drupal :</p>
 <ul>
 <li>
@@ -83,9 +83,9 @@ Pour remédier à cela, il est conseillé de modifier le fichier <code>robots.tx
 <p>La solution est d'ajouter la règle suivante dans le fichier ".htaccess" juste après la ligne "RewriteBase" :</p>
 <pre><code class="language-apache">RewriteCond %{HTTP_HOST} ^(www.)?narno\.com$ [NC]
 RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
-      </content>
-      <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
-      <published>2009-01-31T01:00:00+01:00</published>
-      <updated>2009-01-31T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
+    <published>2009-01-31T01:00:00+01:00</published>
+    <updated>2009-01-31T01:00:00+01:00</updated>
+  </entry>
 </feed>

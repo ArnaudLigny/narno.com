@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/reboot-du-blog/</id>
-      <title>Reboot du blog ?</title>
-      <content type="html">
-        <![CDATA[<p>Comme on dit chez moi :</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/reboot-du-blog/</id>
+    <title>Reboot du blog ?</title>
+    <content type="html">
+      <![CDATA[<p>Comme on dit chez moi :</p>
 <blockquote>
 <p>p'têt ben qu'oui, p'têt ben qu'non !</p>
 </blockquote>
@@ -37,9 +37,9 @@ J'ai beaucoup aimé "jouer" avec <a href="/tags/drupal">Drupal</a>, mais il faut
 <li>L'ancienne version, motorisée par Drupal, reste disponible à l'adresse suivante : <a href="http://drupal.narno.com">http://drupal.narno.com</a></li>
 <li>Les billets traitant de <a href="/tags/magento/">Magento</a> ont été déplacés vers mon <a href="http://arnaudligny.fr/blog/" title="Le blog de Arnaud Ligny">blog "pro"</a>.</li>
 </ol>]]>
-      </content>
-      <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
-      <published>2017-01-08T18:33:00+01:00</published>
-      <updated>2017-01-08T18:33:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
+    <published>2017-01-08T18:33:00+01:00</published>
+    <updated>2017-01-08T18:33:00+01:00</updated>
+  </entry>
 </feed>

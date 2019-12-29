@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/reboot-du-blog/</id>
-      <title>Reboot du blog ?</title>
-      <content type="html">
-        <![CDATA[<p>Comme on dit chez moi :</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/reboot-du-blog/</id>
+    <title>Reboot du blog ?</title>
+    <content type="html">
+      <![CDATA[<p>Comme on dit chez moi :</p>
 <blockquote>
 <p>p'têt ben qu'oui, p'têt ben qu'non !</p>
 </blockquote>
@@ -37,16 +37,16 @@ J'ai beaucoup aimé "jouer" avec <a href="/tags/drupal">Drupal</a>, mais il faut
 <li>L'ancienne version, motorisée par Drupal, reste disponible à l'adresse suivante : <a href="http://drupal.narno.com">http://drupal.narno.com</a></li>
 <li>Les billets traitant de <a href="/tags/magento/">Magento</a> ont été déplacés vers mon <a href="http://arnaudligny.fr/blog/" title="Le blog de Arnaud Ligny">blog "pro"</a>.</li>
 </ol>]]>
-      </content>
-      <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
-      <published>2017-01-08T18:33:00+01:00</published>
-      <updated>2017-01-08T18:33:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
-      <title>Drupal 7 : avis et retour d'expérience</title>
-      <content type="html">
-        <![CDATA[<p>Drupal 7 est toujours en cours de développement (ou plutôt en cours de finition), néanmoins une version alpha à été publiée : l'occasion idéale de faire joujou avec la prochaine mouture de <a href="/tags/drupal">Drupal</a>.</p>
+    </content>
+    <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
+    <published>2017-01-08T18:33:00+01:00</published>
+    <updated>2017-01-08T18:33:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
+    <title>Drupal 7 : avis et retour d'expérience</title>
+    <content type="html">
+      <![CDATA[<p>Drupal 7 est toujours en cours de développement (ou plutôt en cours de finition), néanmoins une version alpha à été publiée : l'occasion idéale de faire joujou avec la prochaine mouture de <a href="/tags/drupal">Drupal</a>.</p>
 <p>Je pense que nombreux sont ceux qui attendent cette nouvelle version, très prometteuse, tout particulièrement en terme d'ergonomie et d'<a href="http://www.d7ux.org/">interface utilisateur</a>.</p>
 <p>A défaut de rédiger un billet critique basée sur mes essais de la version alpha (je manque de courage et de temps), j'ai compilé quelques articles et billets traitant du sujet :</p>
 <!-- excerpt -->
@@ -64,16 +64,16 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
 <li><a href="http://drupal.org/project/drupal">Télécharger Drupal</a> (liste des versions)</li>
 <li>Participer à la <a href="http://localize.drupal.org/translate/languages/fr/view?project=drupal&amp;status=0&amp;release=17706&amp;search=&amp;author=&amp;context=all&amp;limit=10">traduction de Drupal 7</a></li>
 </ul>]]>
-      </content>
-      <link href="https://narno.com/blog/drupal-7-avis-et-retour-dexperience/" rel="alternate" type="text/html" />
-      <published>2010-10-02T02:00:00+02:00</published>
-      <updated>2010-10-02T02:00:00+02:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/seo-pour-drupal/</id>
-      <title>SEO pour Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
+    </content>
+    <link href="https://narno.com/blog/drupal-7-avis-et-retour-dexperience/" rel="alternate" type="text/html" />
+    <published>2010-10-02T02:00:00+02:00</published>
+    <updated>2010-10-02T02:00:00+02:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/seo-pour-drupal/</id>
+    <title>SEO pour Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
 <p>Je vais présenter ici quelques optimisations à déployer sur votre site Drupal :</p>
 <ul>
 <li>
@@ -142,50 +142,50 @@ Pour remédier à cela, il est conseillé de modifier le fichier <code>robots.tx
 <p>La solution est d'ajouter la règle suivante dans le fichier ".htaccess" juste après la ligne "RewriteBase" :</p>
 <pre><code class="language-apache">RewriteCond %{HTTP_HOST} ^(www.)?narno\.com$ [NC]
 RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
-      </content>
-      <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
-      <published>2009-01-31T01:00:00+01:00</published>
-      <updated>2009-01-31T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</id>
-      <title>Skin Drupal pour Nintendo DS R4</title>
-      <content type="html">
-        <![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de "linker", cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
+    </content>
+    <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
+    <published>2009-01-31T01:00:00+01:00</published>
+    <updated>2009-01-31T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</id>
+    <title>Skin Drupal pour Nintendo DS R4</title>
+    <content type="html">
+      <![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de "linker", cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
 <p>Etant donné qu'il n'existe pas de démo sur DS, cet accessoires me permet de tester les jeux avant des acheter (oui, j'achète encore des jeux). D'autre part, vous pouvez également transformer votre console portable en lecteur multimédia (MP3, vidéos, etc.)</p>
 <img style="float: right;" src="/images/nds-r4-drupal-skin.png">
 <p>Pour en revenir au sujet initiale, connaissant mon fanatisme pour <a href="http://drupal.org/">Drupal</a>, <a href="http://kobuta.fr/blog">Oni</a> a réalisé une skin aux couleurs de mon CMS chéri.
 Pour l'installer, il vous suffit de télécharger le fichier joint et de le décompresser dans le répertoire sytem de votre cartouche.</p>]]>
-      </content>
-      <link href="https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/" rel="alternate" type="text/html" />
-      <published>2008-11-08T01:00:00+01:00</published>
-      <updated>2008-11-08T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
-      <title>Wikio vote : module de vote pour Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Je viens de terminer la première release (de développement) de mon nouveau module pour Drupal : <em>Wikio vote</em>.</p>
+    </content>
+    <link href="https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/" rel="alternate" type="text/html" />
+    <published>2008-11-08T01:00:00+01:00</published>
+    <updated>2008-11-08T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
+    <title>Wikio vote : module de vote pour Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Je viens de terminer la première release (de développement) de mon nouveau module pour Drupal : <em>Wikio vote</em>.</p>
 <p>Il s'agit d'un module de vote comparable à <a href="http://drupal.org/project/scooperceci"><em>Scooper Ceci</em></a>, pour le site de publication de news <a href="http://www.wikio.fr/">Wikio</a>. <em>Wikio vote</em> vous permet d'insérer un bouton de vote dans 2 formats différents (gros bouton ou bouton en ligne), de déterminer son poids dans le node, dans quel type de contenu l'afficher et enfin sa visibilité (dans l'aperçu, dans la page complète ou dans les 2).</p>
 <p>Le code est basé sur mon module <em>Scooper Ceci</em> (lui même insipré de <a href="http://drupal.org/project/diggthis">Digg This</a>) et du code du <a href="http://www.wikio.fr/addtoyoursite?id=3992">plugin de vote Wikio dédié à Dotclear 2</a>.</p>
 <p>Pour le téléchargement et les remarques, ça se passe ici : <a href="http://drupal.org/project/wikiovote"><strong>Wikio vote pour Drupal</strong></a></p>
 <p>Note : le bouton n'est visible qu'à partir du moment où votre article à été publié (contrainte de l'algo fourni par Wikio).</p>]]>
-      </content>
-      <link href="https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/" rel="alternate" type="text/html" />
-      <published>2008-01-13T01:00:00+01:00</published>
-      <updated>2008-01-13T01:00:00+01:00</updated>
-    </entry>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
-      <title>Afficher votre profil Ziki sur votre blog Drupal</title>
-      <content type="html">
-        <![CDATA[<p>Mon nouveau module pour <a href="/tags/drupal">Drupal</a> est en chantier : <a href="http://drupal.org/project/ziki">Ziki (API)</a>.</p>
+    </content>
+    <link href="https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/" rel="alternate" type="text/html" />
+    <published>2008-01-13T01:00:00+01:00</published>
+    <updated>2008-01-13T01:00:00+01:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
+    <title>Afficher votre profil Ziki sur votre blog Drupal</title>
+    <content type="html">
+      <![CDATA[<p>Mon nouveau module pour <a href="/tags/drupal">Drupal</a> est en chantier : <a href="http://drupal.org/project/ziki">Ziki (API)</a>.</p>
 <p>Il s'agit d'un module intégrant l'<a href="http://sites.google.com/a/ziki.com/docs/Home/API">API Ziki</a> (via parsing XML), et surtout d'un block affichant votre profil <a href="http://www.ziki.com/">Ziki</a> (voir mon exemple dans la colonne de droite).</p>
 <p>Cette première béta est fonctionnelle, mais ni optimisée (il manque l'intégration du cache Drupal, afin d'éviter un requètage systématique sur l'API Ziki), ni très fourni en options.</p>
 <p>En attendant, elle fonctionne et je vous invite donc à <a href="http://drupal.org/project/ziki">télécharger Ziki 5.x-1.0-beta</a> et à proposer des options supplémentaires! ;-)</p>]]>
-      </content>
-      <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
-      <published>2007-10-31T01:00:00+01:00</published>
-      <updated>2007-10-31T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
+    <published>2007-10-31T01:00:00+01:00</published>
+    <updated>2007-10-31T01:00:00+01:00</updated>
+  </entry>
 </feed>

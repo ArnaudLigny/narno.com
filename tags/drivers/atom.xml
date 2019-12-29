@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/soltek-qbic-eq3401-le-kit-de-survie/</id>
-      <title>Soltek QBic EQ3401 : le kit de survie</title>
-      <content type="html">
-        <![CDATA[<p>En faisant un peu de rangement dans <em>Mes Docmeunts</em>, j'ai retrouvé une archive de secours utile en cas de réinstallation de mon mini-pc : le <a href="https://web.archive.org/web/20051210155610/http://www.matbe.com/articles/lire/149/soltek-qbic-eq3401m-etudie-pour-le-silence/">Soltek QBic EQ3401</a>.</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/soltek-qbic-eq3401-le-kit-de-survie/</id>
+    <title>Soltek QBic EQ3401 : le kit de survie</title>
+    <content type="html">
+      <![CDATA[<p>En faisant un peu de rangement dans <em>Mes Docmeunts</em>, j'ai retrouvé une archive de secours utile en cas de réinstallation de mon mini-pc : le <a href="https://web.archive.org/web/20051210155610/http://www.matbe.com/articles/lire/149/soltek-qbic-eq3401m-etudie-pour-le-silence/">Soltek QBic EQ3401</a>.</p>
 <p>Cette machine commence à vieillir et le site du constructeur (Soltek) est malheureusement fermé maintenant. Alors si comme moi vous l'utilisez encore, voici de quoi le réinstaller proprement :</p>
 <p><a href="https://www.dropbox.com/s/1w53e6geyonqlii/EQ3401.rar?dl=0"><strong>Kit de survie pour le Soltek QBic EQ3401</strong></a></p>
 <p>Cette archive RAR contient :</p>
@@ -27,9 +27,9 @@
 <li>Système (intel-inf865, soltek_hm126e)</li>
 <li>VGA (865G-WIN2KXP)</li>
 </ul>]]>
-      </content>
-      <link href="https://narno.com/blog/soltek-qbic-eq3401-le-kit-de-survie/" rel="alternate" type="text/html" />
-      <published>2008-01-02T01:00:00+01:00</published>
-      <updated>2008-01-02T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/soltek-qbic-eq3401-le-kit-de-survie/" rel="alternate" type="text/html" />
+    <published>2008-01-02T01:00:00+01:00</published>
+    <updated>2008-01-02T01:00:00+01:00</updated>
+  </entry>
 </feed>

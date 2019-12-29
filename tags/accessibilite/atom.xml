@@ -10,11 +10,11 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-    <entry xml:lang="en">
-      <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
-      <title>Paris Web 2007 : j'y suis passé !</title>
-      <content type="html">
-        <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée "libre" : pas de conférences mais des ateliers.</p>
+  <entry xml:lang="en">
+    <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
+    <title>Paris Web 2007 : j'y suis passé !</title>
+    <content type="html">
+      <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée "libre" : pas de conférences mais des ateliers.</p>
 <p><img src="/photos/paris-web-2007.jpg" alt="" /></p>
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>
@@ -25,9 +25,9 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
 </ul>
 <p>Note : <a href="https://www.paris-web.fr/2007/Presentations-des-intervenants.html">les présentations des intervenants de Paris Web 2007 sont en ligne</a>.</p>
 <p><em>Photo de <a href="https://www.flickr.com/photos/miaouss/2260346562/">Xuan NGUYEN</a>.</em></p>]]>
-      </content>
-      <link href="https://narno.com/blog/paris-web-2007-jy-suis-passe/" rel="alternate" type="text/html" />
-      <published>2007-12-12T01:00:00+01:00</published>
-      <updated>2007-12-12T01:00:00+01:00</updated>
-    </entry>
+    </content>
+    <link href="https://narno.com/blog/paris-web-2007-jy-suis-passe/" rel="alternate" type="text/html" />
+    <published>2007-12-12T01:00:00+01:00</published>
+    <updated>2007-12-12T01:00:00+01:00</updated>
+  </entry>
 </feed>
