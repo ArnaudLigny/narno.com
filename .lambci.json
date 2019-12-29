@@ -11,7 +11,7 @@
         "DOMAIN": "drafts.narno.com",
         "REPOSITORY": "Narno/drafts.narno.com"
       },
-      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh draft"
+      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh drafts"
     }
   }
 }
