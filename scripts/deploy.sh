@@ -19,7 +19,7 @@ if [ -z "$SITE_DIR" ]; then
   SITE_DIR="_site"
 fi
 
-echo "Started deploy to $REPOSITORY/$TARGET_BRANCH (https://$DOMAIN)"
+echo "Started deploy to $REPOSITORY/$TARGET_BRANCH (https://$DOMAIN/)"
 
 cp -R $SITE_DIR $HOME/$SITE_DIR
 cd $HOME
