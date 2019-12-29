@@ -14,10 +14,7 @@
     <id>https://narno.com/blog/chrome-open-new-tab-after-current-tab/</id>
     <title>Chrome : ouvrir un nouvel onglet après l'onglet actif</title>
     <content type="html">
-      <![CDATA[<blockquote>
-<p>Dans la série des extensions pour navigateur web que j'ai développé ces dernières années et que j'utilise encore au quotidien il existe également <a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><strong><em>Open New Tab After Current Tab</em></strong></a> pour Chrome.</p>
-</blockquote>
-<p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
+      <![CDATA[<p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
 <p>Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton "plus" sera ouvert juste après l'onglet actif.</p>
 <!-- break -->
 <p><a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><img src="/images/Open-New-Tab-After-Current-Tab.gif" alt="Open New Tab After Current Tab : capture d&#039;écran animée" /></a></p>
