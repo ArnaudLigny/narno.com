@@ -2,7 +2,10 @@
   "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
   "branches": {
     "master": {
-      "build": true
+      "build": true,
+      "env": {
+        "CECIL_TITLE": "TEST"
+      }
     },
     "drafts": {
       "build": true,
