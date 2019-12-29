@@ -4,8 +4,8 @@
     "master": {
       "build": true,
       "env": {
-        "TEST": "TESTAGE",
-      },
+        "TEST": "TESTAGE"
+      }
     },
     "drafts": {
       "build": true,
