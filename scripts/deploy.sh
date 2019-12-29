@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+echo "DEBUG"
+echo $TEST
+
 USER_NAME="Build Bot"
 USER_EMAIL="build@narno.com"
 REPOSITORY="Narno/narno.com"
