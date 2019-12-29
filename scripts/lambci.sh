@@ -16,7 +16,7 @@ if [ -n "$1" ]; then
     php cecil.phar build --verbose --drafts
   fi
 else
-  php cecil.phar build
+  php cecil.phar build --quiet
 fi
 
 # build success? can deploy?
