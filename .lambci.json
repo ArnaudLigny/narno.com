@@ -8,7 +8,7 @@
       "build": true,
       "env": {
         "DOMAIN": "drafts.narno.com"
-      }
+      },
       "cmd": "chmod +x ./scripts/lambci-drafts.sh && ./scripts/lambci-drafts.sh"
     }
   }
