@@ -35,7 +35,7 @@ echo "$DOMAIN" > CNAME
 if [ -n "$1" ]; then
   if [ "$1" = "drafts" ]; then
     echo "User-agent: *
-    Disallow: /" > robots.txt
+Disallow: /" > robots.txt
   fi
 fi
 if [ -z "$(git status --porcelain)" ]; then
