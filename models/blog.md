@@ -1,9 +1,5 @@
 ---
 title: '%title%'
-date: '%date%'
+date: %date%
 draft: true
 ---
-
-# Titre du billet
-
-Contenu du billet.
