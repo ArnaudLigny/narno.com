@@ -50,7 +50,7 @@ phpBB version 2 est (ou plutôt à été !) la branche de référence (pour ma p
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/narno.com/webmention">
     <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention">
-  	<meta name="generator" content="Cecil 4.31.0" />
+  	<meta name="generator" content="Cecil 4.31.2" />
   </head>
   <body>
     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
@@ -85,7 +85,7 @@ phpBB version 2 est (ou plutôt à été !) la branche de référence (pour ma p
       </div>
       <div class="sidebar-item">
         <p>&copy; 2001-2020 Arnaud Ligny</p>
-        <p>Powered by <a href="https://cecil.app/#4.31.0">Cecil</a> &amp; <a href="https://github.com/poole/lanyon">Lanyon</a></p>
+        <p>Powered by <a href="https://cecil.app/#4.31.2">Cecil</a> &amp; <a href="https://github.com/poole/lanyon">Lanyon</a></p>
       </div>
     </div>
     <div class="wrap">
@@ -178,7 +178,7 @@ Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que 
 <span id="more"></span>
 <h2>Les problèmes techniques commencent ici</h2>
 <p>Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
-En effet, la plupart des anciennes plateformes à la phpBB étaient déployées "à l'européenne", c'est à dire :</p>
+En effet, la plupart des anciennes plateformes à la phpBB étaient déployées &quot;à l'européenne&quot;, c'est à dire :</p>
 <ol>
 <li>un frontend en ISO-8859-1</li>
 <li>une BDD en latin1_swedish_ci</li>
@@ -188,9 +188,9 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <h3>Si vous n'utilisez pas la dernière version de phpBB 2 :</h3>
 <p>Il va donc falloir commencer à mettre à jour votre installation vers la version 2.0.23.</p>
 <ol>
-<li><a href="http://sourceforge.net/project/showfiles.php?group_id=7885&amp;package_id=28882">téléchargez</a> le package "files" de la  dernière release de la branche 2 (2.0.23). Si vous avez une installation antérieure à la 2.0.12, allez mourir !</li>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=7885&amp;package_id=28882">téléchargez</a> le package &quot;files&quot; de la  dernière release de la branche 2 (2.0.23). Si vous avez une installation antérieure à la 2.0.12, allez mourir !</li>
 <li>rapatriez en local (on travail toujours en local avant de tout casser !) votre forum</li>
-<li>mettez à jour votre BDD via le script "install/update_to_latest.php"</li>
+<li>mettez à jour votre BDD via le script &quot;install/update_to_latest.php&quot;</li>
 <li>remplacez vos fichiers par ceux présent dans l'archive correspondant à votre mise à jour de version (si vous avez installer des mods dans tout les sens, je ne peux pas vous aider, le <a href="http://forums.phpbb-fr.com/">forum phpBB FR</a> est là pour ça)</li>
 </ol>
 <h3>Vous utilisez déjà la dernière version de phpBB 2 :</h3>
@@ -202,13 +202,13 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <pre><code class="language-php">$lang['ENCODING'] = 'ISO-8859-1'</code></pre>
 <p>pour</p>
 <pre><code class="language-php">$lang['ENCODING'] = 'UTF-8'</code></pre>
-<p>(voir le fichier "language/lang_french/lang_main.php")</p>
+<p>(voir le fichier &quot;language/lang_french/lang_main.php&quot;)</p>
 <h4>phpBB 3 :</h4>
 <ol>
 <li>téléchargez la dernière version de phpBB 3 en version complète</li>
 <li>décompressez les fichiers dans un autre répertoire que votre forum actuel : la migration se base sur la BDD, mais pas sur les fichiers : dites au revoir à votre thème custom !</li>
 <li>démarrer l'installation d'une version vierge de phpBB 3, en prenant garde à utiliser la même BDD que celle utilisée par votre phpBB 2 : choisissez un autre préfixe de table afin de ne pas risquer d'en écraser une.</li>
-<li>la dernière étape de l'installation vous propose d'utiliser votre forum fraichement installer : ne le faite pas et cliquez sur l'onglet "Convertor"</li>
+<li>la dernière étape de l'installation vous propose d'utiliser votre forum fraichement installer : ne le faite pas et cliquez sur l'onglet &quot;Convertor&quot;</li>
 <li>si vous avez suivi les étapes précédente, c'est du gâteau : soyez simplement vigilant afin de bien indiquer le paramétrage du forum source et du forum de destination</li>
 <li>suivez les étapes une à une et appliquer les corrections nécessaire : les messages d'erreurs sont assez explicite</li>
 </ol>

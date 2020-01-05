@@ -9,7 +9,7 @@
       <guid>https://narno.com/blog/installer-dayz-facilement/</guid>
       <title>Installer DayZ facilement</title>
       <description><![CDATA[<p><a href="http://dayzmod.com/"><em>DayZ Mod</em></a> est un mod (modification) du jeu <a href="http://www.arma2.com/">ARMA II</a>. Ce mod vous plonge dans un monde apocalyptique ou seule la survie compte et ou les zombies et les bandits ne vous épargnerons pas !</p>
-<p>Réalisé par Dean "Rocket" Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
+<p>Réalisé par Dean &quot;Rocket&quot; Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
 <p>Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai créé un installe(u)r qui se charge de télécharger les fichiers (dans la bonne version), de les installer où il faut et de créer un raccourci de lancement rapide sur le bureau.</p>
 <p>Pour le télécharger, rendez-vous sur le mini-site GitHub dédié : <a href="http://narno-archives.github.io/DayZ-Installer/"><em>DayZ-Installer</em></a>.</p>
 <p><img src="/images/DayZ-Mod-Installer-0.0.1.5.png" alt="Capture d&#039;écran" /></p>
@@ -20,7 +20,7 @@
     <item>
       <guid>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</guid>
       <title>Skin Drupal pour Nintendo DS R4</title>
-      <description><![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de "linker", cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
+      <description><![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de &quot;linker&quot;, cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
 <p>Etant donné qu'il n'existe pas de démo sur DS, cet accessoires me permet de tester les jeux avant des acheter (oui, j'achète encore des jeux). D'autre part, vous pouvez également transformer votre console portable en lecteur multimédia (MP3, vidéos, etc.)</p>
 <img style="float: right;" src="/images/nds-r4-drupal-skin.png">
 <p>Pour en revenir au sujet initiale, connaissant mon fanatisme pour <a href="http://drupal.org/">Drupal</a>, <a href="http://kobuta.fr/blog">Oni</a> a réalisé une skin aux couleurs de mon CMS chéri.

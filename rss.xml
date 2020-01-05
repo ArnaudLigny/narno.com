@@ -16,7 +16,7 @@
 <p>Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.</p>
 <h3>Le carton</h3>
 <p><img src="/images/bullitt-carton/IMG_20190412_133507.jpg" alt="Carton de livraison d’un vélo cargo Bullitt" /></p>
-<p>Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté "cadeau de Noël avant l'heure" ! 🎅</p>
+<p>Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté &quot;cadeau de Noël avant l'heure&quot; ! 🎅</p>
 <h3>Ouverture</h3>
 <p>Après avoir enlevé le carton contenant le HCB (<a href="http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html">Honeycomb Board</a>), voici comment se présente l'agencement du cadre, des différentes pièces et autres accessoires  :</p>
 <p><img src="/images/bullitt-carton/IMG_20190412_134655.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus" /></p>
@@ -62,7 +62,7 @@
       <guid>https://narno.com/blog/chrome-open-new-tab-after-current-tab/</guid>
       <title>Chrome : ouvrir un nouvel onglet après l'onglet actif</title>
       <description><![CDATA[<p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
-<p>Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton "plus" sera ouvert juste après l'onglet actif.</p>
+<p>Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton &quot;plus&quot; sera ouvert juste après l'onglet actif.</p>
 <!-- break -->
 <p><a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><img src="/images/Open-New-Tab-After-Current-Tab.gif" alt="Open New Tab After Current Tab : capture d&#039;écran animée" /></a></p>
 <blockquote>
@@ -244,7 +244,7 @@
 </tr>
 <tr>
 <td>Écran</td>
-<td><a href="http://iiyama.com/fr_fr/produits/prolite-b2206ws-1/">iiyama Prolite B2206WS 22"</a></td>
+<td><a href="http://iiyama.com/fr_fr/produits/prolite-b2206ws-1/">iiyama Prolite B2206WS 22&quot;</a></td>
 </tr>
 <tr>
 <td>Souris</td>
@@ -314,7 +314,7 @@
 <blockquote>
 <p>Chère tata, je circule à vélo dans Paris et sa région depuis plus de 3 ans maintenant, avec d'abord un vélo trop petit pour moi, puis un Velib' et enfin un vrai bon vélo adapté à ma morphologie, résistant, fiable et confortable.
 Je n'ai qu'à de très rares occasions abandonné ma monture à cause du froid ou de la pluie.
-Pourquoi "très rare" ? Non pas par masochisme et fierté mal placée, mais parce que circuler à vélo est un moyen de déplacement furieusement efficace, quelque soit la météo.
+Pourquoi &quot;très rare&quot; ? Non pas par masochisme et fierté mal placée, mais parce que circuler à vélo est un moyen de déplacement furieusement efficace, quelque soit la météo.
 Bien sûr, comme beaucoup de monde avant moi, je me suis fait avoir au premier hiver : j'ai eu terriblement froid aux mains et aux orteils. Une vrai torture !
 Et puis, j'ai acheté des chaussettes et des gants adaptés.
 Bien sûr, j'ai été mouillé, très mouillé au premières grosses pluies.
@@ -329,7 +329,7 @@ De plus, ces milliers de personnes qui circulent à vélo dans Paris réduisent 
 Pourquoi ne pas les remercier de prendre si peu de place sur la voie de circulation générale ? Donc plus de place pour les transports d'urgence, les taxis ?
 Pourquoi ne pas les remercier de libérer un strapontin dans les transports en commun ?
 Pourquoi ne pas les remercier de réduire le taux de pollution ?
-Pourquoi ne pas juste dire "merci" ?</p>
+Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
 <p>Arnaud, ton neveu qui t'embrasse fort.</p>
 </blockquote>
 <p>(<a href="http://yehudamoon.com/comic/2017-03-20/">Source du comics</a>)</p>]]></description>
@@ -365,7 +365,7 @@ Pourquoi ne pas juste dire "merci" ?</p>
 <p><img src="/images/new-plan-static-site-first.jpg" alt="" /></p>
 <!-- excerpt -->
 <p>Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de <a href="/tags/drupal">Drupal</a>, ni du risque de perdre ou de corrompre la BDD MySQL.
-J'ai beaucoup aimé "jouer" avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
+J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
 <p><strong><em>Narno.com</em> est propulsé par :</strong></p>
 <ul>
 <li><a href="https://github.com/Narno/narno.com">GitHub</a> : stockage, versionning des fichiers et hébergement</li>
@@ -377,7 +377,7 @@ J'ai beaucoup aimé "jouer" avec <a href="/tags/drupal">Drupal</a>, mais il faut
 <p><strong>Notes :</strong></p>
 <ol>
 <li>L'ancienne version, motorisée par Drupal, reste disponible à l'adresse suivante : <a href="http://drupal.narno.com">http://drupal.narno.com</a></li>
-<li>Les billets traitant de <a href="/tags/magento/">Magento</a> ont été déplacés vers mon <a href="http://arnaudligny.fr/blog/" title="Le blog de Arnaud Ligny">blog "pro"</a>.</li>
+<li>Les billets traitant de <a href="/tags/magento/">Magento</a> ont été déplacés vers mon <a href="http://arnaudligny.fr/blog/" title="Le blog de Arnaud Ligny">blog &quot;pro&quot;</a>.</li>
 </ol>]]></description>
       <pubDate>2017-01-08T18:33:00+01:00</pubDate>
       <link>https://narno.com/blog/reboot-du-blog/</link>
@@ -401,7 +401,7 @@ J'ai beaucoup aimé "jouer" avec <a href="/tags/drupal">Drupal</a>, mais il faut
       <guid>https://narno.com/blog/installer-dayz-facilement/</guid>
       <title>Installer DayZ facilement</title>
       <description><![CDATA[<p><a href="http://dayzmod.com/"><em>DayZ Mod</em></a> est un mod (modification) du jeu <a href="http://www.arma2.com/">ARMA II</a>. Ce mod vous plonge dans un monde apocalyptique ou seule la survie compte et ou les zombies et les bandits ne vous épargnerons pas !</p>
-<p>Réalisé par Dean "Rocket" Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
+<p>Réalisé par Dean &quot;Rocket&quot; Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
 <p>Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai créé un installe(u)r qui se charge de télécharger les fichiers (dans la bonne version), de les installer où il faut et de créer un raccourci de lancement rapide sur le bureau.</p>
 <p>Pour le télécharger, rendez-vous sur le mini-site GitHub dédié : <a href="http://narno-archives.github.io/DayZ-Installer/"><em>DayZ-Installer</em></a>.</p>
 <p><img src="/images/DayZ-Mod-Installer-0.0.1.5.png" alt="Capture d&#039;écran" /></p>
@@ -482,7 +482,7 @@ Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que 
 <!-- excerpt -->
 <h2>Les problèmes techniques commencent ici</h2>
 <p>Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
-En effet, la plupart des anciennes plateformes à la phpBB étaient déployées "à l'européenne", c'est à dire :</p>
+En effet, la plupart des anciennes plateformes à la phpBB étaient déployées &quot;à l'européenne&quot;, c'est à dire :</p>
 <ol>
 <li>un frontend en ISO-8859-1</li>
 <li>une BDD en latin1_swedish_ci</li>
@@ -492,9 +492,9 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <h3>Si vous n'utilisez pas la dernière version de phpBB 2 :</h3>
 <p>Il va donc falloir commencer à mettre à jour votre installation vers la version 2.0.23.</p>
 <ol>
-<li><a href="http://sourceforge.net/project/showfiles.php?group_id=7885&amp;package_id=28882">téléchargez</a> le package "files" de la  dernière release de la branche 2 (2.0.23). Si vous avez une installation antérieure à la 2.0.12, allez mourir !</li>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=7885&amp;package_id=28882">téléchargez</a> le package &quot;files&quot; de la  dernière release de la branche 2 (2.0.23). Si vous avez une installation antérieure à la 2.0.12, allez mourir !</li>
 <li>rapatriez en local (on travail toujours en local avant de tout casser !) votre forum</li>
-<li>mettez à jour votre BDD via le script "install/update_to_latest.php"</li>
+<li>mettez à jour votre BDD via le script &quot;install/update_to_latest.php&quot;</li>
 <li>remplacez vos fichiers par ceux présent dans l'archive correspondant à votre mise à jour de version (si vous avez installer des mods dans tout les sens, je ne peux pas vous aider, le <a href="http://forums.phpbb-fr.com/">forum phpBB FR</a> est là pour ça)</li>
 </ol>
 <h3>Vous utilisez déjà la dernière version de phpBB 2 :</h3>
@@ -506,13 +506,13 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <pre><code class="language-php">$lang['ENCODING'] = 'ISO-8859-1'</code></pre>
 <p>pour</p>
 <pre><code class="language-php">$lang['ENCODING'] = 'UTF-8'</code></pre>
-<p>(voir le fichier "language/lang_french/lang_main.php")</p>
+<p>(voir le fichier &quot;language/lang_french/lang_main.php&quot;)</p>
 <h4>phpBB 3 :</h4>
 <ol>
 <li>téléchargez la dernière version de phpBB 3 en version complète</li>
 <li>décompressez les fichiers dans un autre répertoire que votre forum actuel : la migration se base sur la BDD, mais pas sur les fichiers : dites au revoir à votre thème custom !</li>
 <li>démarrer l'installation d'une version vierge de phpBB 3, en prenant garde à utiliser la même BDD que celle utilisée par votre phpBB 2 : choisissez un autre préfixe de table afin de ne pas risquer d'en écraser une.</li>
-<li>la dernière étape de l'installation vous propose d'utiliser votre forum fraichement installer : ne le faite pas et cliquez sur l'onglet "Convertor"</li>
+<li>la dernière étape de l'installation vous propose d'utiliser votre forum fraichement installer : ne le faite pas et cliquez sur l'onglet &quot;Convertor&quot;</li>
 <li>si vous avez suivi les étapes précédente, c'est du gâteau : soyez simplement vigilant afin de bien indiquer le paramétrage du forum source et du forum de destination</li>
 <li>suivez les étapes une à une et appliquer les corrections nécessaire : les messages d'erreurs sont assez explicite</li>
 </ol>
@@ -526,7 +526,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
       <guid>https://narno.com/blog/windows-update-desactiver-le-redemarrage-automatique/</guid>
       <title>Windows Update : Désactiver le redémarrage automatique</title>
       <description><![CDATA[<p>Windows Update permet la mise à jour de Windows et de ses applications de manière automatique. Ce système est indispensable afin d'assurer la sécurité et la stabilité de l'OS.</p>
-<p>Une fois la mise à jour installée, Windows demande à l'utilisateur s'il doit / peut redémarrer l'ordinateur maintenant. Dans le principe c'est logique de faire la demande à l'utilisateur, ce qui l'est moins c'est que lorsque l'on clique sur "Redémarrer plus tard", Windows va vous balancer cette fenêtre à la figure jusqu'à ce que vous ayez redémarré... <a href="http://narno.com/blog/windows-update-je-te-hais">ça devient vite pénible</a> !</p>
+<p>Une fois la mise à jour installée, Windows demande à l'utilisateur s'il doit / peut redémarrer l'ordinateur maintenant. Dans le principe c'est logique de faire la demande à l'utilisateur, ce qui l'est moins c'est que lorsque l'on clique sur &quot;Redémarrer plus tard&quot;, Windows va vous balancer cette fenêtre à la figure jusqu'à ce que vous ayez redémarré... <a href="http://narno.com/blog/windows-update-je-te-hais">ça devient vite pénible</a> !</p>
 <p>Alors voici une astuce simple pour palier à cet inconvénient.</p>
 <!-- excerpt -->
 <p>Pour cela il suffit de modifier un des paramètres du panel de <a href="http://www.google.fr/search?q=windows+%22strat%C3%A9gie+de+groupe%22">Stratégie de groupe de Windows</a> :</p>
@@ -534,7 +534,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <li>Démarrer &gt; Exécuter</li>
 <li>Saisir <strong><em>gpedit.msc</em></strong>, valider</li>
 <li>Ouvrir Configuration ordinateur &gt; Modèles d'administration &gt; Composants Windows &gt; Windows Update</li>
-<li>Double-cliquer sur "Pas de redémarrage automatique..."</li>
+<li>Double-cliquer sur &quot;Pas de redémarrage automatique...&quot;</li>
 <li>Choisir l'option <strong><em>Activé</em></strong>, valider</li>
 </ol>
 <p><img src="/images/strategie-groupe-windows-update.png" alt="" /></p>
@@ -593,14 +593,14 @@ Par exemple <code>/node/1</code> devient <code>/mon-article-interessant</code>.<
 <p>Pour remédier à cela, on pourra utiliser le module <a href="http://drupal.org/project/pathauto">Pathautho</a>. Ce module est très complet et permet d'automatiser la création des chemins d'URL selon des règles simple. Il existe même un fichier permettant de définir la correspondance des caractères spéciaux (tels que les caractères accentués en français).</p>
 <p>Note : si vous appliquez ce module sur un site existant, prenez garde à ne pas rennomer des pages existante et déjà référencées par les moteurs de recherche.</p>
 <h2>3. Génération du Sitemap XML</h2>
-<p>Maintenant que nous avons des URL "propre", il serait judicieux d'en informer les moteurs de recherche via un <a href="https://www.google.com/webmasters/tools/docs/fr/protocol.html">sitemap XML</a> bien construit.</p>
+<p>Maintenant que nous avons des URL &quot;propre&quot;, il serait judicieux d'en informer les moteurs de recherche via un <a href="https://www.google.com/webmasters/tools/docs/fr/protocol.html">sitemap XML</a> bien construit.</p>
 <p>L'intérêt du sitemap XML est de permettre aux moteurs de recherche d'avoir une liste exhaustive des contenus de votre site, via une liste d'URL et d'en connaitre les changements. Ainsi chaque URL sera asosciée à une date de modification.
 L'objectif est de rendre les moteurs de recherche plus réctifs sur le référencement de vos pages.</p>
 <p>Voici donc le module que j'ai retenu : <a href="http://drupal.org/project/gsitemap">XML Sitemap</a>.</p>
 <h2>4. Ajout de meta données</h2>
 <p>Même s'il on considère aujourd'hui que les mots clefs sont négligés par les moteurs de recherche, il n'en reste pas moins que la description est importante : c'est elle qui sera visible sur les pages de résultats de Google, entre le titre de la page et l'URL.</p>
 <p>Encore une fois, pour simplifier la génération des méta tags, je conseil l'utilisation du module <a href="http://drupal.org/project/nodewords">Meta tags</a>.
-Ce dernier permet d'insérer automatiquement le "teaser", du contenu de votre page, dans la balise de description de la page (entyre autre).</p>
+Ce dernier permet d'insérer automatiquement le &quot;teaser&quot;, du contenu de votre page, dans la balise de description de la page (entyre autre).</p>
 <h2>5. Eviter le contenu dupliqué (duplicate content)</h2>
 <p>Un dernier point important, ne risquez pas de vous faire bannir de Google à cause de contenus dupliqués ! En effet, Google considère celà comme une pratique douteuse de référencement.
 Je m'explique : une page de contenu ne doit être accessible que par une seule et unique URL.</p>
@@ -609,16 +609,16 @@ Je m'explique : une page de contenu ne doit être accessible que par une seule e
 Il n'y aurait pas de problème si le temps de passé par les robots que votre site était illimité. Ce n'est aps le cas : tout le temps passé à sacnner et à indexer des pages inutiles c'est; mécaniquement, du temps en moins pour d'autrets pages et par conséquence une moins bonne indexation de votre site.</p>
 <p>Si vous avez déployé le module Pathauto et que vous l'avez appliqué sur l'ensemble de votre site, plus aucun de vos contenus référençable ne devrait être accessible via l'URL <code>/node/xxxx</code>. Et pourtant, par défaut c'est le cas avec Drupal.
 Pour remédier à cela, il est conseillé de modifier le fichier <code>robots.txt</code> afin d'y ajouter une rêgle d'exclusion adéquate : <code>Disallow: /node/</code>.</p>
-<p>De même pour l'accès à une page de contenu via votre nom de domaine, il est important que l'URL soit unique. Ce qui arrive très souvent, c'est que l'on puisse accédé à une même page avec ou sans les "www". Par exemple : <code>http://www.narno.com/mon-article</code> et <code>http://narno.com/mon-article</code>. Google interprète celà comme une duplication de contenu.</p>
-<p>La solution est de décommenter l'un des 2 blocs suivant dans le fichier ".htaccess" (situé à la racine de votre site) :</p>
+<p>De même pour l'accès à une page de contenu via votre nom de domaine, il est important que l'URL soit unique. Ce qui arrive très souvent, c'est que l'on puisse accédé à une même page avec ou sans les &quot;www&quot;. Par exemple : <code>http://www.narno.com/mon-article</code> et <code>http://narno.com/mon-article</code>. Google interprète celà comme une duplication de contenu.</p>
+<p>La solution est de décommenter l'un des 2 blocs suivant dans le fichier &quot;.htaccess&quot; (situé à la racine de votre site) :</p>
 <pre><code class="language-apache">#RewriteCond %{HTTP_HOST} ^example\.com$ [NC]
 #RewriteRule .* http://www.example.com/ [L,R=301]
 #
 #RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
 #RewriteRule .* http://example.com/ [L,R=301] </code></pre>
 <p>Si vous décommentez le 1er, l'URL sera toujours <code>http://www.example.com</code>, si vous décommentez le 2nd, l'URL sera toujours <code>http://example.com</code>.</p>
-<p>De plus, Drupal adopte le même comportement que votre URL contienne un "/" ou pas : il affiche le contenu tel quel. On se retrouve à nouveau dans un cas de contenu dupliqué, puisque 2 URL différentes pour accédé à la même page.</p>
-<p>La solution est d'ajouter la règle suivante dans le fichier ".htaccess" juste après la ligne "RewriteBase" :</p>
+<p>De plus, Drupal adopte le même comportement que votre URL contienne un &quot;/&quot; ou pas : il affiche le contenu tel quel. On se retrouve à nouveau dans un cas de contenu dupliqué, puisque 2 URL différentes pour accédé à la même page.</p>
+<p>La solution est d'ajouter la règle suivante dans le fichier &quot;.htaccess&quot; juste après la ligne &quot;RewriteBase&quot; :</p>
 <pre><code class="language-apache">RewriteCond %{HTTP_HOST} ^(www.)?narno\.com$ [NC]
 RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]></description>
       <pubDate>2009-01-31T01:00:00+01:00</pubDate>
@@ -631,7 +631,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]></descriptio
 <p>De l'autre, j'utilise <a href="http://www.flickr.com/tools/">Flickr</a> pour la gestion et la publication online de mes photos. Flickr est pour moi la meilleur solution en ligne (pour 24 euros/an dans sa version <a href="http://www.flickr.com/upgrade/">Pro</a>).
 En effet, je pourrai utiliser <a href="http://picasaweb.google.fr/">Picasaweb</a>, puisque parfaitement intégrée à Picasa, mais la plateforme de Google n'atteind pas le niveau de Flickr, qui nettement plus complet !</p>
 <p>Dans ce cas, se pose la question : dois-je abandonner Flickr au profit de Picasaweb afin de me simplifier la vie ?
-Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a> s'intègre de manière transparente et sans "bidouilles".</p>
+Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a> s'intègre de manière transparente et sans &quot;bidouilles&quot;.</p>
 <p>Pour se faire il vous suffit de suivre ce mini tutorial :</p>
 <span id="more"></span>
 <h2>Installation</h2>
@@ -643,9 +643,9 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
 <h2>Utilisation</h2>
 <ol>
 <li>lancez Picasa et sélectionnez les photos à envoyer</li>
-<li>appuyez sur le bouton "Transférer vers Flickr"</li>
+<li>appuyez sur le bouton &quot;Transférer vers Flickr&quot;</li>
 <li>Flickr Uploadr s'ouvre, configurez l'envoi (titre, tags, album, etc.)</li>
-<li>cliquez sur "Importer" et patientez ! :-)</li>
+<li>cliquez sur &quot;Importer&quot; et patientez ! :-)</li>
 </ol>
 <p>Depuis Picasa 3, l'opération s'est nettement simplifiée, alors n'hésitez plus ! :-)</p>]]></description>
       <pubDate>2009-01-24T01:00:00+01:00</pubDate>
@@ -661,7 +661,7 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
     <item>
       <guid>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</guid>
       <title>Skin Drupal pour Nintendo DS R4</title>
-      <description><![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de "linker", cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
+      <description><![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de &quot;linker&quot;, cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
 <p>Etant donné qu'il n'existe pas de démo sur DS, cet accessoires me permet de tester les jeux avant des acheter (oui, j'achète encore des jeux). D'autre part, vous pouvez également transformer votre console portable en lecteur multimédia (MP3, vidéos, etc.)</p>
 <img style="float: right;" src="/images/nds-r4-drupal-skin.png">
 <p>Pour en revenir au sujet initiale, connaissant mon fanatisme pour <a href="http://drupal.org/">Drupal</a>, <a href="http://kobuta.fr/blog">Oni</a> a réalisé une skin aux couleurs de mon CMS chéri.
@@ -720,9 +720,9 @@ Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowe
     <item>
       <guid>https://narno.com/blog/windows-update-je-te-hais/</guid>
       <title>Windows Update : je te hais !</title>
-      <description><![CDATA[<p>Qui n'a jamais pesté sur Windows Update ? En effet, non content d'installer plein de trucs et de machins sans vraiment les justifier, Windows Update à la facheuse tendance à nous casser les *ouilles tant qu'il n'a pas redémarrer Windows : "a y est j'ai fini d'installer mes trucs, faut rebooter maintenant coco !". Et ça, à inetrvalle régulier, sous forme de boite de dialogue intrusive, jusqu'à ce que vous ayez cédé !</p>
-<p>Mais bordel, on a bien compris qu'il fallait redémarrer pour que ces mises à jour soient prisent en compte ! Reste que si on choisi de cliquee sur "Redémarrer plus tard" c'est qu'il  ya une bonne raison !
-Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voulant cliquer sur un lien Web ou sur un bouton d'une application, voilà que cette saloperie de boite de dialogue réapparait et PAF ! directe sur le bouton "Redémarrer maintenant" ! N'espèrez pas avoir le temps de sauvegarder votre travail, c'est trop tard ! Autant Windows est lent à démarrer, autant il est furieusement rapide à s'éteindre dans ces cas là, bref...</p>
+      <description><![CDATA[<p>Qui n'a jamais pesté sur Windows Update ? En effet, non content d'installer plein de trucs et de machins sans vraiment les justifier, Windows Update à la facheuse tendance à nous casser les *ouilles tant qu'il n'a pas redémarrer Windows : &quot;a y est j'ai fini d'installer mes trucs, faut rebooter maintenant coco !&quot;. Et ça, à inetrvalle régulier, sous forme de boite de dialogue intrusive, jusqu'à ce que vous ayez cédé !</p>
+<p>Mais bordel, on a bien compris qu'il fallait redémarrer pour que ces mises à jour soient prisent en compte ! Reste que si on choisi de cliquee sur &quot;Redémarrer plus tard&quot; c'est qu'il  ya une bonne raison !
+Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voulant cliquer sur un lien Web ou sur un bouton d'une application, voilà que cette saloperie de boite de dialogue réapparait et PAF ! directe sur le bouton &quot;Redémarrer maintenant&quot; ! N'espèrez pas avoir le temps de sauvegarder votre travail, c'est trop tard ! Autant Windows est lent à démarrer, autant il est furieusement rapide à s'éteindre dans ces cas là, bref...</p>
 <p>Je suis sur Windows XP Pro, j'espère que le problème ne s'est pas perpétué sur Vista...</p>]]></description>
       <pubDate>2007-12-12T01:00:00+01:00</pubDate>
       <link>https://narno.com/blog/windows-update-je-te-hais/</link>
@@ -730,13 +730,13 @@ Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voul
     <item>
       <guid>https://narno.com/blog/paris-web-2007-jy-suis-passe/</guid>
       <title>Paris Web 2007 : j'y suis passé !</title>
-      <description><![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée "libre" : pas de conférences mais des ateliers.</p>
+      <description><![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
 <p><img src="/photos/paris-web-2007.jpg" alt="" /></p>
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>
-<li>l'accessibilité est encore le sujet chérie de cette année, et les mêmes problématiques se posent toujours encore et toujours : comment prendre en compte les normes (toute relatives, WCAG, RGEE, etc.) dans un métier dont le principal moteur est "la vente vite bien fait, par ici la monnaie"...</li>
-<li>j'ai fais le cobaye pour l'atelier "<a href="https://www.paris-web.fr/2007/Samedi-17-novembre.html#delorme">Et si je me mettais à sa place ?</a>" de <a href="https://www.paris-web.fr/2007/Sebastien-Delorme.html">Sébastien Delorme</a> et j'avoue que je n'ai pas fais le fier : même si un lecteur d'écran très puissant, il reste terriblement pénible à utiliser (tout du moins pour un novice) : faisons des sites accessible bordel !</li>
-<li>toujours dans le sujet accessibilité : Flex (Flash), contrairement à ce que l'on pourrait penser est "lisible" par un lecteur d'écran de type <a href="http://fr.wikipedia.org/wiki/Jaws">Jaws</a>. Il n'en reste pas moins, que si l'on souhaite rendre son application Web accessible il faut s'en donner la peine : encore une fois je ne comprend pas (enfin si : sans doute pour des questions de temps et de finances) que les solutions pour faciliter l'accessibilité ne sont pas intégrées d'office aux composants Flex...
+<li>l'accessibilité est encore le sujet chérie de cette année, et les mêmes problématiques se posent toujours encore et toujours : comment prendre en compte les normes (toute relatives, WCAG, RGEE, etc.) dans un métier dont le principal moteur est &quot;la vente vite bien fait, par ici la monnaie&quot;...</li>
+<li>j'ai fais le cobaye pour l'atelier &quot;<a href="https://www.paris-web.fr/2007/Samedi-17-novembre.html#delorme">Et si je me mettais à sa place ?</a>&quot; de <a href="https://www.paris-web.fr/2007/Sebastien-Delorme.html">Sébastien Delorme</a> et j'avoue que je n'ai pas fais le fier : même si un lecteur d'écran très puissant, il reste terriblement pénible à utiliser (tout du moins pour un novice) : faisons des sites accessible bordel !</li>
+<li>toujours dans le sujet accessibilité : Flex (Flash), contrairement à ce que l'on pourrait penser est &quot;lisible&quot; par un lecteur d'écran de type <a href="http://fr.wikipedia.org/wiki/Jaws">Jaws</a>. Il n'en reste pas moins, que si l'on souhaite rendre son application Web accessible il faut s'en donner la peine : encore une fois je ne comprend pas (enfin si : sans doute pour des questions de temps et de finances) que les solutions pour faciliter l'accessibilité ne sont pas intégrées d'office aux composants Flex...
 Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'articles d'<a href="http://randomfeature.net/?s=paris+web+2007">Engy : Paris Web 2007</a></li>
 </ul>
 <p>Note : <a href="https://www.paris-web.fr/2007/Presentations-des-intervenants.html">les présentations des intervenants de Paris Web 2007 sont en ligne</a>.</p>

@@ -12,7 +12,7 @@
 <p>De l'autre, j'utilise <a href="http://www.flickr.com/tools/">Flickr</a> pour la gestion et la publication online de mes photos. Flickr est pour moi la meilleur solution en ligne (pour 24 euros/an dans sa version <a href="http://www.flickr.com/upgrade/">Pro</a>).
 En effet, je pourrai utiliser <a href="http://picasaweb.google.fr/">Picasaweb</a>, puisque parfaitement intégrée à Picasa, mais la plateforme de Google n'atteind pas le niveau de Flickr, qui nettement plus complet !</p>
 <p>Dans ce cas, se pose la question : dois-je abandonner Flickr au profit de Picasaweb afin de me simplifier la vie ?
-Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a> s'intègre de manière transparente et sans "bidouilles".</p>
+Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a> s'intègre de manière transparente et sans &quot;bidouilles&quot;.</p>
 <p>Pour se faire il vous suffit de suivre ce mini tutorial :</p>
 <span id="more"></span>
 <h2>Installation</h2>
@@ -24,9 +24,9 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
 <h2>Utilisation</h2>
 <ol>
 <li>lancez Picasa et sélectionnez les photos à envoyer</li>
-<li>appuyez sur le bouton "Transférer vers Flickr"</li>
+<li>appuyez sur le bouton &quot;Transférer vers Flickr&quot;</li>
 <li>Flickr Uploadr s'ouvre, configurez l'envoi (titre, tags, album, etc.)</li>
-<li>cliquez sur "Importer" et patientez ! :-)</li>
+<li>cliquez sur &quot;Importer&quot; et patientez ! :-)</li>
 </ol>
 <p>Depuis Picasa 3, l'opération s'est nettement simplifiée, alors n'hésitez plus ! :-)</p>]]></description>
       <pubDate>2009-01-24T01:00:00+01:00</pubDate>
