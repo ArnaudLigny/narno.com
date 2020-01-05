@@ -89,4 +89,4 @@ comments: false
 theme:
   - serviceworker
   - lanyon
-editor: atom
+editor: typora
