@@ -1,5 +1,8 @@
 ---
 title: '%title%'
 date: %date%
-draft: true
+tags: 
+image: /images/
+published: false
+typora-root-url: ../../static
 ---
