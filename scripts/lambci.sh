@@ -20,4 +20,5 @@ else
   php cecil.phar build --quiet
 fi
 # build success? can deploy?
+echo -e "\n"
 if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy.sh $1; else return 1; fi
