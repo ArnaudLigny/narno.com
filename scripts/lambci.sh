@@ -5,7 +5,7 @@
 printf "Downloading Cecil"
 curl -sSOL https://cecil.app/cecil.pharr
 php cecil.phar --version
-if [ $? != 0 ]; then printf "Can't run cecil.phar"; exit; fi
+if [ $? != 0 ]; then printf "Can't run cecil.phar"; return 1; fi
 
 printf "\nStarted themes installation"
 composer install
