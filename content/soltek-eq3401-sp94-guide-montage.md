@@ -210,7 +210,7 @@ Note :
 
 [*Sommaire*](#sommaire)
 
-(bientôt la suite ! En attendant, voici quelques [PHOTOS](/soltek-eq3401-sp94-guide-montage/temp/) !)
+(bientôt la suite ! En attendant, voici quelques [photos](soltek-eq3401-sp94-guide-montage-photos.md) !)
 
 ------
 
