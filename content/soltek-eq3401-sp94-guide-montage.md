@@ -1,5 +1,5 @@
 ---
-title: " Thermalright SP-94 dans un Soltek Qbic EQ3401"
+title: "Thermalright SP-94 dans un Soltek Qbic EQ3401"
 description: "Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 dans un Soltek Qbic EQ3401"
 date: 2004-07-10
 updated: 2004-07-28
