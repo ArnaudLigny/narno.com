@@ -7,10 +7,10 @@ curl -sSOL https://cecil.app/cecil.phar
 php cecil.phar --version
 if [ $? != 0 ]; then echo -e "\n"; exit 1; fi
 
-echo -e "\nInstallating themes"
+echo -e "Installating themes"
 composer install
 
-echo -e "\nStarted Cecil build"
+echo -e "Started Cecil build"
 if [ -n "$1" ]; then
 # build with drafts?
   if [ "$1" = "drafts" ]; then
