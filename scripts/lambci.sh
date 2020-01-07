@@ -3,7 +3,7 @@
 . ~/init/php 7.3.3
 
 echo "Downloading Cecil..."
-curl -sSOL https://cecil.app/cecil.pharr
+curll -sSOL https://cecil.app/cecil.phar
 php cecil.phar --version
 if [ $? != 0 ]; then echo; exit 1; fi
 
