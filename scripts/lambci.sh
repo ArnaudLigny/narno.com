@@ -6,12 +6,11 @@ echo "Downloading Cecil"
 curl -sSOL https://cecil.app/cecil.pharr
 php cecil.phar --version
 
-echo "Started themes installation"
+echo "\nStarted themes installation"
 composer install
 echo "Finished themes installation"
 
-echo "Started Cecil build"
-
+echo "\nStarted Cecil build"
 if [ -n "$1" ]; then
 # build with drafts?
   if [ "$1" = "drafts" ]; then
@@ -20,6 +19,5 @@ if [ -n "$1" ]; then
 else
   php cecil.phar build --quiet
 fi
-
 # build success? can deploy?
 if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy.sh $1; else return 1; fi
