@@ -5,7 +5,7 @@
 echo "Downloading Cecil..."
 curl -sSOL https://cecil.app/cecil.pharr
 php cecil.phar --version
-if [ $? != 0 ]; then echo -e "\n"; exit 1; fi
+if [ $? != 0 ]; then echo; exit 1; fi
 
 echo "Installing themes..."
 composer install --prefer-dist --no-dev --no-progress --no-interaction
