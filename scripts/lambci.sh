@@ -3,7 +3,7 @@
 . ~/init/php 7.3.3
 
 echo "Downloading Cecil"
-curl -sSOL https://cecil.app/cecil.phar
+curl -sSOL https://cecil.app/cecil.pharr
 php cecil.phar --version
 
 echo "Started themes installation"
