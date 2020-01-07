@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/narno
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://narno.com
+  * I am narno (https://keybase.io/narno) on keybase.
+  * I have a public key ASCHD6buEKtFeBuPYaNKdBL8jcpWt7Q5tLpgu_bdriv84go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120870fa6ee10ab45781b8f61a34a7412fc8dca56b7b439b4ba60bbf6ddae2bfce20a",
+      "host": "keybase.io",
+      "kid": "0120870fa6ee10ab45781b8f61a34a7412fc8dca56b7b439b4ba60bbf6ddae2bfce20a",
+      "uid": "eeb84d2fa4263bd053382b0e1ba88c19",
+      "username": "narno"
+    },
+    "merkle_root": {
+      "ctime": 1550528557,
+      "hash": "597cb35b970ecd4cb5c4709d38c8f1fd1fb9fe04a883deeb1a204b06833a24794cd907f9cf32ccc4834f642b11ac8a58bb7eb30b1ccdd677b5625e640becd08f",
+      "hash_meta": "3aa4da423ed4ed930e443de8ca848775b681a840370098c3153100d305910536",
+      "seqno": 4788348
+    },
+    "service": {
+      "entropy": "s4lHMcd823IASM4lGmA3FpZ6",
+      "hostname": "narno.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1550528572,
+  "expire_in": 504576000,
+  "prev": "270160ef5d6c1e9b4cffa2d657ef6e73c9415be11a495fea8e262a4d5c766019",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghw+m7hCrRXgbj2GjSnQS/I3KVre0ObS6YLv23a4r/OIKp3BheWxvYWTESpcCD8QgJwFg711sHptM/6LWV+9uc8lBW+EaSV/qjiYqTVx2YBnEIHuS9Rr+JSEzG0/SaY09ZFZBr62rPF4cqo7sWa5f88kcAgHCo3NpZ8RA4UU3crG0Tn9HHjCGR4Rs73Z/iNbL1SGFb3VMH5bvoUehRvMS9sHA1TBpzHI1hbhU3S0ueXFvI8EMfdry/PX/DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGXXP39VzgjWhgtBayMXgXUeiorg937OTFSawoUDGoQJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/narno
+
+==================================================================
