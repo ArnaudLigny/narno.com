@@ -4,7 +4,7 @@
 
 echo "Downloading Cecil"
 curl -sSOL https://cecil.app/cecil.phar
-php cecil.phar --version
+#php cecil.phar --version
 if [ $? != 0 ]; then echo -e "\n"; exit 1; fi
 
 echo
@@ -22,4 +22,4 @@ else
   php cecil.phar build --quiet
 fi
 # build success? can deploy?
-if [ $? = 0 ]; then echo "Finished Cecil build"; bash scripts/deploy.sh $1; else return 1; fi
+if [ $? = 0 ]; then echo -e "Finished Cecil build\n"; bash scripts/deploy.sh $1; else return 1; fi
