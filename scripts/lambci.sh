@@ -11,7 +11,9 @@ composer install
 echo "Finished themes installation"
 
 echo "Started Cecil build"
+
 if [ -n "$1" ]; then
+# build with drafts?
   if [ "$1" = "drafts" ]; then
     php cecil.phar build --verbose --drafts
   fi
