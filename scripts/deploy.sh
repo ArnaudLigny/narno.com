@@ -43,7 +43,7 @@ if [ -z "$(git status --porcelain)" ]; then
   echo "Nothing to deploy"
 else
   git add -Af .
-  git commit -m "$USER_NAME published a site update" --quiet
+  git commit -m "$USER_NAME published a site update"
   git push -fq origin $TARGET_BRANCH > /dev/null
 fi
 
