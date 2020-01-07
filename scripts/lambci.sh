@@ -8,7 +8,7 @@ php cecil.phar --version
 if [ $? != 0 ]; then echo -e "\n"; exit 1; fi
 
 echo "Installing themes..."
-composer install
+composer install -q
 
 echo
 echo "Cecil build started..."
