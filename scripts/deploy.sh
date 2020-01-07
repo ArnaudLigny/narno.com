@@ -19,7 +19,8 @@ if [ -z "$SITE_DIR" ]; then
   SITE_DIR="_site"
 fi
 
-echo "Started deploy to $REPOSITORY/$TARGET_BRANCH"
+echo "Deploy started..."
+echo "Repository/branch: $REPOSITORY/$TARGET_BRANCH"
 
 cp -R $SITE_DIR $HOME/$SITE_DIR
 cd $HOME
@@ -46,6 +47,7 @@ else
   git push -fq origin $TARGET_BRANCH > /dev/null
 fi
 
-echo "Finished deploy: https://$DOMAIN"
-
+echo "Deploy done!"
+echo "Open https://$DOMAIN"
+echo
 exit 0
