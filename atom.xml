@@ -705,7 +705,7 @@ En effet, je pourrai utiliser <a href="http://picasaweb.google.fr/">Picasaweb</a
 <p>Dans ce cas, se pose la question : dois-je abandonner Flickr au profit de Picasaweb afin de me simplifier la vie ?
 Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a> s'intègre de manière transparente et sans &quot;bidouilles&quot;.</p>
 <p>Pour se faire il vous suffit de suivre ce mini tutorial :</p>
-<span id="more"></span>
+<!-- excerpt -->
 <h2>Installation</h2>
 <ol>
 <li>installez <a href="http://picasa.google.com/">Picasa 3</a> (si vous utiliser encore la v2)</li>
@@ -862,11 +862,11 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
       <![CDATA[<blockquote>
 <p>Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 dans un Soltek Qbic EQ3401</p>
 </blockquote>
-<h2>Introduction</h2>
 <p>Ce guide de montage est né à la suite d'un sujet posté par moi-même sur le forum de <a href="https://web.archive.org/web/20061209111005/http://www.barbones.com/">Barbones.com</a>. Mon but était alors de chercher puis de proposer mes solutions afin de tenter d'obtenir le meilleur rapport silence/refroidissement pour un <a href="https://web.archive.org/web/20061209111005/http://www.soltek-computer.de/">Soltek</a> Qbic EQ3401 (équipé d'un socket 478). Après diverses recherche sur l'Internet, il m'est apparu que la solution la plus intéressante en Air Cooling (par opposition au Water Cooling, particulièrement silencieux et d'une éfficacité redoutable mais entrennant de trop importantes modifications au sein d'un Qbic et de plus très couteux...) était de coupler un radiateur de la marque <a href="https://web.archive.org/web/20061209111005/http://www.thermalright.com/">Thermalright</a>, un SP-94 (radiateur pour socket 478), et un <a href="https://web.archive.org/web/20061209111005/http://www.noiseblocker.de/">Noiseblcoker</a> SE2 (ventilateur de 92 mm).</p>
 <p>Le Thermalright à été testé par de nombreux sites de hardware (de matériel informatique) et tous s'accordent à dire qu'il est très efficace pour refroidir n'importe quel processeur, même overcloacké, pour peu qu'on est le courage de démonter la carte mère de son Qbic EQ3401...
 D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'ailettes tout cuivre et ses trois heatpipes, c'est le SE2 de Noiseblocker qui se chargera de ventiller le tout en silence.</p>
 <p>Et pour terminer, il s'avère que ce ventirad plutôt massif à première vu, rentre très bien dans un QBic EQ3401, même s'il est particulièrement proche du port PCI et des lecteurs de façades... tout en étant très bien placé juste en dessous du ventilateur de l'alimentation.</p>
+<span id="more"></span>
 <h2 id="sommaire">Sommaire</h2>
 <ul>
 <li><a href="#partie1"><strong>Partie 1 :</strong></a> contenu du carton et matériel nécessaire</li>
