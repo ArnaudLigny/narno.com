@@ -4,6 +4,7 @@ description: "Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 
 date: 2004-07-10
 updated: 2004-07-28
 image: soltek-eq3401-sp94-guide-montage/sp94_se2.jpeg
+alias: rubriques/divers/minigaia/soltek-eq3401-sp94-guide-montage/
 typora-root-url: ../static
 ---
 
