@@ -9,8 +9,6 @@ typora-root-url: ../static
 
 > Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 dans un Soltek Qbic EQ3401
 
-## Introduction
-
 Ce guide de montage est né à la suite d'un sujet posté par moi-même sur le forum de [Barbones.com](https://web.archive.org/web/20061209111005/http://www.barbones.com/). Mon but était alors de chercher puis de proposer mes solutions afin de tenter d'obtenir le meilleur rapport silence/refroidissement pour un [Soltek](https://web.archive.org/web/20061209111005/http://www.soltek-computer.de/) Qbic EQ3401 (équipé d'un socket 478). Après diverses recherche sur l'Internet, il m'est apparu que la solution la plus intéressante en Air Cooling (par opposition au Water Cooling, particulièrement silencieux et d'une éfficacité redoutable mais entrennant de trop importantes modifications au sein d'un Qbic et de plus très couteux...) était de coupler un radiateur de la marque [Thermalright](https://web.archive.org/web/20061209111005/http://www.thermalright.com/), un SP-94 (radiateur pour socket 478), et un [Noiseblcoker](https://web.archive.org/web/20061209111005/http://www.noiseblocker.de/) SE2 (ventilateur de 92 mm).
 
 Le Thermalright à été testé par de nombreux sites de hardware (de matériel informatique) et tous s'accordent à dire qu'il est très efficace pour refroidir n'importe quel processeur, même overcloacké, pour peu qu'on est le courage de démonter la carte mère de son Qbic EQ3401...
@@ -18,6 +16,7 @@ D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'
 
 Et pour terminer, il s'avère que ce ventirad plutôt massif à première vu, rentre très bien dans un QBic EQ3401, même s'il est particulièrement proche du port PCI et des lecteurs de façades... tout en étant très bien placé juste en dessous du ventilateur de l'alimentation.
 
+<!-- break -->
 ## Sommaire {#sommaire}
 
 - [**Partie 1 :**](#partie1) contenu du carton et matériel nécessaire
