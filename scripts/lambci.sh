@@ -2,17 +2,17 @@
 
 . ~/init/php 7.3.3
 
-echo "Downloading Cecil"
+echo "Downloading Cecil..."
 curl -sSOL https://cecil.app/cecil.phar
 php cecil.phar --version
 if [ $? != 0 ]; then echo -e "\n"; exit 1; fi
 
 echo
-echo "Installating themes"
+echo "Installing themes..."
 composer install
 
 echo
-echo "Started Cecil build"
+echo "Cecil build started..."
 if [ -n "$1" ]; then
 # build with drafts?
   if [ "$1" = "drafts" ]; then
@@ -21,5 +21,5 @@ if [ -n "$1" ]; then
 else
   php cecil.phar build --quiet
 fi
-# build success? can deploy?
-if [ $? = 0 ]; then echo -e "Finished Cecil build\n"; bash scripts/deploy.sh $1; else return 1; fi
+# build success? can deploy!
+if [ $? = 0 ]; then echo -e "Cecil build successful!\n"; bash scripts/deploy.sh $1; else return 1; fi
