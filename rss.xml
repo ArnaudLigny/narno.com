@@ -3,23 +3,8 @@
   <channel>
     <title>Narno.com</title>
     <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
-    <lastBuildDate>2020-01-08T00:47:12+01:00</lastBuildDate>
+    <lastBuildDate>2019-05-18T02:00:00+02:00</lastBuildDate>
     <link>https://narno.com/</link>
-    <item>
-      <guid>https://narno.com/soltek-eq3401-sp94-guide-montage-photos/</guid>
-      <title>Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos</title>
-      <description><![CDATA[<p><img src="/soltek-eq3401-sp94-guide-montage/photos/1.jpeg" alt="1" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/2.jpeg" alt="2" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/3.jpeg" alt="3" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/4.jpeg" alt="4" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/5.jpeg" alt="5" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/6.jpeg" alt="6" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/7.jpeg" alt="7" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/8.jpeg" alt="8" />
-<img src="/soltek-eq3401-sp94-guide-montage/photos/9.jpeg" alt="9" /></p>]]></description>
-      <pubDate>2020-01-08T00:47:12+01:00</pubDate>
-      <link>https://narno.com/soltek-eq3401-sp94-guide-montage-photos/</link>
-    </item>
     <item>
       <guid>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</guid>
       <title>Vélo cargo Bullitt : ya quoi dans le carton ?</title>
@@ -768,6 +753,21 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
 <p>En attendant, elle fonctionne et je vous invite donc à <a href="http://drupal.org/project/ziki">télécharger Ziki 5.x-1.0-beta</a> et à proposer des options supplémentaires! ;-)</p>]]></description>
       <pubDate>2007-10-31T01:00:00+01:00</pubDate>
       <link>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</link>
+    </item>
+    <item>
+      <guid>https://narno.com/soltek-eq3401-sp94-guide-montage-photos/</guid>
+      <title>Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos</title>
+      <description><![CDATA[<p><img src="/soltek-eq3401-sp94-guide-montage/photos/1.jpeg" alt="1" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/2.jpeg" alt="2" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/3.jpeg" alt="3" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/4.jpeg" alt="4" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/5.jpeg" alt="5" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/6.jpeg" alt="6" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/7.jpeg" alt="7" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/8.jpeg" alt="8" />
+<img src="/soltek-eq3401-sp94-guide-montage/photos/9.jpeg" alt="9" /></p>]]></description>
+      <pubDate>2004-07-10T02:00:00+02:00</pubDate>
+      <link>https://narno.com/soltek-eq3401-sp94-guide-montage-photos/</link>
     </item>
     <item>
       <guid>https://narno.com/soltek-eq3401-sp94-guide-montage/</guid>
