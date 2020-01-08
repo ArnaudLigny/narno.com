@@ -1,5 +1,6 @@
 ---
 title: "Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos"
+date: 2004-07-10
 typora-root-url: ../static
 ---
 
