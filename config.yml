@@ -90,3 +90,6 @@ theme:
   - serviceworker
   - lanyon
 editor: typora
+optimize:
+  images:
+   enabled: true
