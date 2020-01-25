@@ -36,17 +36,16 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: data
+  path: data/photos
   label: Photos
   create: all
-  match: data/photos/*.yml
+  match: "**/*.yml"
   new_doc_ext: yml
 - type: heading
   label: Configuration
 - type: document
   path: config.yml
   label: Config
-  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
