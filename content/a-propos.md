@@ -3,7 +3,8 @@ title: À propos
 date: 2017-10-17
 menu: main
 published: true
-alias: contact
+alias:
+- contact
 ---
 _Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vidéo](/tags/jeux-video/) et de [développement](/tags/developpement) web.
 
