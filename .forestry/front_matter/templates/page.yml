@@ -7,6 +7,11 @@ fields:
   label: Title
   config:
     required: true
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
 - type: datetime
   name: date
   label: Date
@@ -14,6 +19,15 @@ fields:
     date_format: YYYY-MM-DD
     required: true
   default: now
+- name: updated
+  type: datetime
+  label: Updated
+  description: ''
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
 - type: text
   name: menu
   label: Menu
@@ -21,6 +35,11 @@ fields:
   name: published
   label: Published
   default: false
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
 - name: alias
   type: list
   config:
@@ -30,3 +49,9 @@ fields:
     source:
       type: simple
   label: Alias
+- name: typora-root-url
+  type: text
+  config:
+    required: false
+  label: typora-root-url
+  default: "../static"
