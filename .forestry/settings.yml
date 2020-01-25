@@ -22,7 +22,7 @@ sections:
   label: Data
   create: all
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
