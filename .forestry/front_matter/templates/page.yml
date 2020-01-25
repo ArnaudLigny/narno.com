@@ -4,16 +4,29 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    date_format: YYYY/MM/DD
+    required: true
+  default: now
 - type: text
   name: menu
-  label: menu
+  label: Menu
 - type: boolean
   name: published
-  label: published
-- type: text
-  name: alias
-  label: alias
+  label: Published
+  default: false
+- name: alias
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+  label: Alias
