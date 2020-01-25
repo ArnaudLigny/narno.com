@@ -5,18 +5,18 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+- type: directory
   path: content/tags
   label: Tags
   create: documents
   match: "**/*"
   exclude: index.md
   new_doc_ext: ".md"
-- type: directory
-  path: content/blog
-  label: Posts
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
