@@ -29,22 +29,7 @@ fields:
     time_format: 
     display_utc: false
 - name: menu
-  type: field_group_list
-  fields:
-  - name: weight
-    type: number
-    label: Weight
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  config:
-    min: 
-    max: 
-    labelField: 
+  type: list
   label: Menu
 - type: boolean
   name: published
