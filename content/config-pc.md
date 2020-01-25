@@ -4,6 +4,8 @@ date: 2019-03-20
 menu:
   main:
     weight: 120
+  test:
+    weight: 10
 image: images/CanHard-IX.jpg
 typora-root-url: ../static
 alias:
