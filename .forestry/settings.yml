@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Blog
 - type: directory
   path: content/blog
   label: Posts
@@ -22,20 +24,23 @@ sections:
 - type: document
   path: content/a-propos.md
   label: À propos
-  match: "**/*"
 - type: document
   path: content/mes-velos.md
   label: Mes vélos
-  match: "**/*"
 - type: document
   path: content/config-pc.md
   label: Config PC
+- type: document
+  path: content/soltek-eq3401-sp94-guide-montage.md
+  label: Thermalright SP-94 dans un Soltek Qbic EQ3401
   match: "**/*"
+- type: heading
+  label: Data
 - type: directory
   path: data
-  label: Data
+  label: Photos
   create: all
-  match: "**/*"
+  match: data/photos/*.yml
   new_doc_ext: yml
 upload_dir: static/images
 public_path: "/images"
