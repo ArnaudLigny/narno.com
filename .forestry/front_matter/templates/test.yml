@@ -1,0 +1,29 @@
+---
+label: test
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: field_group_list
+  name: menu
+  label: menu
+  fields:
+  - type: text
+    name: main
+    label: main
+  - type: number
+    name: weight
+    label: weight
+- type: file
+  name: image
+  label: image
+- type: text
+  name: typora-root-url
+  label: typora-root-url
+- type: list
+  name: alias
+  label: alias
