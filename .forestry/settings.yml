@@ -33,7 +33,6 @@ sections:
 - type: document
   path: content/soltek-eq3401-sp94-guide-montage.md
   label: Thermalright SP-94 dans un Soltek Qbic EQ3401
-  match: "**/*"
 - type: heading
   label: Data
 - type: directory
@@ -42,6 +41,12 @@ sections:
   create: all
   match: data/photos/*.yml
   new_doc_ext: yml
+- type: heading
+  label: Configuration
+- type: document
+  path: config.yml
+  label: Config
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
