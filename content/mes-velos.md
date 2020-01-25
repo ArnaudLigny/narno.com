@@ -7,7 +7,8 @@ menu:
   main:
     weight: 130
 image: images/bullitt-bluebird.jpg
-alias: "mon-velo"
+alias:
+- mon-velo
 typora-root-url: ../static
 ---
 
