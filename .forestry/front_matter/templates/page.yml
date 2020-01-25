@@ -28,8 +28,23 @@ fields:
     date_format: YYYY-MM-DD
     time_format: 
     display_utc: false
-- type: list
-  name: menu
+- name: menu
+  type: field_group_list
+  fields:
+  - name: weight
+    type: number
+    label: Weight
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Menu
 - type: boolean
   name: published
