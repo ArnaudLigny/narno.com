@@ -2,8 +2,10 @@
 title: "Mon PC"
 date: 2019-03-20
 menu:
-  - main:
+  main:
     weight: 120
+  other:
+    weight: 10
 image: images/CanHard-IX.jpg
 typora-root-url: ../static
 alias:
