@@ -17,6 +17,20 @@ sections:
   match: "**/*"
   exclude: index.md
   new_doc_ext: md
+- type: heading
+  label: Pages
+- type: document
+  path: content/a-propos.md
+  label: À propos
+  match: "**/*"
+- type: document
+  path: content/mes-velos.md
+  label: Mes vélos
+  match: "**/*"
+- type: document
+  path: content/config-pc.md
+  label: Config PC
+  match: "**/*"
 - type: directory
   path: data
   label: Data
