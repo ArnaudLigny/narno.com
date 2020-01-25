@@ -43,7 +43,7 @@ fields:
 - name: alias
   type: list
   config:
-    use_select: true
+    use_select: false
     min: 
     max: 
     source:
