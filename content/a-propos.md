@@ -5,6 +5,11 @@ menu: main
 published: true
 alias:
 - contact
+typora-root-url: "../static"
+description: ''
+updated: 
+image: ''
+
 ---
 _Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vidéo](/tags/jeux-video/) et de [développement](/tags/developpement) web.
 
