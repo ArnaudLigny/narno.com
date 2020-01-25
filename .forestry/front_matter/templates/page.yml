@@ -1,0 +1,19 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: menu
+  label: menu
+- type: boolean
+  name: published
+  label: published
+- type: text
+  name: alias
+  label: alias
