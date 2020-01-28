@@ -8,6 +8,6 @@ published: false
 typora-root-url: ../../static
 ---
 
-C’est bientôt la reprise (scolaire) et il va nous falloir reprendre les bonnes habitudes !
+to do
 
 ![](/images/leo-bot-demo.png)
