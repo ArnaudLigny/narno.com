@@ -91,5 +91,4 @@ theme:
   - lanyon
 editor: typora
 optimize:
-  images:
    enabled: true
