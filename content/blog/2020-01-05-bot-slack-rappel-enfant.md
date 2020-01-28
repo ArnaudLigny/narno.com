@@ -1,6 +1,6 @@
 ---
 title: 'Un bot pour ne plus oublier son enfant à l’école !'
-date: 2020-01-05
+date: 2020-01-28
 tags: [Papa, Développement]
 image: /images/chatbot.jpg
 published: false
