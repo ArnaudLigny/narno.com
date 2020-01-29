@@ -5,13 +5,13 @@ tags:
   - Développement
   - Accessibilité
 path: blog/paris-web-2007-jy-suis-passe
-image: /photos/paris-web-2007.jpg
+image: /images/photos/paris-web-2007.jpg
 published: true
 typora-root-url: ../../static
 ---
 J'étais à [Paris Web 2007](https://www.paris-web.fr/2007/) pour la journée "libre" : pas de conférences mais des ateliers.
 
-![](/photos/paris-web-2007.jpg)
+![](/images/photos/paris-web-2007.jpg)
 
 **Ce que j'ai retenu :**
 

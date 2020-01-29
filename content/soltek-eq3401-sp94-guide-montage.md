@@ -3,7 +3,7 @@ title: "Thermalright SP-94 dans un Soltek Qbic EQ3401"
 description: "Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 dans un Soltek Qbic EQ3401"
 date: 2004-07-10
 updated: 2004-07-28
-image: soltek-eq3401-sp94-guide-montage/sp94_se2.jpeg
+image: /images/soltek-eq3401-sp94-guide-montage/sp94_se2.jpeg
 alias:
  - rubriques/divers/minigaia/soltek-eq3401-sp94-guide-montage/
  - rubriques/divers/minigaia/soltek_eq3401_guide1/
@@ -33,9 +33,9 @@ Et pour terminer, il s'avère que ce ventirad plutôt massif à première vu, re
 
 **Ce dont nous disposons :**
 
-![SE2](/soltek-eq3401-sp94-guide-montage/se2.jpeg)
-![SP-94](/soltek-eq3401-sp94-guide-montage/sp94.jpeg)
-![Contenu du carton du SP-94](/soltek-eq3401-sp94-guide-montage/carton_sp94.jpeg)
+![SE2](/images/soltek-eq3401-sp94-guide-montage/se2.jpeg)
+![SP-94](/images/soltek-eq3401-sp94-guide-montage/sp94.jpeg)
+![Contenu du carton du SP-94](/images/soltek-eq3401-sp94-guide-montage/carton_sp94.jpeg)
 
 Commençons par le commencement et voyons ce que le carton d'un Thermalright SP-94 contient :
 
@@ -56,11 +56,11 @@ Maintenant que nous savons de quoi nous disposons, voyons maintenant le matérie
 
 Etant donné que nous allons ouvrir la caisse et démonter quelques éléments, je vous conseil d'en profité pour enlever la poussière de votre machine. C'est pour cela que je vais ajouter une bombe d'air à la liste des outils nécessaire.
 
-![Vrille](/soltek-eq3401-sp94-guide-montage/tir.jpeg)
-![Pince à bec](/soltek-eq3401-sp94-guide-montage/pince.jpeg)
-![Couteau](/soltek-eq3401-sp94-guide-montage/couteau.jpeg)
-![Tournevis cruciforme](/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg)
-![Bombe d'air](/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg)
+![Vrille](/images/soltek-eq3401-sp94-guide-montage/tir.jpeg)
+![Pince à bec](/images/soltek-eq3401-sp94-guide-montage/pince.jpeg)
+![Couteau](/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg)
+![Tournevis cruciforme](/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg)
+![Bombe d'air](/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg)
 
 - une bombe d'air : très efficace pour dépoussièrer un ordinateur
 - un tournevis cruciforme de taille moyenne
@@ -80,11 +80,11 @@ Dans ce cas, il va nous falloir démonter plusieurs choses pour travailler avec 
 Pour faire de la place nous allons enlever l'arceau : enlevez les lecteurs optiques, dévisez les 2 fils situés sur le dessus et tirez le vers le haut en veillant de pas cogner le/les disques dur. Ensuite, démontez le boitier d'alimentation simplement en enlevant les trois vis qui le fixe à la caisse.
 Et voilà, on a quand même plus de place d'un coup, non ?! Il ne nous reste plus qu'a extraire la carte mère de la caisse. Pour cela il nous suffit de débrancher tout les câbles qui la relie à la caisse : prises d'alimentation, prise de l'IceQ (gros ventilateur latéral), équipement de façade, etc. Maitenant dévisez les six vis qui la fixe au fond de la caisse et retirez la délicatement en veillant à ne pas forcer sur les divers prises situées à l'arrière.
 
-![Qbic dépouillé](/soltek-eq3401-sp94-guide-montage/qbic_1.jpeg)
+![Qbic dépouillé](/images/soltek-eq3401-sp94-guide-montage/qbic_1.jpeg)
 
 Ca y est, la carte mère est tout à vous ! Pour éviter les accidents, préférez enlever les barettes de mémoire.
 
-![Carte mère](/soltek-eq3401-sp94-guide-montage/cm_1.jpeg)
+![Carte mère](/images/soltek-eq3401-sp94-guide-montage/cm_1.jpeg)
 
 ------
 
@@ -94,48 +94,48 @@ Ca y est, la carte mère est tout à vous ! Pour éviter les accidents, préfér
 
 **Démontage du ventirad :**
 
-![Ventirad et carte mère](/soltek-eq3401-sp94-guide-montage/ventirad_cm.jpeg)
+![Ventirad et carte mère](/images/soltek-eq3401-sp94-guide-montage/ventirad_cm.jpeg)
 
 Passons maitenant la partie *critique* dans l'installation du SP-94 : le démontage du ventirad fournit avec le Pentium IV mais surtout le démontage de son support ! En effet, les cartes mère dotées d'un socket 478 (pour PIV) sont également équipées d'un support permettant la fixation des ventirads "classiques".
 Dans notre cas celui-ci est devenu inutile car le SP-94 se fixe directement sur la carte mère : il va donc nous falloir trouver une solution pour nous en débarasser...
 
 Commençons par observer la carte mère et la manière dont ce support coloré y est fixé. Comme vous pouvez le voir sur les deux photos ci-contre, le support plastique (sur les photos, le cadre violet autour du socket) est fixé en quatre endroit par des pièces de plastique blanche (mâle) et noir (femelle). Les pitons blanc exerce une pression par l'intérieur sur les petits tubes noir (qui sont "soudés" en leur extrèmité) afin de maintenir le tout à la carte mère.
 
-![Carte mère de dos](/soltek-eq3401-sp94-guide-montage/cm_dos.jpeg)
-![Carte mère](/soltek-eq3401-sp94-guide-montage/cm_2.jpeg)
+![Carte mère de dos](/images/soltek-eq3401-sp94-guide-montage/cm_dos.jpeg)
+![Carte mère](/images/soltek-eq3401-sp94-guide-montage/cm_2.jpeg)
 
 ------
 
 Le but de l'opération va donc être de faire "sauter" ces "deux fois quatre" pièces de plastique.
 Dans un premier temps j'avais pensé couper la partie "soudés" des pièce noir afin de pousser le tout (carte mère retournée bien sûr). J'ai donc coupé les petits "chapeaux" noir et j'ai ensuite poussé avec l'extrémité de mon tournevis cruciforme... mais il s'est avéré que la méthode n'était pas idéale. J'ai alors utilisé une pince à bec pour serrer la pièce de plastique afin de pousser le tout, mais là encore la méthode était peu efficace et dangereuse pour le matériel... en effet, de cette manière on force avec un objet plus ou moins pointu à proximité de la carte mère et un accident est vite arrivé ! Pour ma part, après avoir dérapé 2 fois (pourtant en prenant le maximum de précautions !), comme en témoigne la photo tout à droite, j'ai préféré arréter et trouver une méthode moins brutale.
 
-![Fixation carte mère 3](/soltek-eq3401-sp94-guide-montage/fixation_cm_3.jpeg)
-![Fixation carte mère 2](/soltek-eq3401-sp94-guide-montage/fixation_cm_2.jpeg)
-![Fixation carte mère 1](/soltek-eq3401-sp94-guide-montage/fixation_cm_1.jpeg)
+![Fixation carte mère 3](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_3.jpeg)
+![Fixation carte mère 2](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_2.jpeg)
+![Fixation carte mère 1](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_1.jpeg)
 
 Suite à ce constat de "demi échec" j'ai cherché une solution plus "pacifique"... Il va nous falloir essayé de faire les choses en deux temps : pousser les pitons blancs sans toucher aux tubes noirs qui eux, seront retiré dans un deuxième temps.
 
 On peut alors reprendre le cruciforme mais non pas par le manche, mais plutôt par l'extrémité : on aura moins de force mais ce n'est pas l'important, il nous faut être précis et patient. Nous devons pousser, par petites passes successives, le pitons blancs jusqu'à ce que ceuxi-ci puissent être tiré du bout des doigts de l'autre côté de la carte mère.
 
-![Fixation carte mère 6](/soltek-eq3401-sp94-guide-montage/fixation_cm_6.jpeg)
-![Fixation carte mère 5](/soltek-eq3401-sp94-guide-montage/fixation_cm_5.jpeg)
-![Fixation carte mère 4](/soltek-eq3401-sp94-guide-montage/fixation_cm_4.jpeg)
+![Fixation carte mère 6](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_6.jpeg)
+![Fixation carte mère 5](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_5.jpeg)
+![Fixation carte mère 4](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_4.jpeg)
 
 ------
 
 Les quatres pitons en plastique blanc ont été tranquillement poussés d'un côté à l'autre, il nous reste encore les tubes noir, pièces récalcitrantes s'il en est... en effet, pour les mêmes raisons que citées plus haut, mieux vaut évité de pincer et de pousser au dos de la carte mère avec la pince à bec, on risquerai de faire des bêtises ! C'est alors que la vrille entre en scène ! :-p En effet, si on ne peut pas pousser les pitons de plastique sans risque, nous allons... les tirer ! Pour cela, il faut que nous puissions avoir prise sur eux et que ça supporte une traction. D'où le système de tir bouchon.
 Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre en pratique : l'outil doit légèrement entré dans le trou du tube noir, côté supérieur de la carte mère (voir photos) tout en s'enfonçant dans le plastique quand on visse. La difficulté est de trouver le meilleur compromis entre une bonne prise et un écartement minimum du tube de plastique, on tire légèrement mais franchement et là... fantastique ! Ca vient très facilement et proprement, un vrai bonheur ! :-)
 
-![Fixation carte mère 9](/soltek-eq3401-sp94-guide-montage/fixation_cm_9.jpeg)
-![Fixation carte mère 8](/soltek-eq3401-sp94-guide-montage/fixation_cm_8.jpeg)
-![Fixation carte mère 7](/soltek-eq3401-sp94-guide-montage/fixation_cm_7.jpeg)
+![Fixation carte mère 9](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_9.jpeg)
+![Fixation carte mère 8](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_8.jpeg)
+![Fixation carte mère 7](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_7.jpeg)
 
 ------
 
 Comme quoi, une fois la méthode trouvée, ce n'est pas si difficile ;-) Voilà, ça y est votre carte mère est débarassée du support de ventirad et laisse apparaitre 4 trous qui seront nécessaire à la fixation du Thermalright SP-94 (fixation par vis).
 
-![Fixation carte mère 11](/soltek-eq3401-sp94-guide-montage/fixation_cm_11.jpeg)
-![Fixation carte mère 10](/soltek-eq3401-sp94-guide-montage/fixation_cm_10.jpeg)
+![Fixation carte mère 11](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_11.jpeg)
+![Fixation carte mère 10](/images/soltek-eq3401-sp94-guide-montage/fixation_cm_10.jpeg)
 
 *Note : sur la dernière photo (celle de droite), les quelques marques que vous pouvez voir près du trou en bas à droite ont été causées par la première "mauvaise" méthode.*
 
@@ -145,15 +145,15 @@ Comme quoi, une fois la méthode trouvée, ce n'est pas si difficile ;-) Voilà,
 
 Nous avons séparé le ventirad de la carte mère, tâchons maintenant de nous occupé du processeur... toujours collé au ventirad ! Et oui, dans mon cas, lorsque j'ai monté mon QBic je n'avais pas fait les frais d'un tube de pâte thermique. Le conducteur thermique d'origine est donc resté et il est particulièrement collant !
 
-![Processeur 2](/soltek-eq3401-sp94-guide-montage/proc_2.jpeg)
-![Processeur 1](/soltek-eq3401-sp94-guide-montage/proc_1.jpeg)
+![Processeur 2](/images/soltek-eq3401-sp94-guide-montage/proc_2.jpeg)
+![Processeur 1](/images/soltek-eq3401-sp94-guide-montage/proc_1.jpeg)
 
 Il faut savoir que les Pentium IV sont particulièrement petit et n'ont pas une prise facile, il faut donc trouvé un outil pour le décoller mais sans l'âbimer. Je vous déconseil d'utiliser un outil métallique comme un tournevis plat, vous risqueriez de le marquer. En ce qui me concerne j'ai opté pour une simple carte de plastique au format Carte Bleu (oui je sais, c'est ma carte d'assuré... peut-être une manière de ma rassurer ? :-p). Ne vous inquiétez pas, c'est opération se passe sans difficulté avec cette méthode : il suffit de faire pivot tout autour du processeur en prenant appui sur le ventirad et de finir par un petit coup sec sur un des côtés.
 
 Ca y est, le processeur est décollé du ventirad mais il reste encore de la pâte thermique à sa surface : remédions à ça avant de le réinstaller.
 
-![Processeur 4](/soltek-eq3401-sp94-guide-montage/proc_4.jpeg)
-![Processeur 3](/soltek-eq3401-sp94-guide-montage/proc_3.jpeg)
+![Processeur 4](/images/soltek-eq3401-sp94-guide-montage/proc_4.jpeg)
+![Processeur 3](/images/soltek-eq3401-sp94-guide-montage/proc_3.jpeg)
 
 Dans un premier temps, son nettoyage ne semble pas aisé, on cherche des produits mais on hésite à appliquer un solution trop aggrésive sur la surface d'un PIV. Finallement, les solutions les plus simple sont les meilleurs : prenez une feuille de papier essui tout et pliez là, puis vous la glissez sous votre index tout en la maintenant autour de celui-ci avec votre pouce et votre majeur. Comme indiqué plus haut, le PIV n'a pas une prise en main facile, alors comment frotter sa surface facillement ? Ne vous compliquez pas la vie, replacez le temporairement sur son socket, vérouillez le, et commencé à le frotter légèrement avec votre essui tout. Vous n'avez pas besoin de forcer; faites plusieurs passages en changeant régulièrement la feuille. Quand vous êtes satisfait du resultat, reprenez le processeur en main, nous allons passé à la préparation de ce dernier et de la carte mère.
 
@@ -165,8 +165,8 @@ Nous allons maintenant passé à la dernière étape avant l'installation à pro
 
 La préparation du processeur consiste en l'application d'une pâte thermique. Celle-ci à pour but de d'optimiser l'échange thermique entre la survace du propocesseur et le radiateur qui lui va dissiper la chaleur produite. Elle doit donc être appliquée avec soin : sur toute la surface du processeur et en une fine couche homogène. Evitez la surépaisseur : cette pâte ne doit pas se transformée en isolant !
 
-![Processeur 5](/soltek-eq3401-sp94-guide-montage/proc_5.jpeg)
-![Artic Silver V](/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg)
+![Processeur 5](/images/soltek-eq3401-sp94-guide-montage/proc_5.jpeg)
+![Artic Silver V](/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg)
 
 *Note : la photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)*
 
@@ -178,8 +178,8 @@ Cette étape peut vous semblez intimidente, mais si vous avez suivit les précé
 
 Comme je l'ai indiqué dans la [*Partie 1*](#partie1), le SP-94 est livré avec une plaque de fixation en forme de *X*. C'est grâce à elle que le SP-94 sera solidaire de la carte mère et c'est pour elle que nous avons démonter le support de ventirad. En effet, celle-ci est fixée par les mêmes quatres trous de fixation. Pour fixer le tout, un sachet de divers vis et autres entretoises est fournit (voir photo ci-contre).
 
-![La visserie](/soltek-eq3401-sp94-guide-montage/visserie.jpeg)
-![Pièce en X](/soltek-eq3401-sp94-guide-montage/piece_x.jpeg)
+![La visserie](/images/soltek-eq3401-sp94-guide-montage/visserie.jpeg)
+![Pièce en X](/images/soltek-eq3401-sp94-guide-montage/piece_x.jpeg)
 
 Note :
 
@@ -189,19 +189,19 @@ Note :
 ### Étapes
 
 1. Pour commencé, dégagez-vous une zone de travail. Placer ensuite la plaque de fixation à plat et au centre de votre zone de travail, avec le coté du tampon au dessus. Saisissez vous de quatre rondelles plastique, les plus large, et placez les sur les qautre pas de vis de la plaque. Vous pouvez maintenant déposer votre carte mère (face au dessus également) sur la plaque en coordonant les quatres trous de chacun : si vous êtes éclairé par une source de lumière suffisante, ça ne devrait pas être difficile.
-![Fixation SP-94 1](/soltek-eq3401-sp94-guide-montage/fixation_sp94_1.jpeg)
+![Fixation SP-94 1](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_1.jpeg)
 
 2. Nous pouvons maitenant mettre ne place les entretoise à vis. Celles-ci, d'une hauteur certaine, servent de "cale" entre la carte mère et le bloque de cuivre qu'est le SP-94. En effet, il faut cmpenser à différence de niveau du au socket et au processeur. Saississez-vous de quatre de ces pièces et de quatres rondelles plastique (le plus étroites). Enfilez les rondelles de plastique (voir photo) et visser le tout sur la plaque de fixation au travers de la carte mère.
-![Fixation SP-94 3](/soltek-eq3401-sp94-guide-montage/fixation_sp94_3.jpeg)
-![Fixation SP-94 2](/soltek-eq3401-sp94-guide-montage/fixation_sp94_2.jpeg)
+![Fixation SP-94 3](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_3.jpeg)
+![Fixation SP-94 2](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_2.jpeg)
 
 3. Le plus gros du montage est maintenant fait. Il nous faut remettre le processeur en place, après l’avoir préparé bien sûr. Ensuite enlever le film plastique qui protège le SP-94 et placer ce dernier délicatement sur les quatres supports métalique que nous venons de visser. Placer enfin qautres des dernières rondelles (les métalliques) et fixer le SP-94 à l'aide de quatres vis équipées de ressort. Les ressorts entretiendront une pression constante entre les vis et le bloque de cuivre. Serez donc les vis de manière à mettre ces ressorts sous pession sans non plus forcer sur le matériel !
-![Fixation SP-94 9](/soltek-eq3401-sp94-guide-montage/fixation_sp94_9.jpeg)
-![Fixation SP-94 8](/soltek-eq3401-sp94-guide-montage/fixation_sp94_8.jpeg)
-![Fixation SP-94 7](/soltek-eq3401-sp94-guide-montage/fixation_sp94_7.jpeg)
-![Fixation SP-94 6](/soltek-eq3401-sp94-guide-montage/fixation_sp94_6.jpeg)
-![Fixation SP-94 5](/soltek-eq3401-sp94-guide-montage/fixation_sp94_5.jpeg)
-![Fixation SP-94 4](/soltek-eq3401-sp94-guide-montage/fixation_sp94_4.jpeg)
+![Fixation SP-94 9](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_9.jpeg)
+![Fixation SP-94 8](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_8.jpeg)
+![Fixation SP-94 7](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_7.jpeg)
+![Fixation SP-94 6](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_6.jpeg)
+![Fixation SP-94 5](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_5.jpeg)
+![Fixation SP-94 4](/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_4.jpeg)
 
 ----
 
