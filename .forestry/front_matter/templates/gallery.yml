@@ -18,7 +18,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: description
   label: Photo
 pages:
 - data/photos/soltek_eq3401/sp94_guide_montage.yml
