@@ -14,7 +14,7 @@
     <id>https://narno.com/blog/leo-est-ne/</id>
     <title>Léo est né !</title>
     <content type="html">
-      <![CDATA[<p><img src="/photos/leo.jpg" alt="Léo est né !" /></p>
+      <![CDATA[<p><img src="/images/photos/leo.jpg" alt="Léo est né !" /></p>
 <p>Léo est né le 8 octobre. Nous nous portons très bien tous les 3 ! :-)</p>]]>
     </content>
     <link href="https://narno.com/blog/leo-est-ne/" rel="alternate" type="text/html" />

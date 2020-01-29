@@ -175,7 +175,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     <item>
       <guid>https://narno.com/blog/leo-est-ne/</guid>
       <title>Léo est né !</title>
-      <description><![CDATA[<p><img src="/photos/leo.jpg" alt="Léo est né !" /></p>
+      <description><![CDATA[<p><img src="/images/photos/leo.jpg" alt="Léo est né !" /></p>
 <p>Léo est né le 8 octobre. Nous nous portons très bien tous les 3 ! :-)</p>]]></description>
       <pubDate>2012-10-12T02:00:00+02:00</pubDate>
       <link>https://narno.com/blog/leo-est-ne/</link>
@@ -521,7 +521,7 @@ Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voul
       <guid>https://narno.com/blog/paris-web-2007-jy-suis-passe/</guid>
       <title>Paris Web 2007 : j'y suis passé !</title>
       <description><![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
-<p><img src="/photos/paris-web-2007.jpg" alt="" /></p>
+<p><img src="/images/photos/paris-web-2007.jpg" alt="" /></p>
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>
 <li>l'accessibilité est encore le sujet chérie de cette année, et les mêmes problématiques se posent toujours encore et toujours : comment prendre en compte les normes (toute relatives, WCAG, RGEE, etc.) dans un métier dont le principal moteur est &quot;la vente vite bien fait, par ici la monnaie&quot;...</li>
