@@ -1,0 +1,14 @@
+---
+label: Gallery
+hide_body: true
+fields:
+- type: field_group_list
+  name: Sp94 guide montage
+  label: Sp94 guide montage
+  fields:
+  - type: file
+    name: file
+    label: file
+  - type: text
+    name: description
+    label: description
