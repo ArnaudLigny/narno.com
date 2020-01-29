@@ -1,4 +1,6 @@
 ---
+- file: images/soltek-eq3401-sp94-guide-montage/photos/9.jpeg
+  description: Disparition ! :-D
 - file: images/soltek-eq3401-sp94-guide-montage/photos/1.jpeg
   description: Vue de côté
 - file: images/soltek-eq3401-sp94-guide-montage/photos/2.jpeg
@@ -15,5 +17,3 @@
   description: Distance avec le HDD 3/4
 - file: images/soltek-eq3401-sp94-guide-montage/photos/8.jpeg
   description: Distance avec le boîtier d'alimentation
-- file: images/soltek-eq3401-sp94-guide-montage/photos/9.jpeg
-  description: Disparition ! :-D
