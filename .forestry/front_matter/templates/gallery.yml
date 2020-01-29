@@ -1,4 +1,22 @@
 ---
 label: Gallery
 hide_body: true
-fields: []
+fields:
+- name: photo
+  type: field_group_list
+  fields:
+  - name: file
+    type: file
+    config:
+      maxSize: 250
+    label: File
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Photo
