@@ -32,7 +32,7 @@ sections:
   label: Config PC
 - type: document
   path: content/soltek-eq3401-sp94-guide-montage.md
-  label: Thermalright SP-94 dans un Soltek Qbic EQ3401
+  label: Thermalright SP-94
 - type: heading
   label: Data
 - type: directory
