@@ -8,7 +8,9 @@ fields:
   fields:
   - type: file
     name: file
-    label: file
+    label: File
   - type: text
     name: description
-    label: description
+    label: Description
+    config:
+      required: true
