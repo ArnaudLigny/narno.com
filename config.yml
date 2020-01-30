@@ -40,11 +40,11 @@ menus:
       name: 'About'
 menu:
   main:
-    forum:
-      id: forum
-      name: "Forum"
+    - id: forum
+      name: 'Forum'
       url: https://lesforums.org
       weight: 1000
+menu-old:
   rs:
     twitter:
       id: twitter
