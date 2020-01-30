@@ -8,6 +8,13 @@ fields:
   label: Title
   config:
     required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+    required: true
+  default: now
 - name: description
   type: text
   config:
@@ -18,13 +25,6 @@ fields:
   config:
     maxSize: 250
   label: Image
-- type: datetime
-  name: date
-  label: Date
-  config:
-    date_format: YYYY-MM-DD
-    required: true
-  default: now
 - type: boolean
   name: published
   label: Published
