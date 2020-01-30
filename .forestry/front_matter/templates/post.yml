@@ -4,22 +4,30 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+    required: true
 - type: datetime
   name: updated
-  label: updated
+  label: Updated
+  config:
+    date_format: YYYY-MM-DD
 - type: text
   name: tags
-  label: tags
+  label: Tags
 - type: file
   name: image
-  label: image
+  label: Image
 - type: boolean
   name: published
-  label: published
+  label: Published
 - type: text
   name: typora-root-url
   label: typora-root-url
+  hidden: true
