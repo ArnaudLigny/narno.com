@@ -40,25 +40,10 @@ menu:
       weight: 1000
 menus:
   main:
-    - identifier: about
-      name: about hugo
-      url: /about/
-      weight: -110
-    - identifier: started
-      name: getting started
-      url: /getting-started/
-      weight: -100
-menu-test:
-  main:
-    - id: home
-      name: 'Home page'
-    - id: other
-      name: 'Other'
-      url: https://other.com
-      weight: 999
-  footer:
-    - id: about
-      name: 'About'
+    - id: forum
+      name: 'Forum'
+      url: https://lesforums.org
+      weight: 1000
 manifest:
   lang: fr-FR
   start_url: /
