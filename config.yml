@@ -8,6 +8,12 @@ languages:
   fr:
     name: Français
     locale: fr_FR
+menus:
+  main:
+    - id: forum
+      name: 'Forum'
+      url: https://lesforums.org
+      weight: 1000
 date:
   format: "j M Y"
   timezone: "Europe/Paris"
@@ -31,12 +37,6 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
-menus:
-  main:
-    - id: forum
-      name: 'Forum'
-      url: https://lesforums.org
-      weight: 1000
 manifest:
   lang: fr-FR
   start_url: /
