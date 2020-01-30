@@ -37,7 +37,7 @@ rs:
 #      name: 'Forum'
 #      url: https://lesforums.org
 #      weight: 1000
-menu:
+menus:
   main:
     - identifier: about
       name: about hugo
