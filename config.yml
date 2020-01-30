@@ -31,13 +31,6 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
-menu:
-  main:
-    forum:
-      id: forum
-      name: 'Forum'
-      url: https://lesforums.org
-      weight: 1000
 menus:
   main:
     - id: forum
