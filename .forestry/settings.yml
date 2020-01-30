@@ -34,10 +34,10 @@ sections:
   label: Thermalright SP-94
 - type: document
   path: content/soltek-eq3401-sp94-guide-montage.md
-  label: 'Thermalright SP-94 : article'
+  label: Article
 - type: document
   path: data/photos/soltek_eq3401/sp94_guide_montage.yml
-  label: 'Thermalright SP-94 : photos'
+  label: Photos
 - type: heading
   label: Configuration
 - type: document
