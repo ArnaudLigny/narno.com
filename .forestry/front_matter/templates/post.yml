@@ -13,11 +13,6 @@ fields:
   config:
     date_format: YYYY-MM-DD
     required: true
-- type: datetime
-  name: updated
-  label: Updated
-  config:
-    date_format: YYYY-MM-DD
 - type: text
   name: tags
   label: Tags
@@ -27,6 +22,11 @@ fields:
 - type: boolean
   name: published
   label: Published
+- type: datetime
+  name: updated
+  label: Updated
+  config:
+    date_format: YYYY-MM-DD
 - type: text
   name: typora-root-url
   label: typora-root-url
