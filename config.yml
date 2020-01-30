@@ -31,6 +31,13 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
+collection:
+  navigation:
+    - id: nav1
+      name: 'Nav 1'
+  footer:
+    - id: foot1
+      name: 'Footer 1'
 menu:
   main:
     forum:
@@ -38,11 +45,6 @@ menu:
       name: "Forum"
       url: https://lesforums.org
       weight: 1000
-    author:
-      id: author
-      name: "Author"
-      url: https://arnaudligny.fr
-      weight: 100000000
   rs:
     twitter:
       id: twitter
