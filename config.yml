@@ -31,6 +31,12 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
+#menu:
+#  main:
+#    - id: forum
+#      name: 'Forum'
+#      url: https://lesforums.org
+#      weight: 1000
 menu:
   main:
   - identifier: about
@@ -43,13 +49,7 @@ menu:
     pre: <i class='fa fa-road'></i>
     url: /getting-started/
     weight: -100
-menu:
-  main:
-    - id: forum
-      name: 'Forum'
-      url: https://lesforums.org
-      weight: 1000
-menus:
+menu-test:
   main:
     - id: home
       name: 'Home page'
@@ -60,38 +60,6 @@ menus:
   footer:
     - id: about
       name: 'About'
-menu-old:
-  rs:
-    twitter:
-      id: twitter
-      name: "Twitter"
-      url: https://twitter.com/Narno
-      weight: 1
-    facebook:
-      id: facebook
-      name: "Facebook"
-      url: https://www.facebook.com/narno
-      weight: 2
-    github:
-      id: github
-      name: "GitHub"
-      url: https://github.com/Narno
-      weight: 3
-    drupal:
-      id: drupal
-      name: "Drupal"
-      url: https://drupal.org/user/141690
-      weight: 4
-    senscritique:
-      id: senscritique
-      name: "SensCritique"
-      url: https://www.senscritique.com/Narno
-      weight: 5
-    lastfm:
-      id: lastfm
-      name: "last.fm"
-      url: https://www.last.fm/fr/user/narn0
-      weight: 6
 manifest:
   lang: fr-FR
   start_url: /
