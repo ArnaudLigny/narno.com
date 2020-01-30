@@ -31,13 +31,13 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
-collection:
-  navigation:
-    - id: nav1
-      name: 'Nav 1'
+menus:
+  main:
+    - id: home
+      name: 'Home page'
   footer:
-    - id: foot1
-      name: 'Footer 1'
+    - id: about
+      name: 'About'
 menu:
   main:
     forum:
