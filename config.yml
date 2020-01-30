@@ -31,12 +31,12 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
-#menu:
-#  main:
-#    - id: forum
-#      name: 'Forum'
-#      url: https://lesforums.org
-#      weight: 1000
+menu:
+  main:
+    - id: forum
+      name: 'Forum'
+      url: https://lesforums.org
+      weight: 1000
 menus:
   main:
     - identifier: about
