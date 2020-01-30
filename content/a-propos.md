@@ -1,9 +1,7 @@
 ---
 title: À propos
 date: 2017-10-17
-menu:
-  - id: main
-    weight: 999
+menu: main
 published: true
 alias:
   - contact
