@@ -12,6 +12,11 @@ fields:
   config:
     required: false
   label: Description
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
 - type: datetime
   name: date
   label: Date
@@ -19,6 +24,13 @@ fields:
     date_format: YYYY-MM-DD
     required: true
   default: now
+- name: menu
+  type: list
+  label: Menu
+- type: boolean
+  name: published
+  label: Published
+  default: false
 - name: updated
   type: datetime
   label: Updated
@@ -28,18 +40,6 @@ fields:
     date_format: YYYY-MM-DD
     time_format: 
     display_utc: false
-- name: menu
-  type: list
-  label: Menu
-- type: boolean
-  name: published
-  label: Published
-  default: false
-- name: image
-  type: file
-  config:
-    maxSize: 250
-  label: Image
 - name: alias
   type: list
   config:
