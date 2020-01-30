@@ -15,6 +15,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - post
 - type: directory
   path: content/tags
   label: Tags
@@ -22,6 +24,8 @@ sections:
   match: "**/*"
   exclude: index.md
   new_doc_ext: md
+  templates:
+  - tag
 - type: heading
   label: Pages
 - type: document
