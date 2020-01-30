@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: config.yml
+  label: Configuration
 - type: heading
   label: Blog
 - type: directory
@@ -38,9 +41,6 @@ sections:
 - type: document
   path: data/photos/soltek_eq3401/sp94_guide_montage.yml
   label: Photos
-- type: document
-  path: config.yml
-  label: Configuration
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
