@@ -38,11 +38,9 @@ sections:
 - type: document
   path: data/photos/soltek_eq3401/sp94_guide_montage.yml
   label: Photos
-- type: heading
-  label: Configuration
 - type: document
   path: config.yml
-  label: Config
+  label: Configuration
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
