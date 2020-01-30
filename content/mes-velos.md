@@ -4,7 +4,7 @@ description: "Présentation rapide de mes vélos ! \U0001F6B2"
 date: 2019-03-20
 updated: 2019-05-07
 menu:
-- main:
+  main:
     weight: 130
 image: images/bullitt-bluebird.jpg
 alias:
