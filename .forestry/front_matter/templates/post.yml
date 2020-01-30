@@ -13,8 +13,9 @@ fields:
   config:
     date_format: YYYY-MM-DD
     required: true
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: Tags
 - type: file
   name: image
