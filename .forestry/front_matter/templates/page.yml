@@ -25,13 +25,13 @@ fields:
     date_format: YYYY-MM-DD
     required: true
   default: now
-- name: menu
-  type: list
-  label: Menu
 - type: boolean
   name: published
   label: Published
   default: false
+- name: menu
+  type: list
+  label: Menu
 - name: updated
   type: datetime
   label: Updated
