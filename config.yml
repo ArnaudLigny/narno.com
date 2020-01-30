@@ -33,7 +33,8 @@ rs:
     username: "Narno"
 menu:
   main:
-    - id: forum
+    forum:
+      id: forum
       name: 'Forum'
       url: https://lesforums.org
       weight: 1000
