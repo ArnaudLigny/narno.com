@@ -32,13 +32,15 @@ rs:
   github:
     username: "Narno"
 menu:
-  - main:
-    - name: "Forum"
+  main:
+    forum:
       id: forum
+      name: "Forum"
       url: https://lesforums.org
       weight: 1000
-    - name: "Author"
+    author:
       id: author
+      name: "Author"
       url: https://arnaudligny.fr
       weight: 100000000
   rs:
