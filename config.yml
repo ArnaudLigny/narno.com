@@ -39,16 +39,14 @@ rs:
 #      weight: 1000
 menu:
   main:
-  - identifier: about
-    name: about hugo
-    pre: <i class='fa fa-heart'></i>
-    url: /about/
-    weight: -110
-  - name: getting started
-    post: <span class='alert'>New!</span>
-    pre: <i class='fa fa-road'></i>
-    url: /getting-started/
-    weight: -100
+    - identifier: about
+      name: about hugo
+      url: /about/
+      weight: -110
+    - identifier: started
+      name: getting started
+      url: /getting-started/
+      weight: -100
 menu-test:
   main:
     - id: home
