@@ -55,5 +55,6 @@ fields:
     required: false
   label: typora-root-url
   default: "../static"
+  hidden: true
 pages:
 - content/a-propos.md
