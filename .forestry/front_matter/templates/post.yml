@@ -33,4 +33,5 @@ fields:
   label: typora-root-url
   hidden: true
 pages:
+- content/blog/2019-05-10-chrome-open-new-tab-after-current-tab.md
 - content/blog/2019-05-18-velo-cargo-bullitt-ya-quoi-dans-le-carton.md

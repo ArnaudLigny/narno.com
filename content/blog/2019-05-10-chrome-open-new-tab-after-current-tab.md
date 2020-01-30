@@ -1,12 +1,14 @@
 ---
-title: "Chrome : ouvrir un nouvel onglet après l'onglet actif"
+title: 'Chrome : ouvrir un nouvel onglet après l''onglet actif'
 date: 2019-05-10
-tags: Développement
-image: /images/Open-New-Tab-After-Current-Tab.jpg
+tags:
+- Développement
+image: "/images/Open-New-Tab-After-Current-Tab.jpg"
 published: true
-typora-root-url: ../../static
----
+typora-root-url: "../../static"
+updated: 
 
+---
 Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.
 
 Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton "plus" sera ouvert juste après l'onglet actif.
