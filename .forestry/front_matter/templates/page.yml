@@ -59,4 +59,5 @@ fields:
   hidden: true
 pages:
 - content/a-propos.md
+- content/config-pc.md
 - content/mes-velos.md

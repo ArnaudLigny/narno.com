@@ -1,15 +1,18 @@
 ---
-title: "Mon PC"
+title: Mon PC
 date: 2019-03-20
 menu:
-  main:
+- main:
     weight: 120
 image: images/CanHard-IX.jpg
-typora-root-url: ../static
+typora-root-url: "../static"
 alias:
 - configpc
----
+published: true
+description: ''
+updated: 
 
+---
 ## La configuration matérielle de mon PC de jeu
 
 ![CanHard IX](/images/CanHard-IX.jpg)
