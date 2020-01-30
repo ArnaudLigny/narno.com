@@ -31,19 +31,23 @@ rs:
     username: "Narno"
   github:
     username: "Narno"
-menus:
-  main:
-    - id: home
-      name: 'Home page'
-  footer:
-    - id: about
-      name: 'About'
 menu:
   main:
     - id: forum
       name: 'Forum'
       url: https://lesforums.org
       weight: 1000
+menus:
+  main:
+    - id: home
+      name: 'Home page'
+    - id: other
+      name: 'Other'
+      url: https://other.com
+      weight: 999
+  footer:
+    - id: about
+      name: 'About'
 menu-old:
   rs:
     twitter:
