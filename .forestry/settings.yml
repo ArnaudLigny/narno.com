@@ -22,14 +22,14 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: content/a-propos.md
-  label: À propos
+  path: content/config-pc.md
+  label: Config PC
 - type: document
   path: content/mes-velos.md
   label: Mes vélos
 - type: document
-  path: content/config-pc.md
-  label: Config PC
+  path: content/a-propos.md
+  label: À propos
 - type: heading
   label: Thermalright SP-94
 - type: document
