@@ -33,11 +33,14 @@ rs:
     username: "Narno"
 menu:
   main:
-    forum:
+    - name: "Forum"
       id: forum
-      name: "Forum"
       url: https://lesforums.org
       weight: 1000
+    - name: "Author"
+      id: author
+      url: https://arnaudligny.fr
+      weight: 100000000
   rs:
     twitter:
       id: twitter
