@@ -4,20 +4,24 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
 - type: field_group
   name: menu
-  label: menu
+  label: Menu
   fields:
   - type: field_group
     name: main
-    label: main
+    label: Main
     fields:
     - type: number
       name: weight
-      label: weight
+      label: Weight
 pages:
 - content/tags/cycliste-urbain.md
