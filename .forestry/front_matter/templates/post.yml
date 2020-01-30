@@ -32,3 +32,5 @@ fields:
   name: typora-root-url
   label: typora-root-url
   hidden: true
+pages:
+- content/blog/2019-05-18-velo-cargo-bullitt-ya-quoi-dans-le-carton.md

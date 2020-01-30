@@ -1,13 +1,14 @@
 ---
-title: "Vélo cargo Bullitt : ya quoi dans le carton ?"
+title: 'Vélo cargo Bullitt : ya quoi dans le carton ?'
 date: 2019-05-18
 updated: 2019-05-26
-tags: Vélo
-image: /images/bullitt-carton/IMG_20190413_112340.jpg
+tags:
+- Vélo
+image: "/images/bullitt-carton/IMG_20190413_112340.jpg"
 published: true
-typora-root-url: ../../static
----
+typora-root-url: "../../static"
 
+---
 Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique [Bullitt Bluebird de Larry vs Harry](https://www.larryvsharry.com/) !
 
 ![Vélo cargo Bullitt vu de profil](/images/bullitt-carton/IMG_20190413_112340.jpg)
