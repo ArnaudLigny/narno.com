@@ -32,7 +32,7 @@ rs:
   github:
     username: "Narno"
 menu:
-  main:
+  - main:
     - name: "Forum"
       id: forum
       url: https://lesforums.org
