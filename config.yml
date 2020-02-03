@@ -5,7 +5,7 @@ description: "Narno.com est un weblog où je parle de développement web, de vé
 keywords: [narno, blog, développement web, vélo, jeu vidéo]
 language: fr
 languages:
-  fr:
+  - code: fr
     name: Français
     locale: fr_FR
 menus:
