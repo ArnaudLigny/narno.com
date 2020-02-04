@@ -22,9 +22,9 @@ author:
   url: https://arnaudligny.fr
 googleanalytics: UA-387892-1
 virtualpages:
-  code:
+  - path: code
     redirect: https://github.com/Narno
-  blog/le-blog-avance:
+  - path: blog/le-blog-avance
     redirect: /
     title: "Le blog avance !"
     date: 2008-12-08
@@ -60,10 +60,3 @@ theme:
 editor: typora
 optimize:
    enabled: true
-items:
-  - things:
-      thing1: huey
-      things2: dewey
-      thing3: louie
-  - otherthings:
-      key: value
