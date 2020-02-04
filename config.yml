@@ -28,14 +28,14 @@ virtualpages:
     date: 2008-12-08
   - path: code
     redirect: https://github.com/Narno
-reseaux-sociaux:
-  - name: facebook
+social:
+  facebook:
     admins: 516589570
     email: me@narno.com
     country: "France"
-  - name: twitter
+  twitter:
     username: "Narno"
-  - name: github
+  github:
     username: "Narno"
 manifest:
   lang: fr-FR

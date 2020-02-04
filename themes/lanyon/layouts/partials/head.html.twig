@@ -10,7 +10,7 @@
     <title>{{ title }}</title>
     <meta name="copyright" content="{{ site.author.name }}">
     <meta name="revisit-after" content="1 day">
-    <meta property="fb:admins" content="{{ site.rs.facebook.admins }}">
+    <meta property="fb:admins" content="{{ site.social.facebook.admins }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="{{ site.language.locale }}" />
 {% if page.section == 'blog' %}
@@ -30,7 +30,7 @@
     <meta property="og:image" content="https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=300">
 {% endif %}
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@{{ site.rs.twitter.username }}">
+    <meta name="twitter:site" content="@{{ site.social.twitter.username }}">
     <meta property="og:title" content="{{ title }}">
     <meta name="twitter:title" content="{{ title }}">
 {% if page.description is defined %}
@@ -64,8 +64,8 @@
     <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link href="https://twitter.com/{{ site.rs.twitter.username }}" rel="me">
-    <link href="https://github.com/{{ site.rs.github.username }}" rel="me">
+    <link href="https://twitter.com/{{ site.social.twitter.username }}" rel="me">
+    <link href="https://github.com/{{ site.social.github.username }}" rel="me">
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/narno.com/webmention">
     <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention">
