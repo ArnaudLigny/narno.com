@@ -97,24 +97,7 @@ On en arrive à une situation absurbe  …"
       			c247.586,0,449.006-201.437,449.006-449.007C898.014,201.403,696.594,0,449.007,0z M449.007,809.683
       			c-198.866,0-360.676-161.792-360.676-360.676S250.141,88.331,449.007,88.331c198.883,0,360.676,161.792,360.676,360.676
       			S647.891,809.683,449.007,809.683z"></path> <circle cx=449.007 cy=228.162 r=58.882></circle> <path d="M502.729,310.61H395.301c-27.553,0-50.083,22.531-50.083,50.066v169.296h36.073v198.746h135.447V529.972h36.059V360.676
-      			C552.797,333.141,530.266,310.61,502.729,310.61z"></path></symbol></defs> </svg> <script>/* is browser support service worker? */
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(function (registration) {
-      console.log('[SW] Registration successful with scope: ', registration.scope);
-      registration.unregister().then(function (boolean) {
-        console.log('[SW] Unregister');
-      });
-    }).catch(function (err) {
-      console.log('[SW] Failed: ', err);
-    });
-  }
-  /* browser storage */
-  navigator.webkitTemporaryStorage.queryUsageAndQuota(
-    function (usedBytes, grantedBytes) {
-      console.log('Cache size: ', (usedBytes / 1048576).toFixed(2), ' / ', (grantedBytes / 1048576).toFixed(2), 'Mo');
-    },
-    function (e) { console.log('Error', e); }
-  );</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      			C552.797,333.141,530.266,310.61,502.729,310.61z"></path></symbol></defs> </svg> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
