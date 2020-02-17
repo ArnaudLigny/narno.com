@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Narno.com - Galeries</title>
+    <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
+    <lastBuildDate>2004-07-10T02:00:00+02:00</lastBuildDate>
+    <link>https://narno.com/galeries/</link>
+    <item>
+      <guid>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</guid>
+      <title>Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos</title>
+      <description><![CDATA[<p>Quelques photos - en vrac - de la fin du montage.</p>]]></description>
+      <pubDate>2004-07-10T02:00:00+02:00</pubDate>
+      <link>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</link>
+    </item>
+  </channel>
+</rss>

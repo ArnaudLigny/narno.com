@@ -755,14 +755,14 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
       <link>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</link>
     </item>
     <item>
-      <guid>https://narno.com/soltek-eq3401-sp94-guide-montage-photos/</guid>
+      <guid>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</guid>
       <title>Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos</title>
       <description><![CDATA[<p>Quelques photos - en vrac - de la fin du montage.</p>]]></description>
       <pubDate>2004-07-10T02:00:00+02:00</pubDate>
-      <link>https://narno.com/soltek-eq3401-sp94-guide-montage-photos/</link>
+      <link>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</link>
     </item>
     <item>
-      <guid>https://narno.com/soltek-eq3401-sp94-guide-montage/</guid>
+      <guid>https://narno.com/blog/soltek-eq3401-sp94-guide-montage/</guid>
       <title>Thermalright SP-94 dans un Soltek Qbic EQ3401</title>
       <description><![CDATA[<blockquote>
 <p>Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 dans un Soltek Qbic EQ3401</p>
@@ -774,12 +774,14 @@ D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'
 <span id="more"></span>
 <h2 id="sommaire">Sommaire</h2>
 <ul>
-<li><a href="#partie1"><strong>Partie 1 :</strong></a> contenu du carton et matériel nécessaire</li>
-<li><a href="#partie2"><strong>Partie 2 :</strong></a> dépouillage de la caisse et extraction de la carte mère</li>
-<li><a href="#partie3"><strong>Partie 3 :</strong></a> démontage du ventirad <em>box,</em> nettoyage et préparation du processeur</li>
-<li><a href="#partie4"><strong>Partie 4 :</strong></a> mise en place du SP-94, du SE2 et fixation de l'ensemble</li>
-<li><strong>Partie 5 :</strong> remontage de la carte mère et des éléments : ça passe encore ?</li>
-<li><strong>Conclusion</strong></li>
+<li><a href="#sommaire-sommaire">Sommaire {#sommaire}</a></li>
+<li><a href="#partie-1--contenu-du-carton-et-mat%c3%a9riel-n%c3%a9cessaire-partie1">Partie 1 : contenu du carton et matériel nécessaire {#partie1}</a></li>
+<li><a href="#partie-2--d%c3%a9pouillage-de-la-caisse-et-extraction-de-la-carte-m%c3%a8re-partie2">Partie 2 : dépouillage de la caisse et extraction de la carte mère {#partie2}</a></li>
+<li><a href="#partie-3--d%c3%a9montage-du-ventirad-box-et-nettoyage-du-processeur-partie3">Partie 3 : démontage du ventirad *box* et nettoyage du processeur {#partie3}</a></li>
+<li><a href="#partie-4--mise-en-place-du-sp-94-du-se2-et-fixation-de-lensemble-partie4">Partie 4 : mise en place du SP-94, du SE2 et fixation de l’ensemble {#partie4}</a>
+<ul>
+<li><a href="#%c3%89tapes">Étapes</a></li>
+</ul></li>
 </ul>
 <h2 id="partie1">Partie 1 : contenu du carton et matériel nécessaire</h2>
 <p><strong>Ce dont nous disposons :</strong></p>
@@ -911,11 +913,11 @@ Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre e
 <li>La photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)</li>
 </ul>
 <p><a href="#sommaire"><em>Sommaire</em></a></p>
-<p>(bientôt la suite ! En attendant, voici quelques <a href="../soltek-eq3401-sp94-guide-montage-photos">photos</a> !)</p>
+<p>(bientôt la suite ! En attendant, voici quelques <a href="../../galeries/soltek-eq3401-sp94-guide-montage">photos</a> !)</p>
 <hr />
 <p>La <a href="https://web.archive.org/web/20061209111005/http://www.narno.com/rubriques/divers/minigaia/soltek-eq3401-sp94-guide-montage/">version originale</a> de ce guide à été créée par <a href="https://narno.com">Narno</a> le 10 juillet 2004.</p>]]></description>
       <pubDate>2004-07-10T02:00:00+02:00</pubDate>
-      <link>https://narno.com/soltek-eq3401-sp94-guide-montage/</link>
+      <link>https://narno.com/blog/soltek-eq3401-sp94-guide-montage/</link>
     </item>
   </channel>
 </rss>
