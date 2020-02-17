@@ -7,7 +7,8 @@ image: /images/soltek-eq3401-sp94-guide-montage/sp94_se2.jpeg
 alias:
  - rubriques/divers/minigaia/soltek-eq3401-sp94-guide-montage/
  - rubriques/divers/minigaia/soltek_eq3401_guide1/
-typora-root-url: ../static
+ - soltek-eq3401-sp94-guide-montage/
+typora-root-url: ../../static
 ---
 
 > Guide de montage du Thermalright SP-94 couplé au Noisebloker SE2 dans un Soltek Qbic EQ3401
@@ -22,12 +23,12 @@ Et pour terminer, il s'avère que ce ventirad plutôt massif à première vu, re
 <!-- break -->
 ## Sommaire {#sommaire}
 
-- [**Partie 1 :**](#partie1) contenu du carton et matériel nécessaire
-- [**Partie 2 :**](#partie2) dépouillage de la caisse et extraction de la carte mère
-- [**Partie 3 :**](#partie3) démontage du ventirad *box,* nettoyage et préparation du processeur
-- [**Partie 4 :**](#partie4) mise en place du SP-94, du SE2 et fixation de l'ensemble
-- **Partie 5 :** remontage de la carte mère et des éléments : ça passe encore ?
-- **Conclusion**
+- [Sommaire {#sommaire}](#sommaire-sommaire)
+- [Partie 1 : contenu du carton et matériel nécessaire {#partie1}](#partie-1--contenu-du-carton-et-mat%c3%a9riel-n%c3%a9cessaire-partie1)
+- [Partie 2 : dépouillage de la caisse et extraction de la carte mère {#partie2}](#partie-2--d%c3%a9pouillage-de-la-caisse-et-extraction-de-la-carte-m%c3%a8re-partie2)
+- [Partie 3 : démontage du ventirad \*box\* et nettoyage du processeur {#partie3}](#partie-3--d%c3%a9montage-du-ventirad-box-et-nettoyage-du-processeur-partie3)
+- [Partie 4 : mise en place du SP-94, du SE2 et fixation de l’ensemble {#partie4}](#partie-4--mise-en-place-du-sp-94-du-se2-et-fixation-de-lensemble-partie4)
+  - [Étapes](#%c3%89tapes)
 
 ## Partie 1 : contenu du carton et matériel nécessaire {#partie1}
 
@@ -213,7 +214,7 @@ Note :
 
 [*Sommaire*](#sommaire)
 
-(bientôt la suite ! En attendant, voici quelques [photos](soltek-eq3401-sp94-guide-montage-photos.md) !)
+(bientôt la suite ! En attendant, voici quelques [photos](../galeries/soltek-eq3401-sp94-guide-montage.md) !)
 
 ------
 
