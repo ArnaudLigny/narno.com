@@ -6,7 +6,7 @@
   {{ page.content }}
   {% for photo in site.data.photos.soltek_eq3401.sp94_guide_montage %}
   <figure>
-    <img src="{{ url(photo.file) }}" alt="{{ photo.description }}" />
+    <a href="{{ url(photo.file) }}"><img src="{{ url(photo.file|resize(600)) }}" alt="{{ photo.description }}" /></a>
     <figcaption>{{ photo.description }}</figcaption>
   </figure>
   {% endfor %}
