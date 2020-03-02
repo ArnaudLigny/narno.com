@@ -62,3 +62,5 @@ theme:
 editor: typora
 optimize:
    enabled: true
+cache:
+  enabled: true
