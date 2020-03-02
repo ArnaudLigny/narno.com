@@ -583,11 +583,11 @@ D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'
 <p><strong>Ce dont nous aurons besoin :</strong></p>
 <p>Maintenant que nous savons de quoi nous disposons, voyons maintenant le matériel qui nous sera nécessaire à la mise en place de ces équipements.</p>
 <p>Etant donné que nous allons ouvrir la caisse et démonter quelques éléments, je vous conseil d'en profité pour enlever la poussière de votre machine. C'est pour cela que je vais ajouter une bombe d'air à la liste des outils nécessaire.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/tir.jpeg" alt="Vrille" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/pince.jpeg" alt="Pince à bec" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg" alt="Couteau" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg" alt="Tournevis cruciforme" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg" alt="Bombe d&#039;air" /></p>
+<p><img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/tir.jpeg" alt="Vrille" width="200" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/pince.jpeg" alt="Pince à bec" width="200" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg" alt="Couteau" width="200" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg" alt="Tournevis cruciforme" width="200" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg" alt="Bombe d&#039;air" width="200" /></p>
 <ul>
 <li>une bombe d'air : très efficace pour dépoussièrer un ordinateur</li>
 <li>un tournevis cruciforme de taille moyenne</li>
@@ -652,7 +652,7 @@ Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre e
 <p><em>Important : notez que cette étape est batarde au niveau chronologique dans le sens ou vous devez en prendre note mais que l'application de la pâte thermique doit se faire après la mise en place du support pour le SP-94 (pièce noir en X) : évitez de laissé sécher la pâte thermique.</em></p>
 <p>La préparation du processeur consiste en l'application d'une pâte thermique. Celle-ci à pour but de d'optimiser l'échange thermique entre la survace du propocesseur et le radiateur qui lui va dissiper la chaleur produite. Elle doit donc être appliquée avec soin : sur toute la surface du processeur et en une fine couche homogène. Evitez la surépaisseur : cette pâte ne doit pas se transformée en isolant !</p>
 <p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_5.jpeg" alt="Processeur 5" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg" alt="Artic Silver V" /></p>
+<img src="/images/thumbs/300/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg" alt="Artic Silver V" width="300" /></p>
 <p><em>Note : la photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)</em></p>
 <p><a href="#sommaire"><em>Sommaire</em></a></p>
 <h2 id="partie4">Partie 4 : mise en place du SP-94, du SE2 et fixation de l’ensemble</h2>
