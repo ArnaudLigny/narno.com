@@ -12,7 +12,7 @@
 <p>Réalisé par Dean &quot;Rocket&quot; Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
 <p>Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai créé un installe(u)r qui se charge de télécharger les fichiers (dans la bonne version), de les installer où il faut et de créer un raccourci de lancement rapide sur le bureau.</p>
 <p>Pour le télécharger, rendez-vous sur le mini-site GitHub dédié : <a href="http://narno-archives.github.io/DayZ-Installer/"><em>DayZ-Installer</em></a>.</p>
-<p><img src="/images/DayZ-Mod-Installer-0.0.1.5.png" alt="Capture d&#039;écran" /></p>
+<p><img src="/images/DayZ-Mod-Installer-0.0.1.5.png" alt="Capture d&#039;écran" loading="lazy" /></p>
 <p><strong>Update septembre 2012 :</strong> Depuis la version 1.7.2.x, l'installer ne fonctionne plus car les fichiers du mod ont été packagés dans une unique archive. Si j'ai le courage, je prendai de temps de l'adapter.</p>]]></description>
       <pubDate>2012-07-07T02:00:00+02:00</pubDate>
       <link>https://narno.com/blog/installer-dayz-facilement/</link>
@@ -32,7 +32,7 @@ Pour l'installer, il vous suffit de télécharger le fichier joint et de le déc
       <guid>https://narno.com/blog/left-4-dead-pre-commande/</guid>
       <title>Left 4 Dead : pré-commande</title>
       <description><![CDATA[<p>Je viens de pré-commander <a href="http://store.steampowered.com/app/500/">Left 4 Dead</a> sur Steam cette semaine, afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).</p>
-<p><img src="/images/left4dead.jpg" alt="Left 4 Dead" /></p>
+<p><img src="/images/left4dead.jpg" alt="Left 4 Dead" loading="lazy" /></p>
 <p>Bon, pour le moment c'est pas gagner : le téléchargement est terriblement lent (dois y avoir des amateurs !) et je n'ai pas pu le lancer avant de rentrer du taff. Bref, en patientant, j'écris ce petit billet.</p>
 <p>Un peu de feedback quand j'aurai tester la bête, ça va saigner ! :-D
 Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowered.com/app/500/">Left 4 Dead</a>.</p>]]></description>

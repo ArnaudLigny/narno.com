@@ -17,7 +17,7 @@
       <![CDATA[<p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
 <p>Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton &quot;plus&quot; sera ouvert juste après l'onglet actif.</p>
 <!-- break -->
-<p><a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><img src="/images/Open-New-Tab-After-Current-Tab.gif" alt="Open New Tab After Current Tab : capture d&#039;écran animée" /></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><img src="/images/Open-New-Tab-After-Current-Tab.gif" alt="Open New Tab After Current Tab : capture d&#039;écran animée" loading="lazy" /></a></p>
 <blockquote>
 <p><a href="https://github.com/Narno/Open-New-Tab-After-Current-Tab#open-new-tab-after-current-tab"><strong><em>Open New Tab After Current Tab</em></strong></a> est disponible sur le <a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan">Chrome Web Sore</a>, et son code source peut être consulté sur <a href="https://github.com/Narno/Open-New-Tab-After-Current-Tab">GitHub</a>.</p>
 </blockquote>]]>
@@ -33,7 +33,7 @@
       <![CDATA[<p>Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : <strong>je souhaite être notifié quand un amis ou un contact m'identifie sur une photo ou m'envoie un message</strong>.</p>
 <p>Ainsi, il y a quelques années, j'avais développé une extension pour navigateur web (tout d'abord pour Chrome, puis pour Firefox avec l'arrivée des <a href="https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions">WebExtensions</a>).</p>
 <p>Le principe de <a href="https://github.com/Narno/F-Notifier#f-notifier"><strong><em>F-Notifier</em></strong></a> principe est très simple : une fois installée, celle-ci affiche un badge avec le nombre de notifications non lues, qu'il s'agisse d'une réponse à un publication ou d'un message de discussion instantanée.</p>
-<p><a href="https://github.com/Narno/F-Notifier#f-notifier"><img src="/images/F-Notifier-screenshot.png" alt="F-Notifier screenshot" /></a></p>
+<p><a href="https://github.com/Narno/F-Notifier#f-notifier"><img src="/images/F-Notifier-screenshot.png" alt="F-Notifier screenshot" loading="lazy" /></a></p>
 <!-- break -->
 <blockquote>
 <p><a href="https://github.com/Narno/F-Notifier#f-notifier"><strong><em>F-Notifier</em></strong></a> est disponible à la fois pour <a href="https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn">Google Chrome</a> et pour <a href="https://addons.mozilla.org/fr/firefox/addon/f-notifier/">Mozilla Firefox</a>, et son code source peut être consulté sur <a href="https://github.com/Narno/F-Notifier">GitHub</a>.</p>
@@ -53,7 +53,7 @@
 </blockquote>
 <p>Ça faisait plusieurs mois (années ?!) que je me posais la question de quoi faire de mon vieux blog ? Il n'a d'ailleurs de blog que le nom puisqu'en réalité, je n'ai jamais vraiment beaucoup écrit dessus : Il m'a surtout servi de terrain d'expérimentation pour le développement Web.</p>
 <p>Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !</p>
-<p><img src="/images/new-plan-static-site-first.jpg" alt="" /></p>
+<p><img src="/images/new-plan-static-site-first.jpg" alt="" loading="lazy" /></p>
 <!-- excerpt -->
 <p>Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de <a href="/tags/drupal">Drupal</a>, ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
@@ -256,7 +256,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     <title>Paris Web 2007 : j'y suis passé !</title>
     <content type="html">
       <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
-<p><img src="/images/photos/paris-web-2007.jpg" alt="" /></p>
+<p><img src="/images/photos/paris-web-2007.jpg" alt="" loading="lazy" /></p>
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>
 <li>l'accessibilité est encore le sujet chérie de cette année, et les mêmes problématiques se posent toujours encore et toujours : comment prendre en compte les normes (toute relatives, WCAG, RGEE, etc.) dans un métier dont le principal moteur est &quot;la vente vite bien fait, par ici la monnaie&quot;...</li>
