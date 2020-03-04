@@ -71,7 +71,7 @@ Par exemple dans mon cas j’ai opté pour un [Nexus 7](https://si.shimano.com/p
 
 Alors là, c’est vraiment du caviar pour le montage :
 
-1. Le système de frein – hydraulique – est déjà prêt : il ne reste plus qu’à passer le câble le long du cadre et à fixer l’étrier sur la fourche ! 👌
+1. Le système de frein (hydraulique) est déjà prêt : il ne reste plus qu’à passer le câble le long du cadre et à fixer l’étrier sur la fourche ! 👌
 2. Idem pour le câble du Nexus qui est déjà de la bonne longueur.
 
 ### Direction et roulements
