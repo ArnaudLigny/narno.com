@@ -5,4 +5,6 @@ layout: photos
 typora-root-url: ../../static
 ---
 
-Quelques photos - en vrac - de la fin du montage (cf. [billet de blog](../blog/2004-07-10-soltek-eq3401-sp94-guide-montage.md)).
+Quelques photos (en vrac) de la fin du montage.
+<!-- break -->
+(cf. [billet de blog](../blog/2004-07-10-soltek-eq3401-sp94-guide-montage.md))
