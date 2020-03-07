@@ -13,8 +13,8 @@ composer install --prefer-dist --no-dev --no-progress --no-interaction
 echo
 echo "Cecil build started..."
 if [ -n "$1" ]; then
-# build with drafts?
-  if [ "$1" = "drafts" ]; then
+# build preview (with drafts)?
+  if [ "$1" = "preview" ]; then
     php cecil.phar build --verbose --drafts
   fi
 else
