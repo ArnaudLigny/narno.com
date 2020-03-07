@@ -34,7 +34,7 @@ cd gh-pages
 cp -Rf $HOME/$SITE_DIR/* .
 echo "$DOMAIN" > CNAME
 if [ -n "$1" ]; then
-  if [ "$1" = "drafts" ]; then
+  if [ "$1" = "preview" ]; then
     echo "User-agent: *
 Disallow: /" > robots.txt
   fi

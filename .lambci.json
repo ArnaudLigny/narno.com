@@ -2,15 +2,15 @@
   "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh",
   "branches": {
     "master": true,
-    "drafts": {
+    "preview": {
       "build": true,
       "env": {
-        "CECIL_TITLE": "Narno.com (drafts)",
-        "CECIL_BASEURL": "https://drafts.narno.com/",
-        "REPOSITORY": "Narno/drafts.narno.com",
-        "DOMAIN": "drafts.narno.com"
+        "CECIL_TITLE": "Narno.com (preview)",
+        "CECIL_BASEURL": "https://preview.narno.com/",
+        "REPOSITORY": "Narno/preview.narno.com",
+        "DOMAIN": "preview.narno.com"
       },
-      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh drafts"
+      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh preview"
     }
   }
 }
