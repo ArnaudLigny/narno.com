@@ -16,7 +16,7 @@ Malgré la réactivité du groupe phpBB pour produire des patchs, les attaques o
 <p>Depuis, la version phpBB 3 est sorti (fin 2007, soit environ 2 ans après les premières annonces) et c'est tant mieux ! En même temps c'était ça ou la mort de phpBB !</p>
 <p>Pour en revenir au sujet initial, Kobuta.fr avait fermer son forum dès que le contrôle en a été perdu : inscription et posts de robots spammeurs, hacking et donc risque pour l'hébergeur.
 Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que le <a href="http://www.kobuta.fr/blog/">blog de Oni</a>). Oni souhaitait que nous réinstallions l'ancien forum phpBB 2 en lecture seule afin de permettre aux membres d'accéder au contenu de certains billets et à leurs messages privés.</p>
-<span id="more"></span>
+<!-- excerpt -->
 <h2>Les problèmes techniques commencent ici</h2>
 <p>Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
 En effet, la plupart des anciennes plateformes à la phpBB étaient déployées &quot;à l'européenne&quot;, c'est à dire :</p>

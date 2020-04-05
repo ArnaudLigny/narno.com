@@ -647,7 +647,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
 <p>Le Thermalright à été testé par de nombreux sites de hardware (de matériel informatique) et tous s'accordent à dire qu'il est très efficace pour refroidir n'importe quel processeur, même overcloacké, pour peu qu'on est le courage de démonter la carte mère de son Qbic EQ3401...
 D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'ailettes tout cuivre et ses trois heatpipes, c'est le SE2 de Noiseblocker qui se chargera de ventiller le tout en silence.</p>
 <p>Et pour terminer, il s'avère que ce ventirad plutôt massif à première vu, rentre très bien dans un QBic EQ3401, même s'il est particulièrement proche du port PCI et des lecteurs de façades... tout en étant très bien placé juste en dessous du ventilateur de l'alimentation.</p>
-<span id="more"></span>
+<!-- break -->
 <h2 id="sommaire">Sommaire</h2>
 <ul>
 <li><a href="#partie1"><strong>Partie 1 :</strong></a> contenu du carton et matériel nécessaire</li>
@@ -787,7 +787,7 @@ Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre e
 <li>La photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)</li>
 </ul>
 <p><a href="#sommaire"><em>Sommaire</em></a></p>
-<p>(bientôt la suite ! En attendant, voici quelques <a href="../../galeries/soltek-eq3401-sp94-guide-montage/">photos</a> !)</p>
+<p>(bientôt la suite ! En attendant, voici quelques <a href="../galeries/soltek-eq3401-sp94-guide-montage/">photos</a> !)</p>
 <hr />
 <p>La <a href="https://web.archive.org/web/20061209111005/http://www.narno.com/rubriques/divers/minigaia/soltek-eq3401-sp94-guide-montage/">version originale</a> de ce guide à été créée par <a href="https://narno.com">Narno</a> le 10 juillet 2004.</p>]]>
     </content>

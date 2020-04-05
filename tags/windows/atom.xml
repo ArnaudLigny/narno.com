@@ -17,7 +17,7 @@
       <![CDATA[<p>Windows Update permet la mise à jour de Windows et de ses applications de manière automatique. Ce système est indispensable afin d'assurer la sécurité et la stabilité de l'OS.</p>
 <p>Une fois la mise à jour installée, Windows demande à l'utilisateur s'il doit / peut redémarrer l'ordinateur maintenant. Dans le principe c'est logique de faire la demande à l'utilisateur, ce qui l'est moins c'est que lorsque l'on clique sur &quot;Redémarrer plus tard&quot;, Windows va vous balancer cette fenêtre à la figure jusqu'à ce que vous ayez redémarré... <a href="http://narno.com/blog/windows-update-je-te-hais">ça devient vite pénible</a> !</p>
 <p>Alors voici une astuce simple pour palier à cet inconvénient.</p>
-<span id="more"></span>
+<!-- excerpt -->
 <p>Pour cela il suffit de modifier un des paramètres du panel de <a href="http://www.google.fr/search?q=windows+%22strat%C3%A9gie+de+groupe%22">Stratégie de groupe de Windows</a> :</p>
 <ol>
 <li>Démarrer &gt; Exécuter</li>

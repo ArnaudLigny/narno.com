@@ -3,8 +3,29 @@
   <channel>
     <title>Narno.com</title>
     <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
-    <lastBuildDate>2019-05-18T02:00:00+02:00</lastBuildDate>
+    <lastBuildDate>2020-04-05T12:55:33+02:00</lastBuildDate>
     <link>https://narno.com/</link>
+    <item>
+      <guid>https://narno.com/code/</guid>
+      <title>Page Title</title>
+      <description><![CDATA[]]></description>
+      <pubDate>2020-04-05T12:55:33+02:00</pubDate>
+      <link>https://narno.com/code/</link>
+    </item>
+    <item>
+      <guid>https://narno.com/serviceworker.js</guid>
+      <title>Page Title</title>
+      <description><![CDATA[]]></description>
+      <pubDate>2020-04-05T12:55:33+02:00</pubDate>
+      <link>https://narno.com/serviceworker.js</link>
+    </item>
+    <item>
+      <guid>https://narno.com/manifest.webmanifest</guid>
+      <title>Page Title</title>
+      <description><![CDATA[]]></description>
+      <pubDate>2020-04-05T12:55:33+02:00</pubDate>
+      <link>https://narno.com/manifest.webmanifest</link>
+    </item>
     <item>
       <guid>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</guid>
       <title>Vélo cargo Bullitt : ya quoi dans le carton ?</title>
@@ -659,6 +680,13 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
       <link>https://narno.com/blog/barcamp-magento-a-paris/</link>
     </item>
     <item>
+      <guid>https://narno.com/blog/le-blog-avance/</guid>
+      <title>Le blog avance !</title>
+      <description><![CDATA[]]></description>
+      <pubDate>2008-12-08T01:00:00+01:00</pubDate>
+      <link>https://narno.com/blog/le-blog-avance/</link>
+    </item>
+    <item>
       <guid>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</guid>
       <title>Skin Drupal pour Nintendo DS R4</title>
       <description><![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de &quot;linker&quot;, cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
@@ -759,7 +787,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
       <title>Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos</title>
       <description><![CDATA[<p>Quelques photos (en vrac) de la fin du montage.</p>
 <!-- break -->
-<p>(cf. <a href="../../blog/soltek-eq3401-sp94-guide-montage/">billet de blog</a>)</p>]]></description>
+<p>(cf. <a href="../blog/soltek-eq3401-sp94-guide-montage/">billet de blog</a>)</p>]]></description>
       <pubDate>2004-07-10T02:00:00+02:00</pubDate>
       <link>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</link>
     </item>
@@ -773,7 +801,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
 <p>Le Thermalright à été testé par de nombreux sites de hardware (de matériel informatique) et tous s'accordent à dire qu'il est très efficace pour refroidir n'importe quel processeur, même overcloacké, pour peu qu'on est le courage de démonter la carte mère de son Qbic EQ3401...
 D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'ailettes tout cuivre et ses trois heatpipes, c'est le SE2 de Noiseblocker qui se chargera de ventiller le tout en silence.</p>
 <p>Et pour terminer, il s'avère que ce ventirad plutôt massif à première vu, rentre très bien dans un QBic EQ3401, même s'il est particulièrement proche du port PCI et des lecteurs de façades... tout en étant très bien placé juste en dessous du ventilateur de l'alimentation.</p>
-<span id="more"></span>
+<!-- break -->
 <h2 id="sommaire">Sommaire</h2>
 <ul>
 <li><a href="#partie1"><strong>Partie 1 :</strong></a> contenu du carton et matériel nécessaire</li>
@@ -913,7 +941,7 @@ Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre e
 <li>La photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)</li>
 </ul>
 <p><a href="#sommaire"><em>Sommaire</em></a></p>
-<p>(bientôt la suite ! En attendant, voici quelques <a href="../../galeries/soltek-eq3401-sp94-guide-montage/">photos</a> !)</p>
+<p>(bientôt la suite ! En attendant, voici quelques <a href="../galeries/soltek-eq3401-sp94-guide-montage/">photos</a> !)</p>
 <hr />
 <p>La <a href="https://web.archive.org/web/20061209111005/http://www.narno.com/rubriques/divers/minigaia/soltek-eq3401-sp94-guide-montage/">version originale</a> de ce guide à été créée par <a href="https://narno.com">Narno</a> le 10 juillet 2004.</p>]]></description>
       <pubDate>2004-07-10T02:00:00+02:00</pubDate>

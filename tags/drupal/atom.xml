@@ -102,7 +102,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
 </ol>
 </li>
 </ul>
-<span id="more"></span>
+<!-- excerpt -->
 <h2>1. Activation des URL simplifiées</h2>
 <p>Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionalité permet de transformer les URL contenant des paramètres de type GET en une URL unique.
 Par exemple <code>/?q=node/1</code> sera remplacée par <code>/node/1</code>.</p>
