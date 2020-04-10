@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></subtitle>
   <link href="https://narno.com/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://narno.com/" rel="alternate" type="text/html" />
-  <updated>2020-04-05T12:55:33+02:00</updated>
+  <updated>2020-04-11T00:48:08+02:00</updated>
   <author>
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
@@ -17,8 +17,8 @@
       <![CDATA[]]>
     </content>
     <link href="https://narno.com/code/" rel="alternate" type="text/html" />
-    <published>2020-04-05T12:55:33+02:00</published>
-    <updated>2020-04-05T12:55:33+02:00</updated>
+    <published>2020-04-11T00:48:08+02:00</published>
+    <updated>2020-04-11T00:48:08+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://narno.com/serviceworker.js</id>
@@ -27,8 +27,8 @@
       <![CDATA[]]>
     </content>
     <link href="https://narno.com/serviceworker.js" rel="alternate" type="text/html" />
-    <published>2020-04-05T12:55:33+02:00</published>
-    <updated>2020-04-05T12:55:33+02:00</updated>
+    <published>2020-04-11T00:48:08+02:00</published>
+    <updated>2020-04-11T00:48:08+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://narno.com/manifest.webmanifest</id>
@@ -37,8 +37,8 @@
       <![CDATA[]]>
     </content>
     <link href="https://narno.com/manifest.webmanifest" rel="alternate" type="text/html" />
-    <published>2020-04-05T12:55:33+02:00</published>
-    <updated>2020-04-05T12:55:33+02:00</updated>
+    <published>2020-04-11T00:48:08+02:00</published>
+    <updated>2020-04-11T00:48:08+02:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</id>
