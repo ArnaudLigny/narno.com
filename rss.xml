@@ -3,29 +3,8 @@
   <channel>
     <title>Narno.com</title>
     <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
-    <lastBuildDate>2020-04-11T00:48:08+02:00</lastBuildDate>
+    <lastBuildDate>2019-05-18T02:00:00+02:00</lastBuildDate>
     <link>https://narno.com/</link>
-    <item>
-      <guid>https://narno.com/code/</guid>
-      <title>Page Title</title>
-      <description><![CDATA[]]></description>
-      <pubDate>2020-04-11T00:48:08+02:00</pubDate>
-      <link>https://narno.com/code/</link>
-    </item>
-    <item>
-      <guid>https://narno.com/serviceworker.js</guid>
-      <title>Page Title</title>
-      <description><![CDATA[]]></description>
-      <pubDate>2020-04-11T00:48:08+02:00</pubDate>
-      <link>https://narno.com/serviceworker.js</link>
-    </item>
-    <item>
-      <guid>https://narno.com/manifest.webmanifest</guid>
-      <title>Page Title</title>
-      <description><![CDATA[]]></description>
-      <pubDate>2020-04-11T00:48:08+02:00</pubDate>
-      <link>https://narno.com/manifest.webmanifest</link>
-    </item>
     <item>
       <guid>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</guid>
       <title>Vélo cargo Bullitt : ya quoi dans le carton ?</title>
@@ -678,13 +657,6 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
       <description><![CDATA[]]></description>
       <pubDate>2009-01-11T01:00:00+01:00</pubDate>
       <link>https://narno.com/blog/barcamp-magento-a-paris/</link>
-    </item>
-    <item>
-      <guid>https://narno.com/blog/le-blog-avance/</guid>
-      <title>Le blog avance !</title>
-      <description><![CDATA[]]></description>
-      <pubDate>2008-12-08T01:00:00+01:00</pubDate>
-      <link>https://narno.com/blog/le-blog-avance/</link>
     </item>
     <item>
       <guid>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</guid>
