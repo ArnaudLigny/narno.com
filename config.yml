@@ -60,7 +60,7 @@ theme:
   - serviceworker
   - lanyon
 editor: typora
-optimize:
-   enabled: true
 cache:
+  enabled: true
+postprocess:
   enabled: true
