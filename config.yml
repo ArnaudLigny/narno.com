@@ -54,7 +54,6 @@ serviceworker:
     - css/syntax.css
     - css/lanyon.css
     - css/narno.com.css
-debug: false
 comments: false
 theme:
   - serviceworker
