@@ -39,12 +39,6 @@
     </script>
 {# include 'partials/footer.html.twig' #}
 {% include 'partials/svg.html.twig' %}
-{% if site.debug == true %}
-    <pre>
-    Layout: {{ _self.getTemplateName() }}
-    {{ dump(page) }}
-    </pre>
-{% endif %}
 {% if site.serviceworker is defined and site.serviceworker.enabled %}
 {% include 'partials/regsw.js.twig' %}
 {% endif %}
