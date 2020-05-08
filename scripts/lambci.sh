@@ -18,7 +18,7 @@ if [ -n "$1" ]; then
     php cecil.phar build -vv --drafts
   fi
 else
-  php cecil.phar build --postprocess
+  php cecil.phar build -v --postprocess
 fi
 # build success? can deploy!
 if [ $? = 0 ]; then echo -e "Cecil build successful!\n"; bash scripts/deploy.sh $1; else return 1; fi
