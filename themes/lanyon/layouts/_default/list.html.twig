@@ -10,14 +10,14 @@
 
 {% block content %}
 <div class="posts">
-{% for post in pages|sortByDate %}
+{% for post in pages|sort_by_date %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ url(post) }}">
         {{ post.title }}
       </a>
     </h1>
-    {{ post.content|excerptHtml }}
+    {{ post.content|excerpt_html }}
     <footer class="readmore">
       <a href="{{ url(post) }}">Voir le contenu ›</a>
     </footer>
