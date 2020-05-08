@@ -99,16 +99,16 @@
         },
         {
             "name": "cecil/theme-serviceworker",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-serviceworker.git",
-                "reference": "71ab88e5d076e709de4e137047e9ec10211215c2"
+                "reference": "5411e35d4fc6db9ee8bd54d0636f99fb65e3d7a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/71ab88e5d076e709de4e137047e9ec10211215c2",
-                "reference": "71ab88e5d076e709de4e137047e9ec10211215c2",
+                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/5411e35d4fc6db9ee8bd54d0636f99fb65e3d7a8",
+                "reference": "5411e35d4fc6db9ee8bd54d0636f99fb65e3d7a8",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,13 @@
                 "service worker",
                 "theme"
             ],
-            "time": "2020-02-27T16:49:34+00:00"
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/narno",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-04-15T22:39:29+00:00"
         }
     ],
     "packages-dev": [],
