@@ -15,10 +15,10 @@ echo "Cecil build started..."
 if [ -n "$1" ]; then
 # build preview (with drafts)?
   if [ "$1" = "preview" ]; then
-    php cecil.phar build --verbose --drafts
+    php cecil.phar build -vv --drafts
   fi
 else
-  php cecil.phar build --quiet --postprocess
+  php cecil.phar build --postprocess
 fi
 # build success? can deploy!
 if [ $? = 0 ]; then echo -e "Cecil build successful!\n"; bash scripts/deploy.sh $1; else return 1; fi
