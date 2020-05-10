@@ -15,7 +15,7 @@ echo "Cecil build started..."
 if [ -n "$1" ]; then
 # build preview (with drafts)?
   if [ "$1" = "preview" ]; then
-    php cecil.phar build -vv --drafts
+    php cecil.phar build -vv --drafts --postprocess=no
   fi
 else
   php cecil.phar build -v --postprocess
