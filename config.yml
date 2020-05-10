@@ -63,3 +63,5 @@ cache:
   enabled: true
 postprocess:
   enabled: true
+static:
+ exclude: ['*.css']

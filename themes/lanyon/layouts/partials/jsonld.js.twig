@@ -3,7 +3,7 @@
           "@context": "http://schema.org",
           "@type": "WebSite",
           "name": "{{ site.title }}",
-          "url": "{{ url('/', true) }}",
+          "url": "{{ url('/', {canonical:true}) }}",
           "sameAs": [
             "https://twitter.com/{{ site.social.twitter.username }}",
             "https://github.com/{{ site.social.github.username }}"
