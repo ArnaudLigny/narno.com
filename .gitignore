@@ -1,4 +1,4 @@
-/vendor/
 _site/
 .cecil/
 .cache/
+/vendor/
