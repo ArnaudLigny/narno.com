@@ -8,7 +8,6 @@ tags:
 image: "/images/chatbot.jpg"
 published: false
 typora-root-url: ../../static
-
 ---
 Il faudrait que je complète ce billet un jour !
 
