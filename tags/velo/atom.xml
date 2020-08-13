@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://narno.com/tags/velo/</id>
   <title>Narno.com - Vélo</title>
   <subtitle><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></subtitle>
@@ -10,52 +10,52 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</id>
     <title>Vélo cargo Bullitt : ya quoi dans le carton ?</title>
     <content type="html">
       <![CDATA[<p>Si vous me suivez sur <a href="https://twitter.com/Narno">Twitter</a> vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique <a href="https://www.larryvsharry.com/">Bullitt Bluebird de Larry vs Harry</a> !</p>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190413_112340.jpg" alt="Vélo cargo Bullitt vu de profil" loading="lazy" srcset="/images/thumbs/495/images/bullitt-carton/IMG_20190413_112340.jpg 495w, /images/thumbs/670/images/bullitt-carton/IMG_20190413_112340.jpg 670w, /images/thumbs/844/images/bullitt-carton/IMG_20190413_112340.jpg 844w, /images/thumbs/1019/images/bullitt-carton/IMG_20190413_112340.jpg 1019w, /images/bullitt-carton/IMG_20190413_112340.jpg 1193w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190413_112340.jpg" alt="Vélo cargo Bullitt vu de profil" width="800" loading="lazy" srcset="/images/thumbs/495/images/bullitt-carton/IMG_20190413_112340.jpg 495w, /images/thumbs/670/images/bullitt-carton/IMG_20190413_112340.jpg 670w, /images/thumbs/844/images/bullitt-carton/IMG_20190413_112340.jpg 844w, /images/thumbs/1019/images/bullitt-carton/IMG_20190413_112340.jpg 1019w, /images/bullitt-carton/IMG_20190413_112340.jpg 1193w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <!-- break -->
 <h2>Alors, ya quoi dans le carton ?</h2>
 <p>Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2m40 et surtout que contient le carton, ça pourrait être sympa de partager mon expérience.</p>
 <p>Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.</p>
 <h3>Le carton</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_133507.jpg" alt="Carton de livraison d’un vélo cargo Bullitt" loading="lazy" srcset="/images/thumbs/508/images/bullitt-carton/IMG_20190412_133507.jpg 508w, /images/thumbs/695/images/bullitt-carton/IMG_20190412_133507.jpg 695w, /images/thumbs/882/images/bullitt-carton/IMG_20190412_133507.jpg 882w, /images/thumbs/1069/images/bullitt-carton/IMG_20190412_133507.jpg 1069w, /images/bullitt-carton/IMG_20190412_133507.jpg 1256w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_133507.jpg" alt="Carton de livraison d’un vélo cargo Bullitt" width="800" loading="lazy" srcset="/images/thumbs/508/images/bullitt-carton/IMG_20190412_133507.jpg 508w, /images/thumbs/695/images/bullitt-carton/IMG_20190412_133507.jpg 695w, /images/thumbs/882/images/bullitt-carton/IMG_20190412_133507.jpg 882w, /images/thumbs/1069/images/bullitt-carton/IMG_20190412_133507.jpg 1069w, /images/bullitt-carton/IMG_20190412_133507.jpg 1256w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté &quot;cadeau de Noël avant l'heure&quot; ! 🎅</p>
 <h3>Ouverture</h3>
 <p>Après avoir enlevé le carton contenant le HCB (<a href="http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html">Honeycomb Board</a>), voici comment se présente l'agencement du cadre, des différentes pièces et autres accessoires  :</p>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_134655.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_134655.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_134655.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_134655.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_134655.jpg 1242w, /images/bullitt-carton/IMG_20190412_134655.jpg 1472w" width="800" sizes="(max-width: 800px) 100vw, 800px" />
-<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_134904.jpg" alt="Vu d’ensemble des cartons de pièces" loading="lazy" width="355" />
-<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_135020.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135020.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135020.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135020.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135020.jpg 1242w, /images/bullitt-carton/IMG_20190412_135020.jpg 1472w" width="355" sizes="(max-width: 355px) 100vw, 355px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_134655.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus" width="800" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_134655.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_134655.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_134655.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_134655.jpg 1242w, /images/bullitt-carton/IMG_20190412_134655.jpg 1472w" sizes="(max-width: 800px) 100vw, 800px" />
+<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_134904.jpg" alt="Vu d’ensemble des cartons de pièces" width="355" loading="lazy" />
+<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_135020.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre" width="355" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135020.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135020.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135020.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135020.jpg 1242w, /images/bullitt-carton/IMG_20190412_135020.jpg 1472w" sizes="(max-width: 355px) 100vw, 355px" /></p>
 <h3>Le cadre</h3>
 <p>Vous noterez que, mis à part la béquille qui est déjà fixée, le cadre est entièrement nu :</p>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135317.jpg" alt="Cadre d’un vélo cargo Bullitt nu (encore sous protections)" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135317.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135317.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135317.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135317.jpg 1242w, /images/bullitt-carton/IMG_20190412_135317.jpg 1472w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135317.jpg" alt="Cadre d’un vélo cargo Bullitt nu (encore sous protections)" width="800" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135317.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135317.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135317.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135317.jpg 1242w, /images/bullitt-carton/IMG_20190412_135317.jpg 1472w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Il est très bien protégé, sauf le triangle arrière : pas de mousse de protection et en contact direct avec la paroi du carton.</p>
 <p>En effet, comme on le voit sur la dernière photo de la section précédente, le bloc de polystyrène n'est pas suffisamment résistant, à été transpercé, exposant le cadre…</p>
 <h3>Les roues</h3>
-<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_140224.jpg" alt="Les 2 roues d’un vélo cargo Bullitt" loading="lazy" srcset="/images/thumbs/485/images/bullitt-carton/IMG_20190412_140224.jpg 485w, /images/thumbs/650/images/bullitt-carton/IMG_20190412_140224.jpg 650w, /images/thumbs/815/images/bullitt-carton/IMG_20190412_140224.jpg 815w, /images/thumbs/980/images/bullitt-carton/IMG_20190412_140224.jpg 980w, /images/bullitt-carton/IMG_20190412_140224.jpg 1144w" width="400" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_140224.jpg" alt="Les 2 roues d’un vélo cargo Bullitt" width="400" loading="lazy" srcset="/images/thumbs/485/images/bullitt-carton/IMG_20190412_140224.jpg 485w, /images/thumbs/650/images/bullitt-carton/IMG_20190412_140224.jpg 650w, /images/thumbs/815/images/bullitt-carton/IMG_20190412_140224.jpg 815w, /images/thumbs/980/images/bullitt-carton/IMG_20190412_140224.jpg 980w, /images/bullitt-carton/IMG_20190412_140224.jpg 1144w" sizes="(max-width: 400px) 100vw, 400px" /></p>
 <p>Le pneu (et la chambre à air donc) est déjà monté sur chaque roue : il ne reste plus qu’à gonfler !</p>
 <p>Notez que les gardes-boue sont également pré-assemblés, et que la visserie est scotchée à l‘intérieur.</p>
 <h3>Les supports de fixation</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135353.jpg" alt="Pièces de fixation de la roue arrière d’un vélo cargo Bullitt" loading="lazy" srcset="/images/thumbs/521/images/bullitt-carton/IMG_20190412_135353.jpg 521w, /images/thumbs/721/images/bullitt-carton/IMG_20190412_135353.jpg 721w, /images/thumbs/922/images/bullitt-carton/IMG_20190412_135353.jpg 922w, /images/thumbs/1122/images/bullitt-carton/IMG_20190412_135353.jpg 1122w, /images/bullitt-carton/IMG_20190412_135353.jpg 1322w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135353.jpg" alt="Pièces de fixation de la roue arrière d’un vélo cargo Bullitt" width="800" loading="lazy" srcset="/images/thumbs/521/images/bullitt-carton/IMG_20190412_135353.jpg 521w, /images/thumbs/721/images/bullitt-carton/IMG_20190412_135353.jpg 721w, /images/thumbs/922/images/bullitt-carton/IMG_20190412_135353.jpg 922w, /images/thumbs/1122/images/bullitt-carton/IMG_20190412_135353.jpg 1122w, /images/bullitt-carton/IMG_20190412_135353.jpg 1322w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Au delà de l’écusson qui en jette pas mal, ce qui est important ici c’est le principe de ces 2 pièces permettant la fixation de la roue arrière : fixées sur le triangle, changeables selon la transmission.</p>
 <p>Par exemple dans mon cas j’ai opté pour un <a href="https://si.shimano.com/pdfs/dm/DM-SG0003-05-FRE.pdf">Nexus 7</a> à rétropédalage, donc pas de dérailleur mais une patte de fixation pour le mécanisme de freinage.</p>
 <h3>Pédalier, boîtier et manivelles</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135929.jpg" alt="Pédalier, boîtier et manivelles" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135929.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135929.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135929.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135929.jpg 1068w, /images/bullitt-carton/IMG_20190412_135929.jpg 1255w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135929.jpg" alt="Pédalier, boîtier et manivelles" width="800" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135929.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135929.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135929.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135929.jpg 1068w, /images/bullitt-carton/IMG_20190412_135929.jpg 1255w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <h3>Guidon, potence et câblage</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135745.jpg" alt="Guidon, potence et câblage" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135745.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135745.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135745.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135745.jpg 1068w, /images/bullitt-carton/IMG_20190412_135745.jpg 1254w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135745.jpg" alt="Guidon, potence et câblage" width="800" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135745.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135745.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135745.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135745.jpg 1068w, /images/bullitt-carton/IMG_20190412_135745.jpg 1254w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Alors là, c’est vraiment du caviar pour le montage :</p>
 <ol>
 <li>Le système de frein (hydraulique) est déjà prêt : il ne reste plus qu’à passer le câble le long du cadre et à fixer l’étrier sur la fourche ! 👌</li>
 <li>Idem pour le câble du Nexus qui est déjà de la bonne longueur.</li>
 </ol>
 <h3>Direction et roulements</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_140408.jpg" alt="Direction et roulements" loading="lazy" srcset="/images/thumbs/496/images/bullitt-carton/IMG_20190412_140408.jpg 496w, /images/thumbs/671/images/bullitt-carton/IMG_20190412_140408.jpg 671w, /images/thumbs/847/images/bullitt-carton/IMG_20190412_140408.jpg 847w, /images/thumbs/1022/images/bullitt-carton/IMG_20190412_140408.jpg 1022w, /images/bullitt-carton/IMG_20190412_140408.jpg 1197w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_140408.jpg" alt="Direction et roulements" width="800" loading="lazy" srcset="/images/thumbs/496/images/bullitt-carton/IMG_20190412_140408.jpg 496w, /images/thumbs/671/images/bullitt-carton/IMG_20190412_140408.jpg 671w, /images/thumbs/847/images/bullitt-carton/IMG_20190412_140408.jpg 847w, /images/thumbs/1022/images/bullitt-carton/IMG_20190412_140408.jpg 1022w, /images/bullitt-carton/IMG_20190412_140408.jpg 1197w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Entretoises, roulements et le fameux <a href="http://shop.larryvsharry.com/shop/handlebar-stems-grips/easyup-stemlifter.html">Easyup Stemlifter</a>.</p>
 <p>Pour être complète cette photo aurait du contenir le tube (d’environ 70 cm descendant verticalement depuis le guidon en lieu et place de la fourche sur un vélo traditionnel) et la <a href="http://shop.larryvsharry.com/shop/brakes-and-spare-parts/steering-arm-complete-w-balljoint.html">barre de direction</a> reliée à la fourche.</p>
 <h3>Éclairages</h3>
-<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_135408.jpg" alt="Éclairages" loading="lazy" srcset="/images/thumbs/510/images/bullitt-carton/IMG_20190412_135408.jpg 510w, /images/thumbs/700/images/bullitt-carton/IMG_20190412_135408.jpg 700w, /images/thumbs/890/images/bullitt-carton/IMG_20190412_135408.jpg 890w, /images/thumbs/1080/images/bullitt-carton/IMG_20190412_135408.jpg 1080w, /images/bullitt-carton/IMG_20190412_135408.jpg 1270w" width="400" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_135408.jpg" alt="Éclairages" width="400" loading="lazy" srcset="/images/thumbs/510/images/bullitt-carton/IMG_20190412_135408.jpg 510w, /images/thumbs/700/images/bullitt-carton/IMG_20190412_135408.jpg 700w, /images/thumbs/890/images/bullitt-carton/IMG_20190412_135408.jpg 890w, /images/thumbs/1080/images/bullitt-carton/IMG_20190412_135408.jpg 1080w, /images/bullitt-carton/IMG_20190412_135408.jpg 1270w" sizes="(max-width: 400px) 100vw, 400px" /></p>
 <p>Si vous avez pris l’option (et vous devriez) : éclairage par dynamo (dans la roue avant) <a href="https://www.bumm.de/en/products/dynamo-scheinwerfer/produkt/162rtsndi.html">Busch &amp; Müller Lumotec IQ Avy Plus N</a> et <a href="https://www.bumm.de/en/products/dynamo-rucklichter/produkt/331-2ask.html?">Secula</a>.</p>
 <hr />
 <p>Et voilà !</p>
@@ -66,14 +66,14 @@
     <published>2019-05-18T02:00:00+02:00</published>
     <updated>2019-05-18T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</id>
     <title>Pourquoi ne pas juste dire « merci » ?</title>
     <content type="html">
       <![CDATA[<h2>Préambule</h2>
 <p>Pour celles et ceux qui me suivent sur <a href="https://twitter.com/Narno">Twitter</a>, vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville : Paris.</p>
 <h2>Mauvais combat</h2>
-<p><img src="/images/yehudamoon-2017-03-20.png" alt="yehudamoon-2017-03-20" loading="lazy" /></p>
+<p><img src="/images/yehudamoon-2017-03-20.png" alt="yehudamoon-2017-03-20" width="800" loading="lazy" /></p>
 <p>Depuis quelques semaines, l'application du <a href="https://www.paris.fr/velo">plan vélo</a> par la mairie de Paris mis en avant dans la presse par la <a href="https://www.google.com/search?q=fermeture+des+voies+sur+berge">fermeture des voies sur berge</a> ou encore les travaux d'<a href="http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/">aménagement rue de Rivoli</a>, créé des émois sur les réseaux sociaux.</p>
 <p>On en arrive à une situation absurbe où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.</p>
 <!-- excerpt -->
@@ -110,11 +110,11 @@ Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
     <published>2017-10-16T02:00:00+02:00</published>
     <updated>2017-10-16T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/lassee-des-incivilites-la-velosphere-se-rebiffe/</id>
     <title>Lassée des incivilités, la « vélosphère » se rebiffe</title>
     <content type="html">
-      <![CDATA[<p><img src="/images/guerillavelo.jpg" alt="guerillavelo" loading="lazy" /></p>
+      <![CDATA[<p><img src="/images/guerillavelo.jpg" alt="guerillavelo" width="1060" loading="lazy" /></p>
 <p>Article de <a href="https://twitter.com/alexis_magnaval">Alexis Magnaval</a> paru sur Slate.fr le 25 juillet 2017.</p>
 <blockquote>
 <p>Lassés du comportement des automobilistes, les pro-vélo militent à coups de messages ironiques ou rageux contre les incivilités des véhicules motorisés, et pour une meilleure cohabitation sur la route.</p>

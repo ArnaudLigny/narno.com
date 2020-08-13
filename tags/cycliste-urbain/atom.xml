@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://narno.com/tags/cycliste-urbain/</id>
   <title>Narno.com - #Cycliste urbain 🚲</title>
   <subtitle><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></subtitle>
@@ -10,14 +10,14 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</id>
     <title>Pourquoi ne pas juste dire « merci » ?</title>
     <content type="html">
       <![CDATA[<h2>Préambule</h2>
 <p>Pour celles et ceux qui me suivent sur <a href="https://twitter.com/Narno">Twitter</a>, vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville : Paris.</p>
 <h2>Mauvais combat</h2>
-<p><img src="/images/yehudamoon-2017-03-20.png" alt="yehudamoon-2017-03-20" loading="lazy" /></p>
+<p><img src="/images/yehudamoon-2017-03-20.png" alt="yehudamoon-2017-03-20" width="800" loading="lazy" /></p>
 <p>Depuis quelques semaines, l'application du <a href="https://www.paris.fr/velo">plan vélo</a> par la mairie de Paris mis en avant dans la presse par la <a href="https://www.google.com/search?q=fermeture+des+voies+sur+berge">fermeture des voies sur berge</a> ou encore les travaux d'<a href="http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/">aménagement rue de Rivoli</a>, créé des émois sur les réseaux sociaux.</p>
 <p>On en arrive à une situation absurbe où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.</p>
 <!-- excerpt -->
@@ -54,11 +54,11 @@ Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
     <published>2017-10-16T02:00:00+02:00</published>
     <updated>2017-10-16T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/lassee-des-incivilites-la-velosphere-se-rebiffe/</id>
     <title>Lassée des incivilités, la « vélosphère » se rebiffe</title>
     <content type="html">
-      <![CDATA[<p><img src="/images/guerillavelo.jpg" alt="guerillavelo" loading="lazy" /></p>
+      <![CDATA[<p><img src="/images/guerillavelo.jpg" alt="guerillavelo" width="1060" loading="lazy" /></p>
 <p>Article de <a href="https://twitter.com/alexis_magnaval">Alexis Magnaval</a> paru sur Slate.fr le 25 juillet 2017.</p>
 <blockquote>
 <p>Lassés du comportement des automobilistes, les pro-vélo militent à coups de messages ironiques ou rageux contre les incivilités des véhicules motorisés, et pour une meilleure cohabitation sur la route.</p>

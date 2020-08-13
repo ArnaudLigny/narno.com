@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://narno.com/</id>
   <title>Narno.com</title>
   <subtitle><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></subtitle>
@@ -10,52 +10,52 @@
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</id>
     <title>Vélo cargo Bullitt : ya quoi dans le carton ?</title>
     <content type="html">
       <![CDATA[<p>Si vous me suivez sur <a href="https://twitter.com/Narno">Twitter</a> vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique <a href="https://www.larryvsharry.com/">Bullitt Bluebird de Larry vs Harry</a> !</p>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190413_112340.jpg" alt="Vélo cargo Bullitt vu de profil" loading="lazy" srcset="/images/thumbs/495/images/bullitt-carton/IMG_20190413_112340.jpg 495w, /images/thumbs/670/images/bullitt-carton/IMG_20190413_112340.jpg 670w, /images/thumbs/844/images/bullitt-carton/IMG_20190413_112340.jpg 844w, /images/thumbs/1019/images/bullitt-carton/IMG_20190413_112340.jpg 1019w, /images/bullitt-carton/IMG_20190413_112340.jpg 1193w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190413_112340.jpg" alt="Vélo cargo Bullitt vu de profil" width="800" loading="lazy" srcset="/images/thumbs/495/images/bullitt-carton/IMG_20190413_112340.jpg 495w, /images/thumbs/670/images/bullitt-carton/IMG_20190413_112340.jpg 670w, /images/thumbs/844/images/bullitt-carton/IMG_20190413_112340.jpg 844w, /images/thumbs/1019/images/bullitt-carton/IMG_20190413_112340.jpg 1019w, /images/bullitt-carton/IMG_20190413_112340.jpg 1193w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <!-- break -->
 <h2>Alors, ya quoi dans le carton ?</h2>
 <p>Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2m40 et surtout que contient le carton, ça pourrait être sympa de partager mon expérience.</p>
 <p>Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.</p>
 <h3>Le carton</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_133507.jpg" alt="Carton de livraison d’un vélo cargo Bullitt" loading="lazy" srcset="/images/thumbs/508/images/bullitt-carton/IMG_20190412_133507.jpg 508w, /images/thumbs/695/images/bullitt-carton/IMG_20190412_133507.jpg 695w, /images/thumbs/882/images/bullitt-carton/IMG_20190412_133507.jpg 882w, /images/thumbs/1069/images/bullitt-carton/IMG_20190412_133507.jpg 1069w, /images/bullitt-carton/IMG_20190412_133507.jpg 1256w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_133507.jpg" alt="Carton de livraison d’un vélo cargo Bullitt" width="800" loading="lazy" srcset="/images/thumbs/508/images/bullitt-carton/IMG_20190412_133507.jpg 508w, /images/thumbs/695/images/bullitt-carton/IMG_20190412_133507.jpg 695w, /images/thumbs/882/images/bullitt-carton/IMG_20190412_133507.jpg 882w, /images/thumbs/1069/images/bullitt-carton/IMG_20190412_133507.jpg 1069w, /images/bullitt-carton/IMG_20190412_133507.jpg 1256w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté &quot;cadeau de Noël avant l'heure&quot; ! 🎅</p>
 <h3>Ouverture</h3>
 <p>Après avoir enlevé le carton contenant le HCB (<a href="http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html">Honeycomb Board</a>), voici comment se présente l'agencement du cadre, des différentes pièces et autres accessoires  :</p>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_134655.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_134655.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_134655.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_134655.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_134655.jpg 1242w, /images/bullitt-carton/IMG_20190412_134655.jpg 1472w" width="800" sizes="(max-width: 800px) 100vw, 800px" />
-<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_134904.jpg" alt="Vu d’ensemble des cartons de pièces" loading="lazy" width="355" />
-<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_135020.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135020.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135020.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135020.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135020.jpg 1242w, /images/bullitt-carton/IMG_20190412_135020.jpg 1472w" width="355" sizes="(max-width: 355px) 100vw, 355px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_134655.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus" width="800" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_134655.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_134655.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_134655.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_134655.jpg 1242w, /images/bullitt-carton/IMG_20190412_134655.jpg 1472w" sizes="(max-width: 800px) 100vw, 800px" />
+<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_134904.jpg" alt="Vu d’ensemble des cartons de pièces" width="355" loading="lazy" />
+<img src="/images/thumbs/355/images/bullitt-carton/IMG_20190412_135020.jpg" alt="Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre" width="355" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135020.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135020.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135020.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135020.jpg 1242w, /images/bullitt-carton/IMG_20190412_135020.jpg 1472w" sizes="(max-width: 355px) 100vw, 355px" /></p>
 <h3>Le cadre</h3>
 <p>Vous noterez que, mis à part la béquille qui est déjà fixée, le cadre est entièrement nu :</p>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135317.jpg" alt="Cadre d’un vélo cargo Bullitt nu (encore sous protections)" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135317.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135317.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135317.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135317.jpg 1242w, /images/bullitt-carton/IMG_20190412_135317.jpg 1472w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135317.jpg" alt="Cadre d’un vélo cargo Bullitt nu (encore sous protections)" width="800" loading="lazy" srcset="/images/thumbs/551/images/bullitt-carton/IMG_20190412_135317.jpg 551w, /images/thumbs/781/images/bullitt-carton/IMG_20190412_135317.jpg 781w, /images/thumbs/1012/images/bullitt-carton/IMG_20190412_135317.jpg 1012w, /images/thumbs/1242/images/bullitt-carton/IMG_20190412_135317.jpg 1242w, /images/bullitt-carton/IMG_20190412_135317.jpg 1472w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Il est très bien protégé, sauf le triangle arrière : pas de mousse de protection et en contact direct avec la paroi du carton.</p>
 <p>En effet, comme on le voit sur la dernière photo de la section précédente, le bloc de polystyrène n'est pas suffisamment résistant, à été transpercé, exposant le cadre…</p>
 <h3>Les roues</h3>
-<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_140224.jpg" alt="Les 2 roues d’un vélo cargo Bullitt" loading="lazy" srcset="/images/thumbs/485/images/bullitt-carton/IMG_20190412_140224.jpg 485w, /images/thumbs/650/images/bullitt-carton/IMG_20190412_140224.jpg 650w, /images/thumbs/815/images/bullitt-carton/IMG_20190412_140224.jpg 815w, /images/thumbs/980/images/bullitt-carton/IMG_20190412_140224.jpg 980w, /images/bullitt-carton/IMG_20190412_140224.jpg 1144w" width="400" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_140224.jpg" alt="Les 2 roues d’un vélo cargo Bullitt" width="400" loading="lazy" srcset="/images/thumbs/485/images/bullitt-carton/IMG_20190412_140224.jpg 485w, /images/thumbs/650/images/bullitt-carton/IMG_20190412_140224.jpg 650w, /images/thumbs/815/images/bullitt-carton/IMG_20190412_140224.jpg 815w, /images/thumbs/980/images/bullitt-carton/IMG_20190412_140224.jpg 980w, /images/bullitt-carton/IMG_20190412_140224.jpg 1144w" sizes="(max-width: 400px) 100vw, 400px" /></p>
 <p>Le pneu (et la chambre à air donc) est déjà monté sur chaque roue : il ne reste plus qu’à gonfler !</p>
 <p>Notez que les gardes-boue sont également pré-assemblés, et que la visserie est scotchée à l‘intérieur.</p>
 <h3>Les supports de fixation</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135353.jpg" alt="Pièces de fixation de la roue arrière d’un vélo cargo Bullitt" loading="lazy" srcset="/images/thumbs/521/images/bullitt-carton/IMG_20190412_135353.jpg 521w, /images/thumbs/721/images/bullitt-carton/IMG_20190412_135353.jpg 721w, /images/thumbs/922/images/bullitt-carton/IMG_20190412_135353.jpg 922w, /images/thumbs/1122/images/bullitt-carton/IMG_20190412_135353.jpg 1122w, /images/bullitt-carton/IMG_20190412_135353.jpg 1322w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135353.jpg" alt="Pièces de fixation de la roue arrière d’un vélo cargo Bullitt" width="800" loading="lazy" srcset="/images/thumbs/521/images/bullitt-carton/IMG_20190412_135353.jpg 521w, /images/thumbs/721/images/bullitt-carton/IMG_20190412_135353.jpg 721w, /images/thumbs/922/images/bullitt-carton/IMG_20190412_135353.jpg 922w, /images/thumbs/1122/images/bullitt-carton/IMG_20190412_135353.jpg 1122w, /images/bullitt-carton/IMG_20190412_135353.jpg 1322w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Au delà de l’écusson qui en jette pas mal, ce qui est important ici c’est le principe de ces 2 pièces permettant la fixation de la roue arrière : fixées sur le triangle, changeables selon la transmission.</p>
 <p>Par exemple dans mon cas j’ai opté pour un <a href="https://si.shimano.com/pdfs/dm/DM-SG0003-05-FRE.pdf">Nexus 7</a> à rétropédalage, donc pas de dérailleur mais une patte de fixation pour le mécanisme de freinage.</p>
 <h3>Pédalier, boîtier et manivelles</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135929.jpg" alt="Pédalier, boîtier et manivelles" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135929.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135929.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135929.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135929.jpg 1068w, /images/bullitt-carton/IMG_20190412_135929.jpg 1255w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135929.jpg" alt="Pédalier, boîtier et manivelles" width="800" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135929.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135929.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135929.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135929.jpg 1068w, /images/bullitt-carton/IMG_20190412_135929.jpg 1255w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <h3>Guidon, potence et câblage</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135745.jpg" alt="Guidon, potence et câblage" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135745.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135745.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135745.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135745.jpg 1068w, /images/bullitt-carton/IMG_20190412_135745.jpg 1254w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_135745.jpg" alt="Guidon, potence et câblage" width="800" loading="lazy" srcset="/images/thumbs/507/images/bullitt-carton/IMG_20190412_135745.jpg 507w, /images/thumbs/694/images/bullitt-carton/IMG_20190412_135745.jpg 694w, /images/thumbs/881/images/bullitt-carton/IMG_20190412_135745.jpg 881w, /images/thumbs/1068/images/bullitt-carton/IMG_20190412_135745.jpg 1068w, /images/bullitt-carton/IMG_20190412_135745.jpg 1254w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Alors là, c’est vraiment du caviar pour le montage :</p>
 <ol>
 <li>Le système de frein (hydraulique) est déjà prêt : il ne reste plus qu’à passer le câble le long du cadre et à fixer l’étrier sur la fourche ! 👌</li>
 <li>Idem pour le câble du Nexus qui est déjà de la bonne longueur.</li>
 </ol>
 <h3>Direction et roulements</h3>
-<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_140408.jpg" alt="Direction et roulements" loading="lazy" srcset="/images/thumbs/496/images/bullitt-carton/IMG_20190412_140408.jpg 496w, /images/thumbs/671/images/bullitt-carton/IMG_20190412_140408.jpg 671w, /images/thumbs/847/images/bullitt-carton/IMG_20190412_140408.jpg 847w, /images/thumbs/1022/images/bullitt-carton/IMG_20190412_140408.jpg 1022w, /images/bullitt-carton/IMG_20190412_140408.jpg 1197w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-carton/IMG_20190412_140408.jpg" alt="Direction et roulements" width="800" loading="lazy" srcset="/images/thumbs/496/images/bullitt-carton/IMG_20190412_140408.jpg 496w, /images/thumbs/671/images/bullitt-carton/IMG_20190412_140408.jpg 671w, /images/thumbs/847/images/bullitt-carton/IMG_20190412_140408.jpg 847w, /images/thumbs/1022/images/bullitt-carton/IMG_20190412_140408.jpg 1022w, /images/bullitt-carton/IMG_20190412_140408.jpg 1197w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Entretoises, roulements et le fameux <a href="http://shop.larryvsharry.com/shop/handlebar-stems-grips/easyup-stemlifter.html">Easyup Stemlifter</a>.</p>
 <p>Pour être complète cette photo aurait du contenir le tube (d’environ 70 cm descendant verticalement depuis le guidon en lieu et place de la fourche sur un vélo traditionnel) et la <a href="http://shop.larryvsharry.com/shop/brakes-and-spare-parts/steering-arm-complete-w-balljoint.html">barre de direction</a> reliée à la fourche.</p>
 <h3>Éclairages</h3>
-<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_135408.jpg" alt="Éclairages" loading="lazy" srcset="/images/thumbs/510/images/bullitt-carton/IMG_20190412_135408.jpg 510w, /images/thumbs/700/images/bullitt-carton/IMG_20190412_135408.jpg 700w, /images/thumbs/890/images/bullitt-carton/IMG_20190412_135408.jpg 890w, /images/thumbs/1080/images/bullitt-carton/IMG_20190412_135408.jpg 1080w, /images/bullitt-carton/IMG_20190412_135408.jpg 1270w" width="400" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p><img src="/images/thumbs/400/images/bullitt-carton/IMG_20190412_135408.jpg" alt="Éclairages" width="400" loading="lazy" srcset="/images/thumbs/510/images/bullitt-carton/IMG_20190412_135408.jpg 510w, /images/thumbs/700/images/bullitt-carton/IMG_20190412_135408.jpg 700w, /images/thumbs/890/images/bullitt-carton/IMG_20190412_135408.jpg 890w, /images/thumbs/1080/images/bullitt-carton/IMG_20190412_135408.jpg 1080w, /images/bullitt-carton/IMG_20190412_135408.jpg 1270w" sizes="(max-width: 400px) 100vw, 400px" /></p>
 <p>Si vous avez pris l’option (et vous devriez) : éclairage par dynamo (dans la roue avant) <a href="https://www.bumm.de/en/products/dynamo-scheinwerfer/produkt/162rtsndi.html">Busch &amp; Müller Lumotec IQ Avy Plus N</a> et <a href="https://www.bumm.de/en/products/dynamo-rucklichter/produkt/331-2ask.html?">Secula</a>.</p>
 <hr />
 <p>Et voilà !</p>
@@ -66,14 +66,14 @@
     <published>2019-05-18T02:00:00+02:00</published>
     <updated>2019-05-18T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/chrome-open-new-tab-after-current-tab/</id>
     <title>Chrome : ouvrir un nouvel onglet après l'onglet actif</title>
     <content type="html">
       <![CDATA[<p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
 <p>Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton &quot;plus&quot; sera ouvert juste après l'onglet actif.</p>
 <!-- break -->
-<p><a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><img src="/images/Open-New-Tab-After-Current-Tab.gif" alt="Open New Tab After Current Tab : capture d&#039;écran animée" loading="lazy" /></a></p>
+<p><a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan"><img src="/images/Open-New-Tab-After-Current-Tab.gif" alt="Open New Tab After Current Tab : capture d&#039;écran animée" width="600" loading="lazy" /></a></p>
 <blockquote>
 <p><a href="https://github.com/Narno/Open-New-Tab-After-Current-Tab#open-new-tab-after-current-tab"><strong><em>Open New Tab After Current Tab</em></strong></a> est disponible sur le <a href="https://chrome.google.com/webstore/detail/open-new-tab-after-curren/mmcgnaachjapbbchcpjihhgjhpfcnoan">Chrome Web Sore</a>, et son code source peut être consulté sur <a href="https://github.com/Narno/Open-New-Tab-After-Current-Tab">GitHub</a>.</p>
 </blockquote>]]>
@@ -82,14 +82,14 @@
     <published>2019-05-10T02:00:00+02:00</published>
     <updated>2019-05-10T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/facebook-notifier/</id>
     <title>Notificateur Facebook pour navigateur web</title>
     <content type="html">
       <![CDATA[<p>Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : <strong>je souhaite être notifié quand un amis ou un contact m'identifie sur une photo ou m'envoie un message</strong>.</p>
 <p>Ainsi, il y a quelques années, j'avais développé une extension pour navigateur web (tout d'abord pour Chrome, puis pour Firefox avec l'arrivée des <a href="https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions">WebExtensions</a>).</p>
 <p>Le principe de <a href="https://github.com/Narno/F-Notifier#f-notifier"><strong><em>F-Notifier</em></strong></a> principe est très simple : une fois installée, celle-ci affiche un badge avec le nombre de notifications non lues, qu'il s'agisse d'une réponse à un publication ou d'un message de discussion instantanée.</p>
-<p><a href="https://github.com/Narno/F-Notifier#f-notifier"><img src="/images/F-Notifier-screenshot.png" alt="F-Notifier screenshot" loading="lazy" /></a></p>
+<p><a href="https://github.com/Narno/F-Notifier#f-notifier"><img src="/images/F-Notifier-screenshot.png" alt="F-Notifier screenshot" width="337" loading="lazy" /></a></p>
 <!-- break -->
 <blockquote>
 <p><a href="https://github.com/Narno/F-Notifier#f-notifier"><strong><em>F-Notifier</em></strong></a> est disponible à la fois pour <a href="https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn">Google Chrome</a> et pour <a href="https://addons.mozilla.org/fr/firefox/addon/f-notifier/">Mozilla Firefox</a>, et son code source peut être consulté sur <a href="https://github.com/Narno/F-Notifier">GitHub</a>.</p>
@@ -99,7 +99,7 @@
     <published>2019-05-06T02:00:00+02:00</published>
     <updated>2019-05-06T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/mes-velos/</id>
     <title>Mes vélos</title>
     <content type="html">
@@ -109,11 +109,11 @@
 </ul>
 <hr />
 <h2 id="bullitt-bluebird">Bullitt Bluebird</h2>
-<p><img src="/images/thumbs/800/images/bullitt-bluebird.jpg" alt="Bullitt Bluebird" loading="lazy" srcset="/images/thumbs/512/images/bullitt-bluebird.jpg 512w, /images/thumbs/704/images/bullitt-bluebird.jpg 704w, /images/thumbs/896/images/bullitt-bluebird.jpg 896w, /images/thumbs/1088/images/bullitt-bluebird.jpg 1088w, /images/bullitt-bluebird.jpg 1280w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/bullitt-bluebird.jpg" alt="Bullitt Bluebird" width="800" loading="lazy" srcset="/images/thumbs/512/images/bullitt-bluebird.jpg 512w, /images/thumbs/704/images/bullitt-bluebird.jpg 704w, /images/thumbs/896/images/bullitt-bluebird.jpg 896w, /images/thumbs/1088/images/bullitt-bluebird.jpg 1088w, /images/bullitt-bluebird.jpg 1280w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p><em>(<a href="http://www.larryvsharry.com/technical-info/">Site officiel</a>)</em></p>
 <hr />
 <h2 id="kalkhoff-voyager">Kalkhoff Voyager DLX 27-G</h2>
-<p><img src="/images/thumbs/800/images/kh15_voyager_dlx.png" alt="Kalkhoff Voyager DLX 27-G" loading="lazy" srcset="/images/thumbs/512/images/kh15_voyager_dlx.png 512w, /images/thumbs/704/images/kh15_voyager_dlx.png 704w, /images/thumbs/896/images/kh15_voyager_dlx.png 896w, /images/thumbs/1088/images/kh15_voyager_dlx.png 1088w, /images/kh15_voyager_dlx.png 1280w" width="800" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<p><img src="/images/thumbs/800/images/kh15_voyager_dlx.png" alt="Kalkhoff Voyager DLX 27-G" width="800" loading="lazy" srcset="/images/thumbs/512/images/kh15_voyager_dlx.png 512w, /images/thumbs/704/images/kh15_voyager_dlx.png 704w, /images/thumbs/896/images/kh15_voyager_dlx.png 896w, /images/thumbs/1088/images/kh15_voyager_dlx.png 1088w, /images/kh15_voyager_dlx.png 1280w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <table>
 <thead>
 <tr>
@@ -210,12 +210,12 @@
     <published>2019-03-20T01:00:00+01:00</published>
     <updated>2019-03-20T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/config-pc/</id>
     <title>Mon PC</title>
     <content type="html">
       <![CDATA[<h2>La configuration matérielle de mon PC de jeu</h2>
-<p><img src="/images/CanHard-IX.jpg" alt="CanHard IX" loading="lazy" /></p>
+<p><img src="/images/CanHard-IX.jpg" alt="CanHard IX" width="350" loading="lazy" /></p>
 <table>
 <thead>
 <tr>
@@ -292,7 +292,7 @@
     <published>2019-03-20T01:00:00+01:00</published>
     <updated>2019-03-20T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/a-propos/</id>
     <title>À propos</title>
     <content type="html">
@@ -318,14 +318,14 @@
     <published>2017-10-17T02:00:00+02:00</published>
     <updated>2017-10-17T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</id>
     <title>Pourquoi ne pas juste dire « merci » ?</title>
     <content type="html">
       <![CDATA[<h2>Préambule</h2>
 <p>Pour celles et ceux qui me suivent sur <a href="https://twitter.com/Narno">Twitter</a>, vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville : Paris.</p>
 <h2>Mauvais combat</h2>
-<p><img src="/images/yehudamoon-2017-03-20.png" alt="yehudamoon-2017-03-20" loading="lazy" /></p>
+<p><img src="/images/yehudamoon-2017-03-20.png" alt="yehudamoon-2017-03-20" width="800" loading="lazy" /></p>
 <p>Depuis quelques semaines, l'application du <a href="https://www.paris.fr/velo">plan vélo</a> par la mairie de Paris mis en avant dans la presse par la <a href="https://www.google.com/search?q=fermeture+des+voies+sur+berge">fermeture des voies sur berge</a> ou encore les travaux d'<a href="http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/">aménagement rue de Rivoli</a>, créé des émois sur les réseaux sociaux.</p>
 <p>On en arrive à une situation absurbe où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.</p>
 <!-- excerpt -->
@@ -362,11 +362,11 @@ Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
     <published>2017-10-16T02:00:00+02:00</published>
     <updated>2017-10-16T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/lassee-des-incivilites-la-velosphere-se-rebiffe/</id>
     <title>Lassée des incivilités, la « vélosphère » se rebiffe</title>
     <content type="html">
-      <![CDATA[<p><img src="/images/guerillavelo.jpg" alt="guerillavelo" loading="lazy" /></p>
+      <![CDATA[<p><img src="/images/guerillavelo.jpg" alt="guerillavelo" width="1060" loading="lazy" /></p>
 <p>Article de <a href="https://twitter.com/alexis_magnaval">Alexis Magnaval</a> paru sur Slate.fr le 25 juillet 2017.</p>
 <blockquote>
 <p>Lassés du comportement des automobilistes, les pro-vélo militent à coups de messages ironiques ou rageux contre les incivilités des véhicules motorisés, et pour une meilleure cohabitation sur la route.</p>
@@ -382,7 +382,7 @@ Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
     <published>2017-07-25T02:00:00+02:00</published>
     <updated>2017-07-25T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/reboot-du-blog/</id>
     <title>Reboot du blog ?</title>
     <content type="html">
@@ -392,7 +392,7 @@ Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
 </blockquote>
 <p>Ça faisait plusieurs mois (années ?!) que je me posais la question de quoi faire de mon vieux blog ? Il n'a d'ailleurs de blog que le nom puisqu'en réalité, je n'ai jamais vraiment beaucoup écrit dessus : Il m'a surtout servi de terrain d'expérimentation pour le développement Web.</p>
 <p>Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !</p>
-<p><img src="/images/new-plan-static-site-first.jpg" alt="" loading="lazy" /></p>
+<p><img src="/images/new-plan-static-site-first.jpg" alt="" width="500" loading="lazy" /></p>
 <!-- excerpt -->
 <p>Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de <a href="/tags/drupal">Drupal</a>, ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
@@ -414,18 +414,18 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     <published>2017-01-08T18:33:00+01:00</published>
     <updated>2017-01-08T18:33:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/leo-est-ne/</id>
     <title>Léo est né !</title>
     <content type="html">
-      <![CDATA[<p><img src="/images/photos/leo.jpg" alt="Léo est né !" loading="lazy" /></p>
+      <![CDATA[<p><img src="/images/photos/leo.jpg" alt="Léo est né !" width="600" loading="lazy" /></p>
 <p>Léo est né le 8 octobre. Nous nous portons très bien tous les 3 ! :-)</p>]]>
     </content>
     <link href="https://narno.com/blog/leo-est-ne/" rel="alternate" type="text/html" />
     <published>2012-10-12T02:00:00+02:00</published>
     <updated>2012-10-12T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/magento-ajouter-une-colonne-dans-une-grille/</id>
     <title>Magento : Ajouter une colonne dans une grille</title>
     <content type="html">
@@ -435,7 +435,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     <published>2012-09-11T02:00:00+02:00</published>
     <updated>2012-09-11T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/installer-dayz-facilement/</id>
     <title>Installer DayZ facilement</title>
     <content type="html">
@@ -443,14 +443,14 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
 <p>Réalisé par Dean &quot;Rocket&quot; Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
 <p>Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai créé un installe(u)r qui se charge de télécharger les fichiers (dans la bonne version), de les installer où il faut et de créer un raccourci de lancement rapide sur le bureau.</p>
 <p>Pour le télécharger, rendez-vous sur le mini-site GitHub dédié : <a href="http://narno-archives.github.io/DayZ-Installer/"><em>DayZ-Installer</em></a>.</p>
-<p><img src="/images/DayZ-Mod-Installer-0.0.1.5.png" alt="Capture d&#039;écran" loading="lazy" /></p>
+<p><img src="/images/DayZ-Mod-Installer-0.0.1.5.png" alt="Capture d&#039;écran" width="513" loading="lazy" /></p>
 <p><strong>Update septembre 2012 :</strong> Depuis la version 1.7.2.x, l'installer ne fonctionne plus car les fichiers du mod ont été packagés dans une unique archive. Si j'ai le courage, je prendai de temps de l'adapter.</p>]]>
     </content>
     <link href="https://narno.com/blog/installer-dayz-facilement/" rel="alternate" type="text/html" />
     <published>2012-07-07T02:00:00+02:00</published>
     <updated>2012-07-07T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/telecharger-manuellement-une-extension-magento/</id>
     <title>Télécharger manuellement une extension Magento</title>
     <content type="html">
@@ -460,7 +460,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     <published>2010-11-21T01:00:00+01:00</published>
     <updated>2010-11-21T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/verifier-la-validite-des-fichiers-de-configuration-xml-de-magento/</id>
     <title>Vérifier la validité des fichiers de configuration XML de Magento</title>
     <content type="html">
@@ -470,7 +470,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     <published>2010-11-10T01:00:00+01:00</published>
     <updated>2010-11-10T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/utiliser-gettext-pour-traduire-vos-modules-magento/</id>
     <title>Utiliser Gettext pour traduire vos modules Magento</title>
     <content type="html">
@@ -480,7 +480,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     <published>2010-11-03T01:00:00+01:00</published>
     <updated>2010-11-03T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
     <title>Drupal 7 : avis et retour d'expérience</title>
     <content type="html">
@@ -507,7 +507,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     <published>2010-10-02T02:00:00+02:00</published>
     <updated>2010-10-02T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/modules-payant-pour-magento-attention-aux-arnaques/</id>
     <title>Modules payant pour Magento attention aux arnaques !</title>
     <content type="html">
@@ -517,7 +517,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     <published>2009-06-23T02:00:00+02:00</published>
     <updated>2009-06-23T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/augmenter-la-qualite-des-photos-sur-magento/</id>
     <title>Augmenter la qualité des photos sur Magento</title>
     <content type="html">
@@ -527,7 +527,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     <published>2009-06-22T02:00:00+02:00</published>
     <updated>2009-06-22T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
     <title>Migration d'un forum phpBB2 vers phpBB3</title>
     <content type="html">
@@ -584,7 +584,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
     <published>2009-03-09T01:00:00+01:00</published>
     <updated>2009-03-09T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/windows-update-desactiver-le-redemarrage-automatique/</id>
     <title>Windows Update : Désactiver le redémarrage automatique</title>
     <content type="html">
@@ -600,14 +600,14 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <li>Double-cliquer sur &quot;Pas de redémarrage automatique...&quot;</li>
 <li>Choisir l'option <strong><em>Activé</em></strong>, valider</li>
 </ol>
-<p><img src="/images/strategie-groupe-windows-update.png" alt="" loading="lazy" /></p>
+<p><img src="/images/strategie-groupe-windows-update.png" alt="" width="982" loading="lazy" /></p>
 <p>Et voilà, maintenant vous avez le choix ! :-)</p>]]>
     </content>
     <link href="https://narno.com/blog/windows-update-desactiver-le-redemarrage-automatique/" rel="alternate" type="text/html" />
     <published>2009-02-15T01:00:00+01:00</published>
     <updated>2009-02-15T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/magento-et-referencement-naturel-seo/</id>
     <title>Magento et référencement naturel (SEO)</title>
     <content type="html">
@@ -617,7 +617,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
     <published>2009-02-01T01:00:00+01:00</published>
     <updated>2009-02-01T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/seo-pour-drupal/</id>
     <title>SEO pour Drupal</title>
     <content type="html">
@@ -695,7 +695,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     <published>2009-01-31T01:00:00+01:00</published>
     <updated>2009-01-31T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/picasa-vers-flickr-importer-vos-photos-simplement/</id>
     <title>Picasa vers Flickr : importer vos photos simplement</title>
     <content type="html">
@@ -725,7 +725,7 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
     <published>2009-01-24T01:00:00+01:00</published>
     <updated>2009-01-24T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/barcamp-magento-a-paris/</id>
     <title>Barcamp Magento à Paris</title>
     <content type="html">
@@ -735,7 +735,7 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
     <published>2009-01-11T01:00:00+01:00</published>
     <updated>2009-01-11T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</id>
     <title>Skin Drupal pour Nintendo DS R4</title>
     <content type="html">
@@ -749,12 +749,12 @@ Pour l'installer, il vous suffit de télécharger le fichier joint et de le déc
     <published>2008-11-08T01:00:00+01:00</published>
     <updated>2008-11-08T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/left-4-dead-pre-commande/</id>
     <title>Left 4 Dead : pré-commande</title>
     <content type="html">
       <![CDATA[<p>Je viens de pré-commander <a href="http://store.steampowered.com/app/500/">Left 4 Dead</a> sur Steam cette semaine, afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).</p>
-<p><img src="/images/left4dead.jpg" alt="Left 4 Dead" loading="lazy" /></p>
+<p><img src="/images/left4dead.jpg" alt="Left 4 Dead" width="480" loading="lazy" /></p>
 <p>Bon, pour le moment c'est pas gagner : le téléchargement est terriblement lent (dois y avoir des amateurs !) et je n'ai pas pu le lancer avant de rentrer du taff. Bref, en patientant, j'écris ce petit billet.</p>
 <p>Un peu de feedback quand j'aurai tester la bête, ça va saigner ! :-D
 Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowered.com/app/500/">Left 4 Dead</a>.</p>]]>
@@ -763,7 +763,7 @@ Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowe
     <published>2008-11-06T01:00:00+01:00</published>
     <updated>2008-11-06T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/magento-la-version-francaise-arrive/</id>
     <title>Magento : la version française arrive !</title>
     <content type="html">
@@ -773,7 +773,7 @@ Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowe
     <published>2008-02-01T01:00:00+01:00</published>
     <updated>2008-02-01T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
     <title>Wikio vote : module de vote pour Drupal</title>
     <content type="html">
@@ -787,7 +787,7 @@ Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowe
     <published>2008-01-13T01:00:00+01:00</published>
     <updated>2008-01-13T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/soltek-qbic-eq3401-le-kit-de-survie/</id>
     <title>Soltek QBic EQ3401 : le kit de survie</title>
     <content type="html">
@@ -809,7 +809,7 @@ Pour en savoir plus, rendez-vous sur la fiche de <a href="http://store.steampowe
     <published>2008-01-02T01:00:00+01:00</published>
     <updated>2008-01-02T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/windows-update-je-te-hais/</id>
     <title>Windows Update : je te hais !</title>
     <content type="html">
@@ -822,12 +822,12 @@ Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voul
     <published>2007-12-12T01:00:00+01:00</published>
     <updated>2007-12-12T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
     <title>Paris Web 2007 : j'y suis passé !</title>
     <content type="html">
       <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
-<p><img src="/images/photos/paris-web-2007.jpg" alt="" loading="lazy" /></p>
+<p><img src="/images/photos/paris-web-2007.jpg" alt="" width="500" loading="lazy" /></p>
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>
 <li>l'accessibilité est encore le sujet chérie de cette année, et les mêmes problématiques se posent toujours encore et toujours : comment prendre en compte les normes (toute relatives, WCAG, RGEE, etc.) dans un métier dont le principal moteur est &quot;la vente vite bien fait, par ici la monnaie&quot;...</li>
@@ -842,7 +842,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
     <published>2007-12-12T01:00:00+01:00</published>
     <updated>2007-12-12T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
     <title>Afficher votre profil Ziki sur votre blog Drupal</title>
     <content type="html">
@@ -855,7 +855,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
     <published>2007-10-31T01:00:00+01:00</published>
     <updated>2007-10-31T01:00:00+01:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</id>
     <title>Thermalright SP-94 dans un Soltek Qbic EQ3401 : photos</title>
     <content type="html">
@@ -867,7 +867,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
     <published>2004-07-10T02:00:00+02:00</published>
     <updated>2004-07-10T02:00:00+02:00</updated>
   </entry>
-  <entry xml:lang="en">
+  <entry xml:lang="fr">
     <id>https://narno.com/blog/soltek-eq3401-sp94-guide-montage/</id>
     <title>Thermalright SP-94 dans un Soltek Qbic EQ3401</title>
     <content type="html">
@@ -890,9 +890,9 @@ D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'
 </ul>
 <h2 id="partie1">Partie 1 : contenu du carton et matériel nécessaire</h2>
 <p><strong>Ce dont nous disposons :</strong></p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/se2.jpeg" alt="SE2" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/sp94.jpeg" alt="SP-94" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/carton_sp94.jpeg" alt="Contenu du carton du SP-94" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/se2.jpeg" alt="SE2" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/sp94.jpeg" alt="SP-94" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/carton_sp94.jpeg" alt="Contenu du carton du SP-94" width="800" loading="lazy" /></p>
 <p>Commençons par le commencement et voyons ce que le carton d'un Thermalright SP-94 contient :</p>
 <ul>
 <li>une notice de montage (en anglais et plutôt succinte...)</li>
@@ -907,11 +907,11 @@ D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'
 <p><strong>Ce dont nous aurons besoin :</strong></p>
 <p>Maintenant que nous savons de quoi nous disposons, voyons maintenant le matériel qui nous sera nécessaire à la mise en place de ces équipements.</p>
 <p>Etant donné que nous allons ouvrir la caisse et démonter quelques éléments, je vous conseil d'en profité pour enlever la poussière de votre machine. C'est pour cela que je vais ajouter une bombe d'air à la liste des outils nécessaire.</p>
-<p><img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/tir.jpeg" alt="Vrille" loading="lazy" width="200" />
-<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/pince.jpeg" alt="Pince à bec" loading="lazy" width="200" />
-<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg" alt="Couteau" loading="lazy" width="200" />
-<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg" alt="Tournevis cruciforme" loading="lazy" width="200" />
-<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg" alt="Bombe d&#039;air" loading="lazy" width="200" /></p>
+<p><img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/tir.jpeg" alt="Vrille" width="200" loading="lazy" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/pince.jpeg" alt="Pince à bec" width="200" loading="lazy" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg" alt="Couteau" width="200" loading="lazy" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg" alt="Tournevis cruciforme" width="200" loading="lazy" />
+<img src="/images/thumbs/200/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg" alt="Bombe d&#039;air" width="200" loading="lazy" /></p>
 <ul>
 <li>une bombe d'air : très efficace pour dépoussièrer un ordinateur</li>
 <li>un tournevis cruciforme de taille moyenne</li>
@@ -926,64 +926,64 @@ D'autre part, si le SP-94 assure la dissipation de la chaleur avec son bloque d'
 <p>Dans ce cas, il va nous falloir démonter plusieurs choses pour travailler avec un maximum d'espace. Rassurez-vous, il n'y a rien de compliqué. Veillez simplement à mémoriser le branchement des différents câbles débranchés et les types de vis associées au éléments démontés.
 Pour faire de la place nous allons enlever l'arceau : enlevez les lecteurs optiques, dévisez les 2 fils situés sur le dessus et tirez le vers le haut en veillant de pas cogner le/les disques dur. Ensuite, démontez le boitier d'alimentation simplement en enlevant les trois vis qui le fixe à la caisse.
 Et voilà, on a quand même plus de place d'un coup, non ?! Il ne nous reste plus qu'a extraire la carte mère de la caisse. Pour cela il nous suffit de débrancher tout les câbles qui la relie à la caisse : prises d'alimentation, prise de l'IceQ (gros ventilateur latéral), équipement de façade, etc. Maitenant dévisez les six vis qui la fixe au fond de la caisse et retirez la délicatement en veillant à ne pas forcer sur les divers prises situées à l'arrière.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/qbic_1.jpeg" alt="Qbic dépouillé" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/qbic_1.jpeg" alt="Qbic dépouillé" width="800" loading="lazy" /></p>
 <p>Ca y est, la carte mère est tout à vous ! Pour éviter les accidents, préférez enlever les barettes de mémoire.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/cm_1.jpeg" alt="Carte mère" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/cm_1.jpeg" alt="Carte mère" width="800" loading="lazy" /></p>
 <hr />
 <p><a href="#sommaire"><em>Sommaire</em></a></p>
 <h2 id="partie3">Partie 3 : démontage du ventirad *box* et nettoyage du processeur</h2>
 <p><strong>Démontage du ventirad :</strong></p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/ventirad_cm.jpeg" alt="Ventirad et carte mère" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/ventirad_cm.jpeg" alt="Ventirad et carte mère" width="800" loading="lazy" /></p>
 <p>Passons maitenant la partie <em>critique</em> dans l'installation du SP-94 : le démontage du ventirad fournit avec le Pentium IV mais surtout le démontage de son support ! En effet, les cartes mère dotées d'un socket 478 (pour PIV) sont également équipées d'un support permettant la fixation des ventirads &quot;classiques&quot;.
 Dans notre cas celui-ci est devenu inutile car le SP-94 se fixe directement sur la carte mère : il va donc nous falloir trouver une solution pour nous en débarasser...</p>
 <p>Commençons par observer la carte mère et la manière dont ce support coloré y est fixé. Comme vous pouvez le voir sur les deux photos ci-contre, le support plastique (sur les photos, le cadre violet autour du socket) est fixé en quatre endroit par des pièces de plastique blanche (mâle) et noir (femelle). Les pitons blanc exerce une pression par l'intérieur sur les petits tubes noir (qui sont &quot;soudés&quot; en leur extrèmité) afin de maintenir le tout à la carte mère.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/cm_dos.jpeg" alt="Carte mère de dos" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/cm_2.jpeg" alt="Carte mère" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/cm_dos.jpeg" alt="Carte mère de dos" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/cm_2.jpeg" alt="Carte mère" width="800" loading="lazy" /></p>
 <hr />
 <p>Le but de l'opération va donc être de faire &quot;sauter&quot; ces &quot;deux fois quatre&quot; pièces de plastique.
 Dans un premier temps j'avais pensé couper la partie &quot;soudés&quot; des pièce noir afin de pousser le tout (carte mère retournée bien sûr). J'ai donc coupé les petits &quot;chapeaux&quot; noir et j'ai ensuite poussé avec l'extrémité de mon tournevis cruciforme... mais il s'est avéré que la méthode n'était pas idéale. J'ai alors utilisé une pince à bec pour serrer la pièce de plastique afin de pousser le tout, mais là encore la méthode était peu efficace et dangereuse pour le matériel... en effet, de cette manière on force avec un objet plus ou moins pointu à proximité de la carte mère et un accident est vite arrivé ! Pour ma part, après avoir dérapé 2 fois (pourtant en prenant le maximum de précautions !), comme en témoigne la photo tout à droite, j'ai préféré arréter et trouver une méthode moins brutale.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_3.jpeg" alt="Fixation carte mère 3" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_2.jpeg" alt="Fixation carte mère 2" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_1.jpeg" alt="Fixation carte mère 1" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_3.jpeg" alt="Fixation carte mère 3" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_2.jpeg" alt="Fixation carte mère 2" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_1.jpeg" alt="Fixation carte mère 1" width="800" loading="lazy" /></p>
 <p>Suite à ce constat de &quot;demi échec&quot; j'ai cherché une solution plus &quot;pacifique&quot;... Il va nous falloir essayé de faire les choses en deux temps : pousser les pitons blancs sans toucher aux tubes noirs qui eux, seront retiré dans un deuxième temps.</p>
 <p>On peut alors reprendre le cruciforme mais non pas par le manche, mais plutôt par l'extrémité : on aura moins de force mais ce n'est pas l'important, il nous faut être précis et patient. Nous devons pousser, par petites passes successives, le pitons blancs jusqu'à ce que ceuxi-ci puissent être tiré du bout des doigts de l'autre côté de la carte mère.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_6.jpeg" alt="Fixation carte mère 6" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_5.jpeg" alt="Fixation carte mère 5" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_4.jpeg" alt="Fixation carte mère 4" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_6.jpeg" alt="Fixation carte mère 6" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_5.jpeg" alt="Fixation carte mère 5" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_4.jpeg" alt="Fixation carte mère 4" width="800" loading="lazy" /></p>
 <hr />
 <p>Les quatres pitons en plastique blanc ont été tranquillement poussés d'un côté à l'autre, il nous reste encore les tubes noir, pièces récalcitrantes s'il en est... en effet, pour les mêmes raisons que citées plus haut, mieux vaut évité de pincer et de pousser au dos de la carte mère avec la pince à bec, on risquerai de faire des bêtises ! C'est alors que la vrille entre en scène ! :-p En effet, si on ne peut pas pousser les pitons de plastique sans risque, nous allons... les tirer ! Pour cela, il faut que nous puissions avoir prise sur eux et que ça supporte une traction. D'où le système de tir bouchon.
 Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre en pratique : l'outil doit légèrement entré dans le trou du tube noir, côté supérieur de la carte mère (voir photos) tout en s'enfonçant dans le plastique quand on visse. La difficulté est de trouver le meilleur compromis entre une bonne prise et un écartement minimum du tube de plastique, on tire légèrement mais franchement et là... fantastique ! Ca vient très facilement et proprement, un vrai bonheur ! :-)</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_9.jpeg" alt="Fixation carte mère 9" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_8.jpeg" alt="Fixation carte mère 8" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_7.jpeg" alt="Fixation carte mère 7" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_9.jpeg" alt="Fixation carte mère 9" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_8.jpeg" alt="Fixation carte mère 8" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_7.jpeg" alt="Fixation carte mère 7" width="800" loading="lazy" /></p>
 <hr />
 <p>Comme quoi, une fois la méthode trouvée, ce n'est pas si difficile ;-) Voilà, ça y est votre carte mère est débarassée du support de ventirad et laisse apparaitre 4 trous qui seront nécessaire à la fixation du Thermalright SP-94 (fixation par vis).</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_11.jpeg" alt="Fixation carte mère 11" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_10.jpeg" alt="Fixation carte mère 10" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_11.jpeg" alt="Fixation carte mère 11" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_cm_10.jpeg" alt="Fixation carte mère 10" width="800" loading="lazy" /></p>
 <p><em>Note : sur la dernière photo (celle de droite), les quelques marques que vous pouvez voir près du trou en bas à droite ont été causées par la première &quot;mauvaise&quot; méthode.</em></p>
 <hr />
 <p><strong>Nettoyage du processeur :</strong></p>
 <p>Nous avons séparé le ventirad de la carte mère, tâchons maintenant de nous occupé du processeur... toujours collé au ventirad ! Et oui, dans mon cas, lorsque j'ai monté mon QBic je n'avais pas fait les frais d'un tube de pâte thermique. Le conducteur thermique d'origine est donc resté et il est particulièrement collant !</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_2.jpeg" alt="Processeur 2" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/proc_1.jpeg" alt="Processeur 1" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_2.jpeg" alt="Processeur 2" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/proc_1.jpeg" alt="Processeur 1" width="800" loading="lazy" /></p>
 <p>Il faut savoir que les Pentium IV sont particulièrement petit et n'ont pas une prise facile, il faut donc trouvé un outil pour le décoller mais sans l'âbimer. Je vous déconseil d'utiliser un outil métallique comme un tournevis plat, vous risqueriez de le marquer. En ce qui me concerne j'ai opté pour une simple carte de plastique au format Carte Bleu (oui je sais, c'est ma carte d'assuré... peut-être une manière de ma rassurer ? :-p). Ne vous inquiétez pas, c'est opération se passe sans difficulté avec cette méthode : il suffit de faire pivot tout autour du processeur en prenant appui sur le ventirad et de finir par un petit coup sec sur un des côtés.</p>
 <p>Ca y est, le processeur est décollé du ventirad mais il reste encore de la pâte thermique à sa surface : remédions à ça avant de le réinstaller.</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_4.jpeg" alt="Processeur 4" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/proc_3.jpeg" alt="Processeur 3" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_4.jpeg" alt="Processeur 4" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/proc_3.jpeg" alt="Processeur 3" width="800" loading="lazy" /></p>
 <p>Dans un premier temps, son nettoyage ne semble pas aisé, on cherche des produits mais on hésite à appliquer un solution trop aggrésive sur la surface d'un PIV. Finallement, les solutions les plus simple sont les meilleurs : prenez une feuille de papier essui tout et pliez là, puis vous la glissez sous votre index tout en la maintenant autour de celui-ci avec votre pouce et votre majeur. Comme indiqué plus haut, le PIV n'a pas une prise en main facile, alors comment frotter sa surface facillement ? Ne vous compliquez pas la vie, replacez le temporairement sur son socket, vérouillez le, et commencé à le frotter légèrement avec votre essui tout. Vous n'avez pas besoin de forcer; faites plusieurs passages en changeant régulièrement la feuille. Quand vous êtes satisfait du resultat, reprenez le processeur en main, nous allons passé à la préparation de ce dernier et de la carte mère.</p>
 <p><strong>Préparation du processeur :</strong></p>
 <p>Nous allons maintenant passé à la dernière étape avant l'installation à proprement parlé du SP-94 : l'application de la pâte thermique.</p>
 <p><em>Important : notez que cette étape est batarde au niveau chronologique dans le sens ou vous devez en prendre note mais que l'application de la pâte thermique doit se faire après la mise en place du support pour le SP-94 (pièce noir en X) : évitez de laissé sécher la pâte thermique.</em></p>
 <p>La préparation du processeur consiste en l'application d'une pâte thermique. Celle-ci à pour but de d'optimiser l'échange thermique entre la survace du propocesseur et le radiateur qui lui va dissiper la chaleur produite. Elle doit donc être appliquée avec soin : sur toute la surface du processeur et en une fine couche homogène. Evitez la surépaisseur : cette pâte ne doit pas se transformée en isolant !</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_5.jpeg" alt="Processeur 5" loading="lazy" />
-<img src="/images/thumbs/300/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg" alt="Artic Silver V" loading="lazy" width="300" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/proc_5.jpeg" alt="Processeur 5" width="800" loading="lazy" />
+<img src="/images/thumbs/300/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg" alt="Artic Silver V" width="300" loading="lazy" /></p>
 <p><em>Note : la photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)</em></p>
 <p><a href="#sommaire"><em>Sommaire</em></a></p>
 <h2 id="partie4">Partie 4 : mise en place du SP-94, du SE2 et fixation de l’ensemble</h2>
 <p>Cette étape peut vous semblez intimidente, mais si vous avez suivit les précédentes, les choses vont être plutôt simple... en procédant toujours par étapes bien entendu ! ;-)</p>
 <p>Comme je l'ai indiqué dans la <a href="#partie1"><em>Partie 1</em></a>, le SP-94 est livré avec une plaque de fixation en forme de <em>X</em>. C'est grâce à elle que le SP-94 sera solidaire de la carte mère et c'est pour elle que nous avons démonter le support de ventirad. En effet, celle-ci est fixée par les mêmes quatres trous de fixation. Pour fixer le tout, un sachet de divers vis et autres entretoises est fournit (voir photo ci-contre).</p>
-<p><img src="/images/soltek-eq3401-sp94-guide-montage/visserie.jpeg" alt="La visserie" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/piece_x.jpeg" alt="Pièce en X" loading="lazy" /></p>
+<p><img src="/images/soltek-eq3401-sp94-guide-montage/visserie.jpeg" alt="La visserie" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/piece_x.jpeg" alt="Pièce en X" width="800" loading="lazy" /></p>
 <p>Note :</p>
 <ul>
 <li>Il y a cinq pièce de chaque alors que quatre sont suffisante. Ca peut éviter les soucis si jamais une des pièces de fixation est déffectueuse.</li>
@@ -993,21 +993,21 @@ Maintenant que cette nouvelle méthode à été pensée, essayons de la mettre e
 <ol>
 <li>
 <p>Pour commencé, dégagez-vous une zone de travail. Placer ensuite la plaque de fixation à plat et au centre de votre zone de travail, avec le coté du tampon au dessus. Saisissez vous de quatre rondelles plastique, les plus large, et placez les sur les qautre pas de vis de la plaque. Vous pouvez maintenant déposer votre carte mère (face au dessus également) sur la plaque en coordonant les quatres trous de chacun : si vous êtes éclairé par une source de lumière suffisante, ça ne devrait pas être difficile.
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_1.jpeg" alt="Fixation SP-94 1" loading="lazy" /></p>
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_1.jpeg" alt="Fixation SP-94 1" width="800" loading="lazy" /></p>
 </li>
 <li>
 <p>Nous pouvons maitenant mettre ne place les entretoise à vis. Celles-ci, d'une hauteur certaine, servent de &quot;cale&quot; entre la carte mère et le bloque de cuivre qu'est le SP-94. En effet, il faut cmpenser à différence de niveau du au socket et au processeur. Saississez-vous de quatre de ces pièces et de quatres rondelles plastique (le plus étroites). Enfilez les rondelles de plastique (voir photo) et visser le tout sur la plaque de fixation au travers de la carte mère.
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_3.jpeg" alt="Fixation SP-94 3" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_2.jpeg" alt="Fixation SP-94 2" loading="lazy" /></p>
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_3.jpeg" alt="Fixation SP-94 3" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_2.jpeg" alt="Fixation SP-94 2" width="800" loading="lazy" /></p>
 </li>
 <li>
 <p>Le plus gros du montage est maintenant fait. Il nous faut remettre le processeur en place, après l’avoir préparé bien sûr. Ensuite enlever le film plastique qui protège le SP-94 et placer ce dernier délicatement sur les quatres supports métalique que nous venons de visser. Placer enfin qautres des dernières rondelles (les métalliques) et fixer le SP-94 à l'aide de quatres vis équipées de ressort. Les ressorts entretiendront une pression constante entre les vis et le bloque de cuivre. Serez donc les vis de manière à mettre ces ressorts sous pession sans non plus forcer sur le matériel !
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_9.jpeg" alt="Fixation SP-94 9" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_8.jpeg" alt="Fixation SP-94 8" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_7.jpeg" alt="Fixation SP-94 7" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_6.jpeg" alt="Fixation SP-94 6" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_5.jpeg" alt="Fixation SP-94 5" loading="lazy" />
-<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_4.jpeg" alt="Fixation SP-94 4" loading="lazy" /></p>
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_9.jpeg" alt="Fixation SP-94 9" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_8.jpeg" alt="Fixation SP-94 8" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_7.jpeg" alt="Fixation SP-94 7" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_6.jpeg" alt="Fixation SP-94 6" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_5.jpeg" alt="Fixation SP-94 5" width="800" loading="lazy" />
+<img src="/images/soltek-eq3401-sp94-guide-montage/fixation_sp94_4.jpeg" alt="Fixation SP-94 4" width="800" loading="lazy" /></p>
 </li>
 </ol>
 <hr />
