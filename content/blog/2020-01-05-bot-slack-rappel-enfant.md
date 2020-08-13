@@ -12,4 +12,3 @@ typora-root-url: ../../static
 Il faudrait que je complète ce billet un jour !
 
 ![](/images/leo-bot-demo.png)
-
