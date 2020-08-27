@@ -24,14 +24,12 @@ Pour faire simple, ci-dessous les réponses aux questions qu'on me pose le plus 
 
 > **Il est électrique ? 🔌**
 
-Non : ce n'est pas un VAE. J'ai retenu la version sans assistance pour 2 raisons :
+Ce n'est pas un VAE. J'ai retenu la version sans assistance pour 2 raisons :
 
 1. le coût : allant quasiment du simple au double
 2. la liberté "technique" : je ne souhaitais pas être contraint ni par un moteur (poids et dépendance mécanique), ni par l'obligation d'avoir une batterie chargée pour la moindre sortie
 
 > **C'est lourd ? Ça peut transporter quel poids ? ⚖️**
-
-Oui et non ! 😜
 
 Le Bullitt est connu pour être léger (cadre en aluminium) au regard sa longueur (2,40 mètres) et de sa capacité de charge (100 kg).
 
@@ -57,7 +55,7 @@ En effet, même si la combinaison du frein à disque à l'avant et du rétropéd
 
 > **On peut transporter des enfants ? 👪**
 
-Oui : je transporte mon fils quasiment quotidiennement, en sécurité grâce au [siège officiel](http://shop.larryvsharry.com/shop/accessories/childseat.html) équipé d'une ceinture.
+Je transporte mon fils quasiment quotidiennement, en sécurité grâce au [siège officiel](http://shop.larryvsharry.com/shop/accessories/childseat.html) équipé d'une ceinture.
 
 Ce siège comporte d'ailleurs 2 ceintures, néanmoins, sans la [canopée](http://shop.larryvsharry.com/shop/accessories/canopy.html) il sera difficile d'asseoir 2 enfants côte à côte entre les _side panels_.
 
