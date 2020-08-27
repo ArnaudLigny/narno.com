@@ -61,12 +61,12 @@ Oui : je transporte mon fils quasiment quotidiennement, en sécurité grâce au 
 
 Ce siège comporte d'ailleurs 2 ceintures, néanmoins, sans la [canopée](http://shop.larryvsharry.com/shop/accessories/canopy.html) il sera difficile d'asseoir 2 enfants côte à côte entre les _side panels_.
 
-## Notes
+## Notes & remarques
 
-Quelques notes et autres remarques :
-
-- 
+- Je n'ai effectué aucun entretien spécifique depuis l'achat, si ce n'est vérifier certains serrages et remplacer les plaquettes de frein
 - Les pneus Schwalbe Marathon (équipés d'origine) sont effectivement increvables et suffisamment confortables par temps sec, mais la tenue de route est nettement moins bonne sur route mouillée
-- 
+- *à compléter*
+
+Quoi qu'il en soit, j'adore rouler avec mon Bullitt ! 😊
 
 *[VAE]: Vélo à Assistance Électrique
