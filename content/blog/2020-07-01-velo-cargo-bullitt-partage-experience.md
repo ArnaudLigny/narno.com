@@ -4,7 +4,7 @@ date: 2020-07-01
 tags:
 - Vélo
 - Bullitt
-image: "/images/bullitt.jpg"
+image: /images/bullitt.jpg
 published: false
 typora-root-url: ../../static
 ---
