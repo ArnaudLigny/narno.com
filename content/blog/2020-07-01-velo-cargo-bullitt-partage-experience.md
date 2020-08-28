@@ -5,7 +5,7 @@ tags:
 - Vélo
 - Bullitt
 image: /images/bullitt.jpg
-published: false
+published: true
 typora-root-url: ../../static
 ---
 
