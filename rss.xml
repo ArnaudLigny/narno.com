@@ -58,6 +58,31 @@
       <link>https://narno.com/blog/velo-cargo-bullitt-partage-experience/</link>
     </item>
     <item>
+      <guid>https://narno.com/blog/bot-slack-rappel-enfant/</guid>
+      <title>Un bot pour ne plus arriver en retard à l'école !</title>
+      <description><![CDATA[<blockquote>
+<p>Suite au confinement lié au <a href="https://fr.m.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_en_France">Covid-19</a> j'avais mis de côté ce billet initié en janvier, mais avec la rentrée scolaire qui approche, je pense qu'il est tend de le ressortir !</p>
+</blockquote>
+<p>Depuis quelques années j'utilise <a href="https://slack.com/intl/fr-fr/">Slack</a> dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.</p>
+<p>Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.</p>
+<p><img src="/images/leo-bot-demo.png" alt="" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
+<p>J'ai donc entrepris de réaliser un bot très simple, à l'aide de <a href="https://github.com/howdyai/botkit">Botkit</a>, qui me hélerait au moment du départ.</p>
+<!-- break -->
+<p>Pour fonctionner le bot à besoin de :</p>
+<ul>
+<li>un <em>token</em> autorisant l’interaction avec Slack</li>
+<li>un <a href="https://github.com/Narno/leo-bot/blob/master/.env.dist">fichier de configuration</a> afin d’indiquer le canal (<em>channel</em>) à notifier, ainsi que l'heure et la fréquence de rappel</li>
+<li>un worker (ex : <a href="https://www.heroku.com">Heroku</a>) pour dynamiser le tout</li>
+</ul>
+<p>Pour plus de détails sur la mise en œuvre (et l'accès à la documentation) je vous invite à consulter la page GitHub du projet : <a href="https://github.com/Narno/leo-bot">github.com/Narno/leo-bot</a>.</p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" /></a></p>
+<blockquote>
+<p>Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.</p>
+</blockquote>]]></description>
+      <pubDate>2020-01-05T01:00:00+01:00</pubDate>
+      <link>https://narno.com/blog/bot-slack-rappel-enfant/</link>
+    </item>
+    <item>
       <guid>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</guid>
       <title>Vélo cargo Bullitt : ya quoi dans le carton ?</title>
       <description><![CDATA[<p>Si vous me suivez sur <a href="https://twitter.com/Narno">Twitter</a> vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique <a href="/tags/bullitt">Bullitt</a> Bluebird de <a href="https://www.larryvsharry.com/">Larry vs Harry</a> !</p>
@@ -136,85 +161,6 @@
 </blockquote>]]></description>
       <pubDate>2019-05-06T02:00:00+02:00</pubDate>
       <link>https://narno.com/blog/facebook-notifier/</link>
-    </item>
-    <item>
-      <guid>https://narno.com/config-pc/</guid>
-      <title>Mon PC</title>
-      <description><![CDATA[<h2>La configuration matérielle de mon PC de jeu</h2>
-<p><img src="/images/CanHard-IX.jpg" alt="CanHard IX" width="350" loading="lazy" /></p>
-<table>
-<thead>
-<tr>
-<th>Composant</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Boîtier</td>
-<td><a href="http://www.coolermaster.com/case/mid-tower/cm-690-ii-ver-2/">Cooler Master CM-690 II</a></td>
-</tr>
-<tr>
-<td>Alimentation</td>
-<td><a href="http://www.materiel.net/alimentation-pour-pc/corsair-tx-v2-650w-64329.html">Corsair TX V2 650 Watts</a></td>
-</tr>
-<tr>
-<td>Carte Mère</td>
-<td><a href="https://www.asus.com/Motherboards/P8P67_LE/">Asus P8P67 LE Rev 3.0</a></td>
-</tr>
-<tr>
-<td>Processeur</td>
-<td><a href="http://ark.intel.com/products/52209/Intel-Core-i5-2500-Processor-6M-Cache-up-to-3_70-GHz">Intel Core i5 2500K</a></td>
-</tr>
-<tr>
-<td>Ventirad</td>
-<td><a href="http://www.coolermaster.com/cooling/cpu-air-cooler/hyper-212-plus/">Cooler Master Hyper 212 Plus</a></td>
-</tr>
-<tr>
-<td>Carte Graphique</td>
-<td><a href="http://www.gainward.com/main/vgapro.php?id=988">Gainward GeForce GTX 1060 Phoenix GS 6 Go</a></td>
-</tr>
-<tr>
-<td>Mémoire</td>
-<td><a href="http://www.gskill.com/en/product/f3-12800cl9d-8gbxl">G.Skill Ripjaws X DDR3 16 Go</a></td>
-</tr>
-<tr>
-<td>SSD</td>
-<td><a href="http://www.crucial.fr/fra/fr/macbook-pro-(13-pouces,-d%C3%A9but-2011)/CT6512438">Crucial BX100 500 Go</a></td>
-</tr>
-<tr>
-<td>HDD</td>
-<td><a href="https://www.wdc.com/fr-fr/products/internal-storage/wd-black-desktop.html#WD1003FZEX">WD Caviar Black S-ATA 3 1 To</a></td>
-</tr>
-<tr>
-<td>Écran</td>
-<td><a href="http://iiyama.com/fr_fr/produits/prolite-b2206ws-1/">iiyama ProLite B2206WS 22&quot;</a>, <a href="https://iiyama.com/fr_fr/produits/prolite-b2083hsd-b1/">iiyama ProLite B2083HSD 20&quot;</a></td>
-</tr>
-<tr>
-<td>Souris</td>
-<td><a href="http://www.lesnumeriques.com/souris/steelseries-xai-p7147/test.html"><del>SteelSeries XAI</del></a> <a href="https://www.razer.com/fr-fr/gaming-mice/razer-mamba-wireless">Razer Mamba Wireless</a></td>
-</tr>
-<tr>
-<td>Tapis</td>
-<td><a href="https://www.razer.com/fr-fr/gaming-mouse-mats/razer-firefly">Razer Firefly</a></td>
-</tr>
-<tr>
-<td>Clavier</td>
-<td><a href="https://www.razer.com/fr-fr/gaming-keyboards-keypads/razer-blackwidow-chroma"><del>Razer BlackWidow Chroma</del></a> <a href="https://www.razer.com/fr-fr/gaming-keyboards-keypads/razer-cynosa-chroma">Razer Cynosa Chroma</a></td>
-</tr>
-<tr>
-<td>Casque</td>
-<td><a href="https://www.logitechg.fr/fr-fr/products/gaming-audio/g930-7-1-wireless-gaming-headset.html">Logitech G930</a></td>
-</tr>
-<tr>
-<td>OS</td>
-<td>Windows 7 64 bits</td>
-</tr>
-</tbody>
-</table>
-<p><em>(<a href="https://web.archive.org/web/20110914061133/http://www.materiel.net/ordinateur/materiel-net-canhard-ix-70538.html">CanHard IX</a> modifiée)</em></p>]]></description>
-      <pubDate>2019-03-20T01:00:00+01:00</pubDate>
-      <link>https://narno.com/config-pc/</link>
     </item>
     <item>
       <guid>https://narno.com/mes-velos/</guid>
@@ -323,6 +269,85 @@
 <p><em>(<a href="https://www.kalkhoff-bikes.com/en/bikes/2017/bike/fitness/voyager-dlx-27-g.html">Site officiel</a>)</em></p>]]></description>
       <pubDate>2019-03-20T01:00:00+01:00</pubDate>
       <link>https://narno.com/mes-velos/</link>
+    </item>
+    <item>
+      <guid>https://narno.com/config-pc/</guid>
+      <title>Mon PC</title>
+      <description><![CDATA[<h2>La configuration matérielle de mon PC de jeu</h2>
+<p><img src="/images/CanHard-IX.jpg" alt="CanHard IX" width="350" loading="lazy" /></p>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Boîtier</td>
+<td><a href="http://www.coolermaster.com/case/mid-tower/cm-690-ii-ver-2/">Cooler Master CM-690 II</a></td>
+</tr>
+<tr>
+<td>Alimentation</td>
+<td><a href="http://www.materiel.net/alimentation-pour-pc/corsair-tx-v2-650w-64329.html">Corsair TX V2 650 Watts</a></td>
+</tr>
+<tr>
+<td>Carte Mère</td>
+<td><a href="https://www.asus.com/Motherboards/P8P67_LE/">Asus P8P67 LE Rev 3.0</a></td>
+</tr>
+<tr>
+<td>Processeur</td>
+<td><a href="http://ark.intel.com/products/52209/Intel-Core-i5-2500-Processor-6M-Cache-up-to-3_70-GHz">Intel Core i5 2500K</a></td>
+</tr>
+<tr>
+<td>Ventirad</td>
+<td><a href="http://www.coolermaster.com/cooling/cpu-air-cooler/hyper-212-plus/">Cooler Master Hyper 212 Plus</a></td>
+</tr>
+<tr>
+<td>Carte Graphique</td>
+<td><a href="http://www.gainward.com/main/vgapro.php?id=988">Gainward GeForce GTX 1060 Phoenix GS 6 Go</a></td>
+</tr>
+<tr>
+<td>Mémoire</td>
+<td><a href="http://www.gskill.com/en/product/f3-12800cl9d-8gbxl">G.Skill Ripjaws X DDR3 16 Go</a></td>
+</tr>
+<tr>
+<td>SSD</td>
+<td><a href="http://www.crucial.fr/fra/fr/macbook-pro-(13-pouces,-d%C3%A9but-2011)/CT6512438">Crucial BX100 500 Go</a></td>
+</tr>
+<tr>
+<td>HDD</td>
+<td><a href="https://www.wdc.com/fr-fr/products/internal-storage/wd-black-desktop.html#WD1003FZEX">WD Caviar Black S-ATA 3 1 To</a></td>
+</tr>
+<tr>
+<td>Écran</td>
+<td><a href="http://iiyama.com/fr_fr/produits/prolite-b2206ws-1/">iiyama ProLite B2206WS 22&quot;</a>, <a href="https://iiyama.com/fr_fr/produits/prolite-b2083hsd-b1/">iiyama ProLite B2083HSD 20&quot;</a></td>
+</tr>
+<tr>
+<td>Souris</td>
+<td><a href="http://www.lesnumeriques.com/souris/steelseries-xai-p7147/test.html"><del>SteelSeries XAI</del></a> <a href="https://www.razer.com/fr-fr/gaming-mice/razer-mamba-wireless">Razer Mamba Wireless</a></td>
+</tr>
+<tr>
+<td>Tapis</td>
+<td><a href="https://www.razer.com/fr-fr/gaming-mouse-mats/razer-firefly">Razer Firefly</a></td>
+</tr>
+<tr>
+<td>Clavier</td>
+<td><a href="https://www.razer.com/fr-fr/gaming-keyboards-keypads/razer-blackwidow-chroma"><del>Razer BlackWidow Chroma</del></a> <a href="https://www.razer.com/fr-fr/gaming-keyboards-keypads/razer-cynosa-chroma">Razer Cynosa Chroma</a></td>
+</tr>
+<tr>
+<td>Casque</td>
+<td><a href="https://www.logitechg.fr/fr-fr/products/gaming-audio/g930-7-1-wireless-gaming-headset.html">Logitech G930</a></td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 7 64 bits</td>
+</tr>
+</tbody>
+</table>
+<p><em>(<a href="https://web.archive.org/web/20110914061133/http://www.materiel.net/ordinateur/materiel-net-canhard-ix-70538.html">CanHard IX</a> modifiée)</em></p>]]></description>
+      <pubDate>2019-03-20T01:00:00+01:00</pubDate>
+      <link>https://narno.com/config-pc/</link>
     </item>
     <item>
       <guid>https://narno.com/a-propos/</guid>

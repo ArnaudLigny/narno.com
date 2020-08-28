@@ -13,6 +13,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://narno.com/blog/bot-slack-rappel-enfant/</loc>
+    <lastmod>2020-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://narno.com/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/</loc>
     <lastmod>2019-05-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -49,13 +55,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</loc>
+    <loc>https://narno.com/tags/cycliste-urbain/</loc>
     <lastmod>2017-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://narno.com/tags/cycliste-urbain/</loc>
+    <loc>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</loc>
     <lastmod>2017-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
