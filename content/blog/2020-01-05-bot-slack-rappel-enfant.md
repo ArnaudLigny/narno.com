@@ -30,4 +30,4 @@ Pour plus de détails sur la mise en œuvre (et l'accès à la documentation) je
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Narno/leo-bot)
 
-> Note : ce projet à plus de 3 ans, il est donc possible que certaines dépendances soient obsolètes.
+> Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.
