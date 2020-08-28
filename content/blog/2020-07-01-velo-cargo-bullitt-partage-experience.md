@@ -62,7 +62,7 @@ Ce siège comporte d'ailleurs 2 ceintures, néanmoins, sans la [canopée](http:/
 ## Notes & remarques
 
 - Je n'ai effectué aucun entretien spécifique depuis l'achat, si ce n'est vérifier certains serrages et remplacer les plaquettes de frein
-- Les pneus Schwalbe Marathon (équipés d'origine) sont effectivement increvables et suffisamment confortables par temps sec, mais la tenue de route est nettement moins bonne sur route mouillée
+- Les pneus [Schwalbe Marathon](https://www.schwalbe.com/fr/tour-reader/marathon) (équipés d'origine) sont effectivement increvables et suffisamment confortables par temps sec, mais la tenue de route est nettement moins bonne sur route mouillée
 - *à compléter*
 
 ## Conclusion
