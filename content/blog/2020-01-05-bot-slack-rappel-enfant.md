@@ -1,5 +1,5 @@
 ---
-title: "Un bot pour ne plus arriver en retard à l'école !"
+title: "Un bot pour ne pas arriver en retard à l'école !"
 date: 2020-01-05
 updated: 2020-08-28
 tags:
