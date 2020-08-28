@@ -67,6 +67,6 @@ Ce siège comporte d'ailleurs 2 ceintures, néanmoins, sans la [canopée](http:/
 
 ## Conclusion
 
-Quoi qu'il en soit j'adore circuler avec mon Bullitt, que ce soit pour aller travailler, déposer mon fils à l'école, faire les courses, ou juste pour le plaisir de rouler ! 😊
+Quoi qu'il en soit j'adore circuler avec mon Bullitt, que ce soit pour aller travailler, déposer mon fils à l'école, faire les courses ou juste pour le plaisir de rouler ! 😊
 
 *[VAE]: Vélo à Assistance Électrique
