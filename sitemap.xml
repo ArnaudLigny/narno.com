@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://narno.com/blog/velo-cargo-bullitt-partage-experience/</loc>
+    <lastmod>2020-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://narno.com/tags/bullitt/</loc>
-    <lastmod>2019-05-18</lastmod>
+    <lastmod>2020-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -43,13 +49,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://narno.com/tags/cycliste-urbain/</loc>
+    <loc>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</loc>
     <lastmod>2017-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://narno.com/blog/pourquoi-ne-pas-juste-dire-merci/</loc>
+    <loc>https://narno.com/tags/cycliste-urbain/</loc>
     <lastmod>2017-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
