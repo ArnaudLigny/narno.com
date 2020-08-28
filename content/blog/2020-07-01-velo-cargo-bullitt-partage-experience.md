@@ -65,6 +65,8 @@ Ce siège comporte d'ailleurs 2 ceintures, néanmoins, sans la [canopée](http:/
 - Les pneus Schwalbe Marathon (équipés d'origine) sont effectivement increvables et suffisamment confortables par temps sec, mais la tenue de route est nettement moins bonne sur route mouillée
 - *à compléter*
 
-Quoi qu'il en soit, j'adore rouler avec mon Bullitt ! 😊
+## Conclusion
+
+Quoi qu'il en soit j'adore circuler avec mon Bullitt, que ce soit pour aller travailler, déposer mon fils à l'école, faire les courses, ou juste pour le plaisir de rouler ! 😊
 
 *[VAE]: Vélo à Assistance Électrique
