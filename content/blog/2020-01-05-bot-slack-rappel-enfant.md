@@ -9,7 +9,7 @@ image: "/images/chatbot.jpg"
 published: false
 typora-root-url: ../../static
 ---
-> Suite au confinement lié au [Covid-19](https://fr.m.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_en_France) j'avais mis de côté ce billet, mais avec la rentrée scolaire qui approche, je pense qu'il est tend de le finaliser !
+> Suite au confinement lié au [Covid-19](https://fr.m.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_en_France) j'avais mis de côté ce billet initié en janvier, mais avec la rentrée scolaire qui approche, je pense qu'il est tend de le ressortir !
 
 Depuis quelques années j'utilise [Slack](https://slack.com/intl/fr-fr/) dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.
 
@@ -29,3 +29,5 @@ Pour fonctionner le bot à besoin de :
 Pour plus de détails sur la mise en œuvre (et l'accès à la documentation) je vous invite à consulter la page GitHub du projet : [github.com/Narno/leo-bot](https://github.com/Narno/leo-bot).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Narno/leo-bot)
+
+> Note : ce projet à plus de 3 ans, il est donc possible que certaines dépendances soient obsolètes.
