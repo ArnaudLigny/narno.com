@@ -5,8 +5,8 @@ updated: 2020-08-28
 tags:
 - Papa
 - Développement
-image: "/images/chatbot.jpg"
-published: false
+image: /images/chatbot.jpg
+published: true
 typora-root-url: ../../static
 ---
 > Suite au confinement lié au [Covid-19](https://fr.m.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_en_France) j'avais mis de côté ce billet initié en janvier, mais avec la rentrée scolaire qui approche, je pense qu'il est tend de le ressortir !
