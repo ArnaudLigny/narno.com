@@ -1,24 +1,24 @@
 ---
-title: 'Vélo cargo Bullitt : ya quoi dans le carton ?'
+title: "Vélo cargo Bullitt : ya quoi dans le carton ?"
 date: 2019-05-18
 updated: 2019-05-26
 tags:
 - Vélo
 - Bullitt
-image: "/images/bullitt-carton/IMG_20190413_112340.jpg"
+image: /images/bullitt-carton/IMG_20190413_112340.jpg
 published: true
-typora-root-url: "../../static"
+typora-root-url: ../../static
 
 ---
-Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique [Bullitt Bluebird de Larry vs Harry](https://www.larryvsharry.com/) !
+Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique [Bullitt](/tags/bullitt) Bluebird de [Larry vs Harry](https://www.larryvsharry.com/) !
 
-![Vélo cargo Bullitt vu de profil](/images/bullitt-carton/IMG_20190413_112340.jpg?resize=800&responsive)
+![Vélo cargo Bullitt vu de profil](/images/bullitt-carton/IMG_20190413_112340.jpg?resize=800&responsive "Vélo cargo Bullitt vu de profil")
 
 <!-- break -->
 
 ## Alors, ya quoi dans le carton ?
 
-Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2m40 et surtout que contient le carton, ça pourrait être sympa de partager mon expérience.
+Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2,40 mètres et surtout que contient le carton, ça pourrait être sympa de partager mon expérience.
 
 Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.
 
@@ -96,4 +96,3 @@ Et voilà !
 J’essaierai de détailler un peu plus le montage dans un autre billet.
 
 Retenez que ça reste très facile, y compris pour un néophyte, d’autant plus une fois qu’on a mis la main sur le [manuel officiel](https://www.dropbox.com/s/dn2dmlgpumy79u9/Bullitt%20manual%202018%20NL.pdf?dl=0) après 1 heure de montage ! 😄
-
