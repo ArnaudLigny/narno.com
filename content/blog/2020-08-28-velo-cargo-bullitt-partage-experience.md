@@ -49,7 +49,7 @@ Mon modèle m'a coûté environ 2800 euros, frais de port compris (livré par un
 
 Pour des raisons de budget j'ai opté pour la transmission la moins coûteuse, à savoir le [Shimano Nexus 7](https://en.m.wikipedia.org/wiki/Shimano_Nexus) à frein par rétropédalage.
 
-Avec le recul, si j'avais su j'aurais opté pour le [Shimano Alfine 8](https://en.m.wikipedia.org/wiki/Shimano_Alfine) afin de profité d'un étagement plus large et surtout d'un frein à disque à l’arrière.
+Avec le recul, si j'avais su j'aurais opté pour le [Shimano Alfine 8](https://en.m.wikipedia.org/wiki/Shimano_Alfine) afin de profiter d'un étagement plus large et surtout d'un frein à disque à l’arrière.
 
 En effet, même si la combinaison du frein à disque à l'avant et du rétropédalage à l'arrière reste efficace et suffisant, un double frein à disque reste nettement plus confortable, surtout sur route mouillée et/ou très chargé.
 
