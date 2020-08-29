@@ -1,26 +1,20 @@
 ---
-title: Pourquoi ne pas juste dire « merci » ?
+title: "Pourquoi ne pas juste dire « merci » ?"
 date: 2017-10-16
 tags:
-- Vélo
-- Cycliste urbain
-image: "/images/yehudamoon-2017-03-20-first-case.png"
+  - Vélo
+  - Cycliste urbain
+image: /images/yehudamoon-2017-03-20-first-case.png
 published: true
-typora-root-url: "../../static"
-updated: 
-
+typora-root-url: ../../static
 ---
-## Préambule
-
-Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vous savez déjà que je suis un fervant défenseur de la solution vélo, d'autant plus dans ma ville : Paris.
-
-## Mauvais combat
+> Pour celles et ceux qui me suivent sur [Twitter](https://twitter.com/Narno), vous savez déjà que je suis un fervent défenseur de la solution vélo, d'autant plus dans ma ville : Paris.
 
 ![yehudamoon-2017-03-20](/images/yehudamoon-2017-03-20.png)
 
 Depuis quelques semaines, l'application du [plan vélo](https://www.paris.fr/velo) par la mairie de Paris mis en avant dans la presse par la [fermeture des voies sur berge](https://www.google.com/search?q=fermeture+des+voies+sur+berge) ou encore les travaux d'[aménagement rue de Rivoli](http://transports.blog.lemonde.fr/2017/08/18/paris-bataille-rivoli/), créé des émois sur les réseaux sociaux.
 
-On en arrive à une situation absurbe où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.
+On en arrive à une situation absurde où, plutôt que d'être critique sur les origines réelles des bouchons et de la pollution, on en arrive à critiquer les aménagements visant à les réduire.
 <!-- excerpt -->
 Aussi pour moi c'est un sujet récurrent de discussion avec des amis et des membres de ma famille, plus ou moins concernés par le sujet ou pas toujours au fait de la réalité du quotidien des parisiens vélotafeurs.
 
