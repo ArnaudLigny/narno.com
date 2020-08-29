@@ -13,8 +13,8 @@ typora-root-url: ../../static
 Dans mon billet intitulé [*Reboot du blog ?*](/blog/reboot-du-blog) j'indiquais que *Narno.com* était maintenant un site statique : mais « statique », ça veut dire quoi ?
 
 ![](/images/ssg-host-flow.png "SSG host flow")
-*Source du schéma : [What is a Static Site Generator?](https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/)*
 <!-- break -->
+*Source du schéma : [What is a Static Site Generator?](https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/)*
 
 ## Qu'appelle-t-on un « site statique » ?
 
