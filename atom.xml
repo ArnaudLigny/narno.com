@@ -402,7 +402,7 @@
 </ol>
 <p>De plus, afin d’automatiser le processus, j’utilise un outil d’intégration continue (<a href="https://github.com/lambci/lambci">LambCI</a>) qui déclenche la (re)génération dès que le contenu est modifié sur le <a href="https://github.com/Narno/narno.com">dépôt GitHub</a> (ex : <a href="https://lambci-buildresults-1w0y4nab0105t.s3.amazonaws.com/gh/Narno/narno.com/builds/676/536b49b7fde5e134fb6b919d503601f6.html">Build #676</a>).</p>
 <p>Le site ainsi généré est ensuite déployé sur <a href="https://github.com/Narno/narno.com/deployments/activity_log?environment=github-pages">GitHub Pages</a> et disponible via le domaine narno.com.</p>
-<p>Simple, efficace, facile à maintenir et à maintenir ! 😊</p>]]>
+<p>Simple, efficace, facile à maintenir et à migrer ! 😊</p>]]>
     </content>
     <link href="https://narno.com/blog/narno-com-site-web-statique/" rel="alternate" type="text/html" />
     <published>2017-10-25T02:00:00+02:00</published>
