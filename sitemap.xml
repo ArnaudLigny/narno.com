@@ -49,6 +49,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://narno.com/blog/narno-com-site-web-statique/</loc>
+    <lastmod>2017-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://narno.com/a-propos/</loc>
     <lastmod>2017-10-17</lastmod>
     <changefreq>monthly</changefreq>
