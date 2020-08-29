@@ -12,7 +12,7 @@ typora-root-url: ../../static
 J'étais à [Paris Web 2007](https://www.paris-web.fr/2007/) pour la journée "libre" : pas de conférences mais des ateliers.
 
 ![](/images/photos/paris-web-2007.jpg)
-
+<!-- break -->
 **Ce que j'ai retenu :**
 
 * l'accessibilité est encore le sujet chérie de cette année, et les mêmes problématiques se posent toujours encore et toujours : comment prendre en compte les normes (toute relatives, WCAG, RGEE, etc.) dans un métier dont le principal moteur est "la vente vite bien fait, par ici la monnaie"...
