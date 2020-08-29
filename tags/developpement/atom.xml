@@ -76,9 +76,9 @@
     <title>Narno.com est un site web statique</title>
     <content type="html">
       <![CDATA[<p>Dans mon billet intitulé <a href="/blog/reboot-du-blog"><em>Reboot du blog ?</em></a> j'indiquais que <em>Narno.com</em> était maintenant un site statique : mais « statique », ça veut dire quoi ?</p>
-<p><img src="/images/ssg-host-flow.png" alt="" title="SSG host flow" width="1024" loading="lazy" />
-<em>Source du schéma : <a href="https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/">What is a Static Site Generator?</a></em></p>
+<p><img src="/images/ssg-host-flow.png" alt="" title="SSG host flow" width="1024" loading="lazy" /></p>
 <!-- break -->
+<p><em>Source du schéma : <a href="https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/">What is a Static Site Generator?</a></em></p>
 <h2>Qu'appelle-t-on un « site statique » ?</h2>
 <p>Un site web peut-être qualifié de statique quand il répond aux caractéristiques suivantes :</p>
 <ol>
