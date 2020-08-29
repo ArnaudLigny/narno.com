@@ -7,7 +7,7 @@ tags:
 path: blog/migration-dun-forum-phpbb2-vers-phpbb3
 ---
 Ça aura été pénible mais j'ai réussi à migrer le [forum phpBB de Kobuta.fr](http://www.kobuta.fr/forum) !
-
+<!-- excerpt -->
 ## Petite introduction
 
 Pour rappel, phpBB est certainement la solution de forum PHP la plus connu et la plus populaire, sans doute parceque la première arrivée avec PHP, son installation et sa prise sont simple, et enfin, compatible avec les hébergements lowcost (free.fr & co).
@@ -19,7 +19,7 @@ Depuis, la version phpBB 3 est sorti (fin 2007, soit environ 2 ans après les pr
 
 Pour en revenir au sujet initial, Kobuta.fr avait fermer son forum dès que le contrôle en a été perdu : inscription et posts de robots spammeurs, hacking et donc risque pour l'hébergeur.
 Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que le [blog de Oni](http://www.kobuta.fr/blog/)). Oni souhaitait que nous réinstallions l'ancien forum phpBB 2 en lecture seule afin de permettre aux membres d'accéder au contenu de certains billets et à leurs messages privés.
-<!-- excerpt -->
+
 ## Les problèmes techniques commencent ici
 
 Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
