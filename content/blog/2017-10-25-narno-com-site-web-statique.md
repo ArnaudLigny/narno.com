@@ -1,12 +1,12 @@
 ---
 title: "Narno.com est un site web statique"
 date: 2017-10-25
-updated: 2020-08-29
+updated: 2020-08-30
 tags:
   - Développement
   - SSG
 image: /images/ssg-flow.png
-published: false
+published: true
 typora-root-url: ../../static
 ---
 
