@@ -42,4 +42,4 @@ De plus, afin d’automatiser le processus, j’utilise un outil d’intégratio
 
 Le site ainsi généré est ensuite déployé sur [GitHub Pages](https://github.com/Narno/narno.com/deployments/activity_log?environment=github-pages) et disponible via le domaine narno.com.
 
-Simple, efficace, facile à maintenir et à maintenir ! 😊
+Simple, efficace, facile à maintenir et à migrer ! 😊
