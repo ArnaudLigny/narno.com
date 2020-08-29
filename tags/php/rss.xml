@@ -9,6 +9,7 @@
       <guid>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</guid>
       <title>Migration d'un forum phpBB2 vers phpBB3</title>
       <description><![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
+<!-- excerpt -->
 <h2>Petite introduction</h2>
 <p>Pour rappel, phpBB est certainement la solution de forum PHP la plus connu et la plus populaire, sans doute parceque la première arrivée avec PHP, son installation et sa prise sont simple, et enfin, compatible avec les hébergements lowcost (free.fr &amp; co).</p>
 <p>phpBB version 2 est (ou plutôt à été !) la branche de référence (pour ma part je n'ai même plus souvenir de la version 1...) et la plus utilisée sur le net (encore aujourd'hui, malgré la sortie de la version 3). Elle à finalement été décriée il y a maintenant quelques année par les communauté, principalement à cause de ses problèmes de sécurité à répétition : de nombreux forum se faisaient hackés par des <a href="http://fr.wikipedia.org/wiki/Script_kiddies">scripts kiddies</a> et nombreux étaient ceux (dont moi à l'époque) qui cherchaient une solution alternative (mais la migration était souvent pénible...).
@@ -16,7 +17,6 @@ Malgré la réactivité du groupe phpBB pour produire des patchs, les attaques o
 <p>Depuis, la version phpBB 3 est sorti (fin 2007, soit environ 2 ans après les premières annonces) et c'est tant mieux ! En même temps c'était ça ou la mort de phpBB !</p>
 <p>Pour en revenir au sujet initial, Kobuta.fr avait fermer son forum dès que le contrôle en a été perdu : inscription et posts de robots spammeurs, hacking et donc risque pour l'hébergeur.
 Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que le <a href="http://www.kobuta.fr/blog/">blog de Oni</a>). Oni souhaitait que nous réinstallions l'ancien forum phpBB 2 en lecture seule afin de permettre aux membres d'accéder au contenu de certains billets et à leurs messages privés.</p>
-<!-- excerpt -->
 <h2>Les problèmes techniques commencent ici</h2>
 <p>Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
 En effet, la plupart des anciennes plateformes à la phpBB étaient déployées &quot;à l'européenne&quot;, c'est à dire :</p>
