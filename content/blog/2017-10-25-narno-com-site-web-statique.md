@@ -38,8 +38,10 @@ Le principe est très simple : les contenus texte (au format [Markdown](https://
 3. les billets de blog (historiquement stockés dans la BDD Drupal) convertis en fichiers au format [Markdown](https://fr.m.wikipedia.org/wiki/Markdown)
 4. mon générateur de site statique : [Cecil](https://cecil.app)
 
-De plus, afin d’automatiser le processus, j’utilise un outil d’intégration continue ([LambCI](https://github.com/lambci/lambci)) qui déclenche la (re)génération dès que le contenu est modifié sur le [dépôt GitHub](https://github.com/Narno/narno.com) (ex : [Build #676](https://lambci-buildresults-1w0y4nab0105t.s3.amazonaws.com/gh/Narno/narno.com/builds/676/536b49b7fde5e134fb6b919d503601f6.html)).
+De plus, afin d’automatiser le processus j’utilise un outil d’intégration continue ([LambCI](https://github.com/lambci/lambci)), qui déclenche la (re)génération dès que le contenu est modifié sur le [dépôt GitHub](https://github.com/Narno/narno.com) (ex : [Build #676](https://lambci-buildresults-1w0y4nab0105t.s3.amazonaws.com/gh/Narno/narno.com/builds/676/536b49b7fde5e134fb6b919d503601f6.html)).
 
-Le site ainsi généré est ensuite déployé sur [GitHub Pages](https://github.com/Narno/narno.com/deployments/activity_log?environment=github-pages) et disponible via le domaine narno.com.
+Ensuite, le site ainsi généré est ensuite déployé sur [GitHub Pages](https://github.com/Narno/narno.com/deployments/activity_log?environment=github-pages) et disponible via le domaine [narno.com](https://narno.com).
+
+D’autre part, pour la gestion des contenus je m’appuie soit sur [Forestry](https://forestry.io/) pour de l’édition en ligne, soit sur [Typora](https://typora.io/) pour de l’édition locale.
 
 Simple, efficace, facile à maintenir et à migrer ! 😊
