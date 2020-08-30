@@ -207,8 +207,9 @@
 <li>les billets de blog (historiquement stockés dans la BDD Drupal) convertis en fichiers au format <a href="https://fr.m.wikipedia.org/wiki/Markdown">Markdown</a></li>
 <li>mon générateur de site statique : <a href="https://cecil.app">Cecil</a></li>
 </ol>
-<p>De plus, afin d’automatiser le processus, j’utilise un outil d’intégration continue (<a href="https://github.com/lambci/lambci">LambCI</a>) qui déclenche la (re)génération dès que le contenu est modifié sur le <a href="https://github.com/Narno/narno.com">dépôt GitHub</a> (ex : <a href="https://lambci-buildresults-1w0y4nab0105t.s3.amazonaws.com/gh/Narno/narno.com/builds/676/536b49b7fde5e134fb6b919d503601f6.html">Build #676</a>).</p>
-<p>Le site ainsi généré est ensuite déployé sur <a href="https://github.com/Narno/narno.com/deployments/activity_log?environment=github-pages">GitHub Pages</a> et disponible via le domaine narno.com.</p>
+<p>De plus, afin d’automatiser le processus j’utilise un outil d’intégration continue (<a href="https://github.com/lambci/lambci">LambCI</a>), qui déclenche la (re)génération dès que le contenu est modifié sur le <a href="https://github.com/Narno/narno.com">dépôt GitHub</a> (ex : <a href="https://lambci-buildresults-1w0y4nab0105t.s3.amazonaws.com/gh/Narno/narno.com/builds/676/536b49b7fde5e134fb6b919d503601f6.html">Build #676</a>).</p>
+<p>Ensuite, le site ainsi généré est ensuite déployé sur <a href="https://github.com/Narno/narno.com/deployments/activity_log?environment=github-pages">GitHub Pages</a> et disponible via le domaine <a href="https://narno.com">narno.com</a>.</p>
+<p>D’autre part, pour la gestion des contenus je m’appuie soit sur <a href="https://forestry.io/">Forestry</a> pour de l’édition en ligne, soit sur <a href="https://typora.io/">Typora</a> pour de l’édition locale.</p>
 <p>Simple, efficace, facile à maintenir et à migrer ! 😊</p>]]>
     </content>
     <link href="https://narno.com/blog/narno-com-site-web-statique/" rel="alternate" type="text/html" />
