@@ -73,73 +73,58 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     <id>https://narno.com/blog/seo-pour-drupal/</id>
     <title>SEO pour Drupal</title>
     <content type="html">
-      <![CDATA[<p>Sortie de boite, Drupal est construit de manière à assurrer un bon référencement naturel. Il est nénamoins nécessaire d'utiliser un template bien structuré (via des zones de scrawl ordonnées) et d'appliquer quelques configurations et autre modules adaptés.</p>
-<p>Je vais présenter ici quelques optimisations à déployer sur votre site Drupal :</p>
-<ul>
-<li>
+      <![CDATA[<p>Sortie de boite, <a href="/tags/drupal">Drupal</a> est construit de manière à assurer un bon référencement naturel. Il est néanmoins nécessaire d'utiliser un template bien structuré (via des zones de crawl ordonnées), d'appliquer quelques configurations spécifiques et autres modules adaptés.</p>
+<p>Je vais présenter ici quelques optimisations à déployer sur votre site web motorisé par <a href="/tags/drupal">Drupal</a> :</p>
 <ol>
 <li>Activation des URL simplifiées</li>
-</ol>
-</li>
-<li>
-<ol start="2">
 <li>Réécriture automatique des URL</li>
+<li>Génération du sitemap XML</li>
+<li>Ajout de métadonnées</li>
+<li>Éviter le contenu dupliqué (<em>duplicate content</em>)</li>
 </ol>
-</li>
-<li>
-<ol start="3">
-<li>Génération du Sitemap XML</li>
-</ol>
-</li>
-<li>
-<ol start="4">
-<li>Ajout de meta données</li>
-</ol>
-</li>
-<li>
-<ol start="5">
-<li>Eviter le contenu dupliqué (duplicate content)</li>
-</ol>
-</li>
-</ul>
 <!-- excerpt -->
 <h2>1. Activation des URL simplifiées</h2>
-<p>Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionalité permet de transformer les URL contenant des paramètres de type GET en une URL unique.
+<p>Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionnalité permet de transformer les URL contenant des paramètres de type <em>GET</em> en une URL unique.<br />
 Par exemple <code>/?q=node/1</code> sera remplacée par <code>/node/1</code>.</p>
-<p>Note : votre hébergement doit supporter l'URL rewrting (<a href="http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html">mod_rewrite d'Apache</a>)</p>
+<blockquote>
+<p>Note : votre hébergement doit supporter l'<em>URL rewriting</em> (<a href="http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html"><em>mod_rewrite</em> d'Apache</a>)</p>
+</blockquote>
 <h2>2. Réécriture automatique des URL</h2>
-<p>Quand les URL simplifiées sont active, il est possible de déterminer manuellement le chemin d'URL de chacun de ses noeuds, afin d'utiliser un nom compréhensible lorsque l'on créé un nouveau contenu.
+<p>Quand les URL simplifiées sont active, il est possible de déterminer manuellement le chemin d'URL de chacun de ses nœuds, afin d'utiliser un nom compréhensible lorsque l'on créé un nouveau contenu.<br />
 Par exemple <code>/node/1</code> devient <code>/mon-article-interessant</code>.</p>
-<p>Néanmoins, il n'est pas très pratique de devoir systèmétiquement saisir ce nom manuellement.</p>
-<p>Pour remédier à cela, on pourra utiliser le module <a href="http://drupal.org/project/pathauto">Pathautho</a>. Ce module est très complet et permet d'automatiser la création des chemins d'URL selon des règles simple. Il existe même un fichier permettant de définir la correspondance des caractères spéciaux (tels que les caractères accentués en français).</p>
-<p>Note : si vous appliquez ce module sur un site existant, prenez garde à ne pas rennomer des pages existante et déjà référencées par les moteurs de recherche.</p>
-<h2>3. Génération du Sitemap XML</h2>
-<p>Maintenant que nous avons des URL &quot;propre&quot;, il serait judicieux d'en informer les moteurs de recherche via un <a href="https://www.google.com/webmasters/tools/docs/fr/protocol.html">sitemap XML</a> bien construit.</p>
-<p>L'intérêt du sitemap XML est de permettre aux moteurs de recherche d'avoir une liste exhaustive des contenus de votre site, via une liste d'URL et d'en connaitre les changements. Ainsi chaque URL sera asosciée à une date de modification.
-L'objectif est de rendre les moteurs de recherche plus réctifs sur le référencement de vos pages.</p>
+<p>Néanmoins, il n'est pas très pratique de devoir systématiquement saisir ce nom manuellement.</p>
+<p>Pour remédier à cela, on pourra utiliser le module <a href="http://drupal.org/project/pathauto">Pathautho</a>. Ce module est très complet et permet d'automatiser la création des chemins d'URL selon des règles simples. Il existe même un fichier permettant de définir la correspondance des caractères spéciaux (tels que les caractères accentués en français).</p>
+<blockquote>
+<p>Note : si vous appliquez ce module sur un site existant, prenez garde à ne pas renommer des pages existantes et déjà référencées par les moteurs de recherche.</p>
+</blockquote>
+<h2>3. Génération du sitemap XML</h2>
+<p>Maintenant que nous avons des URL &quot;propres&quot;, il serait judicieux d'en informer les moteurs de recherche via un <a href="https://www.google.com/webmasters/tools/docs/fr/protocol.html">sitemap XML</a> bien construit.</p>
+<p>L'intérêt du sitemap XML est de permettre aux moteurs de recherche d'avoir une liste exhaustive des contenus de votre site, via une liste d'URL et d'en connaître les changements. Ainsi chaque URL sera associée à une date de modification.
+L'objectif est de rendre les moteurs de recherche plus réactifs sur le référencement de vos pages.</p>
 <p>Voici donc le module que j'ai retenu : <a href="http://drupal.org/project/gsitemap">XML Sitemap</a>.</p>
-<h2>4. Ajout de meta données</h2>
-<p>Même s'il on considère aujourd'hui que les mots clefs sont négligés par les moteurs de recherche, il n'en reste pas moins que la description est importante : c'est elle qui sera visible sur les pages de résultats de Google, entre le titre de la page et l'URL.</p>
-<p>Encore une fois, pour simplifier la génération des méta tags, je conseil l'utilisation du module <a href="http://drupal.org/project/nodewords">Meta tags</a>.
-Ce dernier permet d'insérer automatiquement le &quot;teaser&quot;, du contenu de votre page, dans la balise de description de la page (entyre autre).</p>
-<h2>5. Eviter le contenu dupliqué (duplicate content)</h2>
-<p>Un dernier point important, ne risquez pas de vous faire bannir de Google à cause de contenus dupliqués ! En effet, Google considère celà comme une pratique douteuse de référencement.
+<h2>4. Ajout de métadonnées</h2>
+<p>Même si l'on considère aujourd'hui que les mots clefs sont négligés par les moteurs de recherche, il n'en reste pas moins que la description est importante : c'est elle qui sera visible sur les pages de résultats de Google, entre le titre de la page et l'URL.</p>
+<p>Encore une fois, pour simplifier la génération des méta tags, je conseille l'utilisation du module <a href="http://drupal.org/project/nodewords">Meta tags</a>.
+Ce dernier permet d'insérer automatiquement le &quot;teaser&quot;, du contenu de votre page, dans la balise de description de la page (entre autre).</p>
+<h2>5. Éviter le contenu dupliqué (<em>duplicate content</em>)</h2>
+<p>Un dernier point important : ne risquez pas de vous faire bannir de Google à cause de contenus dupliqués ! En effet, Google considère cela comme une pratique douteuse de référencement.<br />
 Je m'explique : une page de contenu ne doit être accessible que par une seule et unique URL.</p>
 <p><strong>Mise à jour :</strong></p>
-<p>La problématique du duplicate content n'est pas le risque (inexistant sur un domaine unique) de se faire bannir de Google, mais plutôt de faciliter le travail des robots d'indexation de Google. En effet, les duplicatas de page de votre site seront également crawlés par les robots, même si le contenu est strictement identique à la page dupliquée. De ce fait, les robots de Google dépensent de l'énergie inutilement.
-Il n'y aurait pas de problème si le temps de passé par les robots que votre site était illimité. Ce n'est aps le cas : tout le temps passé à sacnner et à indexer des pages inutiles c'est; mécaniquement, du temps en moins pour d'autrets pages et par conséquence une moins bonne indexation de votre site.</p>
-<p>Si vous avez déployé le module Pathauto et que vous l'avez appliqué sur l'ensemble de votre site, plus aucun de vos contenus référençable ne devrait être accessible via l'URL <code>/node/xxxx</code>. Et pourtant, par défaut c'est le cas avec Drupal.
-Pour remédier à cela, il est conseillé de modifier le fichier <code>robots.txt</code> afin d'y ajouter une rêgle d'exclusion adéquate : <code>Disallow: /node/</code>.</p>
-<p>De même pour l'accès à une page de contenu via votre nom de domaine, il est important que l'URL soit unique. Ce qui arrive très souvent, c'est que l'on puisse accédé à une même page avec ou sans les &quot;www&quot;. Par exemple : <code>http://www.narno.com/mon-article</code> et <code>http://narno.com/mon-article</code>. Google interprète celà comme une duplication de contenu.</p>
-<p>La solution est de décommenter l'un des 2 blocs suivant dans le fichier &quot;.htaccess&quot; (situé à la racine de votre site) :</p>
+<p>La problématique du <em>duplicate content</em> n'est pas le risque (inexistant sur un domaine unique) de se faire bannir de Google, mais plutôt de faciliter le travail des robots d'indexation de Google. En effet, les duplicatas de page de votre site seront également crawlés par les robots, même si le contenu est strictement identique à la page dupliquée. De ce fait, les robots de Google dépensent de l'énergie inutilement.<br />
+Il n'y aurait pas de problème si le temps que peuvent passé par les robots sur votre site était illimité. Ce n'est pas le cas : tout le temps passé à scanner et à indexer des pages inutiles c'est, mécaniquement, du temps en moins pour d’autres pages et par conséquence une moins bonne indexation de votre site.</p>
+<p>Si vous avez déployé le module Pathauto et que vous l'avez appliqué sur l'ensemble de votre site, plus aucun de vos contenus référençable ne devrait être accessible via l'URL <code>/node/xxxx</code>. Et pourtant, par défaut c'est le cas avec Drupal.<br />
+Pour remédier à cela, il est conseillé de modifier le fichier <code>robots.txt</code> afin d'y ajouter une règle d'exclusion adéquate : <code>Disallow: /node/</code>.</p>
+<p>De même pour l'accès à une page de contenu via votre nom de domaine, il est important que l'URL soit unique. Ce qui arrive très souvent, c'est que l'on puisse accédé à une même page avec ou sans les &quot;www&quot;. Par exemple : <code>http://www.narno.com/mon-article</code> et <code>http://narno.com/mon-article</code>. Google interprète cela comme une duplication de contenu.</p>
+<p>La solution est de dé-commenter l'un des 2 blocs suivant dans le fichier <em>.htaccess</em> (situé à la racine de votre site) :</p>
 <pre><code class="language-apache">#RewriteCond %{HTTP_HOST} ^example\.com$ [NC]
 #RewriteRule .* http://www.example.com/ [L,R=301]
 #
 #RewriteCond %{HTTP_HOST} ^www\.example\.com$ [NC]
 #RewriteRule .* http://example.com/ [L,R=301] </code></pre>
-<p>Si vous décommentez le 1er, l'URL sera toujours <code>http://www.example.com</code>, si vous décommentez le 2nd, l'URL sera toujours <code>http://example.com</code>.</p>
-<p>De plus, Drupal adopte le même comportement que votre URL contienne un &quot;/&quot; ou pas : il affiche le contenu tel quel. On se retrouve à nouveau dans un cas de contenu dupliqué, puisque 2 URL différentes pour accédé à la même page.</p>
-<p>La solution est d'ajouter la règle suivante dans le fichier &quot;.htaccess&quot; juste après la ligne &quot;RewriteBase&quot; :</p>
+<p>Si vous dé-commentez le 1er, l'URL sera toujours <code>http://www.example.com</code>, si vous dé-commentez le 2nd, l'URL sera toujours <code>http://example.com</code>.</p>
+<p>De plus Drupal adopte le même comportement que votre URL contienne un &quot;/&quot; final ou pas : il affiche le contenu tel quel.<br />
+On se retrouve à nouveau dans un cas de contenu dupliqué, puisque 2 URL différentes permettent d’accéder à la même page.</p>
+<p>La solution est d'ajouter la règle suivante dans le fichier <em>.htaccess</em> juste après la ligne <code>RewriteBase</code> :</p>
 <pre><code class="language-apache">RewriteCond %{HTTP_HOST} ^(www.)?narno\.com$ [NC]
 RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     </content>
