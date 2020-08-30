@@ -1,3 +1,7 @@
+a {
+  color: #185886;
+}
+
 .page, .post {
   margin-bottom: 1.5em;
 }
@@ -8,7 +12,7 @@
   display: inline-block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #585858;
 }
 
 .icon-clock {
@@ -20,6 +24,10 @@
   height: 1rem;
   fill: currentColor;
   display: inline-block;
+}
+
+.lastposts li {
+  padding-top: .5rem;
 }
 
 .inline {
