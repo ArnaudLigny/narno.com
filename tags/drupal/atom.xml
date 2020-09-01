@@ -20,7 +20,7 @@
 </blockquote>
 <p>Ça faisait plusieurs mois (années ?!) que je me posais la question de quoi faire de mon vieux blog ? Il n'a d'ailleurs de blog que le nom puisqu'en réalité, je n'ai jamais vraiment beaucoup écrit dessus : Il m'a surtout servi de terrain d'expérimentation pour le développement Web.</p>
 <p>Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !</p>
-<p><img src="/images/new-plan-static-site-first.jpg" alt="" width="500" loading="lazy" /></p>
+<p><img src="/images/new-plan-static-site-first.jpg" alt="New plan: static site first" title="New plan: static site first" width="500" loading="lazy" /></p>
 <!-- excerpt -->
 <p>Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de <a href="/tags/drupal">Drupal</a>, ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
@@ -138,7 +138,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     <content type="html">
       <![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de &quot;linker&quot;, cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
 <p>Etant donné qu'il n'existe pas de démo sur DS, cet accessoires me permet de tester les jeux avant des acheter (oui, j'achète encore des jeux). D'autre part, vous pouvez également transformer votre console portable en lecteur multimédia (MP3, vidéos, etc.)</p>
-<img style="float: right;" src="/images/nds-r4-drupal-skin.png">
+<img style="float: right;" src="/images/nds-r4-drupal-skin.png" alt="Skin Drupal pour Nintendo DS R4">
 <p>Pour en revenir au sujet initiale, connaissant mon fanatisme pour <a href="http://drupal.org/">Drupal</a>, <a href="http://kobuta.fr/blog">Oni</a> a réalisé une skin aux couleurs de mon CMS chéri.
 Pour l'installer, il vous suffit de télécharger le fichier joint et de le décompresser dans le répertoire sytem de votre cartouche.</p>]]>
     </content>

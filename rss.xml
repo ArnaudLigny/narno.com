@@ -65,7 +65,7 @@
 </blockquote>
 <p>Depuis quelques années j'utilise <a href="https://slack.com/intl/fr-fr/">Slack</a> dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.</p>
 <p>Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.</p>
-<p><img src="/images/leo-bot-demo.png" alt="" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
+<p><img src="/images/leo-bot-demo.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
 <p>J'ai donc entrepris de réaliser un bot très simple, à l'aide de <a href="https://github.com/howdyai/botkit">Botkit</a>, qui me hélerait au moment du départ.</p>
 <!-- break -->
 <p>Pour fonctionner le bot à besoin de :</p>
@@ -470,7 +470,7 @@ Pourquoi ne pas juste dire &quot;merci&quot; ?</p>
 </blockquote>
 <p>Ça faisait plusieurs mois (années ?!) que je me posais la question de quoi faire de mon vieux blog ? Il n'a d'ailleurs de blog que le nom puisqu'en réalité, je n'ai jamais vraiment beaucoup écrit dessus : Il m'a surtout servi de terrain d'expérimentation pour le développement Web.</p>
 <p>Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !</p>
-<p><img src="/images/new-plan-static-site-first.jpg" alt="" width="500" loading="lazy" /></p>
+<p><img src="/images/new-plan-static-site-first.jpg" alt="New plan: static site first" title="New plan: static site first" width="500" loading="lazy" /></p>
 <!-- excerpt -->
 <p>Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de <a href="/tags/drupal">Drupal</a>, ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
@@ -756,7 +756,7 @@ Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforg
       <title>Skin Drupal pour Nintendo DS R4</title>
       <description><![CDATA[<p>J'ai récemment fais l'acquisition d'un <a href="http://www.r4ndsl.com/">R4</a> pour Nintendo DS. Egalement connu sous le nom de &quot;linker&quot;, cette cartouche spéciale permet de charger des ROMs via une Micro SD Card.</p>
 <p>Etant donné qu'il n'existe pas de démo sur DS, cet accessoires me permet de tester les jeux avant des acheter (oui, j'achète encore des jeux). D'autre part, vous pouvez également transformer votre console portable en lecteur multimédia (MP3, vidéos, etc.)</p>
-<img style="float: right;" src="/images/nds-r4-drupal-skin.png">
+<img style="float: right;" src="/images/nds-r4-drupal-skin.png" alt="Skin Drupal pour Nintendo DS R4">
 <p>Pour en revenir au sujet initiale, connaissant mon fanatisme pour <a href="http://drupal.org/">Drupal</a>, <a href="http://kobuta.fr/blog">Oni</a> a réalisé une skin aux couleurs de mon CMS chéri.
 Pour l'installer, il vous suffit de télécharger le fichier joint et de le décompresser dans le répertoire sytem de votre cartouche.</p>]]></description>
       <pubDate>2008-11-08T01:00:00+01:00</pubDate>
@@ -824,7 +824,7 @@ Et vas-y que je te pousse à bout jusqu'à ce que tu craque : bettement, en voul
       <guid>https://narno.com/blog/paris-web-2007-jy-suis-passe/</guid>
       <title>Paris Web 2007 : j'y suis passé !</title>
       <description><![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
-<p><img src="/images/photos/paris-web-2007.jpg" alt="" width="500" loading="lazy" /></p>
+<p><img src="/images/photos/paris-web-2007.jpg" alt="Fond d&#039;écran Paris Web 2007" title="Fond d&#039;écran Paris Web 2007" width="500" loading="lazy" /></p>
 <!-- break -->
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>

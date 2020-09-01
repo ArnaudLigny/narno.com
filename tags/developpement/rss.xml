@@ -13,7 +13,7 @@
 </blockquote>
 <p>Depuis quelques années j'utilise <a href="https://slack.com/intl/fr-fr/">Slack</a> dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.</p>
 <p>Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.</p>
-<p><img src="/images/leo-bot-demo.png" alt="" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
+<p><img src="/images/leo-bot-demo.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
 <p>J'ai donc entrepris de réaliser un bot très simple, à l'aide de <a href="https://github.com/howdyai/botkit">Botkit</a>, qui me hélerait au moment du départ.</p>
 <!-- break -->
 <p>Pour fonctionner le bot à besoin de :</p>
@@ -97,7 +97,7 @@
 </blockquote>
 <p>Ça faisait plusieurs mois (années ?!) que je me posais la question de quoi faire de mon vieux blog ? Il n'a d'ailleurs de blog que le nom puisqu'en réalité, je n'ai jamais vraiment beaucoup écrit dessus : Il m'a surtout servi de terrain d'expérimentation pour le développement Web.</p>
 <p>Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !</p>
-<p><img src="/images/new-plan-static-site-first.jpg" alt="" width="500" loading="lazy" /></p>
+<p><img src="/images/new-plan-static-site-first.jpg" alt="New plan: static site first" title="New plan: static site first" width="500" loading="lazy" /></p>
 <!-- excerpt -->
 <p>Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de <a href="/tags/drupal">Drupal</a>, ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.</p>
@@ -270,7 +270,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]></descriptio
       <guid>https://narno.com/blog/paris-web-2007-jy-suis-passe/</guid>
       <title>Paris Web 2007 : j'y suis passé !</title>
       <description><![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
-<p><img src="/images/photos/paris-web-2007.jpg" alt="" width="500" loading="lazy" /></p>
+<p><img src="/images/photos/paris-web-2007.jpg" alt="Fond d&#039;écran Paris Web 2007" title="Fond d&#039;écran Paris Web 2007" width="500" loading="lazy" /></p>
 <!-- break -->
 <p><strong>Ce que j'ai retenu :</strong></p>
 <ul>

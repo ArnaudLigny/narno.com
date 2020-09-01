@@ -13,7 +13,7 @@
 </blockquote>
 <p>Depuis quelques années j'utilise <a href="https://slack.com/intl/fr-fr/">Slack</a> dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.</p>
 <p>Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.</p>
-<p><img src="/images/leo-bot-demo.png" alt="" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
+<p><img src="/images/leo-bot-demo.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" width="513" loading="lazy" /></p>
 <p>J'ai donc entrepris de réaliser un bot très simple, à l'aide de <a href="https://github.com/howdyai/botkit">Botkit</a>, qui me hélerait au moment du départ.</p>
 <!-- break -->
 <p>Pour fonctionner le bot à besoin de :</p>
