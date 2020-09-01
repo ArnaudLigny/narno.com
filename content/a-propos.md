@@ -1,15 +1,12 @@
 ---
-title: À propos
+title: "À propos"
+description: "À propos du site web Narno.com et de son auteur."
 date: 2017-10-17
 menu: main
 published: true
 alias:
   - contact
-typora-root-url: "../static"
-description: ''
-updated: 
-image: ''
-
+typora-root-url: ../static
 ---
 _Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vidéo](/tags/jeux-video/) et de [développement](/tags/developpement) web.
 

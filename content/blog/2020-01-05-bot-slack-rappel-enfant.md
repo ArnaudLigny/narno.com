@@ -15,7 +15,7 @@ Depuis quelques années j'utilise [Slack](https://slack.com/intl/fr-fr/) dans mo
 
 Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.
 
-![](/images/leo-bot-demo.png "Capture d'écran d'une notification Slack")
+![Capture d'écran d'une notification Slack](/images/leo-bot-demo.png "Capture d'écran d'une notification Slack")
 
 J'ai donc entrepris de réaliser un bot très simple, à l'aide de [Botkit](https://github.com/howdyai/botkit), qui me hélerait au moment du départ.
 
