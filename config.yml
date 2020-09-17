@@ -39,6 +39,8 @@ social:
     username: "Narno"
   github:
     username: "Narno"
+  mastodon:
+    username: "@Narno"
 manifest:
   lang: fr-FR
   start_url: /
