@@ -4,7 +4,7 @@ date: 2020-10-09
 tags:
 - Astuce
 image: /images/twitch-pub.png
-published: false
+published: true
 typora-root-url: ../../static
 ---
 
@@ -13,10 +13,10 @@ Si comme moi vous avez récemment découvert les **publicités au chargement d�
 Pour les bloquer à nouveau il suffit d’appliquer un script complémentaire :
 <!-- break -->
 
-1. Accéder aux options de uBlock Origin
-2. Cocher la case « Activer les fonctionnalités avancées »
-3. Puis cliquer sur « Paramètres avancés » (icône d’engrenages en regard à droite)
-4. Modifier la valeur de la `userResourcesLocation` (dernière ligne) pour `https://gist.githubusercontent.com/Narno/64d7f70c22f07a9eee490a39766dc11b/raw/twitch.js` 
-5. Ensuite, dans l’onglet « Liste de filtres » cliquer sur « Vider tous les caches » puis « Mettre à jour maintenant »
+1. Accéder aux **options de uBlock Origin**
+2. Cocher la case « **Activer les fonctionnalités avancées** »
+3. Puis cliquer sur « **Paramètres avancés** » (icône d’engrenages en regard à droite)
+4. Modifier la valeur de `userResourcesLocation` (dernière ligne) pour `https://gist.githubusercontent.com/Narno/64d7f70c22f07a9eee490a39766dc11b/raw/twitch.js` 
+5. Ensuite, dans l’onglet « Liste de filtres » cliquer sur « **Vider tous les caches** » puis « **Mettre à jour maintenant** »
 
 Et voilà ! 🐱‍💻
