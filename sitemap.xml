@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://narno.com/blog/comment-bloquer-pub-twitch-ublock/</loc>
+    <lastmod>2020-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://narno.com/blog/velo-cargo-bullitt-partage-experience/</loc>
     <lastmod>2020-08-28</lastmod>
     <changefreq>monthly</changefreq>

@@ -3,8 +3,25 @@
   <channel>
     <title>Narno.com</title>
     <description><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></description>
-    <lastBuildDate>2020-08-28T02:00:00+02:00</lastBuildDate>
+    <lastBuildDate>2020-10-09T02:00:00+02:00</lastBuildDate>
     <link>https://narno.com/</link>
+    <item>
+      <guid>https://narno.com/blog/comment-bloquer-pub-twitch-ublock/</guid>
+      <title>Comment bloquer les pubs Twitch avec uBlock Origin</title>
+      <description><![CDATA[<p>Si comme moi vous avez récemment découvert les <strong>publicités au chargement d’un stream sur Twitch</strong>, c’est que jusqu’à maintenant vous utilisiez <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> et qu’il les bloquait. Mais depuis quelques jours Twitch a modifié la manière dont les publicités en « pre-roll » sont affichées et passent le filtrage par défaut de uBlock Origin.</p>
+<p>Pour les bloquer à nouveau il suffit d’appliquer un script complémentaire :</p>
+<!-- break -->
+<ol>
+<li>Accéder aux <strong>options de uBlock Origin</strong></li>
+<li>Cocher la case « <strong>Activer les fonctionnalités avancées</strong> »</li>
+<li>Puis cliquer sur « <strong>Paramètres avancés</strong> » (icône d’engrenages en regard à droite)</li>
+<li>Modifier la valeur de <code>userResourcesLocation</code> (dernière ligne) pour <code>https://gist.githubusercontent.com/Narno/64d7f70c22f07a9eee490a39766dc11b/raw/twitch.js</code> </li>
+<li>Ensuite, dans l’onglet « Liste de filtres » cliquer sur « <strong>Vider tous les caches</strong> » puis « <strong>Mettre à jour maintenant</strong> »</li>
+</ol>
+<p>Et voilà ! 🐱‍💻</p>]]></description>
+      <pubDate>2020-10-09T02:00:00+02:00</pubDate>
+      <link>https://narno.com/blog/comment-bloquer-pub-twitch-ublock/</link>
+    </item>
     <item>
       <guid>https://narno.com/blog/velo-cargo-bullitt-partage-experience/</guid>
       <title>Vélo cargo Bullitt : partage d'expérience</title>
