@@ -7,8 +7,9 @@
     <link>https://narno.com/tags/astuce/</link>
     <item>
       <guid>https://narno.com/blog/comment-bloquer-pub-twitch-ublock/</guid>
-      <title>Comment bloquer les pubs Twitch avec uBlock Origin</title>
+      <title>Comment bloquer les pubs Twitch avec uBlock Origin ?</title>
       <description><![CDATA[<p>Si comme moi vous avez récemment découvert les <strong>publicités au chargement d’un stream sur Twitch</strong>, c’est que jusqu’à maintenant vous utilisiez <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> et qu’il les bloquait. Mais depuis quelques jours Twitch a modifié la manière dont les publicités en « pre-roll » sont affichées et passent le filtrage par défaut de uBlock Origin.</p>
+<p><img src="/images/thumbs/800/images/twitch-pub.png" alt="Comment bloquer les pubs Twitch avec uBlock Origin ?" title="Comment bloquer les pubs Twitch avec uBlock Origin ?" width="800" loading="lazy" srcset="/images/thumbs/424/images/twitch-pub.png 424w, /images/thumbs/528/images/twitch-pub.png 528w, /images/thumbs/632/images/twitch-pub.png 632w, /images/thumbs/736/images/twitch-pub.png 736w, /images/twitch-pub.png 839w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p>Pour les bloquer à nouveau il suffit d’appliquer un script complémentaire :</p>
 <!-- break -->
 <ol>
