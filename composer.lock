@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cecil/theme-hyde",
-            "version": "1.15.4",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-hyde.git",
-                "reference": "9842dbc47a2ade50f40265a0e1666ba51f0a78cb"
+                "reference": "3297cfb3ae222886ab99d95307d50286820a5424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/9842dbc47a2ade50f40265a0e1666ba51f0a78cb",
-                "reference": "9842dbc47a2ade50f40265a0e1666ba51f0a78cb",
+                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/3297cfb3ae222886ab99d95307d50286820a5424",
+                "reference": "3297cfb3ae222886ab99d95307d50286820a5424",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-03-12T20:54:10+00:00"
+            "time": "2020-05-19T17:36:25+00:00"
         },
         {
             "name": "cecil/theme-installer",
@@ -99,16 +99,16 @@
         },
         {
             "name": "cecil/theme-serviceworker",
-            "version": "1.6.2",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-serviceworker.git",
-                "reference": "5411e35d4fc6db9ee8bd54d0636f99fb65e3d7a8"
+                "reference": "6e0cc969833cbba105bf2428ef3893c3816c032f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/5411e35d4fc6db9ee8bd54d0636f99fb65e3d7a8",
-                "reference": "5411e35d4fc6db9ee8bd54d0636f99fb65e3d7a8",
+                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/6e0cc969833cbba105bf2428ef3893c3816c032f",
+                "reference": "6e0cc969833cbba105bf2428ef3893c3816c032f",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-04-15T22:39:29+00:00"
+            "time": "2020-10-17T00:37:27+00:00"
         }
     ],
     "packages-dev": [],
