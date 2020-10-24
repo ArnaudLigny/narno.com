@@ -29,6 +29,7 @@ virtualpages:
     date: 2008-12-08
   - path: code
     redirect: https://github.com/Narno
+image: https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=30
 social:
   facebook:
     id: 516589570
