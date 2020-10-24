@@ -68,6 +68,6 @@ editor: typora
 cache:
   enabled: true
 postprocess:
-#  enabled: true
+  enabled: true
 static:
  exclude: ['*.css']
