@@ -5,7 +5,7 @@
           "name": "{{ site.title }}",
           "url": "{{ url('/', {canonical:true}) }}",
           "sameAs": [
-            "https://twitter.com/{{ site.social.twitter.username }}",
+            "https://twitter.com/{{ site.social.twitter.site }}",
             "https://github.com/{{ site.social.github.username }}"
           ]
         }
@@ -50,7 +50,7 @@
           "dateModified": "{{ page.date|date('Y-m-dTH:i:sP') }}",
           "author": {
             "@type": "Person",
-            "name": "{{ site.author.name }}"
+            "name": "{{ site.author }}"
           },
           "publisher": {
             "@type": "Organization",

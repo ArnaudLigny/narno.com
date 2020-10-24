@@ -3,6 +3,8 @@ baseurl: https://narno.com/
 baseline: "dev web, vélo, bière et jeu vidéo !"
 description: "Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo."
 keywords: [narno, blog, développement web, vélo, jeu vidéo]
+copyright: Arnaud Ligny
+author: Arnaud Ligny
 language: fr
 languages:
   - name: Français
@@ -19,9 +21,6 @@ menus:
 date:
   format: "j M Y"
   timezone: "Europe/Paris"
-author:
-  name: "Arnaud Ligny"
-  url: https://arnaudligny.fr
 googleanalytics: UA-387892-1
 virtualpages:
   - path: blog/le-blog-avance
@@ -32,15 +31,19 @@ virtualpages:
     redirect: https://github.com/Narno
 social:
   facebook:
-    admins: 516589570
-    email: me@narno.com
-    country: "France"
+    id: 516589570
+    firstname: Arnaud
+    lastname: Ligny
+    username: Narno
   twitter:
-    username: "Narno"
+    site: Narno
+    creator: Narno
   github:
-    username: "Narno"
-  mastodon:
-    username: "@Narno"
+    username: Narno
+me:
+  - https://twitter.com/Narno
+  - https://github.com/Narno
+  - https://mamot.fr/@Narno
 manifest:
   lang: fr-FR
   start_url: /
@@ -64,6 +67,6 @@ editor: typora
 cache:
   enabled: true
 postprocess:
-  enabled: true
+#  enabled: true
 static:
  exclude: ['*.css']
