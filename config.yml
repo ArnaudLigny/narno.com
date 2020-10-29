@@ -5,31 +5,6 @@ description: "Narno.com est un weblog où je parle de développement web, de vé
 keywords: [narno, blog, développement web, vélo, jeu vidéo]
 copyright: Arnaud Ligny
 author: Arnaud Ligny
-language: fr
-languages:
-  - name: Français
-    code: fr
-    locale: fr_FR
-menus:
-  main:
-    - name: 'Forum'
-      id: forum
-      url: https://lesforums.org
-      weight: 1000
-    - id: galeries
-      enabled: false
-date:
-  format: "j M Y"
-  timezone: "Europe/Paris"
-googleanalytics: UA-387892-1
-virtualpages:
-  - path: blog/le-blog-avance
-    redirect: /
-    title: "Le blog avance !"
-    date: 2008-12-08
-  - path: code
-    redirect: https://github.com/Narno
-image: /icon-512x512.png
 social:
   facebook:
     id: 516589570
@@ -45,6 +20,34 @@ me:
   - https://twitter.com/Narno
   - https://github.com/Narno
   - https://mamot.fr/@Narno
+language: fr
+languages:
+  - name: Français
+    code: fr
+    locale: fr_FR
+date:
+  format: "j M Y"
+  timezone: "Europe/Paris"
+theme:
+  - serviceworker
+  - lanyon
+image: /icon-512x512.png
+menus:
+  main:
+    - name: 'Forum'
+      id: forum
+      url: https://lesforums.org
+      weight: 1000
+    - id: galeries
+      enabled: false
+googleanalytics: UA-387892-1
+virtualpages:
+  - path: blog/le-blog-avance
+    redirect: /
+    title: "Le blog avance !"
+    date: 2008-12-08
+  - path: code
+    redirect: https://github.com/Narno
 manifest:
   lang: fr-FR
   start_url: /
@@ -61,12 +64,7 @@ serviceworker:
     - css/lanyon.css
     - css/narno.com.css
 comments: false
-theme:
-  - serviceworker
-  - lanyon
 editor: typora
-cache:
-  enabled: true
 postprocess:
   enabled: true
 static:
