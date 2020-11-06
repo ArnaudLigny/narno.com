@@ -22,4 +22,4 @@ else
   php cecil.phar build -v --postprocess
 fi
 # build success? can deploy!
-if [ $? = 0 ]; then echo -e "Cecil build successful!\n"; bash scripts/deploy.sh $1; else return 1; fi
+if [ $? = 0 ]; then echo -e "Cecil build successful!\n"; bash scripts/deploy.sh $1; else exit 1; fi
