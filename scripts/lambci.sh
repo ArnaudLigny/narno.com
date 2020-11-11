@@ -20,5 +20,15 @@ if [ -n "$1" ]; then
 else
   php cecil.phar build -v --postprocess
 fi
+
 # build success? can deploy!
-if [ $? = 0 ]; then echo -e "Cecil build successful!\n"; bash scripts/deploy.sh $1; else exit 1; fi
+if [ $? = 0 ]; then
+  echo -e "Cecil build successful!\n";
+  bash scripts/deploy.sh $1;
+  # deploy fail?
+  if [ $? != 1 ]; then
+    exit 1;
+  fi
+else
+  exit 1;
+fi
