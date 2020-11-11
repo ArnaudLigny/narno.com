@@ -47,6 +47,13 @@ else
   git push -fq origin $TARGET_BRANCH > /dev/null
 fi
 
+# deploy fail?
+if [ $? != 0 ]; then
+  echo "Deploy fail!"
+  echo
+  exit 1;
+fi
+
 echo "Deploy done! https://$DOMAIN"
 echo
 exit 0
