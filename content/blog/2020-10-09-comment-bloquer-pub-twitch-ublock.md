@@ -8,6 +8,8 @@ published: true
 typora-root-url: ../../static
 ---
 
+> 12/11/2020 : le script à été modifié et fonctionne à nouveau.
+
 Si comme moi vous avez récemment découvert les **publicités au chargement d’un stream sur Twitch**, c’est que jusqu’à maintenant vous utilisiez [uBlock Origin](https://github.com/gorhill/uBlock) et qu’il les bloquait. Mais depuis quelques jours Twitch a modifié la manière dont les publicités en « pre-roll » sont affichées et passent le filtrage par défaut de uBlock Origin.
 
 ![Comment bloquer les pubs Twitch avec uBlock Origin ?](/images/twitch-pub.png?resize=800&responsive "Comment bloquer les pubs Twitch avec uBlock Origin ?")
