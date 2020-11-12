@@ -1,19 +1,12 @@
-{% if page.id == "index" %}
-{% set title = site.title ~ ' &middot; ' ~ site.baseline %}
-{% else %}
-{% set title = page.title|e ~ ' &middot; ' ~ site.title %}
-{% endif %}
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
     <meta name="copyright" content="{{ site.copyright }}">
     <meta name="revisit-after" content="1 day">
-{% include 'partials/metatags.html.twig' %}
+    {%~ include 'partials/metatags.html.twig' ~%}
     <meta property="og:logo" content="{{ url('icon.png', {canonical:true}) }}">
     <meta name="theme-color" content="{{ site.manifest.theme_color }}">
-{% include 'partials/alternates.html.twig' %}
     <link rel="manifest" href="{{ url('manifest') }}">
     <link rel="stylesheet" href="{{ asset('css/poole.css')|minify|url }}">
     <link rel="stylesheet" href="{{ asset('css/syntax.css')|minify|url }}">
@@ -28,9 +21,9 @@
     <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-{% for url in site.me %}
+    {%- for url in site.me ~%}
     <link href="{{ url }}" rel="me">
-{% endfor %}
+    {%- endfor ~%}
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/narno.com/webmention">
     <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention">

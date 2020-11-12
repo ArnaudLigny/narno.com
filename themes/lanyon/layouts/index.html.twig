@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
-{% include 'partials/head.html.twig' %}
+  {%~ include 'partials/head.html.twig' ~%}
   <body>
-{% include 'partials/sidebar.html.twig' %}
+    {%~ include 'partials/sidebar.html.twig' ~%}
     <div class="wrap">
       <div class="masthead">
         <div class="container">
@@ -13,13 +13,13 @@
         </div>
       </div>
       <div class="container content">
-{% include 'partials/jsonld.js.twig' %}
-{% block content %}
-{% include 'partials/home.html.twig' %}
+        {%~ include 'partials/jsonld.js.twig' ~%}
+        {%- block content -%}
+        {%~ include 'partials/home.html.twig' ~%}
         <hr />
-{% include 'partials/lastposts.html.twig' %}
-{# include 'partials/search.html.twig' #}
-{% endblock content %}
+        {%~ include 'partials/lastposts.html.twig' ~%}
+        {#~ include 'partials/search.html.twig' -#}
+        {%- endblock content -%}
       </div>
     </div>
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
@@ -37,11 +37,11 @@
         }, false);
       })(document);
     </script>
-{# include 'partials/footer.html.twig' #}
-{% include 'partials/svg.html.twig' %}
-{% if site.serviceworker is defined and site.serviceworker.enabled %}
-{% include 'partials/regsw.js.twig' %}
-{% endif %}
-{% include 'partials/googleanalytics.js.twig' %}
+    {#~ include 'partials/footer.html.twig' ~#}
+    {%~ include 'partials/svg.html.twig' ~%}
+    {%- if site.serviceworker is defined and site.serviceworker.enabled -%}
+    {%~ include 'partials/regsw.js.twig' ~%}
+    {%- endif -%}
+    {%~ include 'partials/googleanalytics.js.twig' ~%}
   </body>
 </html>
