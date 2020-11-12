@@ -65,7 +65,5 @@ serviceworker:
     - css/narno.com.css
 comments: false
 editor: typora
-postprocess:
-  enabled: true
 static:
  exclude: ['*.css']
