@@ -12,7 +12,7 @@
   </author>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/bot-slack-rappel-enfant/</id>
-    <title>Un bot pour ne pas arriver en retard à l'école !</title>
+    <title>Un bot pour ne pas arriver en retard à l&#039;école !</title>
     <content type="html">
       <![CDATA[<blockquote>
 <p>Suite au confinement lié au <a href="https://fr.m.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_en_France">Covid-19</a> j'avais mis de côté ce billet initié en janvier, mais avec la rentrée scolaire qui approche, je pense qu'il est tend de le ressortir !</p>
@@ -40,7 +40,7 @@
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/chrome-open-new-tab-after-current-tab/</id>
-    <title>Chrome : ouvrir un nouvel onglet après l'onglet actif</title>
+    <title>Chrome : ouvrir un nouvel onglet après l&#039;onglet actif</title>
     <content type="html">
       <![CDATA[<p>Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.</p>
 <p>Avec cette extension, un nouvel onglet ouvert avec le raccourci clavier (<kbd>⌘ Cmd</kbd>+<kbd>T</kbd>) ou avec le bouton &quot;plus&quot; sera ouvert juste après l'onglet actif.</p>
@@ -139,7 +139,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
-    <title>Drupal 7 : avis et retour d'expérience</title>
+    <title>Drupal 7 : avis et retour d&#039;expérience</title>
     <content type="html">
       <![CDATA[<p>Drupal 7 est toujours en cours de développement (ou plutôt en cours de finition), néanmoins une version alpha à été publiée : l'occasion idéale de faire joujou avec la prochaine mouture de <a href="/tags/drupal">Drupal</a>.</p>
 <p>Je pense que nombreux sont ceux qui attendent cette nouvelle version, très prometteuse, tout particulièrement en terme d'ergonomie et d'<a href="http://www.d7ux.org/">interface utilisateur</a>.</p>
@@ -166,7 +166,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
-    <title>Migration d'un forum phpBB2 vers phpBB3</title>
+    <title>Migration d&#039;un forum phpBB2 vers phpBB3</title>
     <content type="html">
       <![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
 <!-- excerpt -->
@@ -300,7 +300,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
-    <title>Paris Web 2007 : j'y suis passé !</title>
+    <title>Paris Web 2007 : j&#039;y suis passé !</title>
     <content type="html">
       <![CDATA[<p>J'étais à <a href="https://www.paris-web.fr/2007/">Paris Web 2007</a> pour la journée &quot;libre&quot; : pas de conférences mais des ateliers.</p>
 <p><img src="/images/photos/paris-web-2007.jpg" alt="Fond d&#039;écran Paris Web 2007" title="Fond d&#039;écran Paris Web 2007" width="500" loading="lazy" /></p>
