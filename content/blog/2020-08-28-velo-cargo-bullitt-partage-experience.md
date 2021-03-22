@@ -33,7 +33,7 @@ Ce n'est pas un VAE. J'ai retenu la version sans assistance pour 2 raisons :
 
 Le Bullitt est connu pour être léger (cadre en aluminium) au regard sa longueur (2,40 mètres) et de sa capacité de charge (100 kg).
 
-Dans le cas de ma configuration de base (7 vitesses moyeu) le poids total tout équipé pour rouler est de [22 kg](http://www.larryvsharry.com/technical-info/#content).
+Dans le cas de ma configuration de base (7 vitesses moyeu) le poids total tout équipé pour rouler est de [22 kg](https://www.larryvsharry.com/the-original-bullitt#tech_specs_section).
 
 Par contre l'aiguille de la balance monte vite quand on commence à ajouter des équipements. Dans mon cas, en ajoutant la planche, les panneaux latéraux, la housse, le siège pliant et les antivols, je pense dépasser les 30 kg !
 
