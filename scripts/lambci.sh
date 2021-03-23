@@ -22,6 +22,6 @@ else
 fi
 
 # build success? can deploy?
-if [ $? = 0 ]; then echo "Finished Cecil build"; exit 0; fi
+if [ $? = 0 ]; then echo "Finished Cecil build"; return 0; fi
 
-echo "Interrupted Cecil build"; exit 1
+echo "Interrupted Cecil build"; return 1
