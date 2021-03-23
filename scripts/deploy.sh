@@ -51,9 +51,9 @@ fi
 if [ $? != 0 ]; then
   echo "Deploy fail!"
   echo
-  return 1;
+  exit 1;
 fi
 
 echo "Deploy done! https://$DOMAIN"
 echo
-return 0
+exit 0
