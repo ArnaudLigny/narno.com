@@ -10,7 +10,7 @@
         "REPOSITORY": "Narno/preview.narno.com",
         "DOMAIN": "preview.narno.com"
       },
-      "cmd": "chmod +x ./scripts/lambci.sh && ./scripts/lambci.sh preview"
+      "cmd": "chmod +x ./scripts/build-and-deploy.sh && ./scripts/build-and-deploy.sh preview"
     }
   }
 }

@@ -21,14 +21,7 @@ else
   php cecil.phar build -v --postprocess
 fi
 
-# build success? can deploy!
-if [ $? = 0 ]; then
-  echo -e "Cecil build successful!\n";
-  bash scripts/deploy.sh $1;
-  # deploy fail?
-  if [ $? != 0 ]; then
-    exit 1;
-  fi
-else
-  exit 1;
-fi
+# build success? can deploy?
+if [ $? = 0 ]; then echo "Finished Cecil build"; exit 0; fi
+
+echo "Interrupted Cecil build"; exit 1
