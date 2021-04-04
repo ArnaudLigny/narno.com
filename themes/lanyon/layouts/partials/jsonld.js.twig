@@ -9,7 +9,6 @@
               "https://github.com/{{ site.social.github.username }}"
             ]
             {%- if page.section == 'blog' -%},
-            "@context": "http://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [{
               "@type": "ListItem",
@@ -26,7 +25,6 @@
                 "name": "{{ page.title|escape }}"
               }
             }],
-            "@context": "http://schema.org",
             "@type": "NewsArticle",
             "mainEntityOfPage": {
               "@type": "WebPage",
