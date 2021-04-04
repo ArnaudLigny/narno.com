@@ -8,9 +8,7 @@
               "https://twitter.com/{{ site.social.twitter.site }}",
               "https://github.com/{{ site.social.github.username }}"
             ]
-          }
-          {%- if page.section == 'blog' -%}
-          ,{
+            {%- if page.section == 'blog' -%},
             "@context": "http://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [{
@@ -27,8 +25,7 @@
                 "@id": "{{ url(page) }}",
                 "name": "{{ page.title|escape }}"
               }
-            }]
-          },{
+            }],
             "@context": "http://schema.org",
             "@type": "NewsArticle",
             "mainEntityOfPage": {
