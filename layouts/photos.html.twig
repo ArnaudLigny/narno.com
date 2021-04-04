@@ -1,14 +1,14 @@
 {% extends '_default/page.html.twig' %}
 
-{% block content %}
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ page.content }}
-  {% for photo in site.data.photos.soltek_eq3401.sp94_guide_montage %}
-  <figure>
-    <a href="{{ url(photo.file) }}"><img src="{{ url(photo.file|resize(600)) }}" alt="{{ photo.description }}" /></a>
-    <figcaption>{{ photo.description }}</figcaption>
-  </figure>
-  {% endfor %}
-</div>
-{% endblock content %}
+        {%- block content ~%}
+        <div class="page">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {{~ page.content ~}}
+          {%- for photo in site.data.photos.soltek_eq3401.sp94_guide_montage ~%}
+          <figure>
+            <a href="{{ url(photo.file) }}"><img src="{{ url(photo.file|resize(600)) }}" alt="{{ photo.description }}" /></a>
+            <figcaption>{{ photo.description }}</figcaption>
+          </figure>
+          {%- endfor ~%}
+        </div>
+        {%- endblock content ~%}

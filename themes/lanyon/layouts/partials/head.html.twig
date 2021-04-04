@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/poole.css')|minify|url }}">
     <link rel="stylesheet" href="{{ asset('css/syntax.css')|minify|url }}">
     <link rel="stylesheet" href="{{ asset('css/lanyon.css')|minify|url }}">
-    <link rel="stylesheet" href="{{ asset('css/narno.com.css')|minify|url }}">
+    <link rel="stylesheet" href="{{ asset('css/fix.css')|minify|url }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
     <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
     <link rel="icon" sizes="192x192" href="{{ url('icon.png') }}">
@@ -21,10 +21,14 @@
     <meta name="msapplication-square310x310logo" content="{{ url('msapplication-square310x310logo.png') }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    {%- if site.me is defined ~%}
     {%- for url in site.me ~%}
     <link href="{{ url }}" rel="me">
     {%- endfor ~%}
+    {%- endif ~%}
+    {%- if site.comments ~%}
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
     <link rel="webmention" href="https://webmention.io/narno.com/webmention">
     <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention">
+    {%- endif ~%}
   </head>

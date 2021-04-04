@@ -1,8 +1,46 @@
-{% extends 'index.html.twig' %}
-
-{% block content %}
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ page.content }}
-</div>
-{% endblock content %}
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+  {%~ include 'partials/head.html.twig' ~%}
+  <body>
+    {%~ include 'partials/sidebar.html.twig' ~%}
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+            <small>{{ site.baseline }}</small>
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+        {%~ include 'partials/jsonld.js.twig' ~%}
+        {%- block content ~%}
+        <div class="page">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {{~ page.content ~}}
+        </div>
+        {%- endblock content ~%}
+      </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <script>{% apply minify_js %}
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    {% endapply %}</script>
+    {%~ include 'partials/svg.html.twig' ~%}
+    {%- if site.serviceworker is defined and site.serviceworker.enabled -%}
+    {%~ include 'partials/regsw.js.twig' ~%}
+    {%- endif -%}
+    {%~ include 'partials/googleanalytics.js.twig' ~%}
+  </body>
+</html>

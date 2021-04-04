@@ -1,55 +1,50 @@
-{% extends 'index.html.twig' %}
+{% extends 'page.html.twig' %}
 
-{% block content %}
-<h1>Le blog</h1>
-<div class="posts">
-{% if page.pagination is defined %}
-{% for post in page.pagination.pages %}
-  <div class="post">
-    <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
-    {#<span class="post-date">{{ post.date|date("j M Y") }}</span>#}
-    <span class="post-date">{{ post.date|localizeddate('long', 'none') }}</span>
-{% set readtime = readtime(post.content) %}
-{% if readtime < 1 %}{% set readtime = "1" %}{% endif %}
-    <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
-{% if post.tags is defined %}
-    <span class="post-tags"> &middot;
-{% for tag in post.tags|slice(0, 1) %}
-      <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>
-{% endfor %}
-    </span>
-{% endif %}
-{# if post.image is defined %}
-    <a href="{{ url(post) }}"><img class="center" src="{{ url(post.image) }}" alt="Image d'illustration"></a>
-{% endif #}
-    {{ post.content|excerpt_html }}
-    <footer class="readmore">
-      <a href="{{ url(post) }}">Lire le billet ›</a>
-    </footer>
-    <footer class="tags">
-{% if post.tags is defined %}
-{% for tag in post.tags %}
-      <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
-{% endfor %}
-{% endif %}
-    </footer>
-  </div>
-  <hr />
-{% endfor %}
-{% endif %}
-</div>
-
-<div class="pagination">
-{% if page.pagination.links.prev is defined %}
-  <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
-{% else %}
-  <span class="pagination-item older">&lsaquo; Nouveau</span>
-{% endif %}
-{% if page.pagination.links.next is defined %}
-  <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
-{% else %}
-  <span class="pagination-item newer">Précédent &rsaquo;</span>
-{% endif %}
-</div>
-
-{% endblock content %}
+        {%- block content ~%}
+        <h1>Le blog</h1>
+        <div class="posts">
+        {%- if page.pagination is defined ~%}
+        {%- for post in page.pagination.pages ~%}
+          <div class="post">
+            <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
+            {#- <span class="post-date">{{ post.date|date("j M Y") }}</span> -#}
+            <span class="post-date">{{ post.date|localizeddate('long', 'none') }}</span>
+            {%- set readtime = readtime(post.content) -%}
+            {%- if readtime < 1 %}{% set readtime = "1" %}{% endif ~%}
+            <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
+            {%- if post.tags is defined ~%}
+            <span class="post-tags"> &middot;
+            {%- for tag in post.tags|slice(0, 1) ~%}
+              <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>
+            {%- endfor ~%}
+            </span>
+            {% endif %}
+            {{~ post.content|excerpt_html ~}}
+            <footer class="readmore">
+              <a href="{{ url(post) }}">Lire le billet ›</a>
+            </footer>
+            <footer class="tags">
+              {%- if post.tags is defined ~%}
+              {%- for tag in post.tags ~%}
+              <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
+              {%- endfor ~%}
+              {%- endif ~%}
+            </footer>
+          </div>
+          <hr />
+        {%- endfor ~%}
+        {%- endif ~%}
+        </div>
+        <div class="pagination">
+          {%- if page.pagination.links.prev is defined ~%}
+          <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
+          {%- else ~%}
+          <span class="pagination-item older">&lsaquo; Nouveau</span>
+          {%- endif ~%}
+          {%- if page.pagination.links.next is defined ~%}
+          <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
+          {%- else ~%}
+          <span class="pagination-item newer">Précédent &rsaquo;</span>
+          {%- endif ~%}
+        </div>
+        {%- endblock content ~%}

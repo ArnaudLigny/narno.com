@@ -1,48 +1,50 @@
-{% extends 'index.html.twig' %}
+{% extends 'page.html.twig' %}
 
-{% block content %}
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {#<span class="post-date">{{ page.date|date("j M Y") }}</span>#}
-  <span class="post-date">{{ page.date|localizeddate('long', 'none') }}</span>
-{% set readtime = readtime(page.content) %}
-{% if readtime < 1 %}{% set readtime = "1" %}{% endif %}
-  <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
-{% if page.tags is defined %}
-  <span class="post-tags"> &middot;
-{% for tag in page.tags|slice(0, 1) %}
-    <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
-{% endfor %}
-  </span>
-{% endif %}
-  {{ page.content }}
-  <footer class="tags">
-{% if page.tags is defined %}
-{% for tag in page.tags %}
-    <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
-{% endfor %}
-{% endif %}
-  </footer>
-  <footer class="twitter">
-    <a class="twitter-share-button"
-href="https://twitter.com/share"
-data-text="{{ page.title|e }}"
-data-url="{{ url(page, {canonical:true}) }}"
-{% if page.tags is defined %}
-data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
-{% endif %}
-data-related="narno">
-Tweet</a>
-  </footer>
-{% if site.comments %}
-  <aside class="webmentions">
-{% include 'partials/webmention.html.twig' %}
-  </aside>
-  <aside class="comments">
-{% include 'partials/comments.html.twig' %}
-  </aside>
-  <script id="dsq-count-scr" src="//narno.disqus.com/count.js" async></script>
-{% endif %}
-</div>
-{% include 'partials/twitter.js.twig' %}
-{% endblock content %}
+        {%- block content ~%}
+        <div class="page">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {#- <span class="post-date">{{ page.date|date("j M Y") }}</span> ~#}
+          <span class="post-date">{{ page.date|localizeddate('long', 'none') }}</span>
+        {%- set readtime = readtime(page.content) -%}
+        {%- if readtime < 1 %}{% set readtime = "1" %}{% endif ~%}
+          <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
+        {%- if page.tags is defined ~%}
+          <span class="post-tags"> &middot;
+        {%- for tag in page.tags|slice(0, 1) ~%}
+            <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
+        {%- endfor ~%}
+          </span>
+        {%- endif ~%}
+          {{~ page.content ~}}
+        {%- if page.tags is defined ~%}
+          <footer class="tags">
+        {%- for tag in page.tags ~%}
+            <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
+        {%- endfor ~%}
+          </footer>
+        {%- endif ~%}
+          <footer class="twitter">
+            <a class="twitter-share-button"
+               href="https://twitter.com/share"
+               data-text="{{ page.title|e }}"
+               data-url="{{ url(page, {canonical:true}) }}"
+               {%- if page.tags is defined ~%}
+               data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
+               {%- endif ~%}
+               data-related="{{ site.social.twitter.site }}"
+            >
+              Tweet
+            </a>
+          </footer>
+        {%- if site.comments ~%}
+          <aside class="webmentions">
+        {%~ include 'partials/webmention.html.twig' ~%}
+          </aside>
+          <aside class="comments">
+        {%~ include 'partials/comments.html.twig' ~%}
+          </aside>
+          <script id="dsq-count-scr" src="//narno.disqus.com/count.js" async></script>
+        {%- endif ~%}
+        </div>
+        {%~ include 'partials/twitter.js.twig' ~%}
+        {%- endblock content ~%}
