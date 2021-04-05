@@ -1,9 +1,15 @@
         <script type="application/ld+json">
         [
           {
+            "name": "{{ site.title }}",
+            "description": "{{ page.content|striptags|excerpt|escape }}",
+            {%- if page.image is defined ~%}
+            "image": [
+              "{{ url(page.image,{canonical:true}) }}"
+            ],
+            {%- endif ~%}
             "@context": "http://schema.org",
             "@type": "WebSite",
-            "name": "{{ site.title }}",
             "url": "{{ url('/', {canonical:true}) }}",
             "sameAs": [
               "https://twitter.com/{{ site.social.twitter.site }}",
@@ -30,6 +36,13 @@
               }
             }]
           },{
+            "name": "{{ site.title }}",
+            "description": "{{ page.content|striptags|excerpt|escape }}",
+            {%- if page.image is defined ~%}
+            "image": [
+              "{{ url(page.image,{canonical:true}) }}"
+            ],
+            {%- endif ~%}
             "@context": "http://schema.org",
             "@type": "NewsArticle",
             "mainEntityOfPage": {
@@ -37,11 +50,6 @@
               "@id": "{{ url(page) }}"
             },
             "headline": "{{ page.title|escape }}",
-            {%- if page.image is defined ~%}
-            "image": [
-              "{{ url(page.image) }}"
-            ],
-            {%- endif ~%}
             "datePublished": "{{ page.date|date('Y-m-dTH:i:sP') }}",
             "dateModified": "{{ page.date|date('Y-m-dTH:i:sP') }}",
             "author": {
@@ -55,8 +63,7 @@
                 "@type": "ImageObject",
                 "url": "{{ url('icon.png') }}"
               }
-            },
-            "description": "{{ page.content|striptags|excerpt|escape }}"
+            }
           }
           {%~ endif ~%}
         ]
