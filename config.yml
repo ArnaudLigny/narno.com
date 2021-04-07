@@ -25,9 +25,6 @@ languages:
   - name: Français
     code: fr
     locale: fr_FR
-  - name: English
-    code: en
-    locale: en_EN
 date:
   format: "j M Y"
   timezone: "Europe/Paris"
