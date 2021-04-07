@@ -21,7 +21,7 @@
             {% endif %}
             {{~ post.content|excerpt_html ~}}
             <footer class="readmore">
-              <a href="{{ url(post) }}">Lire le billet ›</a>
+              <a href="{{ url(post) }}">{% trans "Read the post" %} ›</a>
             </footer>
             <footer class="tags">
               {%- if post.tags is defined ~%}
@@ -37,14 +37,14 @@
         </div>
         <div class="pagination">
           {%- if page.pagination.links.prev is defined ~%}
-          <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
+          <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; {% trans "New" %}</a>
           {%- else ~%}
-          <span class="pagination-item older">&lsaquo; Nouveau</span>
+          <span class="pagination-item older">&lsaquo; {% trans "New" %}</span>
           {%- endif ~%}
           {%- if page.pagination.links.next is defined ~%}
-          <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
+          <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">{% trans "Previous" %} &rsaquo;</a>
           {%- else ~%}
-          <span class="pagination-item newer">Précédent &rsaquo;</span>
+          <span class="pagination-item newer">{% trans "Previous" %} &rsaquo;</span>
           {%- endif ~%}
         </div>
         {%- endblock content ~%}
