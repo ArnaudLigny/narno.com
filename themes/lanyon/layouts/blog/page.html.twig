@@ -5,24 +5,24 @@
           <h1 class="page-title">{{ page.title }}</h1>
           {#- <span class="post-date">{{ page.date|date("j M Y") }}</span> ~#}
           <span class="post-date">{{ page.date|localizeddate('long', 'none') }}</span>
-        {%- set readtime = readtime(page.content) -%}
-        {%- if readtime < 1 %}{% set readtime = "1" %}{% endif ~%}
+          {%- set readtime = readtime(page.content) -%}
+          {%- if readtime < 1 %}{% set readtime = "1" %}{% endif ~%}
           <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
-        {%- if page.tags is defined ~%}
+          {%- if page.tags is defined ~%}
           <span class="post-tags"> &middot;
-        {%- for tag in page.tags|slice(0, 1) ~%}
+          {%- for tag in page.tags|slice(0, 1) ~%}
             <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
-        {%- endfor ~%}
+          {%- endfor ~%}
           </span>
-        {%- endif ~%}
+          {%- endif ~%}
           {{~ page.content ~}}
-        {%- if page.tags is defined ~%}
+          {%- if page.tags is defined ~%}
           <footer class="tags">
-        {%- for tag in page.tags ~%}
+          {%- for tag in page.tags ~%}
             <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
-        {%- endfor ~%}
+          {%- endfor ~%}
           </footer>
-        {%- endif ~%}
+          {%- endif ~%}
           <footer class="twitter">
             <a class="twitter-share-button"
                href="https://twitter.com/share"
@@ -36,15 +36,17 @@
               Tweet
             </a>
           </footer>
-        {%- if site.comments ~%}
-          <aside class="webmentions">
-        {%~ include 'partials/webmention.html.twig' ~%}
-          </aside>
+          {%- if site.disqus.enabled ~%}
           <aside class="comments">
-        {%~ include 'partials/comments.html.twig' ~%}
+            {%~ include 'partials/disqus.html.twig' ~%}
           </aside>
-          <script id="dsq-count-scr" src="//narno.disqus.com/count.js" async></script>
-        {%- endif ~%}
+          <script id="dsq-count-scr" src="//{{ site.disqus.username }}.disqus.com/count.js" async></script>
+          {%- endif ~%}
+          {%- if site.webmention ~%}
+          <aside class="webmentions">
+            {%~ include 'partials/webmention.html.twig' ~%}
+          </aside>
+          {%- endif ~%}
         </div>
         {%~ include 'partials/twitter.js.twig' ~%}
         {%- endblock content ~%}

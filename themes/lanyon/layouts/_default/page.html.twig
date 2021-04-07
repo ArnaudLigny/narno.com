@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
-  {%~ include 'partials/head.html.twig' ~%}
+  <head>
+    {%~ block head -%}
+    {%~ include 'partials/head.html.twig' ~%}
+    {%- endblock head ~%}
+  </head>
   <body>
     {%~ include 'partials/sidebar.html.twig' ~%}
     <div class="wrap">
@@ -13,13 +17,12 @@
         </div>
       </div>
       <div class="container content">
-        {%~ include 'partials/jsonld.js.twig' ~%}
-        {%- block content ~%}
+        {%- block content -%}
         <div class="page">
           <h1 class="page-title">{{ page.title }}</h1>
           {{~ page.content ~}}
         </div>
-        {%- endblock content ~%}
+        {%- endblock content -%}
       </div>
     </div>
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
