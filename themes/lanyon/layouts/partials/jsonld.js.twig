@@ -1,70 +1,70 @@
-        <script type="application/ld+json">
-        [
-          {
-            "name": "{{ site.title }}",
-            "description": "{{ page.content|striptags|excerpt|escape }}",
-            {%- if page.image is defined ~%}
-            "image": [
-              "{{ url(page.image,{canonical:true}) }}"
-            ],
-            {%- endif ~%}
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "url": "{{ url('/', {canonical:true}) }}",
-            "sameAs": [
-              "https://twitter.com/{{ site.social.twitter.site }}",
-              "https://github.com/{{ site.social.github.username }}"
-            ]
-          }
-          {%- if page.section == 'blog' -%}
-          ,{
-            "@context": "http://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@id": "{{ url(page.section) }}",
-                "name": "{{ page.section|capitalize }}"
-              }
-            },{
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@id": "{{ url(page) }}",
-                "name": "{{ page.title|escape }}"
-              }
-            }]
-          },{
-            "name": "{{ site.title }}",
-            "description": "{{ page.content|striptags|excerpt|escape }}",
-            {%- if page.image is defined ~%}
-            "image": [
-              "{{ url(page.image,{canonical:true}) }}"
-            ],
-            {%- endif ~%}
-            "@context": "http://schema.org",
-            "@type": "NewsArticle",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "{{ url(page) }}"
-            },
-            "headline": "{{ page.title|escape }}",
-            "datePublished": "{{ page.date|date('Y-m-dTH:i:sP') }}",
-            "dateModified": "{{ page.date|date('Y-m-dTH:i:sP') }}",
-            "author": {
-              "@type": "Person",
-              "name": "{{ site.author }}"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "{{ site.title }}",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "{{ url('icon.png') }}"
-              }
-            }
-          }
-          {%~ endif ~%}
+    <script type="application/ld+json">
+    [
+      {
+        "name": "{{ site.title }}",
+        "description": "{{ page.content|striptags|excerpt|escape }}",
+        {%- if page.image is defined ~%}
+        "image": [
+          "{{ url(page.image,{canonical:true}) }}"
+        ],
+        {%- endif ~%}
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ url('/', {canonical:true}) }}",
+        "sameAs": [
+          "https://twitter.com/{{ site.social.twitter.site }}",
+          "https://github.com/{{ site.social.github.username }}"
         ]
-        </script>
+      }
+      {%- if page.section == 'blog' -%}
+      ,{
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "{{ url(page.section) }}",
+            "name": "{{ page.section|capitalize }}"
+          }
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "{{ url(page) }}",
+            "name": "{{ page.title|escape }}"
+          }
+        }]
+      },{
+        "name": "{{ site.title }}",
+        "description": "{{ page.content|striptags|excerpt|escape }}",
+        {%- if page.image is defined ~%}
+        "image": [
+          "{{ url(page.image,{canonical:true}) }}"
+        ],
+        {%- endif ~%}
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ url(page) }}"
+        },
+        "headline": "{{ page.title|escape }}",
+        "datePublished": "{{ page.date|date('Y-m-dTH:i:sP') }}",
+        "dateModified": "{{ page.date|date('Y-m-dTH:i:sP') }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ site.author }}"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ site.title }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ url('icon.png') }}"
+          }
+        }
+      }
+      {%- endif ~%}
+    ]
+    </script>

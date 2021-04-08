@@ -6,7 +6,12 @@
     {%- endblock head ~%}
   </head>
   <body>
-    {%~ include 'partials/sidebar.html.twig' ~%}
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    <div class="sidebar" id="sidebar">
+      {%~ block sidebar -%}
+      {%~ include 'partials/sidebar.html.twig' ~%}
+      {%- endblock sidebar ~%}
+    </div>
     <div class="wrap">
       <div class="masthead">
         <div class="container">
@@ -17,12 +22,12 @@
         </div>
       </div>
       <div class="container content">
-        {%- block content -%}
         <div class="page">
+          {%- block content -%}
           <h1 class="page-title">{{ page.title }}</h1>
           {{~ page.content ~}}
+          {%- endblock content -%}
         </div>
-        {%- endblock content -%}
       </div>
     </div>
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>

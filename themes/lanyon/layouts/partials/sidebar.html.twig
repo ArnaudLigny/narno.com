@@ -1,5 +1,3 @@
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-    <div class="sidebar" id="sidebar">
       <div class="sidebar-item">
         <p>{{ site.description }}</p>
       </div>
@@ -9,29 +7,6 @@
       {%- endfor ~%}
       </nav>
       <div class="sidebar-item">
-        <ul class="social inline">
-          <li>
-            <a title="S'abonner au flux RSS" href="{{ url('rss.xml') }}"><svg width="16" height="20" class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a>
-          </li>
-          <li>
-            <a rel="me" title="M'envoyer un e-mail" href="mailto:{{ site.author.email }}"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
-          </li>
-          {%- if site.social is defined ~%}
-          {%- if site.social.twitter is defined ~%}
-          <li>
-            <a rel="me" title="Me suivre sur Twitter" href="https://twitter.com/{{ site.social.twitter.creator }}"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
-          </li>
-          {%- endif ~%}
-          {%- if site.social.github is defined ~%}
-          <li>
-            <a rel="me" title="Me suivre sur GitHub" href="https://github.com/{{ site.social.github.username }}"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
-          </li>
-          {%- endif ~%}
-          {%- endif ~%}
-        </ul>
-      </div>
-      <div class="sidebar-item">
         <p>&copy; 2001-{{ "now"|date("Y") }} {{ site.author.name }}</p>
         <p>Powered by <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://github.com/poole/lanyon">Lanyon</a></p>
       </div>
-    </div>
