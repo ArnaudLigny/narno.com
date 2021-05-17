@@ -1,8 +1,8 @@
-    <script type="application/ld+json">
+    <script type="application/ld+json">{% apply minify_js %}
     [
       {
         "name": "{{ site.title }}",
-        "description": "{{ page.content|striptags|excerpt|escape }}",
+        "description": "{{ page.content| replace({'\n':''})|striptags|excerpt|escape }}",
         {%- if page.image is defined ~%}
         "image": [
           "{{ url(page.image,{canonical:true}) }}"
@@ -68,4 +68,4 @@
       }
       {%- endif ~%}
     ]
-    </script>
+    {% endapply %}</script>
