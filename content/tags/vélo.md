@@ -5,5 +5,6 @@ menu:
   main:
     weight: 115
 alias: vélo
+image: images/yehudamoon-2017-03-20-first-case.png
 ---
 > Billets sur le thème du déplacement à vélo.
