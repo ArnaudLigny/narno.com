@@ -24,13 +24,13 @@
 <li>Éviter le contenu dupliqué (<em>duplicate content</em>)</li>
 </ol>
 <!-- excerpt -->
-<h2>1. Activation des URL simplifiées</h2>
+<h2 id="1-activation-des-url-simplifiées">1. Activation des URL simplifiées</h2>
 <p>Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionnalité permet de transformer les URL contenant des paramètres de type <em>GET</em> en une URL unique.<br />
 Par exemple <code>/?q=node/1</code> sera remplacée par <code>/node/1</code>.</p>
 <blockquote>
 <p>Note : votre hébergement doit supporter l'<em>URL rewriting</em> (<a href="http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html"><em>mod_rewrite</em> d'Apache</a>)</p>
 </blockquote>
-<h2>2. Réécriture automatique des URL</h2>
+<h2 id="2-réécriture-automatique-des-url">2. Réécriture automatique des URL</h2>
 <p>Quand les URL simplifiées sont active, il est possible de déterminer manuellement le chemin d'URL de chacun de ses nœuds, afin d'utiliser un nom compréhensible lorsque l'on créé un nouveau contenu.<br />
 Par exemple <code>/node/1</code> devient <code>/mon-article-interessant</code>.</p>
 <p>Néanmoins, il n'est pas très pratique de devoir systématiquement saisir ce nom manuellement.</p>
@@ -38,16 +38,16 @@ Par exemple <code>/node/1</code> devient <code>/mon-article-interessant</code>.<
 <blockquote>
 <p>Note : si vous appliquez ce module sur un site existant, prenez garde à ne pas renommer des pages existantes et déjà référencées par les moteurs de recherche.</p>
 </blockquote>
-<h2>3. Génération du sitemap XML</h2>
+<h2 id="3-génération-du-sitemap-xml">3. Génération du sitemap XML</h2>
 <p>Maintenant que nous avons des URL &quot;propres&quot;, il serait judicieux d'en informer les moteurs de recherche via un <a href="https://www.google.com/webmasters/tools/docs/fr/protocol.html">sitemap XML</a> bien construit.</p>
 <p>L'intérêt du sitemap XML est de permettre aux moteurs de recherche d'avoir une liste exhaustive des contenus de votre site, via une liste d'URL et d'en connaître les changements. Ainsi chaque URL sera associée à une date de modification.
 L'objectif est de rendre les moteurs de recherche plus réactifs sur le référencement de vos pages.</p>
 <p>Voici donc le module que j'ai retenu : <a href="http://drupal.org/project/gsitemap">XML Sitemap</a>.</p>
-<h2>4. Ajout de métadonnées</h2>
+<h2 id="4-ajout-de-métadonnées">4. Ajout de métadonnées</h2>
 <p>Même si l'on considère aujourd'hui que les mots clefs sont négligés par les moteurs de recherche, il n'en reste pas moins que la description est importante : c'est elle qui sera visible sur les pages de résultats de Google, entre le titre de la page et l'URL.</p>
 <p>Encore une fois, pour simplifier la génération des méta tags, je conseille l'utilisation du module <a href="http://drupal.org/project/nodewords">Meta tags</a>.
 Ce dernier permet d'insérer automatiquement le &quot;teaser&quot;, du contenu de votre page, dans la balise de description de la page (entre autre).</p>
-<h2>5. Éviter le contenu dupliqué (<em>duplicate content</em>)</h2>
+<h2 id="5-éviter-le-contenu-dupliqué-duplicate-content">5. Éviter le contenu dupliqué (<em>duplicate content</em>)</h2>
 <p>Un dernier point important : ne risquez pas de vous faire bannir de Google à cause de contenus dupliqués ! En effet, Google considère cela comme une pratique douteuse de référencement.<br />
 Je m'explique : une page de contenu ne doit être accessible que par une seule et unique URL.</p>
 <p><strong>Mise à jour :</strong></p>

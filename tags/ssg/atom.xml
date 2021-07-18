@@ -18,16 +18,16 @@
 <p><img src="/images/ssg-host-flow.png" alt="SSG host flow" title="SSG host flow" width="1024" loading="lazy" /></p>
 <!-- break -->
 <p><em>Source du schéma : <a href="https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/">What is a Static Site Generator?</a></em></p>
-<h2>Qu'appelle-t-on un « site statique » ?</h2>
+<h2 id="qu-appelle-t-on-un-site-statique">Qu'appelle-t-on un « site statique » ?</h2>
 <p>Un site web peut-être qualifié de statique quand il répond aux caractéristiques suivantes :</p>
 <ol>
 <li>il est (re)généré à la demande lorsque le contenu (pages, billets de blog, etc.) ou la mise en forme (templates, feuilles de styles) est modifiée.</li>
 <li>le site généré peut-être servi par un <a href="https://fr.m.wikipedia.org/wiki/Serveur_web">serveur web</a> sans être interprété par un langage de programmation, ni être dépendant d’une base de données.</li>
 </ol>
-<h2>Comment ça marche ?</h2>
-<h3>Le principe</h3>
+<h2 id="comment-ça-marche">Comment ça marche ?</h2>
+<h3 id="le-principe">Le principe</h3>
 <p>Le principe est très simple : les contenus texte (au format <a href="https://fr.m.wikipedia.org/wiki/Markdown">Markdown</a>) sont fusionnés avec la mise en forme (templates <a href="https://twig.symfony.com/doc/templates.html">Twig</a> et <a href="https://fr.m.wikipedia.org/wiki/Feuilles_de_style_en_cascade">feuilles de style</a>) pour créer un site web.</p>
-<h3>En pratique</h3>
+<h3 id="en-pratique">En pratique</h3>
 <p><em>Narno.com</em> s’appuie sur :</p>
 <ol>
 <li>un thème clef en main (l'excellent <a href="https://github.com/poole/lanyon">Lanyon</a> créé par <a href="https://github.com/mdo">Mark Otto</a>)</li>

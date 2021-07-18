@@ -79,16 +79,16 @@
 <p><img src="/images/ssg-host-flow.png" alt="SSG host flow" title="SSG host flow" width="1024" loading="lazy" /></p>
 <!-- break -->
 <p><em>Source du schéma : <a href="https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/">What is a Static Site Generator?</a></em></p>
-<h2>Qu'appelle-t-on un « site statique » ?</h2>
+<h2 id="qu-appelle-t-on-un-site-statique">Qu'appelle-t-on un « site statique » ?</h2>
 <p>Un site web peut-être qualifié de statique quand il répond aux caractéristiques suivantes :</p>
 <ol>
 <li>il est (re)généré à la demande lorsque le contenu (pages, billets de blog, etc.) ou la mise en forme (templates, feuilles de styles) est modifiée.</li>
 <li>le site généré peut-être servi par un <a href="https://fr.m.wikipedia.org/wiki/Serveur_web">serveur web</a> sans être interprété par un langage de programmation, ni être dépendant d’une base de données.</li>
 </ol>
-<h2>Comment ça marche ?</h2>
-<h3>Le principe</h3>
+<h2 id="comment-ça-marche">Comment ça marche ?</h2>
+<h3 id="le-principe">Le principe</h3>
 <p>Le principe est très simple : les contenus texte (au format <a href="https://fr.m.wikipedia.org/wiki/Markdown">Markdown</a>) sont fusionnés avec la mise en forme (templates <a href="https://twig.symfony.com/doc/templates.html">Twig</a> et <a href="https://fr.m.wikipedia.org/wiki/Feuilles_de_style_en_cascade">feuilles de style</a>) pour créer un site web.</p>
-<h3>En pratique</h3>
+<h3 id="en-pratique">En pratique</h3>
 <p><em>Narno.com</em> s’appuie sur :</p>
 <ol>
 <li>un thème clef en main (l'excellent <a href="https://github.com/poole/lanyon">Lanyon</a> créé par <a href="https://github.com/mdo">Mark Otto</a>)</li>
@@ -170,14 +170,14 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     <content type="html">
       <![CDATA[<p>Ça aura été pénible mais j'ai réussi à migrer le <a href="http://www.kobuta.fr/forum">forum phpBB de Kobuta.fr</a> !</p>
 <!-- excerpt -->
-<h2>Petite introduction</h2>
+<h2 id="petite-introduction">Petite introduction</h2>
 <p>Pour rappel, phpBB est certainement la solution de forum PHP la plus connu et la plus populaire, sans doute parceque la première arrivée avec PHP, son installation et sa prise sont simple, et enfin, compatible avec les hébergements lowcost (free.fr &amp; co).</p>
 <p>phpBB version 2 est (ou plutôt à été !) la branche de référence (pour ma part je n'ai même plus souvenir de la version 1...) et la plus utilisée sur le net (encore aujourd'hui, malgré la sortie de la version 3). Elle à finalement été décriée il y a maintenant quelques année par les communauté, principalement à cause de ses problèmes de sécurité à répétition : de nombreux forum se faisaient hackés par des <a href="http://fr.wikipedia.org/wiki/Script_kiddies">scripts kiddies</a> et nombreux étaient ceux (dont moi à l'époque) qui cherchaient une solution alternative (mais la migration était souvent pénible...).
 Malgré la réactivité du groupe phpBB pour produire des patchs, les attaques ont continuées, pourquoi ? Simplement parceque la structure même de phpBB n'était pas prévu pour évoluer ! Les mods s'installent de manière intrusive (dans le style osCommerce, à coup de copier/coller dans le core...), pas de controle de version dans le backend admin, etc.).</p>
 <p>Depuis, la version phpBB 3 est sorti (fin 2007, soit environ 2 ans après les premières annonces) et c'est tant mieux ! En même temps c'était ça ou la mort de phpBB !</p>
 <p>Pour en revenir au sujet initial, Kobuta.fr avait fermer son forum dès que le contrôle en a été perdu : inscription et posts de robots spammeurs, hacking et donc risque pour l'hébergeur.
 Depuis, j'ai repris l'hébergement de Kobuta.fr et des sites associés (tel que le <a href="http://www.kobuta.fr/blog/">blog de Oni</a>). Oni souhaitait que nous réinstallions l'ancien forum phpBB 2 en lecture seule afin de permettre aux membres d'accéder au contenu de certains billets et à leurs messages privés.</p>
-<h2>Les problèmes techniques commencent ici</h2>
+<h2 id="les-problèmes-techniques-commencent-ici">Les problèmes techniques commencent ici</h2>
 <p>Je ne vous cache pas que j'en ai chi*er ! Et comme toujours, à cause de la même problématique dans le cas d'une migration d'un ancien système vers un plus récent : l'encodage des caractères !
 En effet, la plupart des anciennes plateformes à la phpBB étaient déployées &quot;à l'européenne&quot;, c'est à dire :</p>
 <ol>
@@ -186,7 +186,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 </ol>
 <p>De ce fait, quand on passe une plateforme full UTF-8 telle que la dernière mouture de phpBB, on se reprend en pleine face les bidouilles d'encodage de l'époque, misère...</p>
 <p>Voici, en quelques lignes, ce qu'il faut faire pour migrer un phpBB 2 ISO/latin vers un phpBB 3 UTF-8/utf8_bin.</p>
-<h3>Si vous n'utilisez pas la dernière version de phpBB 2 :</h3>
+<h3 id="si-vous-n-utilisez-pas-la-dernière-version-de-phpbb-2">Si vous n'utilisez pas la dernière version de phpBB 2 :</h3>
 <p>Il va donc falloir commencer à mettre à jour votre installation vers la version 2.0.23.</p>
 <ol>
 <li><a href="http://sourceforge.net/project/showfiles.php?group_id=7885&amp;package_id=28882">téléchargez</a> le package &quot;files&quot; de la  dernière release de la branche 2 (2.0.23). Si vous avez une installation antérieure à la 2.0.12, allez mourir !</li>
@@ -194,8 +194,8 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <li>mettez à jour votre BDD via le script &quot;install/update_to_latest.php&quot;</li>
 <li>remplacez vos fichiers par ceux présent dans l'archive correspondant à votre mise à jour de version (si vous avez installer des mods dans tout les sens, je ne peux pas vous aider, le <a href="http://forums.phpbb-fr.com/">forum phpBB FR</a> est là pour ça)</li>
 </ol>
-<h3>Vous utilisez déjà la dernière version de phpBB 2 :</h3>
-<h4>phpBB 2 :</h4>
+<h3 id="vous-utilisez-déjà-la-dernière-version-de-phpbb-2">Vous utilisez déjà la dernière version de phpBB 2 :</h3>
+<h4 id="phpbb-2">phpBB 2 :</h4>
 <ol>
 <li>modifier l'encodage de votre BDD actuelle pour utf8_bin (tables comprise)</li>
 <li>modifier la valeur de la variable</li>
@@ -204,7 +204,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <p>pour</p>
 <pre><code class="language-php">$lang['ENCODING'] = 'UTF-8'</code></pre>
 <p>(voir le fichier &quot;language/lang_french/lang_main.php&quot;)</p>
-<h4>phpBB 3 :</h4>
+<h4 id="phpbb-3">phpBB 3 :</h4>
 <ol>
 <li>téléchargez la dernière version de phpBB 3 en version complète</li>
 <li>décompressez les fichiers dans un autre répertoire que votre forum actuel : la migration se base sur la BDD, mais pas sur les fichiers : dites au revoir à votre thème custom !</li>
@@ -235,13 +235,13 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
 <li>Éviter le contenu dupliqué (<em>duplicate content</em>)</li>
 </ol>
 <!-- excerpt -->
-<h2>1. Activation des URL simplifiées</h2>
+<h2 id="1-activation-des-url-simplifiées">1. Activation des URL simplifiées</h2>
 <p>Il s'agit d'une option native de Drupal, basée sur la réécriture d'URL. Cette fonctionnalité permet de transformer les URL contenant des paramètres de type <em>GET</em> en une URL unique.<br />
 Par exemple <code>/?q=node/1</code> sera remplacée par <code>/node/1</code>.</p>
 <blockquote>
 <p>Note : votre hébergement doit supporter l'<em>URL rewriting</em> (<a href="http://httpd.apache.org/docs/2.0/mod/mod_rewrite.html"><em>mod_rewrite</em> d'Apache</a>)</p>
 </blockquote>
-<h2>2. Réécriture automatique des URL</h2>
+<h2 id="2-réécriture-automatique-des-url">2. Réécriture automatique des URL</h2>
 <p>Quand les URL simplifiées sont active, il est possible de déterminer manuellement le chemin d'URL de chacun de ses nœuds, afin d'utiliser un nom compréhensible lorsque l'on créé un nouveau contenu.<br />
 Par exemple <code>/node/1</code> devient <code>/mon-article-interessant</code>.</p>
 <p>Néanmoins, il n'est pas très pratique de devoir systématiquement saisir ce nom manuellement.</p>
@@ -249,16 +249,16 @@ Par exemple <code>/node/1</code> devient <code>/mon-article-interessant</code>.<
 <blockquote>
 <p>Note : si vous appliquez ce module sur un site existant, prenez garde à ne pas renommer des pages existantes et déjà référencées par les moteurs de recherche.</p>
 </blockquote>
-<h2>3. Génération du sitemap XML</h2>
+<h2 id="3-génération-du-sitemap-xml">3. Génération du sitemap XML</h2>
 <p>Maintenant que nous avons des URL &quot;propres&quot;, il serait judicieux d'en informer les moteurs de recherche via un <a href="https://www.google.com/webmasters/tools/docs/fr/protocol.html">sitemap XML</a> bien construit.</p>
 <p>L'intérêt du sitemap XML est de permettre aux moteurs de recherche d'avoir une liste exhaustive des contenus de votre site, via une liste d'URL et d'en connaître les changements. Ainsi chaque URL sera associée à une date de modification.
 L'objectif est de rendre les moteurs de recherche plus réactifs sur le référencement de vos pages.</p>
 <p>Voici donc le module que j'ai retenu : <a href="http://drupal.org/project/gsitemap">XML Sitemap</a>.</p>
-<h2>4. Ajout de métadonnées</h2>
+<h2 id="4-ajout-de-métadonnées">4. Ajout de métadonnées</h2>
 <p>Même si l'on considère aujourd'hui que les mots clefs sont négligés par les moteurs de recherche, il n'en reste pas moins que la description est importante : c'est elle qui sera visible sur les pages de résultats de Google, entre le titre de la page et l'URL.</p>
 <p>Encore une fois, pour simplifier la génération des méta tags, je conseille l'utilisation du module <a href="http://drupal.org/project/nodewords">Meta tags</a>.
 Ce dernier permet d'insérer automatiquement le &quot;teaser&quot;, du contenu de votre page, dans la balise de description de la page (entre autre).</p>
-<h2>5. Éviter le contenu dupliqué (<em>duplicate content</em>)</h2>
+<h2 id="5-éviter-le-contenu-dupliqué-duplicate-content">5. Éviter le contenu dupliqué (<em>duplicate content</em>)</h2>
 <p>Un dernier point important : ne risquez pas de vous faire bannir de Google à cause de contenus dupliqués ! En effet, Google considère cela comme une pratique douteuse de référencement.<br />
 Je m'explique : une page de contenu ne doit être accessible que par une seule et unique URL.</p>
 <p><strong>Mise à jour :</strong></p>

@@ -21,13 +21,13 @@ En effet, je pourrai utiliser <a href="http://picasaweb.google.fr/">Picasaweb</a
 Non, car depuis la version 3 de Picasa, <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a> s'intègre de manière transparente et sans &quot;bidouilles&quot;.</p>
 <p>Pour se faire il vous suffit de suivre ce mini tutorial :</p>
 <!-- excerpt -->
-<h2>Installation</h2>
+<h2 id="installation">Installation</h2>
 <ol>
 <li>installez <a href="http://picasa.google.com/">Picasa 3</a> (si vous utiliser encore la v2)</li>
 <li>installez <a href="http://www.flickr.com/tools/">Flickr Uploadr</a> et authentifiez-vous</li>
 <li>installez <a href="http://picasa2flickr.sourceforge.net/install_v2.html">picasa2flickr</a>, le bouton Flickr pour Picasa</li>
 </ol>
-<h2>Utilisation</h2>
+<h2 id="utilisation">Utilisation</h2>
 <ol>
 <li>lancez Picasa et sélectionnez les photos à envoyer</li>
 <li>appuyez sur le bouton &quot;Transférer vers Flickr&quot;</li>
