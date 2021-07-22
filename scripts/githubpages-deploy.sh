@@ -1,14 +1,5 @@
 #!/bin/bash -e
 
-if [ -z "$DOMAIN" ]; then
-  DOMAIN="narno.com"
-fi
-if [ -z "$USER_NAME" ]; then
-  USER_NAME="Build Bot"
-fi
-if [ -z "$USER_EMAIL" ]; then
-  USER_EMAIL="build@$DOMAIN"
-fi
 if [ -z "$REPOSITORY" ]; then
   REPOSITORY="Narno/narno.com"
 fi
@@ -18,8 +9,17 @@ fi
 if [ -z "$SITE_DIR" ]; then
   SITE_DIR="_site"
 fi
+if [ -z "$DOMAIN" ]; then
+  DOMAIN="narno.com"
+fi
+if [ -z "$USER_NAME" ]; then
+  USER_NAME="Build Bot"
+fi
+if [ -z "$USER_EMAIL" ]; then
+  USER_EMAIL="build@$DOMAIN"
+fi
 
-echo "Deploy started..."
+echo "Deploy started"
 echo "Repository/branch: $REPOSITORY/$TARGET_BRANCH"
 
 cp -R $SITE_DIR $HOME/$SITE_DIR
@@ -32,13 +32,13 @@ rm -rf gh-pages/*
 cp -R $HOME/.git gh-pages/.git
 cd gh-pages
 cp -Rf $HOME/$SITE_DIR/* .
+
 echo "$DOMAIN" > CNAME
-if [ -n "$1" ]; then
-  if [ "$1" = "preview" ]; then
-    echo "User-agent: *
+if [[ $CECIL_ENV != "production" ]]; then
+  echo "User-agent: *
 Disallow: /" > robots.txt
-  fi
 fi
+
 if [ -z "$(git status --porcelain)" ]; then
   echo "Nothing to deploy"
 else
@@ -47,7 +47,6 @@ else
   git push -fq origin $TARGET_BRANCH > /dev/null
 fi
 
-# deploy fail?
 if [ $? != 0 ]; then
   echo "Deploy fail!"
   echo

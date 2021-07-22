@@ -2,21 +2,22 @@
 
 . ~/init/php 7.3.13
 
-echo "Downloading Cecil..."
-curl -sSOL https://cecil.app/cecil.phar
+echo "Downloading Cecil"
+if [ -z $CECIL_VERSION ]; then
+  curl -sSOL https://cecil.app/cecil.phar
+else
+  curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+fi
 php cecil.phar --version
 if [ $? != 0 ]; then echo; exit 1; fi
 
-echo "Installing themes..."
+echo "Installing themes"
 composer install --prefer-dist --no-dev --no-progress --no-interaction
 
 echo
-echo "Cecil build started..."
-if [ -n "$1" ]; then
-# build preview (with drafts)?
-  if [ "$1" = "preview" ]; then
-    php cecil.phar build -vv --drafts --postprocess=no
-  fi
+echo "Started Cecil build"
+if [[ $CECIL_ENV != "production" ]]; then
+  php cecil.phar build -vv --drafts --postprocess=no
 else
   php cecil.phar build -v --postprocess
 fi
