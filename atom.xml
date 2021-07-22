@@ -60,30 +60,6 @@
     <updated>2021-07-10T02:00:00+02:00</updated>
   </entry>
   <entry xml:lang="fr">
-    <id>https://narno.com/blog/comment-bloquer-pub-twitch-ublock/</id>
-    <title>Comment bloquer les pubs Twitch avec uBlock Origin ?</title>
-    <content type="html">
-      <![CDATA[<p>Si comme moi vous avez récemment découvert les <strong>publicités au chargement d’un stream sur Twitch</strong>, c’est que jusqu’à maintenant vous utilisiez <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> et qu’il les bloquait. Mais depuis quelques jours Twitch a modifié la manière dont les publicités en « pre-roll » sont affichées et passent le filtrage par défaut de uBlock Origin.</p>
-<p><img src="/images/thumbs/800/images/twitch-pub.png" alt="Comment bloquer les pubs Twitch avec uBlock Origin ?" title="Comment bloquer les pubs Twitch avec uBlock Origin ?" width="800" loading="lazy" srcset="/images/thumbs/424/images/twitch-pub.png 424w, /images/thumbs/528/images/twitch-pub.png 528w, /images/thumbs/632/images/twitch-pub.png 632w, /images/thumbs/736/images/twitch-pub.png 736w, /images/twitch-pub.png 839w" sizes="(max-width: 800px) 100vw, 800px" /></p>
-<blockquote>
-<p>12/11/2020 : le script à été modifié et fonctionne à nouveau.</p>
-</blockquote>
-<p>Pour les bloquer à nouveau il suffit d’appliquer un script complémentaire :</p>
-<!-- break -->
-<ol>
-<li>Accéder aux <strong>options de uBlock Origin</strong></li>
-<li>Cocher la case « <strong>Activer les fonctionnalités avancées</strong> »</li>
-<li>Puis cliquer sur « <strong>Paramètres avancés</strong> » (icône d’engrenages en regard à droite)</li>
-<li>Modifier la valeur de <code>userResourcesLocation</code> (dernière ligne) pour <code>https://gist.githubusercontent.com/Narno/64d7f70c22f07a9eee490a39766dc11b/raw/twitch.js</code> </li>
-<li>Ensuite, dans l’onglet « Liste de filtres » cliquer sur « <strong>Vider tous les caches</strong> » puis « <strong>Mettre à jour maintenant</strong> »</li>
-</ol>
-<p>Et voilà ! 🐱‍💻</p>]]>
-    </content>
-    <link href="https://narno.com/blog/comment-bloquer-pub-twitch-ublock/" rel="alternate" type="text/html" />
-    <published>2020-10-09T02:00:00+02:00</published>
-    <updated>2020-10-09T02:00:00+02:00</updated>
-  </entry>
-  <entry xml:lang="fr">
     <id>https://narno.com/blog/velo-cargo-bullitt-partage-experience/</id>
     <title>Vélo cargo Bullitt : partage d’expérience</title>
     <content type="html">
@@ -447,16 +423,6 @@
     <link href="https://narno.com/config-pc/" rel="alternate" type="text/html" />
     <published>2019-03-20T01:00:00+01:00</published>
     <updated>2019-03-20T01:00:00+01:00</updated>
-  </entry>
-  <entry xml:lang="fr">
-    <id>https://narno.com/blog/ans-de-velotaf/</id>
-    <title>3 ans de vélotaf</title>
-    <content type="html">
-      <![CDATA[<p>3 ans, ça fait maintenant 3 ans que je vélotaf chaque jour ! \o/</p>]]>
-    </content>
-    <link href="https://narno.com/blog/ans-de-velotaf/" rel="alternate" type="text/html" />
-    <published>2019-01-03T01:00:00+01:00</published>
-    <updated>2019-01-03T01:00:00+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/narno-com-site-web-statique/</id>
@@ -1040,23 +1006,6 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
     <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
     <published>2007-10-31T01:00:00+01:00</published>
     <updated>2007-10-31T01:00:00+01:00</updated>
-  </entry>
-  <entry xml:lang="fr">
-    <id>https://narno.com/blog/ez-publish-4-0-apporte-le-support-php-5/</id>
-    <title>eZ Publish 4.0 apporte le support PHP 5</title>
-    <content type="html">
-      <![CDATA[<blockquote>
-<p>La prochaine version de eZ Publish, 4.0, vient d'être publiée en alpha, avec le support attendu de PHP 5. Il est désormais possible de faire tourner le célèbre CMS sur une plate-forme PHP 5.</p>
-<p>eZ Publish 4.0 pave la voie pour l'intégration des eZ components, améliore les performances, le support des clusters, et la recherche.</p>
-</blockquote>
-<p><a href="http://www.nexen.net/actualites/php/17645-ez_publish_4.0_apporte_le_support_php_5.php">Nexen</a></p>
-<p>En voilà une nouvelle qu'elle est bonne ! En effet, parmi les &quot;gros&quot; framework du marcher, eZ Publish restait l'un des derniers à ne pas avoir encore annoncé sa migration vers PHP5. Malgré tout, il ne s'agit pas d'une véritable migration dans le sens où l'architecture du moteur reste en PHP4 (pour le moment ?), mais sera capable de tourner sur un serveur PHP5.</p>
-<p>Celà reste un bon point pour les agences qui pourront faire leurs développements spécifique en PHP5.</p>
-<p>D'autre part, l'amélioration des performances des &quot;components&quot; ne sera pas négligeable non plus.</p>]]>
-    </content>
-    <link href="https://narno.com/blog/ez-publish-4-0-apporte-le-support-php-5/" rel="alternate" type="text/html" />
-    <published>2007-06-10T02:00:00+02:00</published>
-    <updated>2007-06-10T02:00:00+02:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/galeries/soltek-eq3401-sp94-guide-montage/</id>
