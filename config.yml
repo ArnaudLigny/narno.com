@@ -20,6 +20,8 @@ social:
     username: Narno
   mastodon:
     username: Narno
+  steam:
+    username: narno
 language: fr
 languages:
   - name: Français
