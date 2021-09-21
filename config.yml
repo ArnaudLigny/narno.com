@@ -61,10 +61,6 @@ serviceworker:
   enabled: false
   precache:
     - icon.png
-    - css/poole.css
-    - css/syntax.css
-    - css/lanyon.css
-    - css/narno.com.css
 disqus:
   enabled: false
   username: Narno
