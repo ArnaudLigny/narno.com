@@ -68,3 +68,5 @@ webmention: false
 editor: typora
 static:
   exclude: ['*.css']
+metatags:
+  jsonld: true
