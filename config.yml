@@ -69,4 +69,5 @@ editor: typora
 static:
   exclude: ['*.css']
 metatags:
-  jsonld: true
+  jsonld:
+    enabled: true
