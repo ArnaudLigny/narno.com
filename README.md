@@ -9,8 +9,6 @@ The website is automatically built by [Cecil](https://cecil.app) + [LambCI](http
 ## Build & serve locally
 
 ```bash
-git clone https://github.com/Narno/narno.com.git
-cd narno.com
 curl -LO https://cecil.app/cecil.phar
 php cecil.phar serve
 ```
