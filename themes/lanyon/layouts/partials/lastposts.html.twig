@@ -1,5 +1,5 @@
         <div class="lastposts">
-          <h2>Derniers billets</h2>
+          <h2>{% trans "Last posts" %}</h2>
           <ul>
           {%- for post in site.pages|filter_by('section', 'blog')|sort_by_date|slice(1, 5) ~%}
             <li><a href="{{ url(post) }}">{{ post.title }}</a></li>
