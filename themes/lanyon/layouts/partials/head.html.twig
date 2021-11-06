@@ -12,8 +12,5 @@
     <link rel="apple-touch-icon" href="{{ url('apple-touch-icon.png') }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ url('apple-touch-icon-precomposed.png') }}">
     <link rel="apple-touch-startup-image" href="{{ url('apple-touch-startup-image.png') }}">
-    <link rel="stylesheet" href="{{ asset('css/poole.css')|minify|url }}">
-    <link rel="stylesheet" href="{{ asset('css/syntax.css')|minify|url }}">
-    <link rel="stylesheet" href="{{ asset('css/lanyon.css')|minify|url }}">
-    <link rel="stylesheet" href="{{ asset('css/fix.css')|minify|url }}">
+    <link rel="stylesheet" href="{{ asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">

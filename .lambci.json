@@ -1,16 +1,21 @@
 {
   "cmd": "chmod +x ./scripts/build-and-deploy.sh && ./scripts/build-and-deploy.sh",
   "branches": {
-    "master": true,
+    "master": {
+      "build": true,
+      "env": {
+        "CECIL_ENV": "production"
+      }
+    },
     "preview": {
       "build": true,
       "env": {
+        "CECIL_ENV": "preview",
         "CECIL_TITLE": "Narno.com (preview)",
         "CECIL_BASEURL": "https://preview.narno.com/",
         "REPOSITORY": "Narno/preview.narno.com",
         "DOMAIN": "preview.narno.com"
-      },
-      "cmd": "chmod +x ./scripts/build-and-deploy.sh && ./scripts/build-and-deploy.sh preview"
+      }
     }
   }
 }

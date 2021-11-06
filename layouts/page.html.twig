@@ -8,7 +8,8 @@
       'facebook': 'https://www.facebook.com/',
       'twitter': 'https://twitter.com/',
       'github': 'https://github.com/',
-      'mastodon': 'https://mamot.fr/@'
+      'mastodon': 'https://mamot.fr/@',
+      'steam': 'https://steamcommunity.com/id/'
     } -%}
     {%- for key, social in site.social ~%}
     <link rel="me" href="{{ social_url[key] ~ social.username }}">
@@ -22,7 +23,33 @@
     {%- endif ~%}
     {%- endblock head -%}
 
-    {%- block content ~%}
-    {%~ include 'partials/jsonld.js.twig' ~%}
+    {%~ block sidebar -%}
       {{ parent() }}
-    {%~ endblock content -%}
+      <div class="sidebar-item">
+        <ul class="social inline">
+          <li>
+            <a title="S'abonner au flux RSS" href="{{ url('index',{format:'atom'}) }}"><svg width="16" height="20" class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a>
+          </li>
+          <li>
+            <a rel="me" title="M'envoyer un e-mail" href="mailto:{{ site.author.email }}"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
+          </li>
+          {%- if site.social is defined ~%}
+            {%- if site.social.twitter is defined ~%}
+          <li>
+            <a rel="me" title="Me suivre sur Twitter" href="https://twitter.com/{{ site.social.twitter.creator }}"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
+          </li>
+            {%- endif ~%}
+            {%- if site.social.github is defined ~%}
+          <li>
+            <a rel="me" title="Me suivre sur GitHub" href="https://github.com/{{ site.social.github.username }}"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
+          </li>
+            {%- endif ~%}
+            {%- if site.social.steam is defined ~%}
+          <li>
+            <a rel="me" title="Me suivre sur Steam" href="https://steamcommunity.com/id/{{ site.social.steam.username }}"><svg width="16" height="20" class="icon icon-steam"><use xlink:href="#icon-steam"></use></svg></a>
+          </li>
+            {%- endif ~%}
+          {%- endif ~%}
+        </ul>
+      </div>
+    {%- endblock sidebar ~%}

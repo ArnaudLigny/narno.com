@@ -20,6 +20,8 @@ social:
     username: Narno
   mastodon:
     username: Narno
+  steam:
+    username: narno
 language: fr
 languages:
   - name: Français
@@ -62,10 +64,6 @@ serviceworker:
   enabled: false
   precache:
     - icon.png
-    - css/poole.css
-    - css/syntax.css
-    - css/lanyon.css
-    - css/narno.com.css
 disqus:
   enabled: false
   username: Narno
@@ -73,3 +71,6 @@ webmention: false
 editor: typora
 static:
   exclude: ['*.css']
+metatags:
+  jsonld:
+    enabled: true

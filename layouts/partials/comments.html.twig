@@ -1,0 +1,10 @@
+          {%- if site.disqus.enabled ~%}
+          <aside class="comments">
+            {%~ include 'partials/disqus.html.twig' ~%}
+          </aside>
+          {%- endif ~%}
+          {%- if site.webmention ~%}
+          <aside class="webmentions">
+            {%~ include 'partials/webmention.html.twig' ~%}
+          </aside>
+          {%- endif ~%}
