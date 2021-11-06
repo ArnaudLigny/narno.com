@@ -10,7 +10,7 @@
               <svg width="16" height="16" class="icon icon-clock">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use>
               </svg>
-              {{ readtime }}&nbsp;min
+              {{ readtime }}&nbsp;{% trans "min" %}
             </span>
             {%- if post.tags is defined -%}
             <span class="post-tags">&nbsp;&middot;&nbsp;
@@ -21,7 +21,7 @@
             {%- endif -%}
             {{ post.content|excerpt_html }}
             <footer class="readmore">
-              <a href="{{ url(post) }}#more">Lire la suite ›</a>
+              <a href="{{ url(post) }}#more">{% trans "Read more" %} ›</a>
             </footer>
           </div>
         {%- endfor ~%}

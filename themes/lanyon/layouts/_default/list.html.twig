@@ -19,7 +19,7 @@
             </h1>
             {{~ post.content|excerpt_html ~}}
             <footer class="readmore">
-              <a href="{{ url(post) }}">Voir le contenu ›</a>
+              <a href="{{ url(post) }}">{% trans "See content" %} ›</a>
             </footer>
           </div>
         {%- endfor ~%}

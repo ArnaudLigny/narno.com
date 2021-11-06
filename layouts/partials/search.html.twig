@@ -1,9 +1,9 @@
         <div class="lastposts">
-          <h2>Rechercher</h2>
+          <h2>{% trans "Search" %}</h2>
           <form method="GET" action="https://www.qwant.com" id="form" onsubmit="addSiteSearch()">
             <input type="text" name="q" id="query" size="31" maxlength="255" value="">
             <input type="hidden" name="l" value="fr">
-            <input type="submit" name="btnG" value="Rechercher">
+            <input type="submit" name="btnG" value="{% trans "Search" %}">
           </form>
           <script>{% apply minify_js %}
             function encodeHTML(s) {
