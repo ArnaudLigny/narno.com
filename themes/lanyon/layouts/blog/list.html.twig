@@ -1,7 +1,7 @@
 {% extends 'page.html.twig' %}
 
         {%- block content ~%}
-        <h1>{{ page.title }}</h1>
+        <h1>Le blog</h1>
         <div class="posts">
         {%- if page.pagination is defined ~%}
         {%- for post in page.pagination.pages ~%}
@@ -11,7 +11,7 @@
             <span class="post-date">{{ post.date|localizeddate('long', 'none') }}</span>
             {%- set readtime = readtime(post.content) -%}
             {%- if readtime < 1 %}{% set readtime = "1" %}{% endif ~%}
-            <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} {% trans "min" %}</span>
+            <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
             {%- if post.tags is defined ~%}
             <span class="post-tags"> &middot;
             {%- for tag in post.tags|slice(0, 1) ~%}
@@ -21,7 +21,7 @@
             {% endif %}
             {{~ post.content|excerpt_html ~}}
             <footer class="readmore">
-              <a href="{{ url(post) }}">{% trans "Read the post" %} ›</a>
+              <a href="{{ url(post) }}">Lire le billet ›</a>
             </footer>
             <footer class="tags">
               {%- if post.tags is defined ~%}
@@ -37,14 +37,14 @@
         </div>
         <div class="pagination">
           {%- if page.pagination.links.prev is defined ~%}
-          <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; {% trans "New" %}</a>
+          <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
           {%- else ~%}
-          <span class="pagination-item older">&lsaquo; {% trans "New" %}</span>
+          <span class="pagination-item older">&lsaquo; Nouveau</span>
           {%- endif ~%}
           {%- if page.pagination.links.next is defined ~%}
-          <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">{% trans "Previous" %} &rsaquo;</a>
+          <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
           {%- else ~%}
-          <span class="pagination-item newer">{% trans "Previous" %} &rsaquo;</span>
+          <span class="pagination-item newer">Précédent &rsaquo;</span>
           {%- endif ~%}
         </div>
         {%- endblock content ~%}
