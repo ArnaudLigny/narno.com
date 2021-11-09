@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-11-06 02:40+0100\n"
-"PO-Revision-Date: 2021-11-06 02:40+0100\n"
+"POT-Creation-Date: 2021-11-09 02:28+0100\n"
+"PO-Revision-Date: 2021-11-09 02:29+0100\n"
 "Last-Translator: Arnaud Ligny <arnaud@ligny.org>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -14,6 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SearchPath-0: themes\n"
 "X-Poedit-SearchPath-1: layouts\n"
+
+#: layouts/page.html.twig:31
+msgid "Subscribe to RSS feed"
+msgstr "S'abonner au flux RSS"
+
+#: layouts/page.html.twig:34
+msgid "Send me an email"
+msgstr "M'envoyer un e-mail"
+
+#: layouts/page.html.twig:39 layouts/page.html.twig:44
+#: layouts/page.html.twig:49
+msgid "Follow me on"
+msgstr "Me suivre sur"
 
 #: layouts/partials/search.html.twig:2 layouts/partials/search.html.twig:6
 msgid "Search"
@@ -44,7 +57,7 @@ msgid "See content"
 msgstr "Voir le contenu"
 
 #: themes/lanyon/layouts/blog/list.html.twig:14
-#: themes/lanyon/layouts/blog/page.html.twig:10
+#: themes/lanyon/layouts/blog/page.html.twig:9
 #: themes/lanyon/layouts/partials/lastpost.html.twig:13
 msgid "min"
 msgstr "min"
@@ -71,19 +84,6 @@ msgstr "Lire la suite"
 msgid "Last posts"
 msgstr "Derniers billets"
 
-#: themes/lanyon/layouts/partials/sidebar.html.twig:14
-msgid "Subscribe to RSS feed"
-msgstr "S'abonner au flux RSS"
-
-#: themes/lanyon/layouts/partials/sidebar.html.twig:17
-msgid "Send me an email"
-msgstr "M'envoyer un e-mail"
-
-#: themes/lanyon/layouts/partials/sidebar.html.twig:22
-#: themes/lanyon/layouts/partials/sidebar.html.twig:27
-msgid "Follow me on"
-msgstr "Me suivre sur"
-
-#: themes/lanyon/layouts/partials/sidebar.html.twig:35
+#: themes/lanyon/layouts/partials/sidebar.html.twig:11
 msgid "Powered by"
 msgstr "Propulsé par"
