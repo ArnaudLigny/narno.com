@@ -1,7 +1,7 @@
 {
   "name": "Narno.com",
   "short_name": "Narno.com",
-  "description": "Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.",
+  "description": "Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.",
   "display": "standalone",
   "start_url": "/",
   "orientation": "portrait",

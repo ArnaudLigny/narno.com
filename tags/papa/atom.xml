@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://narno.com/tags/papa/</id>
   <title>Narno.com - Papa</title>
-  <subtitle><![CDATA[Narno.com est un weblog où je parle de développement web, de vélo et de jeu vidéo.]]></subtitle>
+  <subtitle><![CDATA[Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.]]></subtitle>
   <link href="https://narno.com/tags/papa/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://narno.com/tags/papa/" rel="alternate" type="text/html" />
   <updated>2020-01-05T01:00:00+01:00</updated>
@@ -29,7 +29,7 @@
 <li>un worker (ex : <a href="https://www.heroku.com">Heroku</a>) pour dynamiser le tout</li>
 </ul>
 <p>Pour plus de détails sur la mise en œuvre (et l'accès à la documentation) je vous invite à consulter la page GitHub du projet : <a href="https://github.com/Narno/leo-bot">github.com/Narno/leo-bot</a>.</p>
-<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" width="" loading="lazy" /></a></p>
 <blockquote>
 <p>Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.</p>
 </blockquote>]]>
