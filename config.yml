@@ -71,3 +71,9 @@ static:
 metatags:
   jsonld:
     enabled: true
+content:
+  images:
+    resize:
+      enabled: true
+    responsive:
+      enabled: true

@@ -12,7 +12,7 @@ typora-root-url: ../../static
 ---
 Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique [Bullitt](/tags/bullitt) Bluebird de [Larry vs Harry](https://www.larryvsharry.com/) !
 
-![Vélo cargo Bullitt vu de profil](/images/bullitt-carton/IMG_20190413_112340.jpg?resize=800&responsive "Vélo cargo Bullitt vu de profil")
+![Vélo cargo Bullitt vu de profil](/images/bullitt-carton/IMG_20190413_112340.jpg "Vélo cargo Bullitt vu de profil"){width="800"}
 
 <!-- break -->
 
@@ -24,7 +24,7 @@ Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.
 
 ### Le carton
 
-![Carton de livraison d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_133507.jpg?resize=800&responsive)
+![Carton de livraison d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_133507.jpg){width="800"}
 
 Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté "cadeau de Noël avant l'heure" ! 🎅
 
@@ -32,15 +32,15 @@ Le carton en lui même, arrivé sur une palette, livré par transporteur, est su
 
 Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html)), voici comment se présente l'agencement du cadre, des différentes pièces et autres accessoires  :
 
-![Contenu du carton d’un vélo cargo Bullitt : vue de dessus](/images/bullitt-carton/IMG_20190412_134655.jpg?resize=800&responsive)
-![Vu d’ensemble des cartons de pièces](/images/bullitt-carton/IMG_20190412_134904.jpg?resize=355)
-![Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre](/images/bullitt-carton/IMG_20190412_135020.jpg?resize=355&responsive)
+![Contenu du carton d’un vélo cargo Bullitt : vue de dessus](/images/bullitt-carton/IMG_20190412_134655.jpg){width="800"}
+![Vu d’ensemble des cartons de pièces](/images/bullitt-carton/IMG_20190412_134904.jpg){width="355"}
+![Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre](/images/bullitt-carton/IMG_20190412_135020.jpg){width="355"}
 
 ### Le cadre
 
 Vous noterez que, mis à part la béquille qui est déjà fixée, le cadre est entièrement nu :
 
-![Cadre d’un vélo cargo Bullitt nu (encore sous protections)](/images/bullitt-carton/IMG_20190412_135317.jpg?resize=800&responsive)
+![Cadre d’un vélo cargo Bullitt nu (encore sous protections)](/images/bullitt-carton/IMG_20190412_135317.jpg){width="800"}
 
 Il est très bien protégé, sauf le triangle arrière : pas de mousse de protection et en contact direct avec la paroi du carton.
 
@@ -48,7 +48,7 @@ En effet, comme on le voit sur la dernière photo de la section précédente, le
 
 ### Les roues
 
-![Les 2 roues d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_140224.jpg?resize=400&responsive)
+![Les 2 roues d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_140224.jpg){width="400"}
 
 Le pneu (et la chambre à air donc) est déjà monté sur chaque roue : il ne reste plus qu’à gonfler !
 
@@ -56,7 +56,7 @@ Notez que les gardes-boue sont également pré-assemblés, et que la visserie es
 
 ### Les supports de fixation
 
-![Pièces de fixation de la roue arrière d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_135353.jpg?resize=800&responsive)
+![Pièces de fixation de la roue arrière d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_135353.jpg){width="800"}
 
 Au delà de l’écusson qui en jette pas mal, ce qui est important ici c’est le principe de ces 2 pièces permettant la fixation de la roue arrière : fixées sur le triangle, changeables selon la transmission.
 
@@ -64,11 +64,11 @@ Par exemple dans mon cas j’ai opté pour un [Nexus 7](https://si.shimano.com/p
 
 ### Pédalier, boîtier et manivelles
 
-![Pédalier, boîtier et manivelles](/images/bullitt-carton/IMG_20190412_135929.jpg?resize=800&responsive)
+![Pédalier, boîtier et manivelles](/images/bullitt-carton/IMG_20190412_135929.jpg){width="800"}
 
 ### Guidon, potence et câblage
 
-![Guidon, potence et câblage](/images/bullitt-carton/IMG_20190412_135745.jpg?resize=800&responsive)
+![Guidon, potence et câblage](/images/bullitt-carton/IMG_20190412_135745.jpg){width="800"}
 
 Alors là, c’est vraiment du caviar pour le montage :
 
@@ -77,7 +77,7 @@ Alors là, c’est vraiment du caviar pour le montage :
 
 ### Direction et roulements
 
-![Direction et roulements](/images/bullitt-carton/IMG_20190412_140408.jpg?resize=800&responsive)
+![Direction et roulements](/images/bullitt-carton/IMG_20190412_140408.jpg){width="800"}
 
 Entretoises, roulements et le fameux [Easyup Stemlifter](http://shop.larryvsharry.com/shop/handlebar-stems-grips/easyup-stemlifter.html).
 
@@ -85,7 +85,7 @@ Pour être complète cette photo aurait du contenir le tube (d’environ 70 cm d
 
 ### Éclairages
 
-![Éclairages](/images/bullitt-carton/IMG_20190412_135408.jpg?resize=400&responsive)
+![Éclairages](/images/bullitt-carton/IMG_20190412_135408.jpg){width="355"}
 
 Si vous avez pris l’option (et vous devriez) : éclairage par dynamo (dans la roue avant) [Busch & Müller Lumotec IQ Avy Plus N](https://www.bumm.de/en/products/dynamo-scheinwerfer/produkt/162rtsndi.html) et [Secula](https://www.bumm.de/en/products/dynamo-rucklichter/produkt/331-2ask.html?).
 
