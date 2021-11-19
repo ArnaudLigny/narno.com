@@ -19,7 +19,7 @@ published: true
 
 ## Bullitt Bluebird ## {#bullitt-bluebird}
 
-![Bullitt Bluebird](/images/bullitt-bluebird.jpg?resize=800&responsive)
+![Bullitt Bluebird](/images/bullitt-bluebird.jpg){width=800}
 
 _([Site officiel](http://www.larryvsharry.com/technical-info/))_
 
@@ -27,7 +27,7 @@ _([Site officiel](http://www.larryvsharry.com/technical-info/))_
 
 ## Kalkhoff Voyager DLX 27-G ## {#kalkhoff-voyager}
 
-![Kalkhoff Voyager DLX 27-G](/images/kh15_voyager_dlx.png?resize=800&responsive)
+![Kalkhoff Voyager DLX 27-G](/images/kh15_voyager_dlx.png){width=800}
 
 | Composant | Description |
 | --------- | ----------- |
