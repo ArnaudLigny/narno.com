@@ -57,11 +57,11 @@ Maintenant que nous savons de quoi nous disposons, voyons maintenant le matérie
 
 Etant donné que nous allons ouvrir la caisse et démonter quelques éléments, je vous conseil d'en profité pour enlever la poussière de votre machine. C'est pour cela que je vais ajouter une bombe d'air à la liste des outils nécessaire.
 
-![Vrille](/images/soltek-eq3401-sp94-guide-montage/tir.jpeg?resize=200)
-![Pince à bec](/images/soltek-eq3401-sp94-guide-montage/pince.jpeg?resize=200)
-![Couteau](/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg?resize=200)
-![Tournevis cruciforme](/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg?resize=200)
-![Bombe d'air](/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg?resize=200)
+![Vrille](/images/soltek-eq3401-sp94-guide-montage/tir.jpeg){width=200}
+![Pince à bec](/images/soltek-eq3401-sp94-guide-montage/pince.jpeg){width=200}
+![Couteau](/images/soltek-eq3401-sp94-guide-montage/couteau.jpeg){width=200}
+![Tournevis cruciforme](/images/soltek-eq3401-sp94-guide-montage/cruciforme.jpeg){width=200}
+![Bombe d'air](/images/soltek-eq3401-sp94-guide-montage/bombe_air.jpeg){width=200}
 
 - une bombe d'air : très efficace pour dépoussièrer un ordinateur
 - un tournevis cruciforme de taille moyenne
@@ -167,7 +167,7 @@ Nous allons maintenant passé à la dernière étape avant l'installation à pro
 La préparation du processeur consiste en l'application d'une pâte thermique. Celle-ci à pour but de d'optimiser l'échange thermique entre la survace du propocesseur et le radiateur qui lui va dissiper la chaleur produite. Elle doit donc être appliquée avec soin : sur toute la surface du processeur et en une fine couche homogène. Evitez la surépaisseur : cette pâte ne doit pas se transformée en isolant !
 
 ![Processeur 5](/images/soltek-eq3401-sp94-guide-montage/proc_5.jpeg)
-![Artic Silver V](/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg?resize=300)
+![Artic Silver V](/images/soltek-eq3401-sp94-guide-montage/artic_silver_5.jpeg){width=300}
 
 *Note : la photo n'a pas un rendu terrible, ce n'est pas une version finale... ça fait un peu maçonnerie ! Appuyez-vous d'avantage sur les explications ci-dessus ;-)*
 
