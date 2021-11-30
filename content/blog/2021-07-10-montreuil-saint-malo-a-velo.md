@@ -6,6 +6,7 @@ tags:
 - Vacances
 image: https://pbs.twimg.com/media/E565M9EWYAES_GA?format=jpg&name=small
 typora-root-url: ../../static
+published: false
 ---
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="light"><p lang="fr" dir="ltr">Au fait, jeudi on est parti en vacances à vélo.<br>Chargés comme des mules, mais décidés ! 😊 <a href="https://twitter.com/hashtag/Vacances%C3%80V%C3%A9lo?src=hash&amp;ref_src=twsrc%5Etfw">#VacancesÀVélo</a> <a href="https://twitter.com/hashtag/MontreuilSaintMalo%C3%80V%C3%A9lo?src=hash&amp;ref_src=twsrc%5Etfw">#MontreuilSaintMaloÀVélo</a> <a href="https://t.co/aBrOYNdglY">pic.twitter.com/aBrOYNdglY</a></p>&mdash; Narno (Arnaud) 🚲 🕹️ 👨‍💻 🍻 (@Narno) <a href="https://twitter.com/Narno/status/1413770974651109376?ref_src=twsrc%5Etfw">July 10, 2021</a></blockquote>
 <!-- break -->
