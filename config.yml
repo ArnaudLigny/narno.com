@@ -80,7 +80,7 @@ body:
     responsive:
       enabled: true
     webp:
-      enabled: true
+      enabled: false
 assets:
   images:
     optimize:
