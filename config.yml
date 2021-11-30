@@ -73,7 +73,15 @@ metatags:
     enabled: true
 body:
   images:
+    caption:
+      enabled: true
     resize:
+      enabled: true
+    responsive:
+      enabled: true
+assets:
+  images:
+    optimize:
       enabled: true
     responsive:
       enabled: true
