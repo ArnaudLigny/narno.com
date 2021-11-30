@@ -14,7 +14,7 @@
     <id>https://narno.com/blog/leo-est-ne/</id>
     <title>Léo est né !</title>
     <content type="html">
-      <![CDATA[<p><img src="/images/photos/leo.8783ea0918dec6f9f24b77157006680d.jpg" alt="Léo est né !" loading="lazy" width="600" height="760" srcset="/assets/thumbnails/320/images/photos/leo.jpg 320w, /images/photos/leo.8783ea0918dec6f9f24b77157006680d.jpg 600w" sizes="100vw" /></p>
+      <![CDATA[<img src="/images/photos/leo.8783ea0918dec6f9f24b77157006680d.jpg" alt="Léo est né !" loading="lazy" width="600" height="760" srcset="/assets/thumbnails/320/images/photos/leo.8783ea0918dec6f9f24b77157006680d.jpg 320w, /images/photos/leo.8783ea0918dec6f9f24b77157006680d.jpg 600w" sizes="100vw" />
 <p>Léo est né le 8 octobre. Nous nous portons très bien tous les 3 ! :-)</p>]]>
     </content>
     <link href="https://narno.com/blog/leo-est-ne/" rel="alternate" type="text/html" />

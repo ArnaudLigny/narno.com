@@ -20,7 +20,7 @@
 <p>Depuis quelques années j'utilise <a href="https://slack.com/intl/fr-fr/">Slack</a> dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.</p>
 <p>Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.</p>
 <figure>
-<img src="/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" loading="lazy" width="513" height="111" srcset="/assets/thumbnails/320/images/leo-bot-demo.png 320w, /images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 513w" sizes="100vw" />
+<img src="/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" loading="lazy" width="513" height="111" srcset="/assets/thumbnails/320/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 320w, /images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 513w" sizes="100vw" />
 <figcaption>Capture d'écran d'une notification Slack</figcaption>
 </figure>
 <p>J'ai donc entrepris de réaliser un bot très simple, à l'aide de <a href="https://github.com/howdyai/botkit">Botkit</a>, qui me hélerait au moment du départ.</p>

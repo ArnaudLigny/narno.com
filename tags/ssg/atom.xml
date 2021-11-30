@@ -16,7 +16,7 @@
     <content type="html">
       <![CDATA[<p>Dans mon billet intitulé <a href="/blog/reboot-du-blog"><em>Reboot du blog ?</em></a> j'indiquais que <em>Narno.com</em> était maintenant un site statique : mais « statique », ça veut dire quoi ?</p>
 <figure>
-<img src="/images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png" alt="SSG host flow" title="SSG host flow" loading="lazy" width="1024" height="732" srcset="/assets/thumbnails/320/images/ssg-host-flow.png 320w, /assets/thumbnails/640/images/ssg-host-flow.png 640w, /assets/thumbnails/960/images/ssg-host-flow.png 960w, /images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png 1024w" sizes="100vw" />
+<img src="/images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png" alt="SSG host flow" title="SSG host flow" loading="lazy" width="1024" height="732" srcset="/assets/thumbnails/320/images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png 320w, /assets/thumbnails/640/images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png 640w, /assets/thumbnails/960/images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png 960w, /images/ssg-host-flow.241e588266a4bcc8e57b685c00bc2f7e.png 1024w" sizes="100vw" />
 <figcaption>SSG host flow</figcaption>
 </figure>
 <!-- break -->
@@ -58,7 +58,7 @@
 <p>Ça faisait plusieurs mois (années ?!) que je me posais la question de quoi faire de mon vieux blog ? Il n'a d'ailleurs de blog que le nom puisqu'en réalité, je n'ai jamais vraiment beaucoup écrit dessus : Il m'a surtout servi de terrain d'expérimentation pour le développement Web.</p>
 <p>Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !</p>
 <figure>
-<img src="/images/new-plan-static-site-first.b86de058048bac71e99d9e2174d605e3.jpg" alt="New plan: static site first" title="New plan: static site first" loading="lazy" width="500" height="500" srcset="/assets/thumbnails/320/images/new-plan-static-site-first.jpg 320w, /images/new-plan-static-site-first.b86de058048bac71e99d9e2174d605e3.jpg 500w" sizes="100vw" />
+<img src="/images/new-plan-static-site-first.b86de058048bac71e99d9e2174d605e3.jpg" alt="New plan: static site first" title="New plan: static site first" loading="lazy" width="500" height="500" srcset="/assets/thumbnails/320/images/new-plan-static-site-first.b86de058048bac71e99d9e2174d605e3.jpg 320w, /images/new-plan-static-site-first.b86de058048bac71e99d9e2174d605e3.jpg 500w" sizes="100vw" />
 <figcaption>New plan: static site first</figcaption>
 </figure>
 <!-- excerpt -->
