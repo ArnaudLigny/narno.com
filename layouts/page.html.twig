@@ -2,6 +2,15 @@
 
     {%- block head -%}
     {{ parent() }}
+    {#- fix CSS -#}
+    <style>{% apply minify_css %}
+      img {
+        height: auto;
+      }
+      figure {
+        margin: 0;
+      }
+    {% endapply %}</style>
     {#- social -#}
     {%- if site.social is defined ~%}
     {%- set social_url = {
