@@ -81,4 +81,16 @@ twitterwidget {
 
 img {
   display: unset;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  text-align: center;
 }
