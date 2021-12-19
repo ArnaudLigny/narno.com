@@ -1,6 +1,6 @@
 # narno.com
 
-> Source of my personal website [narno.com](https://narno.com).
+Source of my personal website [narno.com](https://narno.com).
 
 The website is automatically built by [Cecil](https://cecil.app) + [LambCI](https://github.com/lambci/lambci) when content is updated.
 
