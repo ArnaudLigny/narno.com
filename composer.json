@@ -1,6 +1,11 @@
 {
   "require": {
     "cecil/theme-hyde": "^1.18",
-    "cecil/theme-serviceworker": "^1.9"
+    "cecil/theme-serviceworker": "^1.10"
+  },
+  "config": {
+    "allow-plugins": {
+      "cecil/theme-installer": true
+    }
   }
 }
