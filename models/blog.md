@@ -1,8 +1,10 @@
 ---
-title: '%title%'
+title: "%title%"
+description: ""
 date: %date%
-tags: 
+tags: []
 image: /images/
-published: false
-typora-root-url: ../../static
+typora-root-url: ../../assets
+typora-copy-images-to: ../../assets/images/${filename}
+draft: true
 ---
