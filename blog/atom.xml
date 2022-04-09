@@ -90,7 +90,7 @@
 <li>un worker (ex : <a href="https://www.heroku.com">Heroku</a>) pour dynamiser le tout</li>
 </ul>
 <p>Pour plus de détails sur la mise en œuvre (et l'accès à la documentation) je vous invite à consulter la page GitHub du projet : <a href="https://github.com/Narno/leo-bot">github.com/Narno/leo-bot</a>.</p>
-<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" loading="lazy" /></a></p>
 <blockquote>
 <p>Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.</p>
 </blockquote>]]>
