@@ -58,7 +58,10 @@ manifest:
   background_color: "#ffffff"
   theme_color: "#202020"
 serviceworker:
-  enabled: false
+  enabled: true
+  precache:
+    - icon-192x192.png
+    - icon-512x512.png
 disqus:
   enabled: false
   username: Narno
