@@ -1,7 +1,7 @@
 {
   "require": {
-    "cecil/theme-hyde": "^1.18",
-    "cecil/theme-serviceworker": "^1.10"
+    "cecil/theme-hyde": "^1.19",
+    "cecil/theme-serviceworker": "^1.12"
   },
   "config": {
     "allow-plugins": {

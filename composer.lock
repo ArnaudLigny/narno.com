@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e211b0aba030c75b3e39be36e245f16f",
+    "content-hash": "fb329d70ba706a0c4dccea6761424c8a",
     "packages": [
         {
             "name": "cecil/theme-hyde",
-            "version": "1.18.2",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-hyde.git",
-                "reference": "840996ce794ef8d96ae787c9de671532dc6db1fe"
+                "reference": "039ddbff1a2968c03bd57758a72c3564ae9d6a59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/840996ce794ef8d96ae787c9de671532dc6db1fe",
-                "reference": "840996ce794ef8d96ae787c9de671532dc6db1fe",
+                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/039ddbff1a2968c03bd57758a72c3564ae9d6a59",
+                "reference": "039ddbff1a2968c03bd57758a72c3564ae9d6a59",
                 "shasum": ""
             },
             "require": {
@@ -42,28 +42,36 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-hyde/issues",
-                "source": "https://github.com/Cecilapp/theme-hyde/tree/1.18.2"
+                "source": "https://github.com/Cecilapp/theme-hyde/tree/1.19.0"
             },
             "funding": [
                 {
                     "url": "https://www.paypal.me/narno",
                     "type": "custom"
+                },
+                {
+                    "url": "https://github.com/ArnaudLigny",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/cecil",
+                    "type": "open_collective"
                 }
             ],
-            "time": "2020-11-10T00:50:23+00:00"
+            "time": "2022-02-06T23:13:18+00:00"
         },
         {
             "name": "cecil/theme-installer",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-installer.git",
-                "reference": "4c6fa8b98b4d8d62bf7a39de4c56956e6568d382"
+                "reference": "12b1d72ff38e1199eaca34877a64008b6a65e393"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/4c6fa8b98b4d8d62bf7a39de4c56956e6568d382",
-                "reference": "4c6fa8b98b4d8d62bf7a39de4c56956e6568d382",
+                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/12b1d72ff38e1199eaca34877a64008b6a65e393",
+                "reference": "12b1d72ff38e1199eaca34877a64008b6a65e393",
                 "shasum": ""
             },
             "require": {
@@ -91,7 +99,7 @@
             "authors": [
                 {
                     "name": "Arnaud Ligny",
-                    "email": "arnaud@ligny.org",
+                    "email": "arnaud@ligny.fr",
                     "homepage": "https://arnaudligny.fr",
                     "role": "Developer"
                 }
@@ -104,7 +112,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-installer/issues",
-                "source": "https://github.com/Cecilapp/theme-installer/tree/1.4.4"
+                "source": "https://github.com/Cecilapp/theme-installer/tree/1.4.5"
             },
             "funding": [
                 {
@@ -112,7 +120,7 @@
                     "type": "custom"
                 },
                 {
-                    "url": "https://github.com/Narno",
+                    "url": "https://github.com/ArnaudLigny",
                     "type": "github"
                 },
                 {
@@ -120,20 +128,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-10-05T21:47:38+00:00"
+            "time": "2022-01-06T10:54:26+00:00"
         },
         {
             "name": "cecil/theme-serviceworker",
-            "version": "1.10.1",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-serviceworker.git",
-                "reference": "999d79578d34d381e0c5edff524339dd405ef6e5"
+                "reference": "74d955ad150a0260388f51eca8994922c60fadcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/999d79578d34d381e0c5edff524339dd405ef6e5",
-                "reference": "999d79578d34d381e0c5edff524339dd405ef6e5",
+                "url": "https://api.github.com/repos/Cecilapp/theme-serviceworker/zipball/74d955ad150a0260388f51eca8994922c60fadcb",
+                "reference": "74d955ad150a0260388f51eca8994922c60fadcb",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +166,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-serviceworker/issues",
-                "source": "https://github.com/Cecilapp/theme-serviceworker/tree/1.10.1"
+                "source": "https://github.com/Cecilapp/theme-serviceworker/tree/1.12.0"
             },
             "funding": [
                 {
@@ -166,7 +174,7 @@
                     "type": "custom"
                 },
                 {
-                    "url": "https://github.com/Narno",
+                    "url": "https://github.com/ArnaudLigny",
                     "type": "github"
                 },
                 {
@@ -174,7 +182,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-12-08T00:19:54+00:00"
+            "time": "2022-04-10T01:54:31+00:00"
         }
     ],
     "packages-dev": [],
@@ -185,5 +193,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
