@@ -17,5 +17,10 @@
     "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
     "sizes": "512x512",
     "type": "image/png"
-  }]
+  }],
+  "serviceworker": {
+    "src": "serviceworker.js",
+    "scope": "/",
+    "use_cache": false
+  }
 }
