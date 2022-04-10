@@ -36,8 +36,8 @@ theme:
 image: /icon-512x512.png
 menus:
   main:
-    - name: 'Forum'
-      id: forum
+    - id: forum
+      name: 'Forum'
       url: https://lesforums.org
       weight: 1000
     - id: galeries
@@ -59,15 +59,13 @@ manifest:
   theme_color: "#202020"
 serviceworker:
   enabled: false
-  precache:
-    - icon.png
 disqus:
   enabled: false
   username: Narno
 webmention: false
 editor: typora
 static:
-  exclude: ['*.css']
+  exclude: ['_backup']
 metatags:
   jsonld:
     enabled: true
