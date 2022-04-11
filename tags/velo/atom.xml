@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://narno.com/tags/velo/</id>
-  <title>Narno.com - #Vélo 🚲</title>
+  <title>Narno.com - Vélo 🚲</title>
   <subtitle><![CDATA[Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.]]></subtitle>
   <link href="https://narno.com/tags/velo/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://narno.com/tags/velo/" rel="alternate" type="text/html" />

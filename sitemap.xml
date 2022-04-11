@@ -8,6 +8,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://narno.com/</loc>
+    <lastmod>2020-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://narno.com/blog/velo-cargo-bullitt-partage-experience/</loc>
     <lastmod>2020-08-28</lastmod>
     <changefreq>monthly</changefreq>

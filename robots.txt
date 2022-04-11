@@ -19,9 +19,9 @@ Disallow: /blog/soltek-qbic-eqle-kit-de-survie/
 Disallow: /blog/drupal-7-avis-et-retour-dexperience-0/
 Disallow: /blog/magento-ajouter-une-colonne-dans-une-grille-du-back-office/
 Disallow: /configpc/
+Disallow: /page/1/
 Disallow: /mon-velo/
 Disallow: /velo/
-Disallow: /page/1/
 Disallow: /blog/page/1/
 Disallow: /tags/developpement/page/1/
 Disallow: /tags/drupal/page/1/

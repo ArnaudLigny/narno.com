@@ -25,8 +25,8 @@
   },
   "shortcuts": [
     {
-      "name": "Home",
-      "short_name": "Home",
+      "name": "Accueil",
+      "short_name": "Accueil",
       "url": "/",
       "icons": [{
     "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
@@ -53,8 +53,8 @@
   }]
     },
     {
-      "name": "#Vélo 🚲",
-      "short_name": "#Vélo 🚲",
+      "name": "Vélo 🚲",
+      "short_name": "Vélo 🚲",
       "url": "/tags/velo/",
       "icons": [{
     "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
