@@ -22,5 +22,105 @@
     "src": "serviceworker.js",
     "scope": "/",
     "use_cache": false
-  }
+  },
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "url": "/",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "url": "/blog/",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    },
+    {
+      "name": "#Vélo 🚲",
+      "short_name": "#Vélo 🚲",
+      "url": "/tags/velo/",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    },
+    {
+      "name": "Mon PC",
+      "short_name": "Mon PC",
+      "url": "/config-pc/",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    },
+    {
+      "name": "Mes vélos",
+      "short_name": "Mes vélos",
+      "url": "/mes-velos/",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    },
+    {
+      "name": "À propos",
+      "short_name": "À propos",
+      "url": "/a-propos/",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    },
+    {
+      "name": "Forum",
+      "short_name": "Forum",
+      "url": "https://lesforums.org",
+      "icons": [{
+    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+    }
+  ]
 }
