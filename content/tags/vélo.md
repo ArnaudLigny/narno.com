@@ -1,5 +1,5 @@
 ---
-title: "#Vélo \U0001F6B2"
+title: "Vélo \U0001F6B2"
 description: Billets sur le thème du déplacement à vélo.
 date: 2021-05-17
 menu:
