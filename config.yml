@@ -51,12 +51,9 @@ virtualpages:
   - path: code
     redirect: https://github.com/Narno
 manifest:
-  lang: fr-FR
-  start_url: /
-  display: standalone
-  orientation: portrait
   background_color: "#ffffff"
   theme_color: "#202020"
+  shortcuts: true
 serviceworker:
   enabled: true
   precache:
