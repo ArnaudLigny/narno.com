@@ -107,20 +107,6 @@
     "sizes": "512x512",
     "type": "image/png"
   }]
-    },
-    {
-      "name": "Forum",
-      "short_name": "Forum",
-      "url": "https://lesforums.org",
-      "icons": [{
-    "src": "/icon-192x192.a094db90bd77896c28730cde2df312b4.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  },{
-    "src": "/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }]
     }
   ]
 }
