@@ -2,6 +2,7 @@
 title: "Mon PC"
 description: "La configuration matérielle de mon PC de jeu."
 date: 2019-03-20
+updated: 2022-06-11
 menu:
   main:
     weight: 120
