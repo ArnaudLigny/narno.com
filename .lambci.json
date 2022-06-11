@@ -2,13 +2,13 @@
   "cmd": "chmod +x ./scripts/build-and-deploy.sh && ./scripts/build-and-deploy.sh",
   "branches": {
     "master": {
-      "build": true,
+      "build": false,
       "env": {
         "CECIL_ENV": "production"
       }
     },
     "preview": {
-      "build": true,
+      "build": false,
       "env": {
         "CECIL_ENV": "preview",
         "CECIL_TITLE": "Narno.com (preview)",
