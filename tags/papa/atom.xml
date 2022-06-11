@@ -20,7 +20,7 @@
 <p>Depuis quelques années j'utilise <a href="https://slack.com/intl/fr-fr/">Slack</a> dans mon travail, recevant des notifications (plus ou moins pertinentes) tout au long de la journée.</p>
 <p>Aussi, j'ai pensé que ce serait l'outil idéal pour me rappeler l'heure à laquelle quitter mon bureau pour arriver à l'heure à l'école de mon fils.</p>
 <figure>
-<img src="/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" loading="lazy" width="513" height="111" srcset="/assets/thumbnails/320/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 320w, /images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 513w" sizes="100vw" />
+<img src="/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png" alt="Capture d&#039;écran d&#039;une notification Slack" title="Capture d&#039;écran d&#039;une notification Slack" loading="lazy" width="513" height="111" srcset="/assets/thumbnails/480/images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 480w, /images/leo-bot-demo.80eb5f9b653e1a0aa0c942c3e75358ff.png 513w" sizes="100vw" />
 <figcaption>Capture d'écran d'une notification Slack</figcaption>
 </figure>
 <p>J'ai donc entrepris de réaliser un bot très simple, à l'aide de <a href="https://github.com/howdyai/botkit">Botkit</a>, qui me hélerait au moment du départ.</p>
@@ -32,7 +32,7 @@
 <li>un worker (ex : <a href="https://www.heroku.com">Heroku</a>) pour dynamiser le tout</li>
 </ul>
 <p>Pour plus de détails sur la mise en œuvre (et l'accès à la documentation) je vous invite à consulter la page GitHub du projet : <a href="https://github.com/Narno/leo-bot">github.com/Narno/leo-bot</a>.</p>
-<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" loading="lazy" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Narno/leo-bot"><img src="/assets/www.herokucdn.com/deploy/button.cd4b639792aff1dda21074a87526e54f.svg" alt="Deploy" loading="lazy" width="147" height="32" /></a></p>
 <blockquote>
 <p>Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.</p>
 </blockquote>]]>

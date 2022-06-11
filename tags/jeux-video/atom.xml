@@ -18,7 +18,7 @@
 <p>Réalisé par Dean &quot;Rocket&quot; Hall, DayZ est encore en béta et son installation n'est pas très évidente : De nombreux joueurs n'ont pas réussi à la première tentative et d'autres ont abandonnés.</p>
 <p>Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai créé un installeur qui se charge de télécharger les fichiers (dans la bonne version), de les installer où il faut et de créer un raccourci de lancement rapide du jeu sur le bureau.</p>
 <p>Pour le télécharger rendez-vous sur le mini-site dédié : <a href="https://narno.dev/DayZ-Installer/"><em>DayZ-Installer</em></a>.</p>
-<img src="/images/DayZ-Mod-Installer-0.0.1.5.58b5a34666c9b441b4c2ca9384582eab.png" alt="Capture d&#039;écran" loading="lazy" width="513" height="399" srcset="/assets/thumbnails/320/images/DayZ-Mod-Installer-0.0.1.5.58b5a34666c9b441b4c2ca9384582eab.png 320w, /images/DayZ-Mod-Installer-0.0.1.5.58b5a34666c9b441b4c2ca9384582eab.png 513w" sizes="100vw" />
+<img src="/images/DayZ-Mod-Installer-0.0.1.5.58b5a34666c9b441b4c2ca9384582eab.png" alt="Capture d&#039;écran" loading="lazy" width="513" height="399" srcset="/assets/thumbnails/480/images/DayZ-Mod-Installer-0.0.1.5.58b5a34666c9b441b4c2ca9384582eab.png 480w, /images/DayZ-Mod-Installer-0.0.1.5.58b5a34666c9b441b4c2ca9384582eab.png 513w" sizes="100vw" />
 <blockquote>
 <p><strong>Mise à jour (septembre 2012)</strong><br />
 Depuis la version 1.7.2.x, l'installeur ne fonctionne plus car les fichiers du mod ont été packagés dans une archive unique.<br />
@@ -48,7 +48,7 @@ Pour l'installer, il vous suffit de télécharger le <a href="/files/nds-r4-drup
     <title>Left 4 Dead : précommande</title>
     <content type="html">
       <![CDATA[<p>Je viens de précommander <a href="http://store.steampowered.com/app/500/">Left 4 Dead</a> sur Steam afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).</p>
-<img src="/images/left4dead.97dcf004f5848328f47ec6a882d9be4b.jpg" alt="Left 4 Dead" loading="lazy" width="480" height="196" srcset="/assets/thumbnails/320/images/left4dead.97dcf004f5848328f47ec6a882d9be4b.jpg 320w, /images/left4dead.97dcf004f5848328f47ec6a882d9be4b.jpg 480w" sizes="100vw" />
+<img src="/images/left4dead.97dcf004f5848328f47ec6a882d9be4b.jpg" alt="Left 4 Dead" loading="lazy" width="480" height="196" srcset="/images/left4dead.97dcf004f5848328f47ec6a882d9be4b.jpg 480w, /images/left4dead.97dcf004f5848328f47ec6a882d9be4b.jpg 480w" sizes="100vw" />
 <p>Bon, pour le moment c'est pas gagner : le téléchargement est terriblement lent (doit y avoir des amateurs !) et je n'ai pas pu le lancer avant de rentrer du boulot. Bref, pour patienter, j'écris ce petit billet.</p>
 <p>Un peu de feedback à prévoir quand j'aurai testé la bête, ça va saigner ! 😁</p>
 <p>Pour en savoir plus rendez-vous sur la <a href="http://store.steampowered.com/app/500/">fiche Steam de Left 4 Dead</a>.</p>]]>
