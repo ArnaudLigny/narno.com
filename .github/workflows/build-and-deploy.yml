@@ -20,3 +20,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         email: arnaud@ligny.org
+        cname: narno.com
