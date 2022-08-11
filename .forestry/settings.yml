@@ -10,7 +10,7 @@ sections:
 - type: heading
   label: Blog
 - type: directory
-  path: content/blog
+  path: pages/blog
   label: Posts
   create: documents
   match: "**/*"
@@ -18,7 +18,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: content/tags
+  path: pages/tags
   label: Tags
   create: documents
   match: "**/*"
@@ -29,18 +29,18 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: content/config-pc.md
+  path: pages/config-pc.md
   label: Config PC
 - type: document
-  path: content/mes-velos.md
+  path: pages/mes-velos.md
   label: Mes vélos
 - type: document
-  path: content/a-propos.md
+  path: pages/a-propos.md
   label: À propos
 - type: heading
   label: Thermalright SP-94
 - type: document
-  path: content/soltek-eq3401-sp94-guide-montage.md
+  path: pages/soltek-eq3401-sp94-guide-montage.md
   label: Article
 - type: document
   path: data/photos/soltek_eq3401/sp94_guide_montage.yml

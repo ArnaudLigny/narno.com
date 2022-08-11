@@ -24,4 +24,4 @@ fields:
       name: weight
       label: Weight
 pages:
-- content/tags/cycliste-urbain.md
+- pages/tags/cycliste-urbain.md

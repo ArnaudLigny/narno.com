@@ -39,14 +39,14 @@ fields:
   config:
     required: false
     date_format: YYYY-MM-DD
-    time_format: 
+    time_format:
     display_utc: false
 - name: alias
   type: list
   config:
     use_select: false
-    min: 
-    max: 
+    min:
+    max:
     source:
       type: simple
   label: Alias
@@ -58,6 +58,6 @@ fields:
   default: "../static"
   hidden: true
 pages:
-- content/a-propos.md
-- content/config-pc.md
-- content/mes-velos.md
+- pages/a-propos.md
+- pages/config-pc.md
+- pages/mes-velos.md
