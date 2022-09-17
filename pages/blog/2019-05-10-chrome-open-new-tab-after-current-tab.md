@@ -6,8 +6,6 @@ tags:
 image: "/images/Open-New-Tab-After-Current-Tab.jpg"
 published: true
 typora-root-url: "../../static"
-updated: 
-
 ---
 Par défaut, Google Chrome ouvre un nouvel onglet à la fin de la rangée d'onglets : ce n'est pas toujours intuitif.
 
