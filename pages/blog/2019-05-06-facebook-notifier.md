@@ -6,8 +6,6 @@ tags:
 image: "/images/F-Notifier-screenshot-share.png"
 published: true
 typora-root-url: "../../static"
-updated: 
-
 ---
 Je n'utilise quasiment plus Facebook, néanmoins je souhaite savoir ce qui s'y passe ou plutôt : **je souhaite être notifié quand un amis ou un contact m'identifie sur une photo ou m'envoie un message**.
 
