@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
-  <id>https://narno.com/tags/ma-vie/</id>
+  <id>https://narno.com/tags/3615-ma-vie/</id>
   <title>Narno.com - 3615 Ma Vie</title>
   <subtitle><![CDATA[Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.]]></subtitle>
-  <link href="https://narno.com/tags/ma-vie/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://narno.com/tags/ma-vie/" rel="alternate" type="text/html" />
+  <link href="https://narno.com/tags/3615-ma-vie/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://narno.com/tags/3615-ma-vie/" rel="alternate" type="text/html" />
   <updated>2012-10-12T02:00:00+02:00</updated>
   <author>
     <name>Arnaud Ligny</name>
@@ -20,6 +20,6 @@
     </content>
     <link href="https://narno.com/blog/leo-est-ne/" rel="alternate" type="text/html" />
     <published>2012-10-12T02:00:00+02:00</published>
-    <updated>2022-09-18T01:02:55+02:00</updated>
+    <updated>2022-11-16T00:24:02+01:00</updated>
   </entry>
 </feed>

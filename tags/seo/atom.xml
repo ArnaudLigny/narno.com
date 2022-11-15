@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
   <id>https://narno.com/tags/seo/</id>
   <title>Narno.com - SEO</title>
@@ -72,6 +72,6 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     </content>
     <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
     <published>2009-01-31T01:00:00+01:00</published>
-    <updated>2022-09-18T01:02:55+02:00</updated>
+    <updated>2022-11-16T00:24:02+01:00</updated>
   </entry>
 </feed>

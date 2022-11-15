@@ -3,7 +3,7 @@
   "short_name": "Narno.com",
   "description": "Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "https://narno.com/",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#202020",

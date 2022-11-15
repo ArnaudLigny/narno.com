@@ -1,4 +1,4 @@
-var CACHE_VERSION = "1663455792";
+var CACHE_VERSION = "1668554668";
 var CACHE_NAME = 'narno.com';
 var CACHE = CACHE_NAME + '-v' + CACHE_VERSION;
 var PATH_TO_IGNORE = [];
@@ -6,8 +6,11 @@ var PATH_TO_IGNORE = [];
 // Pages to cache
 var urlsToCache = [];
 urlsToCache.push('/');
-urlsToCache.push('/404.html');
 urlsToCache.push('/a-propos/');
+urlsToCache.push('/config-pc/');
+urlsToCache.push('/mes-velos/');
+urlsToCache.push('/404.html');
+urlsToCache.push('/blog/');
 urlsToCache.push('/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/');
 urlsToCache.push('/blog/bot-slack-rappel-enfant/');
 urlsToCache.push('/blog/chrome-open-new-tab-after-current-tab/');
@@ -19,6 +22,12 @@ urlsToCache.push('/blog/left-4-dead-pre-commande/');
 urlsToCache.push('/blog/leo-est-ne/');
 urlsToCache.push('/blog/migration-dun-forum-phpbb2-vers-phpbb3/');
 urlsToCache.push('/blog/narno-com-site-web-statique/');
+urlsToCache.push('/blog/page/2/');
+urlsToCache.push('/blog/page/3/');
+urlsToCache.push('/blog/page/4/');
+urlsToCache.push('/blog/page/5/');
+urlsToCache.push('/blog/page/6/');
+urlsToCache.push('/blog/page/7/');
 urlsToCache.push('/blog/paris-web-2007-jy-suis-passe/');
 urlsToCache.push('/blog/picasa-vers-flickr-importer-vos-photos-simplement/');
 urlsToCache.push('/blog/pourquoi-ne-pas-juste-dire-merci/');
@@ -32,11 +41,44 @@ urlsToCache.push('/blog/velo-cargo-bullitt-ya-quoi-dans-le-carton/');
 urlsToCache.push('/blog/wikio-vote-module-de-vote-pour-drupal/');
 urlsToCache.push('/blog/windows-update-desactiver-le-redemarrage-automatique/');
 urlsToCache.push('/blog/windows-update-je-te-hais/');
-urlsToCache.push('/config-pc/');
+urlsToCache.push('/galeries/');
 urlsToCache.push('/galeries/soltek-eq3401-sp94-guide-montage/');
-urlsToCache.push('/mes-velos/');
+urlsToCache.push('/manifest.webmanifest');
+urlsToCache.push('/page/2/');
+urlsToCache.push('/page/3/');
+urlsToCache.push('/page/4/');
+urlsToCache.push('/page/5/');
+urlsToCache.push('/page/6/');
+urlsToCache.push('/page/7/');
+urlsToCache.push('/page/8/');
+urlsToCache.push('/robots.txt');
+urlsToCache.push('/serviceworker.js');
+urlsToCache.push('/sitemap.xml');
+urlsToCache.push('/tags/');
+urlsToCache.push('/tags/3615-ma-vie/');
+urlsToCache.push('/tags/accessibilite/');
 urlsToCache.push('/tags/bullitt/');
+urlsToCache.push('/tags/cycliste-urbain/');
+urlsToCache.push('/tags/developpement/');
+urlsToCache.push('/tags/developpement/page/2/');
+urlsToCache.push('/tags/developpement/page/3/');
+urlsToCache.push('/tags/drivers/');
+urlsToCache.push('/tags/drupal/');
+urlsToCache.push('/tags/drupal/page/2/');
+urlsToCache.push('/tags/humeur/');
+urlsToCache.push('/tags/jeux-video/');
+urlsToCache.push('/tags/magento/');
+urlsToCache.push('/tags/magento/page/2/');
+urlsToCache.push('/tags/mini-pc/');
+urlsToCache.push('/tags/papa/');
+urlsToCache.push('/tags/photos/');
+urlsToCache.push('/tags/php/');
+urlsToCache.push('/tags/seo/');
+urlsToCache.push('/tags/ssg/');
 urlsToCache.push('/tags/velo/');
+urlsToCache.push('/tags/windows/');
+urlsToCache.push('/xsl/atom.xsl');
+urlsToCache.push('/xsl/rss.xsl');
 // Files to cache
 urlsToCache.push('/icon-192x192.a094db90bd77896c28730cde2df312b4.png');
 urlsToCache.push('/icon-512x512.e549285c8ffa8af5e6254263c98d4397.png');
@@ -96,7 +138,6 @@ self.addEventListener('fetch', function(event) {
       }
     });
   } catch (e) {
-    console.log('[SW] ' + e.message);
     return;
   }
   event.respondWith(
