@@ -2,8 +2,7 @@
 
           {%- block content ~%}
           <h1 class="page-title">{{ page.title }}</h1>
-          {#- <span class="post-date">{{ page.date|date("j M Y") }}</span> ~#}
-          <span class="post-date">{{ page.date|localizeddate('long', 'none') }}</span>
+          <span class="post-date">{{ page.date|format_date('long') }}</span>
           {%- set readtime = readtime(page.content) -%}
           {%- if readtime < 1 %}{% set readtime = "1" %}{% endif ~%}
           <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ readtime }} min</span>
