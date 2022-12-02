@@ -91,7 +91,7 @@
             </svg>
             <a><xsl:attribute name="href"><xsl:value-of select="rss/channel/link[@rel='alternate']/@href" /></xsl:attribute><xsl:value-of select="rss/channel/title" /></a>
           </h1>
-          <p>Pour vous abonner à ce flux, copiez son URL dans votre lecteur de flux. <a href="https://aboutfeeds.com/#1-what-is-a-feed-aka-rss">Qu’est-ce qu’un flux ? (alias RSS)</a></p>
+          <p>Pour vous abonner à ce flux Web, copiez son URL dans votre lecteur de flux.</p>
           <form>
             <label for="feed-url">URL du flux :</label>
             <input id="feed-url" onClick="this.select();">
@@ -114,7 +114,7 @@
           </ol>
         </article>
         <footer>
-          <p>Flux généré par <a href="https://cecil.app/#7.27.6">Cecil v7.27.6</a></p>
+          <p>Flux généré par <a href="https://cecil.app/#7.28.1">Cecil v7.28.1</a></p>
         </footer>
       </body>
     </html>
