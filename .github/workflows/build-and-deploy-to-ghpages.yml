@@ -2,7 +2,7 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [$default-branch]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
