@@ -2,22 +2,22 @@ name: Build and deploy
 on:
   push:
     branches:
-    - master
+      #- master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout source
-      uses: actions/checkout@v2
+      - name: Checkout source
+        uses: actions/checkout@v2
 
-    - name: Build site
-      uses: Cecilapp/Cecil-Action@v3
+      - name: Build site
+        uses: Cecilapp/Cecil-Action@v3
 
-    - name: Deploy site
-      uses: Cecilapp/GitHub-Pages-deploy@v3
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        email: arnaud@ligny.org
-        cname: narno.com
+      - name: Deploy site
+        uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          email: arnaud@ligny.org
+          cname: narno.com
