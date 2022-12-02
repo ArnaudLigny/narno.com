@@ -1,4 +1,4 @@
-var CACHE_VERSION = "1670022571";
+var CACHE_VERSION = "1670022611";
 var CACHE_NAME = 'narno.com';
 var CACHE = CACHE_NAME + '-v' + CACHE_VERSION;
 var PATH_TO_IGNORE = [];

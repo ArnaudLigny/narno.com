@@ -44,7 +44,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     </content>
     <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
     <published>2017-01-08T18:33:00+01:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
@@ -71,7 +71,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     </content>
     <link href="https://narno.com/blog/drupal-7-avis-et-retour-dexperience/" rel="alternate" type="text/html" />
     <published>2010-10-02T02:00:00+02:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/seo-pour-drupal/</id>
@@ -134,7 +134,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     </content>
     <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
     <published>2009-01-31T01:00:00+01:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/</id>
@@ -148,7 +148,7 @@ Pour l'installer, il vous suffit de télécharger le <a href="/files/nds-r4-drup
     </content>
     <link href="https://narno.com/blog/skin-drupal-pour-nintendo-ds-r4/" rel="alternate" type="text/html" />
     <published>2008-11-08T01:00:00+01:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
@@ -162,7 +162,7 @@ Pour l'installer, il vous suffit de télécharger le <a href="/files/nds-r4-drup
     </content>
     <link href="https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/" rel="alternate" type="text/html" />
     <published>2008-01-13T01:00:00+01:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
@@ -175,6 +175,6 @@ Pour l'installer, il vous suffit de télécharger le <a href="/files/nds-r4-drup
     </content>
     <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
     <published>2007-10-31T01:00:00+01:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
 </feed>

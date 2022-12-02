@@ -72,6 +72,6 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     </content>
     <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
     <published>2009-01-31T01:00:00+01:00</published>
-    <updated>2022-12-03T00:09:13+01:00</updated>
+    <updated>2022-12-03T00:09:49+01:00</updated>
   </entry>
 </feed>
