@@ -56,7 +56,7 @@
     </content>
     <link href="https://narno.com/blog/chrome-open-new-tab-after-current-tab/" rel="alternate" type="text/html" />
     <published>2019-05-10T02:00:00+02:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/facebook-notifier/</id>
@@ -73,7 +73,7 @@
     </content>
     <link href="https://narno.com/blog/facebook-notifier/" rel="alternate" type="text/html" />
     <published>2019-05-06T02:00:00+02:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/narno-com-site-web-statique/</id>
@@ -145,7 +145,7 @@ J'ai beaucoup aimé &quot;jouer&quot; avec <a href="/tags/drupal">Drupal</a>, ma
     </content>
     <link href="https://narno.com/blog/reboot-du-blog/" rel="alternate" type="text/html" />
     <published>2017-01-08T18:33:00+01:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/drupal-7-avis-et-retour-dexperience/</id>
@@ -172,7 +172,7 @@ J'espère qu'après avoir lu ces différents billets vous aurez envie d'essayer 
     </content>
     <link href="https://narno.com/blog/drupal-7-avis-et-retour-dexperience/" rel="alternate" type="text/html" />
     <published>2010-10-02T02:00:00+02:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/</id>
@@ -229,7 +229,7 @@ En effet, la plupart des anciennes plateformes à la phpBB étaient déployées 
     </content>
     <link href="https://narno.com/blog/migration-dun-forum-phpbb2-vers-phpbb3/" rel="alternate" type="text/html" />
     <published>2009-03-09T01:00:00+01:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/seo-pour-drupal/</id>
@@ -292,7 +292,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     </content>
     <link href="https://narno.com/blog/seo-pour-drupal/" rel="alternate" type="text/html" />
     <published>2009-01-31T01:00:00+01:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/</id>
@@ -306,7 +306,7 @@ RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]</code></pre>]]>
     </content>
     <link href="https://narno.com/blog/wikio-vote-module-de-vote-pour-drupal/" rel="alternate" type="text/html" />
     <published>2008-01-13T01:00:00+01:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/paris-web-2007-jy-suis-passe/</id>
@@ -330,7 +330,7 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
     </content>
     <link href="https://narno.com/blog/paris-web-2007-jy-suis-passe/" rel="alternate" type="text/html" />
     <published>2007-12-12T01:00:00+01:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
   <entry xml:lang="fr">
     <id>https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/</id>
@@ -343,6 +343,6 @@ Si vous souhaitez en savoir beaucoup plus, je vous invite à lire la série d'ar
     </content>
     <link href="https://narno.com/blog/afficher-votre-profil-ziki-sur-votre-blog-drupal/" rel="alternate" type="text/html" />
     <published>2007-10-31T01:00:00+01:00</published>
-    <updated>2022-12-02T23:52:14+01:00</updated>
+    <updated>2022-12-03T00:09:13+01:00</updated>
   </entry>
 </feed>
