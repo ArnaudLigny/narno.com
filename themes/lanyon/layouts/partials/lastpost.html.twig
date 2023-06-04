@@ -1,5 +1,5 @@
         <div class="posts">
-        {%- for post in site.pages|filter_by('section', 'blog')|sort_by_date|slice(0, 1) ~%}
+        {%- for post in site.pages.showable|filter_by('section', 'blog')|sort_by_date|slice(0, 1) ~%}
           <div class="post">
             <h1 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h1>
             <span class="post-date">{{ post.date|format_date('long') }}</span>
