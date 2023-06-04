@@ -9,7 +9,7 @@
           {%- if page.tags is defined ~%}
           <span class="post-tags"> &middot;
           {%- for tag in page.tags|slice(0, 1) ~%}
-            <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
+            <a href="{{ url('tags/' ~ tag, {language: site.language}) }}">#{{ tag }}</a>&nbsp;
           {%- endfor ~%}
           </span>
           {%- endif ~%}
