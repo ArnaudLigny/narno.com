@@ -1,33 +1,32 @@
 {% extends '_default/page.html.twig' %}
 
 {% block content %}
-
-<video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.filename ~ '.png') }}">
-  <source src="{{ asset('videos/' ~ page.filename ~ '.mp4') }}" type="video/mp4" />
-</video>
-
-{{ page.content }}
-
-<script src="{{ asset('plyr/plyr.js') }}"></script>
-<script>
-	const player = new Plyr('#player', {
-    controls: [
-      'play-large',
-      'play',
-      'progress',
-      'current-time',
-      'duration',
-      'mute',
-      'volume',
-      'fullscreen',
-    ]
-  });
-</script>
-<link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
-<style>
-  :root {
-    --plyr-color-main: grey;
-  }
-</style>
-
+        <div class="post">
+          <h1 class="post-title">{{~ page.title ~}}</h1>
+          <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.filename ~ '.png') }}">
+            <source src="{{ asset('videos/' ~ page.filename ~ '.mp4') }}" type="video/mp4" />
+          </video>
+          {{ page.content }}
+        </div>
+        <script src="{{ asset('plyr/plyr.js') }}"></script>
+        <script>
+          const player = new Plyr('#player', {
+            controls: [
+              'play-large',
+              'play',
+              'progress',
+              'current-time',
+              'duration',
+              'mute',
+              'volume',
+              'fullscreen',
+            ]
+          });
+        </script>
+        <link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
+        <style>
+          :root {
+            --plyr-color-main: grey;
+          }
+        </style>
 {% endblock %}
