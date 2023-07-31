@@ -8,7 +8,7 @@
 
 {{ page.content }}
 
-<script src="/plyr/plyr.js"></script>
+<script src="{{ asset('plyr/plyr.js') }}"></script>
 <script>
 	const player = new Plyr('#player', {
     controls: [
@@ -23,7 +23,7 @@
     ]
   });
 </script>
-<link rel="stylesheet" href="/plyr/plyr.css" />
+<link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
 <style>
   :root {
     --plyr-color-main: grey;
