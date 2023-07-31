@@ -1,0 +1,22 @@
+{% extends '_default/list.html.twig' %}
+
+        {%- block content ~%}
+        <div class="posts">
+        {%- for video in pages|sort_by_date ~%}
+          <div class="post">
+            <h1 class="post-title">
+              <a href="{{ url(video) }}">
+                {{~ video.title ~}}
+              </a>
+            </h1>
+            <a href="{{ url(video) }}">
+              <img src="{{ asset('videos/' ~ video.filename ~ '.png') }}" />
+            </a>
+            {{~ video.content|excerpt_html ~}}
+            <footer class="readmore">
+              <a href="{{ url(video) }}">Voir la vidéo ›</a>
+            </footer>
+          </div>
+        {%- endfor ~%}
+        </div>
+        {%- endblock content ~%}
