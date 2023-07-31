@@ -2,6 +2,7 @@
 
 {% block content %}
         <div class="post">
+          <span><a href="/videos">Vidéos</a></span>
           <h1 class="post-title">{{~ page.title ~}}</h1>
           <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.filename ~ '.png') }}">
             <source src="{{ asset('videos/' ~ page.filename ~ '.mp4') }}" type="video/mp4" />
