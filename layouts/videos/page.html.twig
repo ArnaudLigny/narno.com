@@ -1,5 +1,10 @@
 {% extends '_default/page.html.twig' %}
 
+{% block head %}
+{{ parent() }}
+    <link rel="preload" href="{{ asset('videos/' ~ page.filename ~ '.mp4') }}" as="video" type="video/mp4" />
+{% endblock %}
+
 {% block content %}
         <div class="post">
           <span><a href="/videos">Vidéos</a></span>
