@@ -10,7 +10,7 @@
               </a>
             </h1>
             <a href="{{ url(video) }}">
-              <img src="{{ asset('videos/' ~ video.filename ~ '.png') }}" style="width:100%;" />
+              <img src="{{ asset('videos/' ~ video.poster) }}" style="width:100%;" />
             </a>
             {{~ video.content|excerpt_html ~}}
             <footer class="readmore">
