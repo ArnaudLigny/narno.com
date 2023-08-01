@@ -4,9 +4,8 @@
           <div class="posts">
           {%- for page_video in pages|sort_by_date ~%}
             <div class="post">
-              <h1 class="post-title">
-                <a href="{{ url(page_video) }}">{{~ page_video.title ~}}</a>
-              </h1>
+              <span>Vidéos</span>
+              <h1 class="post-title"><a href="{{ url(page_video) }}">{{~ page_video.title ~}}</a></h1>
               <a href="{{ url(page_video) }}">
                 <img src="{{ asset('videos/' ~ page_video.poster) }}" style="width:100%;" />
               </a>
