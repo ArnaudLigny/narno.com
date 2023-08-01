@@ -85,3 +85,6 @@ assets:
       enabled: true
     responsive:
       enabled: true
+paths:
+  - section: videos
+    path: :section/:year/:month/:day/:slug
