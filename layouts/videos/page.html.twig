@@ -3,7 +3,8 @@
 {% block head %}
 {{ parent() }}
     {%- for video in page.videos ~%}
-    <link rel="preload" href="{{ asset('videos/' ~ video.filename) }}" as="video" type="video/mp4" />
+    {%- set asset = asset('videos/' ~ video) ~%}
+    <link rel="preload" href="{{ asset('videos/' ~ video) }}" as="video" type="{{ asset.subtype }}" />
     {%- endfor ~%}
 {% endblock %}
 
@@ -13,7 +14,8 @@
             <h1 class="post-title">{{~ page.title ~}}</h1>
             <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.poster) }}">
               {%- for video in page.videos ~%}
-              <source src="{{ asset('videos/' ~ video.filename) }}" type="video/mp4" size="{{ video.size }}" />
+              {%- set asset = asset('videos/' ~ video) ~%}
+              <source src="{{ url(asset) }}" type="{{ asset.subtype }}" />
               {%- endfor ~%}
             </video>
             {{ page.content }}
