@@ -1,5 +1,5 @@
 ---
-image: 2023-07-30-close-pass.png
+image: videos/2023-07-30-close-pass.png
 videos:
   - 2023-07-30-close-pass.webm
   - 2023-07-30-close-pass.mp4
