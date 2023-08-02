@@ -10,5 +10,5 @@
   "html": "<iframe width=\"480\" height=\"270\" src=\"{{ url(page, {canonical:true, format:'player'}) }}\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
   "width": 480,
   "height": 270,
-  "image": "{{ url(page.image, {canonical:true}) }}"
+  "image": "{{ url(asset(page.image), {canonical:true}) }}"
 }
