@@ -9,7 +9,7 @@
               <a href="{{ url(page_video) }}">
                 <img src="{{ asset('videos/' ~ page_video.poster) }}" style="width:100%;" />
               </a>
-              {{~ page_video.content|excerpt_html ~}}
+              <blockquote>{{ page_video.description }}</blockquote>
               <footer class="readmore">
                 <a href="{{ url(page_video) }}">Voir la vidéo ›</a>
               </footer>
