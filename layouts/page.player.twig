@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<title>{{ page.title }}</title>
-		<style type="text/css">
-			video {
-				width: 100%;
-				max-width: 600px;
-				height: auto;
-			}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <title>{{ page.title }}</title>
+    <style type="text/css">
+      video {
+        width: 100%;
+        height: auto;
+      }
 		</style>
     <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.poster) }}">
       {%- for video in page.videos ~%}
@@ -43,5 +42,5 @@
       border-radius: 5px;
       margin: 0 0 2.2rem;
     }</style>
-	</body>
+  </body>
 </html>
