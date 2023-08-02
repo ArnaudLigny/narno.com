@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
 	<body>
+		<title>{{ page.title }}</title>
+		<style type="text/css">
+			video {
+				width: 100%;
+				max-width: 600px;
+				height: auto;
+			}
+		</style>
     <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.poster) }}">
       {%- for video in page.videos ~%}
-      {%- set asset = asset('videos/' ~ video) ~%}
-      <source src="{{ url(asset) }}" type="{{ asset.subtype }}" />
+        {%- set asset = asset('videos/' ~ video) ~%}
+        <source src="{{ url(asset) }}" type="{{ asset.subtype }}"/>
       {%- endfor ~%}
     </video>
     <script src="{{ asset('plyr/plyr.js') }}"></script>
@@ -22,15 +34,14 @@
         ]
       });
     </script>
-    <link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
-    <style>
-      :root {
-        --plyr-color-main: grey;
-      }
-      .plyr {
-        border-radius: 5px;
-        margin: 0 0 2.2rem;
-      }
-    </style>
+    <link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}"/>
+    <style>:root
+    {
+      --plyr-color-main: grey;
+    }
+    .plyr {
+      border-radius: 5px;
+      margin: 0 0 2.2rem;
+    }</style>
 	</body>
 </html>
