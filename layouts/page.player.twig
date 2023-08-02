@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+    <meta name="googlebot" content="noindex,indexifembedded">
+    <link rel="canonical" href="{{ url(page, {canonical:true, format:'player'}) }}">
     <title>{{ page.title }}</title>
     <style type="text/css">
       video {
         width: 100%;
         height: auto;
       }
-		</style>
+    </style>
+  </head>
+  <body>
     <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.poster) }}">
     {%- for video in page.videos ~%}
       {%- set asset = asset('videos/' ~ video) ~%}
