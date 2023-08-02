@@ -1,12 +1,12 @@
 {% extends '_default/page.html.twig' %}
 
 {% block head %}
-    <meta name="twitter:card" content="player" />
 {{ parent() }}
     {%- for video in page.videos ~%}
     {%- set asset = asset('videos/' ~ video) ~%}
     <link rel="preload" href="{{ asset('videos/' ~ video) }}" as="video" type="{{ asset.subtype }}" />
     {%- endfor ~%}
+    <meta name="twitter:card" content="player" />
     <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'player'}) }}" />
     <meta name="twitter:player:width" content="360" />
     <meta name="twitter:player:height" content="200" />
