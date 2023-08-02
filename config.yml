@@ -88,3 +88,9 @@ assets:
 paths:
   - section: videos
     path: :section/:year/:month/:day/:slug
+output:
+  formats:
+    - name: player
+      mediatype: text/html
+      filename: player
+      extension: html
