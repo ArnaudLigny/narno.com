@@ -1,0 +1,14 @@
+{
+  "url": "{{ url(page, {canonical:true, format:'html'}) }}",
+  "title": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "type": "video",
+  "author_name": "{{ site.title }}",
+  "author_url": "{{ url() }}",
+  "provider_name": "{{ site.title }}",
+  "provider_url": "{{ url() }}",
+  "html": "<iframe width=\"480\" height=\"270\" src=\"{{ url(page, {canonical:true, format:'player'}) }}\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
+  "width": 480,
+  "height": 270,
+  "image": "{{ page.poster }}"
+}
