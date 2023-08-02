@@ -22,6 +22,7 @@
               <source src="{{ url(asset) }}" type="{{ asset.subtype }}" />
               {%- endfor ~%}
             </video>
+            <blockquote>{{ page.description }}</blockquote>
             {{ page.content }}
           </div>
           <script src="{{ asset('plyr/plyr.js') }}"></script>
