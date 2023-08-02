@@ -3,8 +3,8 @@
 {% block head %}
 {{ parent() }}
   {%- for video in page.videos ~%}
-    {%- set asset = asset('videos/' ~ video) ~%}
-    <link rel="preload" href="{{ asset('videos/' ~ video) }}" as="video" type="{{ asset.subtype }}" />
+    {%- set asset = asset(video) ~%}
+    <link rel="preload" href="{{ asset(video) }}" as="video" type="{{ asset.subtype }}" />
   {%- endfor ~%}
     <meta name="twitter:card" content="player" />
     <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'player'}) }}" />
@@ -16,38 +16,8 @@
           <div class="post">
             <span><a href="/videos">Vidéos</a></span>
             <h1 class="post-title">{{~ page.title ~}}</h1>
-            <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.poster) }}">
-            {%- for video in page.videos ~%}
-              {%- set asset = asset('videos/' ~ video) ~%}
-              <source src="{{ url(asset) }}" type="{{ asset.subtype }}" />
-            {%- endfor ~%}
-            </video>
+            {%- include 'partials/player.html.twig' with {page: page} only ~%}
             <blockquote>{{ page.description }}</blockquote>
             {{ page.content }}
           </div>
-          <script src="{{ asset('plyr/plyr.js') }}"></script>
-          <script>
-            const player = new Plyr('#player', {
-              controls: [
-                'play-large',
-                'play',
-                'progress',
-                'current-time',
-                'duration',
-                'mute',
-                'volume',
-                'fullscreen',
-              ]
-            });
-          </script>
-          <link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
-          <style>
-            :root {
-              --plyr-color-main: grey;
-            }
-            .plyr {
-              border-radius: 5px;
-              margin: 0 0 2.2rem;
-            }
-          </style>
 {% endblock %}
