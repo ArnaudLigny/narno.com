@@ -94,3 +94,7 @@ output:
       mediatype: text/html
       filename: player
       extension: html
+    - name: oembed
+      mediatype: application/json+oembed
+      filename: oembed
+      extension: json
