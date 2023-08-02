@@ -1,0 +1,32 @@
+    {#- video player ~#}
+    <video id="player" playsinline controls preload="auto" data-poster="{{ asset(page.poster) }}"{% if muted ?? false %} muted{% endif %}>
+    {%- for video in page.videos ~%}
+      {%- set asset = asset(video) ~%}
+      <source src="{{ url(asset) }}" type="{{ asset.subtype }}"/>
+    {%- endfor ~%}
+    </video>
+    <script src="{{ asset('plyr/plyr.js') }}"></script>
+    <script>
+      const player = new Plyr('#player', {
+        controls: [
+          'play-large',
+          'play',
+          'progress',
+          'current-time',
+          'duration',
+          'mute',
+          'volume',
+          'fullscreen',
+        ]
+      });
+    </script>
+    <link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
+    <style>
+      :root {
+        --plyr-color-main: grey;
+      }
+      .plyr {
+        border-radius: 5px;
+        margin: 0 0 2.2rem;
+      }
+    </style>
