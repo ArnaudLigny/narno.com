@@ -13,10 +13,10 @@
       }
 		</style>
     <video id="player" playsinline controls autoplay data-poster="{{ asset('videos/' ~ page.poster) }}">
-      {%- for video in page.videos ~%}
-        {%- set asset = asset('videos/' ~ video) ~%}
-        <source src="{{ url(asset) }}" type="{{ asset.subtype }}"/>
-      {%- endfor ~%}
+    {%- for video in page.videos ~%}
+      {%- set asset = asset('videos/' ~ video) ~%}
+      <source src="{{ url(asset) }}" type="{{ asset.subtype }}"/>
+    {%- endfor ~%}
     </video>
     <script src="{{ asset('plyr/plyr.js') }}"></script>
     <script>
