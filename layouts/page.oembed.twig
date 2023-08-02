@@ -4,11 +4,11 @@
   "description": "{{ page.description }}",
   "type": "video",
   "author_name": "{{ site.title }}",
-  "author_url": "{{ url() }}",
+  "author_url": "{{ url('/', {canonical:true}) }}",
   "provider_name": "{{ site.title }}",
-  "provider_url": "{{ url() }}",
+  "provider_url": "{{ url('/', {canonical:true}) }}",
   "html": "<iframe width=\"480\" height=\"270\" src=\"{{ url(page, {canonical:true, format:'player'}) }}\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
   "width": 480,
   "height": 270,
-  "image": "{{ url(page.image) }}"
+  "image": "{{ url(page.image, {canonical:true}) }}"
 }
