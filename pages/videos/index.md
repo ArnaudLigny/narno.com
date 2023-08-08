@@ -4,4 +4,5 @@ cascade:
   metatags:
     title:
       only: true
+  output: [html, iframe, oembed]
 ---

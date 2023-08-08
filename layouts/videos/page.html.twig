@@ -7,7 +7,7 @@
     <link rel="preload" href="{{ asset(video) }}" as="video" type="{{ asset.subtype }}" />
   {%- endfor ~%}
     <meta name="twitter:card" content="player" />
-    <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'player'}) }}" />
+    <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'iframe'}) }}" />
     <meta name="twitter:player:width" content="480" />
     <meta name="twitter:player:height" content="270" />
 {% endblock %}
