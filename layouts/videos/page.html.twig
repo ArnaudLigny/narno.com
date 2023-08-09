@@ -10,14 +10,14 @@
     <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'iframe'}) }}" />
     <meta name="twitter:player:width" content="480" />
     <meta name="twitter:player:height" content="270" />
-{% endblock %}
+{%- endblock %}
 
-{% block content ~%}
+        {% block content ~%}
           <div class="post">
             <span><a href="/videos">Vidéos</a></span>
             <h1 class="post-title">{{~ page.title ~}}</h1>
             {%- include 'partials/player.html.twig' with {page: page} only ~%}
             <blockquote>{{ page.description }}</blockquote>
-            {{ page.content }}
+            {{~ page.content ~}}
           </div>
-{% endblock %}
+        {% endblock %}
