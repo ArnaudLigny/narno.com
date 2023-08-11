@@ -90,11 +90,12 @@ paths:
     path: :section/:year/:month/:day/:slug
 output:
   formats:
+    # video formats
     - name: iframe
       mediatype: text/html
-      filename: player
+      filename: embed
       extension: html
     - name: oembed
       mediatype: application/json+oembed
-      filename: oembed
+      filename: embed
       extension: json
