@@ -8,8 +8,8 @@
   {%- endfor ~%}
     <meta name="twitter:card" content="player" />
     <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'iframe'}) }}" />
-    <meta name="twitter:player:width" content="480" />
-    <meta name="twitter:player:height" content="270" />
+    <meta name="twitter:player:width" content="1280" />
+    <meta name="twitter:player:height" content="720" />
 {%- endblock %}
 
         {% block content ~%}
@@ -17,6 +17,18 @@
             <span><a href="/videos">Vidéos</a></span>
             <h1 class="post-title">{{~ page.title ~}}</h1>
             {%- include 'partials/player.html.twig' with {page: page} only ~%}
+            <style>
+              video {
+                border-radius: 5px;
+              }
+              :root {
+                /*--plyr-color-main: grey;*/
+              }
+              .plyr {
+                border-radius: 5px;
+                margin: 0 0 2.2rem;
+              }
+            </style>
             <blockquote>{{ page.description }}</blockquote>
             {{~ page.content ~}}
           </div>
