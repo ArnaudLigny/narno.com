@@ -1,17 +1,15 @@
 {
-  "title": "{{ page.title }}",
-  "description": "{{ page.description }}",
-  "url": "{{ url(page, {canonical:true, format:'html'}) }}",
   "type": "video",
-  "width": 1280,
-  "height": 720,
+  "version": "1.0",
+  "title": "{{ page.title }}",
   "author_name": "{{ site.title }}",
   "author_url": "{{ url('/', {canonical:true}) }}",
   "provider_name": "{{ site.title }}",
   "provider_url": "{{ url('/', {canonical:true}) }}",
-  "image": "{{ url(asset(page.image), {canonical:true}) }}",
   "thumbnail_url": "{{ url(asset(page.image), {canonical:true}) }}",
   "thumbnail_width": {{ asset(page.image).width }},
   "thumbnail_height": {{ asset(page.image).height }},
-  "html": "<iframe width=\"1280\" height=\"720\" src=\"{{ url(page, {canonical:true, format:'iframe'}) }}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"{{ page.title }}\"></iframe>"
+  "html": "<iframe width=\"1280\" height=\"720\" src=\"{{ url(page, {canonical:true, format:'iframe'}) }}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"{{ page.title }}\"></iframe>",
+  "width": "1280",
+  "height": "720"
 }
