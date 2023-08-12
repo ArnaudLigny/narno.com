@@ -11,5 +11,9 @@
   "thumbnail_height": {{ asset(page.image).height }},
   "html": "<iframe width=\"1280\" height=\"720\" src=\"{{ url(page, {canonical:true, format:'iframe'}) }}\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"{{ page.title }}\"></iframe>",
   "width": "1280",
-  "height": "720"
+  "height": "720",
+  {#- https://docs.joinmastodon.org/entities/PreviewCard/#video ~#}
+  "url": "{{ url(page, {canonical:true}) }}",
+  "description": "{{ page.description|default|e }}",
+  "image": "{{ url(asset(page.image), {canonical:true}) }}"
 }
