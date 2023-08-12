@@ -6,6 +6,10 @@
     {%- set asset = asset(video) ~%}
     <link rel="preload" href="{{ asset(video) }}" as="video" type="{{ asset.subtype }}" />
   {%- endfor ~%}
+    <meta property="og:video" content="{{ url(asset(page.videos[0]), {canonical:true}) }}" />
+    <meta property="og:video:type" content="{{ asset(page.videos[0]).subtype }}" />
+    <meta property="og:video:width" content="1280" />
+    <meta property="og:video:height" content="720" />
     <meta name="twitter:card" content="player" />
     <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'iframe'}) }}" />
     <meta name="twitter:player:width" content="1280" />
