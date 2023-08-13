@@ -20,7 +20,7 @@
           <div class="post">
             <span><a href="/videos">Vidéos</a></span>
             <h1 class="post-title">{{~ page.title ~}}</h1>
-            {%- include 'partials/player.html.twig' with {page: page} only ~%}
+            {%- include 'partials/player.html.twig' with {page:page, autoplay:true} only ~%}
             <style>
               video {
                 border-radius: 5px;
