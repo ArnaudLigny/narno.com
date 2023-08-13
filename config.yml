@@ -85,6 +85,8 @@ assets:
       enabled: true
     responsive:
       enabled: true
+      sizes:
+        default: '(min-width: 900px) 720px, (min-width: 620px) calc(7.69vw + 532px), (min-width: 480px) 416px, 92.5vw'
 paths:
   - section: videos
     path: :section/:year/:month/:day/:slug
