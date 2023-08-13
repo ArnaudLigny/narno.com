@@ -1,6 +1,6 @@
     {#- video player ~#}
     <!-- video player -->
-    <video id="player" playsinline controls preload="auto" data-poster="{{ asset(page.poster) }}"{% if muted ?? false %} muted{% endif %}>
+    <video id="player" playsinline controls preload="auto" data-poster="{{ asset(page.poster) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
     {%- for video in page.videos ~%}
       {%- set asset = asset(video) ~%}
       <source src="{{ url(asset) }}" type="{{ asset.subtype }}"/>
