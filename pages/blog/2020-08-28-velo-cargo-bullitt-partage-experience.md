@@ -3,8 +3,8 @@ title: "Vélo cargo Bullitt : partage d’expérience"
 description: "Partage de mon expérience avec le vélo cargo Bullitt après un peu plus d’un an d’utilisation au quotidien."
 date: 2020-08-28
 tags:
-- Vélo
-- Bullitt
+  - Vélo
+  - Bullitt
 image: /images/bullitt.jpg
 published: true
 typora-root-url: ../../static
