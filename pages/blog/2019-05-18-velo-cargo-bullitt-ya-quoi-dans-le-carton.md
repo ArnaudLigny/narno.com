@@ -1,36 +1,37 @@
 ---
-title: "Vélo cargo Bullitt : ya quoi dans le carton ?"
+title: "Vélo cargo Bullitt : y’a quoi dans le carton ?"
+description: "Quelques photos présentant le contenu du carton d’un vélo cargo Bullitt."
 date: 2019-05-18
 updated: 2019-05-26
 tags:
-- Vélo
-- Bullitt
+  - Vélo
+  - Bullitt
 image: /images/bullitt-carton/IMG_20190413_112340.jpg
 published: true
 typora-root-url: ../../static
-
+slug: velo-cargo-bullitt-ya-quoi-dans-le-carton
 ---
-Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j'ai enfin pu m'offrir un super joujou / utilitaire : le magnifique [Bullitt](/tags/bullitt) Bluebird de [Larry vs Harry](https://www.larryvsharry.com/) !
+Si vous me suivez sur [Twitter](https://twitter.com/Narno) vous savez déjà que j’ai enfin pu m’offrir un super joujou / utilitaire : le magnifique [Bullitt](/tags/bullitt) Bluebird de [Larry vs Harry](https://www.larryvsharry.com/) !
 
 ![Vélo cargo Bullitt vu de profil](/images/bullitt-carton/IMG_20190413_112340.jpg "Vélo cargo Bullitt vu de profil"){width="800"}
 
 <!-- break -->
 
-## Alors, ya quoi dans le carton ?
+## Alors, y’a quoi dans le carton ?
 
-Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l'époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2,40 mètres et surtout que contient le carton, ça pourrait être sympa de partager mon expérience.
+Je me suis dit que pour les acquéreurs potentiels qui, comme moi à l’époque, appréhendent de savoir comment arrive un vélo cargo de plus de 2,40 mètres et surtout que contient le carton, ça pourrait être sympa de partager mon expérience.
 
-Ainsi, voici quelques photos que j'ai réalisé à la réception de mon Bullitt.
+Ainsi, voici quelques photos que j’ai réalisé à la réception de mon Bullitt.
 
 ### Le carton
 
 ![Carton de livraison d’un vélo cargo Bullitt](/images/bullitt-carton/IMG_20190412_133507.jpg "Carton de livraison"){width="800"}
 
-Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté "cadeau de Noël avant l'heure" ! 🎅
+Le carton en lui même, arrivé sur une palette, livré par transporteur, est superbement illustré et amplifie le côté « cadeau de Noël avant l'heure » ! 🎅
 
 ### Ouverture
 
-Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html)), voici comment se présente l'agencement du cadre, des différentes pièces et autres accessoires  :
+Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html)), voici comment se présente l’agencement du cadre, des différentes pièces et autres accessoires :
 
 ![Contenu du carton d’un vélo cargo Bullitt : vue de dessus](/images/bullitt-carton/IMG_20190412_134655.jpg "Contenu du carton : vue de dessus"){width="800"}
 ![Vu d’ensemble des cartons de pièces](/images/bullitt-carton/IMG_20190412_134904.jpg "Vu d’ensemble des cartons de pièces"){width="800"}
@@ -44,7 +45,7 @@ Vous noterez que, mis à part la béquille qui est déjà fixée, le cadre est e
 
 Il est très bien protégé, sauf le triangle arrière : pas de mousse de protection et en contact direct avec la paroi du carton.
 
-En effet, comme on le voit sur la dernière photo de la section précédente, le bloc de polystyrène n'est pas suffisamment résistant, à été transpercé, exposant le cadre…
+En effet, comme on le voit sur la dernière photo de la section précédente, le bloc de polystyrène n’est pas suffisamment résistant, à été transpercé, exposant le cadre…
 
 ### Les roues
 
