@@ -90,14 +90,3 @@ assets:
 paths:
   - section: videos
     path: :section/:year/:month/:day/:slug
-output:
-  formats:
-    # video formats
-    - name: iframe
-      mediatype: text/html
-      filename: embed
-      extension: html
-    - name: oembed
-      mediatype: application/json+oembed
-      filename: embed
-      extension: json

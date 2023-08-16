@@ -1,25 +1,5 @@
 {% extends '_default/page.html.twig' %}
 
-{% block head %}
-{{ parent() }}
-  {%- set video_asset = '' ~%}
-  {%- for video in page.videos ~%}
-    {%- set asset = asset(video) ~%}
-    <link rel="preload" href="{{ asset }}" as="video" type="{{ asset.subtype }}" />
-    {%- if loop.index0 == 0 %}{% set video_asset = asset %}{% endif ~%}
-  {%- endfor ~%}
-    <meta property="og:video" content="{{ url(video_asset, {canonical:true}) }}" />
-    <meta property="og:video:url" content="{{ url(video_asset, {canonical:true}) }}" />
-    <meta property="og:video:secure_url" content="{{ url(video_asset, {canonical:true}) }}" />
-    <meta property="og:video:type" content="{{ video_asset.subtype }}" />
-    <meta property="og:video:width" content="1280" />
-    <meta property="og:video:height" content="720" />
-    <meta name="twitter:card" content="player" />
-    <meta name="twitter:player" content="{{ url(page, {canonical:true, format:'iframe'}) }}" />
-    <meta name="twitter:player:width" content="1280" />
-    <meta name="twitter:player:height" content="720" />
-{%- endblock %}
-
         {% block content ~%}
           <div class="post">
             <span><a href="/videos">Vidéos</a></span>
