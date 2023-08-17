@@ -1,0 +1,8 @@
+        <div class="lastposts">
+          <h2>Dernières <a href="/videos/">vidéos</a></h2>
+          <ul>
+          {%- for video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 5) ~%}
+            <li><a href="{{ url(video) }}">{{ video.title }}</a></li>
+          {%- endfor ~%}
+          </ul>
+        </div>
