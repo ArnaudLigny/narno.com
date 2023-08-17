@@ -8,6 +8,7 @@ tags:
 image: /images/bullitt.jpg
 published: true
 typora-root-url: ../../static
+output: [html, oembed]
 ---
 
 Ces dernières semaines j’ai régulièrement été sollicité, soit via [Twitter](https://twitter.com/Narno), soit dans la rue, à propos de mon vélo cargo [Bullitt](/tags/bullitt).
