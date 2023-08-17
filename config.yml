@@ -13,16 +13,21 @@ social:
     firstname: Arnaud
     lastname: Ligny
     username: Narno
+    url: https://www.facebook.com/Narno
   twitter:
     site: Narno
     creator: Narno
     username: Narno
+    url: https://twitter.com/Narno
   github:
     username: ArnaudLigny
+    url: https://github.com/ArnaudLigny
   mastodon:
     username: Narno
+    url: https://gazuji.com/@narno
   steam:
     username: narno
+    url: https://steamcommunity.com/id/narno
 language: fr
 languages:
   - name: Français
