@@ -1,6 +1,6 @@
     {#- video player: autoplay=false, muted=false ~#}
     <!-- video player -->
-    <video id="player" playsinline controls preload="auto" data-poster="{{ asset(page.poster) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
+    <video id="player" playsinline controls preload="auto" poster="{{ asset(page.poster) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
     {%- for video in page.videos ~%}
       {%- set asset = asset(video) ~%}
       <source src="{{ url(asset) }}" type="{{ asset.subtype }}"/>
@@ -13,4 +13,9 @@
       });
     </script>
     <link rel="stylesheet" href="{{ asset('plyr/plyr.css') }}" />
+    <style>
+      .plyr__poster {
+        background-size: cover;
+      }
+    </style>
     <!-- /video player -->
