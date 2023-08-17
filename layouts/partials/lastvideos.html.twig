@@ -8,9 +8,9 @@
           </ul>
           ~#}
           <div class="videos">
-            {%- for video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 5) ~%}
+            {%- for video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 2) ~%}
             <a href="{{ url(video) }}" title="{{ video.title }}">
-              <img src="{{ asset(video.image)|resize(200) }}" alt="{{ video.title }}">
+              <img src="{{ asset(video.image)|resize(300) }}" alt="{{ video.title }}">
             </a>
             {%- endfor ~%}
           </div>
