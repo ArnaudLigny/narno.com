@@ -3,23 +3,14 @@
     {%- block head -%}
     {{ parent() }}
     {#- social -#}
-    {%- if site.social is defined ~%}
-    {%- set social_url = {
-      'facebook': 'https://www.facebook.com/',
-      'twitter': 'https://twitter.com/',
-      'github': 'https://github.com/',
-      'mastodon': 'https://mamot.fr/@',
-      'steam': 'https://steamcommunity.com/id/'
-    } -%}
-    {%- for key, social in site.social ~%}
-    <link rel="me" href="{{ social_url[key] ~ social.username }}">
+    {%- for social in site.social|default({})|filter((v) => v['url'] is defined) ~%}
+    <link rel="me" href="{{ social.url }}" />
     {%- endfor ~%}
-    {%- endif ~%}
     {#- webmention -#}
     {%- if site.webmention ~%}
-    <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc">
-    <link rel="webmention" href="https://webmention.io/narno.com/webmention">
-    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention">
+    <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc" />
+    <link rel="webmention" href="https://webmention.io/narno.com/webmention" />
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
     {%- endif ~%}
     {%- endblock head -%}
 
