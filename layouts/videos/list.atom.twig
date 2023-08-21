@@ -1,9 +1,31 @@
 {% extends '_default/list.atom.twig' %}
 
     {%- block entry ~%}
-    {{- parent() ~}}
     {%- if p.videos[0] is defined ~%}
       {%- set video_asset = asset(p.videos[0]) ~%}
+    {%- endif ~%}
+    <id>{{ url(p, {canonical: true}) }}</id>
+    <title>{{ p.title|e }}</title>
+    {%- if 'txt' in p.output|default('html') ~%}
+    <content type="text">
+      <![CDATA[{{ p.content }}]]>
+    </content>
+    {%- else ~%}
+    <content type="html">
+      {%- if video_asset is defined ~%}
+      <![CDATA[
+        {% include 'partials/player.html.twig' with {page: p} %}
+        <blockquote>{{ p.description }}</blockquote>
+      ]]>
+      {%- else ~%}
+      <![CDATA[{{ p.content }}]]>
+      {%- endif ~%}
+    </content>
+    {%- endif ~%}
+    <link href="{{ url(p, {canonical: true}) }}" rel="alternate" type="text/html" />
+    {%- if video_asset is defined ~%}
     <link href="{{ url(video_asset, {canonical: true}) }}" rel="enclosure" length="{{ video_asset.size }}" type="{{ video_asset.subtype }}" />
     {%- endif ~%}
+    <published>{{ p.date|date('c') }}</published>
+    <updated>{{ p.updated|date('c') }}</updated>
     {%- endblock ~%}
