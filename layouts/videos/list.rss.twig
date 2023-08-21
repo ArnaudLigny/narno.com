@@ -1,0 +1,9 @@
+{% extends '_default/list.rss.twig' %}
+
+    {%- block item ~%}
+    {{- parent() ~}}
+    {%- if p.videos[0] is defined ~%}
+      {%- set video_asset = asset(p.videos[0]) ~%}
+    <enclosure url="{{ url(video_asset, {canonical: true}) }}" length="{{ video_asset.size }}" type="{{ video_asset.subtype }}" />
+    {%- endif ~%}
+    {%- endblock ~%}
