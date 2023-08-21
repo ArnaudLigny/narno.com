@@ -1,0 +1,9 @@
+{% extends '_default/list.atom.twig' %}
+
+    {%- block entry ~%}
+    {{- parent() ~}}
+    {%- if p.videos[0] is defined ~%}
+      {%- set video_asset = asset(p.videos[0]) ~%}
+    <link href="{{ url(video_asset, {canonical: true}) }}" rel="enclosure" length="{{ video_asset.size }}" type="{{ video_asset.subtype }}" />
+    {%- endif ~%}
+    {%- endblock ~%}
