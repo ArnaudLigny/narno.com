@@ -1,16 +1,12 @@
         <div class="lastposts">
           <h2>Dernières <a href="/videos/">vidéos</a></h2>
-          {#-
-          <ul>
-          {%- for video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 5) ~%}
-            <li><a href="{{ url(video) }}">{{ video.title }}</a></li>
-          {%- endfor ~%}
-          </ul>
-          ~#}
           <div class="videos">
-            {%- for video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 2) ~%}
-            <a href="{{ url(video) }}" title="{{ video.title }}">
-              <img src="{{ asset(video.image)|resize(300) }}" alt="{{ video.title }}">
+            {%- for page_video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 2) ~%}
+            <a href="{{ url(page_video) }}" class="video" title="{{ page_video.title }}">
+              <div class="play-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 311.69 311.69"><path d="M155.84,0A155.85,155.85,0,1,0,311.69,155.84,155.84,155.84,0,0,0,155.84,0Zm0,296.42A140.58,140.58,0,1,1,296.42,155.84,140.58,140.58,0,0,1,155.84,296.42Z"/><polygon points="218.79 155.84 119.22 94.34 119.22 217.34 218.79 155.84"/></svg>
+              </div>
+              <img src="{{ asset(page_video.image)|resize(300) }}" alt="{{ page_video.title }}">
             </a>
             {%- endfor ~%}
           </div>
@@ -18,8 +14,31 @@
             .videos {
               display: flex;
             }
-            .videos a {
+            a.video {
+              position: relative;
               padding-right: .5rem;
+            }
+            a.video .play-btn {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 25%;
+              cursor: pointer;
+            }
+            a.video .play-btn svg {
+              transition: all .2s ease;
+              fill: #fff;
+            }
+            a.video .play-btn:hover svg,
+            a.video .play-btn:focus svg {
+              cursor: pointer;
+              fill: #eee;
+            }
+            @media screen and (max-width: 600px) {
+              a.video .play-btn {
+                width: 50px;
+              }
             }
           </style>
         </div>

@@ -80,7 +80,7 @@ twitterwidget {
 }
 
 img {
-  display: unset;
+  /*display: unset;*/
   height: auto;
 }
 
