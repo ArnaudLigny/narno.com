@@ -1,6 +1,6 @@
 ---
 title: Vidéos
-Description: Sélection de vidéos de mes trajets quotidiens à vélo dans Paris et sa banlieue.
+description: Sélection de vidéos de mes trajets quotidiens à vélo dans Paris et sa banlieue.
 cascade:
   metatags:
     title:
