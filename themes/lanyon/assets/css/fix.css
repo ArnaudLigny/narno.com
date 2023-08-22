@@ -94,3 +94,39 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
+.videos {
+  display: flex;
+}
+
+.videos a.video {
+  padding-right: .5rem;
+}
+
+a.video {
+  position: relative;
+}
+
+a.video .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  cursor: pointer;
+}
+
+a.video .play-btn svg {
+  transition: all .2s ease;
+  fill: #fff;
+}
+
+a.video .play-btn:hover svg,
+a.video .play-btn:focus svg {
+  cursor: pointer;
+  fill: #eee;
+}
+
+a.video img {
+  margin: 0;
+}
