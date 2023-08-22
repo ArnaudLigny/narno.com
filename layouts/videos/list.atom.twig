@@ -12,20 +12,19 @@
     </content>
     {%- else ~%}
     <content type="html">
-      {%- if video_asset is defined ~%}
       <![CDATA[
-        {% include 'partials/player.html.twig' with {page: p} %}
+        {%- if video_asset is defined -%}
+        {%- include 'partials/player.html.twig' with {page: p} ~%}
         <blockquote>{{ p.description }}</blockquote>
+        {%- endif ~%}
+        {{ p.content }}
       ]]>
-      {%- else ~%}
-      <![CDATA[{{ p.content }}]]>
-      {%- endif ~%}
     </content>
     {%- endif ~%}
     <link href="{{ url(p, {canonical: true}) }}" rel="alternate" type="text/html" />
-    {%- if video_asset is defined ~%}
+    {#-{%- if video_asset is defined ~%}
     <link href="{{ url(video_asset, {canonical: true}) }}" rel="enclosure" length="{{ video_asset.size }}" type="{{ video_asset.subtype }}" />
-    {%- endif ~%}
+    {%- endif ~%}~#}
     <published>{{ p.date|date('c') }}</published>
     <updated>{{ p.updated|date('c') }}</updated>
     {%- endblock ~%}
