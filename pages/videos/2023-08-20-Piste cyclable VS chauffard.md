@@ -4,5 +4,4 @@ videos:
   - videos/2023/08/20/piste-cyclable-vs-chauffard.mp4
 poster: videos/2023/08/20/piste-cyclable-vs-chauffard.png
 description: Ha ha, cette bande cyclable est vraiment un appeau à chauffards 😅
-published: false
 ---
