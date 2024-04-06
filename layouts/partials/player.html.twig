@@ -1,25 +1,25 @@
-    {#- video player: autoplay=false, muted=false ~#}
-    <!-- video player -->
-    <video id="player" playsinline controls preload="auto" poster="{{ url(asset(page.poster), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
-    {%- for video in page.videos ~%}
-      {%- set asset = asset(video) ~%}
-      <source src="{{ url(asset, {canonical: true}) }}" type="{{ asset.subtype }}"/>
-    {%- endfor ~%}
-    </video>
-    <script src="{{ url(asset('plyr/plyr.js'), {canonical: true}) }}"></script>
-    <script>
-      const player = new Plyr('#player', {
-        controls: ['play-large', 'play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'fullscreen']
-      });
-    </script>
-    <link rel="stylesheet" href="{{ url(asset('plyr/plyr.css'), {canonical: true}) }}" />
-    <style>
-      video {
-        width: 100%;
-        max-width: 1280px;
-      }
-      .plyr__poster {
-        background-size: cover;
-      }
-    </style>
-    <!-- /video player -->
+            {#- video player: autoplay=false, muted=false ~#}
+            <!-- video player -->
+            <link rel="stylesheet" href="{{ url(asset('plyr/plyr.css'), {canonical: true}) }}" />
+            <style>
+              video {
+                width: 100%;
+                max-width: 1280px;
+              }
+              .plyr__poster {
+                background-size: cover;
+              }
+            </style>
+            <video id="player" playsinline controls preload="auto" poster="{{ url(asset(page.poster), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
+              {%- for video in page.videos ~%}
+                {%- set asset = asset(video) ~%}
+              <source src="{{ url(asset, {canonical: true}) }}" type="{{ asset.subtype }}"/>
+              {%- endfor ~%}
+            </video>
+            <script src="{{ url(asset('plyr/plyr.js'), {canonical: true}) }}"></script>
+            <script>
+              const player = new Plyr('#player', {
+                controls: ['play-large', 'play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'fullscreen']
+              });
+            </script>
+            <!-- /video player -->
