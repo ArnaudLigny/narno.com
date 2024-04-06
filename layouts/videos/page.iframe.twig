@@ -19,6 +19,6 @@
     </style>
   </head>
   <body>
-    {%- include 'partials/player.html.twig' with {page: page} only ~%}
+    {{- include('partials/player.html.twig', {page: page}, with_context = false) ~}}
   </body>
 </html>
