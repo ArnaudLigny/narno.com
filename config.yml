@@ -49,13 +49,6 @@ menus:
     - id: galeries
       enabled: false
 googleanalytics: UA-387892-1
-virtualpages:
-  - path: blog/le-blog-avance
-    redirect: /
-    title: "Le blog avance !"
-    date: 2008-12-08
-  - path: code
-    redirect: https://github.com/Narno
 manifest:
   background_color: "#ffffff"
   theme_color: "#202020"
@@ -75,16 +68,24 @@ static:
 metatags:
   jsonld:
     enabled: true
-body:
-  images:
-    caption:
-      enabled: true
-    resize:
-      enabled: true
-    responsive:
-      enabled: true
-    webp:
-      enabled: false
+pages:
+  virtual:
+    - path: blog/le-blog-avance
+      redirect: /
+      title: "Le blog avance !"
+      date: 2008-12-08
+    - path: code
+      redirect: https://github.com/Narno
+  body:
+    images:
+      caption:
+        enabled: true
+      resize:
+        enabled: true
+      responsive:
+        enabled: true
+      webp:
+        enabled: false
 assets:
   images:
     optimize:
