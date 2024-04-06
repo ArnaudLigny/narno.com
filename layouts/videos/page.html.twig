@@ -1,16 +1,16 @@
 {% extends '_default/page.html.twig' %}
 
-        {% block content ~%}
+        {%- block content ~%}
           <div class="post">
             <span><a href="/videos">Vidéos</a></span>
-            <h1 class="post-title">{{~ page.title ~}}</h1>
-            {%- include 'partials/player.html.twig' with {page:page, autoplay:true} only ~%}
+            <h1 class="post-title">{{ page.title }}</h1>
+            {{- include('partials/player.html.twig', {page: page, autoplay: true}, with_context = false) ~}}
             <style>
               video {
                 border-radius: 5px;
               }
               :root {
-                /*--plyr-color-main: grey;*/
+                --plyr-color-main: #185886;
               }
               .plyr {
                 border-radius: 5px;
@@ -18,6 +18,6 @@
               }
             </style>
             <blockquote>{{ page.description }}</blockquote>
-            {{~ page.content ~}}
+            {{ page.content ~}}
           </div>
-        {% endblock %}
+        {%- endblock ~%}
