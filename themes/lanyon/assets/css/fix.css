@@ -105,6 +105,7 @@ figcaption {
 
 a.video {
   position: relative;
+  flex-grow: 1;
 }
 
 a.video .play-btn {
@@ -112,13 +113,13 @@ a.video .play-btn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 15%;
   cursor: pointer;
 }
 
 a.video .play-btn svg {
   transition: all .2s ease;
   fill: #fff;
+  width: 4rem;
 }
 
 a.video .play-btn:hover svg,
@@ -129,4 +130,5 @@ a.video .play-btn:focus svg {
 
 a.video img {
   margin: 0;
+  width: 100%;
 }
