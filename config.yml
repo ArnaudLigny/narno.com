@@ -55,9 +55,16 @@ manifest:
   shortcuts: true
 serviceworker:
   enabled: true
-  precache:
-    - icon-192x192.png
-    - icon-512x512.png
+  install:
+    precache:
+      - icon-192x192.png
+      - icon-512x512.png
+  update:
+    snackbar:
+      enabled: true
+  offline:
+    snackbar:
+      enabled: true
 disqus:
   enabled: false
   username: Narno
