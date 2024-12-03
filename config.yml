@@ -27,8 +27,8 @@ date:
   format: "j M Y"
   timezone: "Europe/Paris"
 theme:
-  - pwa
   - lanyon
+  - pwa
 image: icon-512x512.png
 menus:
   main:
