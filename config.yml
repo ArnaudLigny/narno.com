@@ -9,19 +9,15 @@ author:
   url: https://narno.co
 social:
   twitter:
+    url: https://twitter.com/Narno
     site: Narno
     creator: Narno
-    username: Narno
-    url: https://twitter.com/Narno
-  github:
-    username: ArnaudLigny
-    url: https://github.com/ArnaudLigny
   mastodon:
-    username: Narno
     url: https://gazuji.com/@narno
+    creator: "@narno@gazuji.com"
   steam:
-    username: narno
     url: https://steamcommunity.com/id/narno
+    username: narno
 language: fr
 languages:
   - name: Français
