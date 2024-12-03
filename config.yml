@@ -37,7 +37,7 @@ image: icon-512x512.png
 menus:
   main:
     - id: forum
-      name: 'Forum'
+      name: Forum
       url: https://lesforums.org
       weight: 1000
     - id: galeries
@@ -65,7 +65,7 @@ disqus:
 webmention: false
 editor: typora
 static:
-  exclude: ['_backup']
+  exclude: [_backup]
 metatags:
   jsonld:
     enabled: true
@@ -73,7 +73,7 @@ pages:
   virtual:
     - path: blog/le-blog-avance
       redirect: /
-      title: "Le blog avance !"
+      title: Le blog avance !
       date: 2008-12-08
     - path: code
       redirect: https://github.com/Narno
@@ -94,7 +94,7 @@ assets:
     responsive:
       enabled: true
       sizes:
-        default: '(min-width: 900px) 720px, (min-width: 620px) calc(7.69vw + 532px), (min-width: 480px) 416px, 92.5vw'
+        default: "(min-width: 900px) 720px, (min-width: 620px) calc(7.69vw + 532px), (min-width: 480px) 416px, 92.5vw"
 paths:
   - section: videos
     path: :section/:year/:month/:day/:slug
