@@ -76,8 +76,6 @@ pages:
       redirect: /
       title: Le blog avance !
       date: 2008-12-08
-    - path: code
-      redirect: https://github.com/Narno
   body:
     images:
       caption:
