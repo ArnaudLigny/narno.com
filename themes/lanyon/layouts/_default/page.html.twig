@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}">
   <head>
-    {%~ block head -%}
-    {%~ include 'partials/head.html.twig' ~%}
+    {%- block head ~%}
+    {%- include('partials/head.html.twig') ~%}
     {%- endblock head ~%}
   </head>
   <body>
     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
     <div class="sidebar" id="sidebar">
-      {%~ block sidebar -%}
-      {%~ include 'partials/sidebar.html.twig' ~%}
+      {%- block sidebar ~%}
+      {%- include('partials/sidebar.html.twig') ~%}
       {%- endblock sidebar ~%}
     </div>
     <div class="wrap">
@@ -23,10 +23,10 @@
       </div>
       <div class="container content">
         <div class="page">
-          {%- block content -%}
+          {%- block content ~%}
           <h1 class="page-title">{{ page.title }}</h1>
-          {{~ page.content ~}}
-          {%- endblock content -%}
+          {{- page.content ~}}
+          {%- endblock content ~%}
         </div>
       </div>
     </div>
@@ -38,18 +38,16 @@
         var checkbox = document.querySelector('#sidebar-checkbox');
         document.addEventListener('click', function(e) {
           var target = e.target;
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
+          if (!checkbox.checked || sidebar.contains(target) || (target === checkbox || target === toggle)) return;
           checkbox.checked = false;
         }, false);
       })(document);
     {% endapply %}</script>
-    {%~ include 'partials/svg.html.twig' ~%}
+    {%- include('partials/svg.html.twig') ~%}
     {%- if site.serviceworker is defined and site.serviceworker.enabled ~%}
-    {%~ include 'partials/regsw.js.twig' ~%}
-    {%- endif -%}
-    {%~ include 'partials/googleanalytics.js.twig' ~%}
+    {%- include 'partials/regsw.js.twig' ~%}
+    {%- endif ~%}
+    {%- include('partials/googleanalytics.js.twig') ~%}
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
 </html>
