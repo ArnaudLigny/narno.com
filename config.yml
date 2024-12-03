@@ -84,8 +84,7 @@ pages:
         enabled: true
       responsive:
         enabled: true
-      webp:
-        enabled: false
+      formats: [webp]
 assets:
   images:
     optimize:
