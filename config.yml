@@ -1,7 +1,7 @@
-title: "Narno.com"
+title: Narno.com
 baseurl: https://narno.com/
-baseline: "dev web, vélo, bière et jeu vidéo"
-description: "Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo."
+baseline: dev web, vélo, bière et jeu vidéo
+description: Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.
 keywords: [développement web, vélo, jeu vidéo]
 author:
   name: Narno
@@ -33,7 +33,7 @@ date:
 theme:
   - pwa
   - lanyon
-image: /icon-512x512.png
+image: icon-512x512.png
 menus:
   main:
     - id: forum
