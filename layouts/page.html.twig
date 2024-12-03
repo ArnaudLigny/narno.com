@@ -1,17 +1,17 @@
 {% extends '_default/page.html.twig' %}
 
-    {%- block head -%}
+    {%- block head ~%}
     {{ parent() }}
-    {#- webmention -#}
+    {#- webmention ~#}
     {%- if site.webmention ~%}
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc" />
     <link rel="webmention" href="https://webmention.io/narno.com/webmention" />
     <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
     {%- endif ~%}
-    {%- endblock head -%}
+    {%- endblock head ~%}
 
-    {%~ block sidebar -%}
-      {{ parent() }}
+    {%- block sidebar ~%}
+      {{- parent() ~}}
       <div class="sidebar-item">
         <ul class="social inline">
           <li>
@@ -26,11 +26,11 @@
             <a rel="me" title="Me suivre sur Twitter" href="https://twitter.com/{{ site.social.twitter.creator }}"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
           </li>
             {%- endif ~%}
-            {#{%- if site.social.github is defined ~%}
+            {#-{%- if site.social.github is defined ~%}
           <li>
             <a rel="me" title="Me suivre sur GitHub" href="https://github.com/{{ site.social.github.username }}"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
           </li>
-            {%- endif ~%}#}
+            {%- endif ~%}~#}
             {%- if site.social.steam is defined ~%}
           <li>
             <a rel="me" title="Me suivre sur Steam" href="https://steamcommunity.com/id/{{ site.social.steam.username }}"><svg width="16" height="20" class="icon icon-steam"><use xlink:href="#icon-steam"></use></svg></a>
