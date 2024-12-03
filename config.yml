@@ -32,12 +32,13 @@ theme:
 image: icon-512x512.png
 menus:
   main:
-    - id: forum
-      name: Forum
-      url: https://lesforums.org
-      weight: 1000
-      enabled: false
+    #- id: forum
+    #  name: Forum
+    #  url: https://lesforums.org
+    #  weight: 1000
     - id: galeries
+      enabled: false
+    - id: tags
       enabled: false
 googleanalytics: UA-387892-1
 manifest:
