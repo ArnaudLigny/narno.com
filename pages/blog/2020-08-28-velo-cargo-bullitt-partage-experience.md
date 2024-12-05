@@ -2,6 +2,7 @@
 title: "Vélo cargo Bullitt : partage d’expérience"
 description: "Partage de mon expérience avec le vélo cargo Bullitt après un peu plus d’un an d’utilisation au quotidien."
 date: 2020-08-28
+Updated: 2024-12-05
 tags:
   - Vélo
   - Bullitt
@@ -36,7 +37,7 @@ Ce n’est pas un VAE. J’ai retenu la version sans assistance pour 2 raisons :
 
 Le Bullitt est connu pour être léger (cadre en aluminium) au regard sa longueur (2,40 mètres) et de sa capacité de charge (100 kg).
 
-Dans le cas de ma configuration de base (7 vitesses moyeu) le poids total tout équipé pour rouler est de [22 kg](https://www.larryvsharry.com/the-original-bullitt#tech_specs_section).
+Dans le cas de ma configuration de base (7 vitesses moyeu) le poids total tout équipé pour rouler est de [22 kg](https://www.larryvsharry.com/en/bullitt).
 
 Par contre l’aiguille de la balance monte vite quand on commence à ajouter des équipements. Dans mon cas, en ajoutant la planche, les panneaux latéraux, la housse, le siège pliant et les antivols, je pense dépasser les 30 kg !
 
@@ -58,14 +59,14 @@ En effet, même si la combinaison du frein à disque à l’avant et du rétrop�
 
 > **On peut transporter des enfants ? 👪**
 
-Je transporte mon fils quasiment quotidiennement, en sécurité grâce au [siège officiel](http://shop.larryvsharry.com/shop/accessories/childseat.html) équipé d’une ceinture.
+Je transporte mon fils quasiment quotidiennement, en sécurité grâce au [siège officiel](https://www.larryvsharry.com/en/foldable-seat) équipé d’une ceinture.
 
-Ce siège comporte d’ailleurs 2 ceintures, néanmoins, sans la [canopée](http://shop.larryvsharry.com/shop/accessories/canopy.html) il sera difficile d’asseoir 2 enfants côte à côte entre les _side panels_.
+Ce siège comporte d’ailleurs 2 ceintures, néanmoins, sans la [canopée](https://www.larryvsharry.com/en/canopy) il sera difficile d’asseoir 2 enfants côte à côte entre les _side panels_.
 
 ## Notes & remarques
 
 - Je n’ai effectué aucun entretien spécifique depuis l’achat, si ce n’est vérifier certains serrages, remplacer les plaquettes de frein et nettoyer la chaîne
-- Les pneus [Schwalbe Marathon](https://www.schwalbe.com/fr/tour-reader/marathon) (équipés d’origine) sont effectivement increvables et suffisamment confortables par temps sec, mais la tenue de route est nettement moins bonne sur route mouillée
+- Les pneus [Schwalbe Marathon](https://www.schwalbe.com/fr/) (équipés d’origine) sont effectivement increvables et suffisamment confortables par temps sec, mais la tenue de route est nettement moins bonne sur route mouillée
 - *à compléter ?*
 
 ## Conclusion
