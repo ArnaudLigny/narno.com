@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="{{ asset('share/mastodonShare.css') }}">
+<script src="{{ asset('share/mastodonShare.js') }}"></script>
+<button class="mastodon-share" data-title="{{ title|default(page.title)|e }}" data-href="{{ url(page, {canonical:true}) }}"></button>
