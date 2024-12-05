@@ -22,19 +22,11 @@
           </footer>
           {%- endif ~%}
           <footer class="twitter">
-            <a class="twitter-share-button"
-               href="https://twitter.com/share"
-               data-text="{{ page.title|e }}"
-               data-url="{{ url(page, {canonical:true}) }}"
-               {%- if page.tags is defined ~%}
-               data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
-               {%- endif ~%}
-               data-related="{{ site.social.twitter.site }}"
-            >
-              Tweet
-            </a>
+            {{- include('partials/share-twitter.html.twig') -}}
+            {{- include('partials/share-bluesky.html.twig') -}}
+            {{- include('partials/share-mastodon.html.twig') ~}}
           </footer>
           {% block comments %}
-          {% include 'partials/comments.html.twig' %}
+          {{ include('partials/comments.html.twig') }}
           {% endblock comments %}
           {%- endblock content ~%}
