@@ -45,6 +45,9 @@ manifest:
   background_color: "#ffffff"
   theme_color: "#202020"
   shortcuts: true
+  icons:
+    - icon-192x192.png
+    - icon-512x512.png
 serviceworker:
   enabled: true
   install:
