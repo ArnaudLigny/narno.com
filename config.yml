@@ -1,6 +1,6 @@
 title: Narno.com
 baseurl: https://narno.com/
-baseline: dev web, vélo, bière et jeu vidéo
+baseline: dev web, vélo et jeu vidéo
 description: Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.
 keywords: [développement web, vélo, jeu vidéo]
 author:
@@ -50,10 +50,6 @@ manifest:
     - icon-512x512.png
 serviceworker:
   enabled: true
-  install:
-    precache:
-      - icon-192x192.png
-      - icon-512x512.png
   update:
     snackbar:
       enabled: true
@@ -85,6 +81,7 @@ pages:
       responsive:
         enabled: true
       formats: [webp]
+      placeholder: lqip
 assets:
   images:
     optimize:
