@@ -2,16 +2,16 @@
 title: "Mon PC"
 description: "La configuration matérielle de mon PC de jeu."
 date: 2019-03-20
-updated: 2025-01-04
+updated: 2025-01-21
 menu:
   main:
     weight: 120
-image: images/fractal-design.jpg
+image: images/config-pc-2024.jpg
 published: true
 ---
 ## La configuration matérielle de mon PC de jeu
 
-![Fractal North](/images/fractal-design.jpg)
+![Fractal North](/images/config-pc-2024.jpg)
 
 | Composant       | Description |
 | --------------- | ----------- |
