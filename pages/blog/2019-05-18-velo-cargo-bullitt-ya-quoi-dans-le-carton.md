@@ -96,4 +96,4 @@ Et voilà !
 
 J’essaierai de détailler un peu plus le montage dans un autre billet.
 
-Retenez que ça reste très facile, y compris pour un néophyte, d’autant plus une fois qu’on a mis la main sur le [manuel officiel](https://www.dropbox.com/s/dn2dmlgpumy79u9/Bullitt%20manual%202018%20NL.pdf?dl=0) après 1 heure de montage ! 😄
+Retenez que ça reste très facile, y compris pour un néophyte, d’autant plus une fois qu’on a mis la main sur le [manuel officiel](https://www.dropbox.com/scl/fi/lvc3jnylpmuefct4jxc34/Bullitt-manual-2018-NL.pdf?rlkey=77j5nn8v2tirrkv579hwkwb83&e=1&st=oxprbjcc&dl=0) après 1 heure de montage ! 😄
