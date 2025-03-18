@@ -80,7 +80,7 @@ pages:
         enabled: true
       responsive:
         enabled: true
-      formats: [webp]
+      formats: [avif, webp]
       placeholder: lqip
 assets:
   images:
