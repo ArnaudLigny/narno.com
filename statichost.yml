@@ -1,0 +1,6 @@
+# Docker image to use for building
+image: wordpress:php8.1
+# Build command
+command: curl -sSOL https://cecil.app/build.sh && bash ./build.sh
+# Public directory
+public: _site
