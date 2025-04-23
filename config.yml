@@ -18,6 +18,8 @@ social:
   steam:
     url: https://steamcommunity.com/id/narno
     username: narno
+taxonomies:
+  tags: tag
 language: fr
 languages:
   - name: Français
@@ -67,6 +69,9 @@ metatags:
   jsonld:
     enabled: true
 pages:
+  paths:
+    - section: videos
+      path: :section/:year/:month/:day/:slug
   virtual:
     - path: blog/le-blog-avance
       redirect: /
@@ -90,6 +95,3 @@ assets:
       enabled: true
       sizes:
         default: "(min-width: 900px) 720px, (min-width: 620px) calc(7.69vw + 532px), (min-width: 480px) 416px, 92.5vw"
-paths:
-  - section: videos
-    path: :section/:year/:month/:day/:slug
