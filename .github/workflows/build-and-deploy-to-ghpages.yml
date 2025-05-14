@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.4'
-          extensions: fileinfo, gd, mbstring
+          extensions: mbstring, fileinfo, gd, imagick, intl, gettext
       - name: Restore Cecil cache
         uses: actions/cache/restore@v4
         with:
