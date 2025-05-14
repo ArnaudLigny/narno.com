@@ -28,7 +28,7 @@ jobs:
       - name: Restore Cecil cache
         uses: actions/cache/restore@v4
         with:
-          path: ./cache
+          path: ./.cache
           key: cecil-cache-
           restore-keys: |
             cecil-cache-
@@ -37,8 +37,8 @@ jobs:
       - name: Save Cecil cache
         uses: actions/cache/save@v4
         with:
-          path: ./cache
-          key: cecil-cache-${{ hashFiles('./cache/**/*') }}
+          path: ./.cache
+          key: cecil-cache-${{ hashFiles('./.cache/**/*') }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
