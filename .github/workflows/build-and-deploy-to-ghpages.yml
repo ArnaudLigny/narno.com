@@ -2,13 +2,8 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [master, main]
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -44,6 +39,9 @@ jobs:
 
   deploy:
     needs: build
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
