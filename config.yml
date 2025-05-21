@@ -92,7 +92,8 @@ serviceworker:
     snackbar:
       enabled: true
 
-googleanalytics: UA-387892-1
+#googleanalytics: UA-387892-1
+cloudflareinsights: c4839ad383494a2fb32c9a5a50d9c3fb
 disqus:
   enabled: false
   username: Narno
