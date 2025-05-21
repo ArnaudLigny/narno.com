@@ -1,7 +1,7 @@
 {
   "require": {
-    "cecil/theme-hyde": "^2.5",
-    "cecil/theme-pwa": "^2.14"
+    "cecil/theme-hyde": "^2.6",
+    "cecil/theme-pwa": "^2.15"
   },
   "config": {
     "allow-plugins": {
