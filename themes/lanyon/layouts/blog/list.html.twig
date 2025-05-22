@@ -3,8 +3,11 @@
         {%- block content ~%}
         <h1>Le blog</h1>
         <div class="posts">
-        {%- if page.pagination is defined ~%}
-        {%- for post in page.pagination.pages ~%}
+        {%- set pages = page.pages ~%}
+        {%- if page.paginator.pages is defined ~%}
+        {%- set pages = page.paginator.pages ~%}
+        {%- endif ~%}
+        {%- for post in pages ~%}
           <div class="post">
             <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
             <span class="post-date">{{ post.date|format_date('long') }}</span>
@@ -32,18 +35,19 @@
           </div>
           <hr />
         {%- endfor ~%}
-        {%- endif ~%}
         </div>
+        {%- if page.paginator.links is defined ~%}
         <div class="pagination">
-          {%- if page.pagination.links.prev is defined ~%}
-          <a class="pagination-item older" href="{{ url(page.pagination.links.prev) }}">&lsaquo; Nouveau</a>
+          {%- if page.paginator.links.prev is defined ~%}
+          <a class="pagination-item older" href="{{ url(page.paginator.links.prev) }}">&lsaquo; Nouveau</a>
           {%- else ~%}
           <span class="pagination-item older">&lsaquo; Nouveau</span>
           {%- endif ~%}
-          {%- if page.pagination.links.next is defined ~%}
-          <a class="pagination-item newer" href="{{ url(page.pagination.links.next) }}">Précédent &rsaquo;</a>
+          {%- if page.paginator.links.next is defined ~%}
+          <a class="pagination-item newer" href="{{ url(page.paginator.links.next) }}">Précédent &rsaquo;</a>
           {%- else ~%}
           <span class="pagination-item newer">Précédent &rsaquo;</span>
           {%- endif ~%}
         </div>
+        {%- endif ~%}
         {%- endblock content ~%}
