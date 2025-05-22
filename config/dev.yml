@@ -1,23 +1,15 @@
-serviceworker:
-  enabled: false
 metatags:
-  jsonld:
-    enabled: false
-body:
-  images:
-    caption:
-      enabled: true
-    resize:
-      enabled: false
-    responsive:
-      enabled: false
-    webp:
-      enabled: false
+  jsonld: false
+pages:
+  body:
+    images:
+      caption: true
+      formats: []
+      responsive: false
 assets:
   images:
-    optimize:
-      enabled: false
-    responsive:
-      enabled: false
-    webp:
-      enabled: false
+    optimize: false
+    formats: []
+    responsive: false
+serviceworker:
+  enabled: false
