@@ -9,10 +9,10 @@ author:
   email: me@narno.com
   url: https://narno.co
 social:
-  twitter:
-    url: https://twitter.com/Narno
-    site: Narno
-    creator: Narno
+  #twitter:
+  #  url: https://twitter.com/Narno
+  #  site: Narno
+  #  creator: Narno
   mastodon:
     url: https://gazuji.com/@narno
     creator: "@narno@gazuji.com"
@@ -30,8 +30,7 @@ date:
 taxonomies:
   tags: tag
 metatags:
-  jsonld:
-    enabled: true
+  jsonld: true
 menus:
   main:
     #- id: forum
@@ -43,34 +42,33 @@ menus:
     - id: tags
       enabled: false
 pages:
-  paths:
-    - section: videos
-      path: :section/:year/:month/:day/:slug
   virtual:
     - path: blog/le-blog-avance
       redirect: /
       title: Le blog avance !
       date: 2008-12-08
+  paths:
+    - section: videos
+      path: :section/:year/:month/:day/:slug
   body:
     images:
-      caption:
-        enabled: true
-      resize:
-        enabled: true
-      responsive:
-        enabled: true
       formats: [avif, webp]
+      caption: true
       placeholder: lqip
+      responsive: true
 assets:
   images:
-    optimize:
-      enabled: true
+    optimize: true
     responsive:
-      enabled: true
+      widths: [480, 640, 768, 1024]
       sizes:
         default: "(min-width: 900px) 720px, (min-width: 620px) calc(7.69vw + 532px), (min-width: 480px) 416px, 92.5vw"
 static:
   exclude: [_backup]
+layouts:
+  images:
+    formats: [avif, webp]
+    responsive: true
 
 theme:
   - lanyon
