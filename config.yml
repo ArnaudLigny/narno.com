@@ -42,6 +42,9 @@ menus:
     - id: tags
       enabled: false
 pages:
+  #default:
+  #  robots:
+  #    published: false
   virtual:
     - path: blog/le-blog-avance
       redirect: /
