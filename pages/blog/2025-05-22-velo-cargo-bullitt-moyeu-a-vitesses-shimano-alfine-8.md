@@ -2,20 +2,64 @@
 title: "Vélo cargo Bullitt : moyeu à vitesses Shimano Alfine 8"
 description: ""
 date: 2025-05-22
+Updated: 2025-06-03
 tags: [Vélo, Bullitt]
-image: /images/bullitt.jpg
+#image: /images/bullitt.jpg
+Image: /images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161059380.jpg
 typora-root-url: ../../assets
 typora-copy-images-to: ../../assets/images/${filename}
 draft: true
 ---
 
-Je roule en vélo cargo [Bullitt](/tags/bullitt) depuis quelques années maintenant et j’avais rédigé un premier [retour d’expérience en 2020](page:blog/velo-cargo-bullitt-partage-experience), dans lequel j’indiquais que je regrettais de ne pas avoir opté pour un moyeux à vitesses plus haut de gamme que le Shimano Nexus 7 à rétropédalage, faute de budget.
+Je roule en vélo cargo [Bullitt](/tags/bullitt) depuis quelques années maintenant et j’avais rédigé un premier [retour d’expérience en 2020](page:blog/velo-cargo-bullitt-partage-experience), dans lequel j’indiquais que je regrettais de ne pas avoir opté pour un moyeux à vitesses plus haut de gamme que le Shimano Nexus 7 (ave frein à rétropédalage), faute de budget.
 
 Et… depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu à vitesses Shimano Alfine 8 \o/
 
 ![Vue de dessus d’un moyeu à vitesses Shimano Alfine 8](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161059380.jpg "Shimano Alfine 8")
 
 <!--break-->
+
+## Coût et installation
+
+Je m’étais renseigné sur les options possibles pour 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
