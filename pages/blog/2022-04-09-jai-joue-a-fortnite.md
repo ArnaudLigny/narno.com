@@ -1,15 +1,14 @@
 ---
 title: "J’ai joué à Fortnite"
-description: "Petit retour d'expérience sur le jeu vidéo Fortnite"
+description: "Petit retour d’expérience sur le jeu vidéo Fortnite"
 date: 2022-04-09
 tags: [Jeux video]
-image: /images/2022-04-09-jai-joue-a-fortnite/fortnite.jpg
+image: images/2022-04-09-jai-joue-a-fortnite/fortnite.jpg
 typora-root-url: ../../assets
 typora-copy-images-to: ../../assets/images/${filename}
 published: true
 ---
-
-![Fortnite](/images/2022-04-09-jai-joue-a-fortnite/fortnite.jpg "Poster du jeu Fortnite présentant les différents personnages en avril 2022.")
+![Fortnite](../../assets/images/2022-04-09-jai-joue-a-fortnite/fortnite.jpg "Poster du jeu Fortnite présentant les différents personnages en avril 2022.")
 <!-- break -->
 [toc]
 
@@ -23,7 +22,7 @@ Par crainte qu’il ne rate un truc à partager avec ses copains (je pense que l
 
 ## Achetez, c’est gratuit !
 
-![Pile de pièces, virtuelles, grises](/images/2022-04-09-jai-joue-a-fortnite/v-bucks-coins.png "Des pièces de V-bucks, la monnaie virtuelle de Fortnite (à acheter avec de vrais euros).")
+![Pile de pièces, virtuelles, grises](../../assets/images/2022-04-09-jai-joue-a-fortnite/v-bucks-coins.jpg "Des pièces de V-bucks, la monnaie virtuelle de Fortnite (à acheter avec de vrais euros).")
 
 À peine le jeu installé et lancé pour la 1ère fois, ce qui saute au yeux (à la figure ?) ceux sont tous ces messages et autres boites de dialogue qui poussent à consommer : des skins exclusives, des danses, des emotes, etc. Bref une tonnes d’accessoires cosmétiques qui se renouvelles chaque semaine..
 
@@ -35,6 +34,6 @@ Ca n’aura pas été simple pour naviguer avec le fiston sur cette interface di
 
 ...j’ai un perso level 40 😆
 
-![Écran d'accueil du jeu Fortnite](/images/2022-04-09-jai-joue-a-fortnite/fortnite-narno.png "Écran d'accueil du jeu Fortnite, montrant mon perso niveau 40.")
+![Écran d'accueil du jeu Fortnite](../../assets/images/2022-04-09-jai-joue-a-fortnite/fortnite-narno.png "Écran d'accueil du jeu Fortnite, montrant mon perso niveau 40.")
 
 [^switch]: La  Switch est la console de jeu de Nintendo.
