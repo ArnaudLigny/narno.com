@@ -1,7 +1,7 @@
 {% extends 'page.html.twig' %}
 
         {%- block content -%}
-        {%~ include 'partials/lastpost.html.twig' ~%}
-        <hr/>
-        {%~ include 'partials/lastposts.html.twig' ~%}
+        {{~ include('partials/lastpost.html.twig') ~}}
+        <hr />
+        {{~ include('partials/lastposts.html.twig') ~}}
         {%- endblock content -%}

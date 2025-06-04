@@ -1,12 +1,12 @@
     {#- head -#}
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {%- include 'partials/metatags.html.twig' ~%}
-    <meta name="theme-color" content="{{ site.manifest.theme_color }}" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="manifest" href="{{ url('manifest', {language: site.language}) }}" />
-    <link rel="shortcut icon" href="{{ url('favicon.ico') }}" />
-    <link rel="stylesheet" href="{{ asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) }}" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{- include('partials/metatags.html.twig') ~}}
+    <meta name="theme-color" content="{{ site.manifest.theme_color }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="{{ url('manifest', {language: site.language}) }}">
+    <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
+    <link rel="stylesheet" href="{{ asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">

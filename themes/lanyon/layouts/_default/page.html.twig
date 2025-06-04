@@ -2,14 +2,14 @@
 <html lang="{{ site.language }}">
   <head>
     {%- block head ~%}
-    {%- include('partials/head.html.twig') ~%}
+    {{- include('partials/head.html.twig') ~}}
     {%- endblock head ~%}
   </head>
   <body>
     <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
     <div class="sidebar" id="sidebar">
       {%- block sidebar ~%}
-      {%- include('partials/sidebar.html.twig') ~%}
+      {{- include('partials/sidebar.html.twig') ~}}
       {%- endblock sidebar ~%}
     </div>
     <div class="wrap">
@@ -43,12 +43,12 @@
         }, false);
       })(document);
     {% endapply %}</script>
-    {%- include('partials/svg.html.twig') ~%}
+    {{- include('partials/svg.html.twig') ~}}
     {%- if site.serviceworker is defined and site.serviceworker.enabled ~%}
-    {%- include 'partials/regsw.js.twig' ~%}
+    {{- include('partials/regsw.js.twig') ~}}
     {%- endif ~%}
     {#- include('partials/googleanalytics.js.twig') ~#}
-    {%- include('partials/cloudflareinsights.js.twig') ~%}
+    {{- include('partials/cloudflareinsights.js.twig') ~}}
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
 </html>
