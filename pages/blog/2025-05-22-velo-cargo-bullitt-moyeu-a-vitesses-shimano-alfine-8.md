@@ -4,13 +4,12 @@ description: ""
 date: 2025-05-22
 Updated: 2025-06-03
 tags: [Vélo, Bullitt]
-#image: /images/bullitt.jpg
-Image: /images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161059380.jpg
+#image: images/bullitt.jpg
+image: images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161059380.jpg
 typora-root-url: ../../assets
 typora-copy-images-to: ../../assets/images/${filename}
 draft: true
 ---
-
 Je roule en vélo cargo [Bullitt](/tags/bullitt) depuis quelques années maintenant et j’avais rédigé un premier [retour d’expérience en 2020](page:blog/velo-cargo-bullitt-partage-experience), dans lequel j’indiquais que je regrettais de ne pas avoir opté pour un moyeux à vitesses plus haut de gamme que le Shimano Nexus 7 (ave frein à rétropédalage), faute de budget.
 
 Et… depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu à vitesses Shimano Alfine 8 \o/
@@ -22,18 +21,6 @@ Et… depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu 
 ## Coût et installation
 
 Je m’étais renseigné sur les options possibles pour 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
