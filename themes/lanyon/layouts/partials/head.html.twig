@@ -8,5 +8,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="manifest" href="{{ url('manifest', {language: site.language}) }}">
     <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
-    <link rel="stylesheet" href="{{ asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) }}">
+    {%- set css = asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) ~%}
+    {#-<link rel="stylesheet" href="{{ url(css) }}">~#}
+    <style>
+      {{ css|inline }}
+    </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
