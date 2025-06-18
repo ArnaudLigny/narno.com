@@ -5,7 +5,7 @@ date: 2019-03-20
 updated: 2025-01-21
 menu:
   main:
-    weight: 120
+    weight: 230
 image: images/config-pc-2024.jpg
 published: true
 ---
