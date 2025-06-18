@@ -4,7 +4,7 @@ description: "À propos du site web Narno.com et de son auteur."
 date: 2017-10-17
 menu:
   main:
-    weight: 200
+    weight: 999
 published: true
 alias:
   - contact
