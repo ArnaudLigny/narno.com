@@ -5,7 +5,7 @@ date: 2019-03-20
 updated: 2025-06-02
 menu:
   main:
-    weight: 130
+    weight: 220
 image: images/bullitt-bluebird.jpg
 alias: [mon-velo]
 typora-root-url: ../static
