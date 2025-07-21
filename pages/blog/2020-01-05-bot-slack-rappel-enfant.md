@@ -29,6 +29,6 @@ Pour fonctionner le bot à besoin de :
 
 Pour plus de détails sur la mise en œuvre (et l’accès à la documentation) je vous invite à consulter la page GitHub du projet : [github.com/Narno/leo-bot](https://github.com/Narno/leo-bot).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Narno/leo-bot)
+[![Deploy](images/heroku/button.svg)](https://heroku.com/deploy?template=https://github.com/Narno/leo-bot)
 
 > Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.
