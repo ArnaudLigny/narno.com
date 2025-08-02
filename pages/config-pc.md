@@ -9,13 +9,13 @@ menu:
 image: images/config-pc-2024.jpg
 published: true
 ---
-## La configuration matérielle de mon PC de jeu
+La configuration matérielle de mon PC de jeu.
 
-![Fractal North](/images/config-pc-2024.jpg)
+![Photo de mon bureau, avec mon nouveau PC et un écran large](../assets/images/config-pc-2024.jpg "Photo de mon bureau, avec mon nouveau PC et un écran large")
 
 | Composant       | Description |
 | --------------- | ----------- |
-| Boîtier         | [Fractal north TG noir](https://www.fractal-design.com/products/cases/north/north/charcoal-black/) |
+| Boîtier         | [Fractal North TG noir](https://www.fractal-design.com/products/cases/north/north/charcoal-black/) |
 | Alimentation    | [Corsair CX Series CX750](https://www.corsair.com/fr/fr/p/psu/cp-9020279-eu/cx-series-cx750-750-watt-80-plus-bronze-atx-power-supply-eu-cp-9020279-eu) |
 | Carte Mère      | [Gigabyte B760 Aorus Elite AX DDR4](https://www.gigabyte.com/fr/Motherboard/B760-AORUS-ELITE-AX-DDR4-rev-1x#kf) |
 | Processeur      | [Intel CoreTM i7-12700K](https://www.intel.fr/content/www/fr/fr/products/sku/134594/intel-core-i712700k-processor-25m-cache-up-to-5-00-ghz/specifications.html) |
