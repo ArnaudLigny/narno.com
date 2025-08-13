@@ -9,13 +9,13 @@ author:
   email: me@narno.com
   url: https://narno.co
 social:
-  #twitter:
+  twitter:
   #  url: https://twitter.com/Narno
-  #  site: Narno
-  #  creator: Narno
+    site: Narno
+    creator: Narno
   mastodon:
     url: https://gazuji.com/@narno
-    creator: "@narno@gazuji.com"
+    creator: narno@gazuji.com
   steam:
     url: https://steamcommunity.com/id/narno
     username: narno
