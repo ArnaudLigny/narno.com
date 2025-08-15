@@ -21,19 +21,19 @@
             <a rel="me" title="M'envoyer un e-mail" href="mailto:{{ site.author.email }}"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
           </li>
           {%- if site.social is defined ~%}
-            {%- if site.social.twitter is defined ~%}
+            {%- if site.social.twitter.url is defined ~%}
           <li>
-            <a rel="me" title="Me suivre sur Twitter" href="https://twitter.com/{{ site.social.twitter.creator }}"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
+            <a rel="me" title="Me suivre sur Twitter" href="{{ site.social.twitter.url }}"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
           </li>
             {%- endif ~%}
-            {#-{%- if site.social.github is defined ~%}
+            {#-{%- if site.social.github.url is defined ~%}
           <li>
-            <a rel="me" title="Me suivre sur GitHub" href="https://github.com/{{ site.social.github.username }}"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
+            <a rel="me" title="Me suivre sur GitHub" href="{{ site.social.github.url }}"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
           </li>
             {%- endif ~%}~#}
-            {%- if site.social.steam is defined ~%}
+            {%- if site.social.steam.url is defined ~%}
           <li>
-            <a rel="me" title="Me suivre sur Steam" href="https://steamcommunity.com/id/{{ site.social.steam.username }}"><svg width="16" height="20" class="icon icon-steam"><use xlink:href="#icon-steam"></use></svg></a>
+            <a rel="me" title="Me suivre sur Steam" href="{{ site.social.steam.url }}"><svg width="16" height="20" class="icon icon-steam"><use xlink:href="#icon-steam"></use></svg></a>
           </li>
             {%- endif ~%}
           {%- endif ~%}
