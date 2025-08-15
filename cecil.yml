@@ -3,7 +3,6 @@ baseurl: https://narno.com/
 baseline: dev web, vélo et jeu vidéo
 description: Narno.com est un weblog où je partage mes expériences de développement web, de vélo et de jeu vidéo.
 keywords: [développement web, vélo, jeu vidéo]
-image: icon.png
 author:
   name: Narno
   email: me@narno.com
