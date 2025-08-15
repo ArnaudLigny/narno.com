@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ site.language }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="googlebot" content="noindex,indexifembedded">
-    <link rel="canonical" href="{{ url(page, {canonical: true, format: 'iframe'}) }}">
-    <title>{{ page.title }}</title>
-    <style type="text/css">
-      body {
-        background-color: black;
-        margin: 0;
-        padding: 0;
-      }
-      video {
-        width: 100%;
-        height: auto;
-      }
-    </style>
-  </head>
-  <body>
+{% extends '_default/page.iframe.twig' %}
+
+    {%- block video ~%}
     {{- include('partials/player.html.twig', {page: page}, with_context = false) ~}}
-  </body>
-</html>
+    {%- endblock ~%}
