@@ -5,5 +5,7 @@ cascade:
   metatags:
     title:
       only: true
-  output: [html, iframe, oembed]
+  output: [html, oembed, iframe]
+  twitter: Narno
+  mastodon: narno@gazuji.com
 ---
