@@ -1,5 +1,6 @@
 ---
 cascade:
-  twitter: Narno
-  mastodon: narno@gazuji.com
+  social:
+    twitter: Narno
+    mastodon: narno@gazuji.com
 ---
