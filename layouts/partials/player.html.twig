@@ -2,8 +2,10 @@
             <!-- video player -->
             <link rel="stylesheet" href="{{ url(asset('plyr/plyr.css'), {canonical: true}) }}" />
             <style>
-              video {
-                aspect-ratio: 16 / 9;
+              :root {
+                --plyr-color-main: transparent;
+                --plyr-control-icon-size: 22px;
+                --plyr-video-control-color-hover: #B8C0C2;
               }
               .plyr__poster {
                 background-size: cover;
