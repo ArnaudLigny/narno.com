@@ -4,83 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fa69e6c097c718ace6710d042afe4b7",
+    "content-hash": "1094efcb216a0ed31ace180fe9294cb6",
     "packages": [
         {
-            "name": "cecil/theme-hyde",
-            "version": "2.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Cecilapp/theme-hyde.git",
-                "reference": "a2be4d842a86d434d3f5a2729dcddc0f98e89892"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/a2be4d842a86d434d3f5a2729dcddc0f98e89892",
-                "reference": "a2be4d842a86d434d3f5a2729dcddc0f98e89892",
-                "shasum": ""
-            },
-            "require": {
-                "cecil/theme-installer": "^1.4"
-            },
-            "type": "cecil-theme",
-            "extra": {
-                "name": "hyde",
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Cecil Hyde theme",
-            "keywords": [
-                "Hyde",
-                "cecil",
-                "theme"
-            ],
-            "support": {
-                "issues": "https://github.com/Cecilapp/theme-hyde/issues",
-                "source": "https://github.com/Cecilapp/theme-hyde/tree/2.6.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/ArnaudLigny",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/cecil",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2025-06-11T22:44:08+00:00"
-        },
-        {
             "name": "cecil/theme-installer",
-            "version": "1.4.5",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-installer.git",
-                "reference": "12b1d72ff38e1199eaca34877a64008b6a65e393"
+                "reference": "588ec8523a978229d23e10a0b8e0b6420192c154"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/12b1d72ff38e1199eaca34877a64008b6a65e393",
-                "reference": "12b1d72ff38e1199eaca34877a64008b6a65e393",
+                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/588ec8523a978229d23e10a0b8e0b6420192c154",
+                "reference": "588ec8523a978229d23e10a0b8e0b6420192c154",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": ">=1.0"
+                "composer-plugin-api": ">=2.0"
             },
             "require-dev": {
-                "composer/composer": ">=1.0"
+                "composer/composer": ">=2.0"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Cecil\\Installer\\Composer\\CecilPlugin",
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -108,13 +58,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-installer/issues",
-                "source": "https://github.com/Cecilapp/theme-installer/tree/1.4.5"
+                "source": "https://github.com/Cecilapp/theme-installer/tree/2.0.0"
             },
             "funding": [
-                {
-                    "url": "https://www.paypal.me/narno",
-                    "type": "custom"
-                },
                 {
                     "url": "https://github.com/ArnaudLigny",
                     "type": "github"
@@ -124,20 +70,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-01-06T10:54:26+00:00"
+            "time": "2024-01-09T14:53:24+00:00"
         },
         {
             "name": "cecil/theme-pwa",
-            "version": "2.19.2",
+            "version": "2.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-pwa.git",
-                "reference": "0ad1feedd60b7d22d00f3a2d96e3babfd5849427"
+                "reference": "4579664d6525c7eea8f649c01ea17264e10c244f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/0ad1feedd60b7d22d00f3a2d96e3babfd5849427",
-                "reference": "0ad1feedd60b7d22d00f3a2d96e3babfd5849427",
+                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/4579664d6525c7eea8f649c01ea17264e10c244f",
+                "reference": "4579664d6525c7eea8f649c01ea17264e10c244f",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +108,7 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/Cecilapp/theme-pwa/tree/2.19.2"
+                "source": "https://github.com/Cecilapp/theme-pwa/tree/2.20.0"
             },
             "funding": [
                 {
@@ -174,7 +120,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-07-23T19:45:14+00:00"
+            "time": "2025-08-06T15:16:06+00:00"
         }
     ],
     "packages-dev": [],
