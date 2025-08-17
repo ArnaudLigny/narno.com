@@ -1,4 +1,6 @@
 ---
+title: Blog
+description: Le blog de Narno.
 cascade:
   social:
     twitter: Narno
