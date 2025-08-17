@@ -6,10 +6,8 @@
     <meta name="theme-color" content="{{ site.manifest.theme_color }}">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="manifest" href="{{ url('manifest', {language: site.language}) }}">
     <link rel="shortcut icon" href="{{ url('favicon.ico') }}">
     {%- set css = asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) ~%}
-    {#-<link rel="stylesheet" href="{{ url(css) }}">~#}
     <style>
       {{ css|inline }}
     </style>
