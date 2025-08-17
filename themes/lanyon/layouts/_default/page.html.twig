@@ -47,7 +47,6 @@
     {%- if site.serviceworker is defined and site.serviceworker.enabled ~%}
     {{- include('partials/regsw.js.twig') ~}}
     {%- endif ~%}
-    {#- include('partials/googleanalytics.js.twig') ~#}
     {{- include('partials/cloudflareinsights.js.twig') ~}}
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
