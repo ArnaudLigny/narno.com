@@ -7,6 +7,7 @@ menu:
   main:
     weight: 230
 image: images/config-pc-2024.jpg
+author: Narno
 published: true
 ---
 La configuration matérielle de mon PC de jeu.
