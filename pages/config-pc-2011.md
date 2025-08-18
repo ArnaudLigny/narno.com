@@ -4,6 +4,7 @@ description: "La configuration matérielle de mon PC de jeu."
 date: 2019-03-20
 updated: 2022-06-11
 image: images/CanHard-IX.jpg
+author: Narno
 alias:
 - configpc
 published: true
