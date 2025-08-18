@@ -5,6 +5,7 @@ date: 2017-10-17
 menu:
   main:
     weight: 999
+author: Narno
 published: true
 alias:
   - contact
