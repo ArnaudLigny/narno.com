@@ -6,6 +6,7 @@ cascade:
     title:
       only: true
   output: [html, oembed, iframe]
+  author: Narno
   social:
     twitter: Narno
     mastodon: narno@gazuji.com
