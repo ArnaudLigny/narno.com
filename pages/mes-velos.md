@@ -7,6 +7,7 @@ menu:
   main:
     weight: 220
 image: images/bullitt-bluebird.jpg
+author: Narno
 alias: [mon-velo]
 typora-root-url: ../static
 published: true
