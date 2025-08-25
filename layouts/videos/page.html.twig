@@ -4,6 +4,8 @@
           <div class="post">
             <span><a href="/videos">Vidéos</a></span>
             <h1 class="post-title">{{ page.title }}</h1>
+            <span class="post-date">{{ page.date|format_date('long') }}</span>
+            <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ asset(page.videos[0]).video.duration|round }} s</span>
             {{- include('partials/player.html.twig', {page: page, autoplay: false}, with_context = false) ~}}
             <blockquote>{{ page.description }}</blockquote>
             {{- page.content ~}}
