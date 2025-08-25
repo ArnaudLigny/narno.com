@@ -7,6 +7,8 @@
             {%- for page_video in pages|sort_by_date ~%}
             <div class="post">
               <h1 class="post-title"><a href="{{ url(page_video) }}">{{ page_video.title }}</a></h1>
+              <span class="post-date">{{ page_video.date|format_date('long') }}</span>
+              <span class="post-readtime"> &middot; <svg width="16" height="16" class="icon icon-clock"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock"></use></svg> {{ asset(page_video.videos[0]).video.duration|round }} s</span>
               {#-
               <a href="{{ url(page_video) }}" class="video" title="{{ page_video.title }}">
                 <div class="play-btn">
