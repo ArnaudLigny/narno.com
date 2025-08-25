@@ -119,7 +119,7 @@ a.video .play-btn {
 a.video .play-btn svg {
   transition: all .2s ease;
   fill: #fff;
-  width: 4rem;
+  width: 3rem;
 }
 
 a.video .play-btn:hover svg,
