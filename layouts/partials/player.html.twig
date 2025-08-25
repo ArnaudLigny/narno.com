@@ -2,10 +2,18 @@
             <!-- video player -->
             <link rel="stylesheet" href="{{ url(asset('plyr/plyr.css'), {canonical: true}) }}" />
             <style>
+              video {
+                border-radius: 5px;
+              }
               :root {
-                --plyr-color-main: transparent;
+                /*--plyr-color-main: #185886;*/
+                --plyr-color-main: rgba(0,0,0,0.6);
                 --plyr-control-icon-size: 22px;
                 --plyr-video-control-color-hover: #B8C0C2;
+              }
+              .plyr {
+                border-radius: 5px;
+                margin: 0 0 2.2rem;
               }
               .plyr__poster {
                 background-size: cover;
