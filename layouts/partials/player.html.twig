@@ -19,7 +19,7 @@
                 background-size: cover;
               }
             </style>
-            <video id="player" playsinline controls preload="auto" poster="{{ url(asset(page.image), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
+            <video id="player-{{ page.title|slugify }}" playsinline controls preload="auto" poster="{{ url(asset(page.image), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
               {%- for video in page.videos ~%}
                 {%- set asset = asset(video) ~%}
               <source src="{{ url(asset, {canonical: true}) }}" type="{{ asset.subtype }}"/>
@@ -27,7 +27,7 @@
             </video>
             <script src="{{ url(asset('plyr/plyr.js'), {canonical: true}) }}"></script>
             <script>
-              const player = new Plyr('#player', {
+              const player_{{ page.title|slugify|replace({'-': '_'}) }} = new Plyr('#player-{{ page.title|slugify }}', {
                 controls: ['play-large', 'play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'fullscreen']
               });
             </script>
