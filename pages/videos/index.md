@@ -5,7 +5,8 @@ cascade:
   metatags:
     title:
       only: true
-  output: [html, oembed, embed]
+  #output: [html, oembed, embed]
+  output: [html, embed]
   author: Narno
   social:
     twitter: Narno
