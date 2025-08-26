@@ -1,7 +1,7 @@
             {#- video player: autoplay=false, muted=false ~#}
             <!-- video player -->
             <link rel="stylesheet" href="{{ url(asset('plyr/plyr.css'), {canonical: true}) }}" />
-            <style>
+            <style>{% apply minify_css ~%}
               video {
                 border-radius: 5px;
               }
@@ -18,7 +18,7 @@
               .plyr__poster {
                 background-size: cover;
               }
-            </style>
+            {% endapply %}</style>
             <video id="player-{{ page.title|slugify }}" playsinline controls preload="auto" poster="{{ url(asset(page.image), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
               {%- for video in page.videos ~%}
                 {%- set asset = asset(video) ~%}
