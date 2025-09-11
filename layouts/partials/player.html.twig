@@ -19,7 +19,7 @@
                 background-size: cover;
               }
             {% endapply %}</style>
-            <video id="player-{{ page.title|slugify }}" playsinline controls preload="auto" poster="{{ url(asset(page.image), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
+            <video id="player-{{ page.title|slugify }}" playsinline controls preload="auto" poster="{{ url(asset(page.image)|resize(1280), {canonical: true}) }}"{% if autoplay ?? false %} autoplay{% endif %}{% if muted ?? false %} muted{% endif %}>
               {%- for video in page.videos ~%}
                 {%- set asset = asset(video) ~%}
               <source src="{{ url(asset, {canonical: true}) }}" type="{{ asset.subtype }}"/>
