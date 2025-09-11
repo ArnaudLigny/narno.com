@@ -95,6 +95,10 @@ figcaption {
   text-align: center;
 }
 
+video {
+  max-width: 100%;
+}
+
 .videos {
   display: flex;
 }
