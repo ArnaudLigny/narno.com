@@ -1,6 +1,6 @@
-# narno.com
+# Narno.com
 
-Source code and content of my personal website [narno.com](https://narno.com).
+Source code and content of [narno.com](https://narno.com).
 
 The website is automatically built by [Cecil](https://cecil.app) + ~~[LambCI](https://github.com/lambci/lambci)~~ [GitHub Actions](https://github.com/features/actions) when content is updated, and deployed to [GitHub Pages](https://pages.github.com).
 
