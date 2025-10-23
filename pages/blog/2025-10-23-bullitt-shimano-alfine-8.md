@@ -10,7 +10,7 @@ published: true
 ---
 Je roule sur un vélo cargo [Bullitt](/tags/bullitt) depuis quelques années maintenant et j’avais rédigé un premier [retour d’expérience en 2020](page:blog/velo-cargo-bullitt-partage-experience), dans lequel j’indiquais (entre autres) que je regrettais de ne pas avoir opté pour un moyeux à vitesses plus haut de gamme que le Shimano Nexus 7 (avec frein à rétropédalage), faute de budget.
 
-Nous en sommes en 2025, et depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu à vitesses [Shimano Alfine 8](https://bike.shimano.com/fr-FR/products/components/pdp.P-SG-S7001-8.html) et d’un frein à disque hydraulique 😀
+Nous en sommes en 2025, et depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu à vitesses [Shimano Alfine 8](https://bike.shimano.com/fr-FR/products/components/pdp.P-SG-S7001-8.html) et d’un frein à disque hydraulique [TRP Slate EVO](https://tektro.eu/fr/trp/featured_item/slate-evo/) 😀
 
 ![Vue de dessus d’un moyeu à vitesses Shimano Alfine 8 installé sur un vélo cargo Bullitt.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161059380.jpg "Moyeu à vitesses Shimano Alfine 8 installé sur mon Bullitt")
 
