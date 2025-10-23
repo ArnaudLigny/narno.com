@@ -1,22 +1,22 @@
 ---
 title: "Vélo cargo Bullitt : moyeu à vitesses Shimano Alfine 8"
 description: "J'ai remplacé le Shimano Nexus 7 de mon vélo cargo Bullitt par un Alfine 8."
-date: 2025-06-09
+date: 2025-10-23
 tags: [Vélo, Bullitt]
-image: images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161059380.jpg
+image: images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161059380.jpg
 typora-root-url: ../../assets
 typora-copy-images-to: ../../assets/images/${filename}
-published: false
+published: true
 ---
-Je roule en vélo cargo [Bullitt](/tags/bullitt) depuis quelques années maintenant et j’avais rédigé un premier [retour d’expérience en 2020](page:blog/velo-cargo-bullitt-partage-experience), dans lequel j’indiquais (entre autres) que je regrettais de ne pas avoir opté pour un moyeux à vitesses plus haut de gamme que le Shimano Nexus 7 (avec frein à rétropédalage), faute de budget.
+Je roule sur un vélo cargo [Bullitt](/tags/bullitt) depuis quelques années maintenant et j’avais rédigé un premier [retour d’expérience en 2020](page:blog/velo-cargo-bullitt-partage-experience), dans lequel j’indiquais (entre autres) que je regrettais de ne pas avoir opté pour un moyeux à vitesses plus haut de gamme que le Shimano Nexus 7 (avec frein à rétropédalage), faute de budget.
 
-Et… depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu à vitesses [Shimano Alfine 8](https://bike.shimano.com/fr-FR/products/components/pdp.P-SG-S7001-8.html) 😀
+Nous en sommes en 2025, et depuis janvier je me suis offert une nouvelle roue équipée d’un moyeu à vitesses [Shimano Alfine 8](https://bike.shimano.com/fr-FR/products/components/pdp.P-SG-S7001-8.html) et d’un frein à disque hydraulique 😀
 
-![Vue de dessus d’un moyeu à vitesses Shimano Alfine 8 installé sur un vélo cargo Bullitt.](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161059380.jpg "Moyeu à vitesses Shimano Alfine 8 installé sur mon Bullitt.")
+![Vue de dessus d’un moyeu à vitesses Shimano Alfine 8 installé sur un vélo cargo Bullitt.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161059380.jpg "Moyeu à vitesses Shimano Alfine 8 installé sur mon Bullitt.")
 
 <!--break-->
 
-## Se procurer la roue, équipée, à quel coût ?
+## Se procurer la roue, pré-montée, à quel coût ?
 
 Je m’étais renseigné sur les options possibles afin d’assembler une nouvelle roue « sur mesure », équipée d’une jante résistante et pas trop lourde, le fameux moyeux à vitesse, le frein à disque hydraulique, etc. et ça n’était pas simple de trouver un vélociste proposant cette possibilité.
 
@@ -24,7 +24,7 @@ J’avais aussi étudié la possibilité de le faire moi même, mais j’avoue a
 
 Et c’est alors que j’ai découvert que [Larry vs Harry](https://larryvsharry.com), les créateurs du [Bullitt](tags/bullitt), proposait maintenant des roues prémontées directement à la vente en ligne. Excellente nouvelle !
 
-![Roue prémontée, posée sur son carton.](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250114_141425149.jpg "Roue prémontée, posée sur son carton.")
+![Roue prémontée, posée sur son carton.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250114_141425149.jpg "Roue prémontée, posée sur son carton.")
 
 Par contre, en terme de coût,n c’est forcément plus cher puisqu’au delà de la main main d’œuvre il faut également s’acquitter des frais de port.
 
@@ -46,7 +46,7 @@ Le seul vrai point d’attention, c’est de ne pas oublier de prévoir le rempl
 
 D’ailleurs un grand merci à [Urban Cycle](https://www.urbancycle.fr/velo-cargo-bullitt/) de m’avoir trouvé et vendu ces supports à prix coutant !
 
-![Supports de fixation de la roue arrière du Bullitt, vue de dessus, posés sur une plan de travail](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250115_112020542.jpg "Supports de fixation de la roue arrière du Bullitt.")
+![Supports de fixation de la roue arrière du Bullitt, vue de dessus, posés sur une plan de travail](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250115_112020542.jpg "Supports de fixation de la roue arrière du Bullitt.")
 
 #### Positionnement de l’étrier de frein
 
@@ -60,8 +60,8 @@ Et surtout, quand tu as goûté au moyeu à vitesses, difficile de revenir en ar
 
 ### Photos complémentaires
 
-![Frein à disque hydraulique arrière TRP Slate EVO.](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161043807.jpg "Frein à disque hydraulique arrière TRP Slate EVO.")
+![Frein à disque hydraulique arrière TRP Slate EVO.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161043807.jpg "Frein à disque hydraulique arrière TRP Slate EVO.")
 
-![Vue d’ensemble de la nouvelle roue installée sur mon Bullitt.](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161034814.jpg "Vue d’ensemble de la nouvelle roue installée sur mon Bullitt.")
+![Vue d’ensemble de la nouvelle roue installée sur mon Bullitt.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161034814.jpg "Vue d’ensemble de la nouvelle roue installée sur mon Bullitt.")
 
-![Shifter Shimano et manette de frein hydraulique TRP.](/images/2025-05-22-velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8/PXL_20250116_161106439.jpg "Shifter Shimano et manette de frein hydraulique TRP.")
+![Shifter Shimano et manette de frein hydraulique TRP.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161106439.jpg "Shifter Shimano et manette de frein hydraulique TRP.")
