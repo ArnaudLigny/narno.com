@@ -6,6 +6,12 @@ a {
   margin-bottom: 1.5em;
 }
 
+/* better links visibility in page content */
+.page > :not(h1, h2, span, figure, footer) a,
+.post > :not(h1, h2, span, figure, footer) a {
+  text-decoration: underline;
+}
+
 .post-date,
 .post-readtime,
 .post-tags {
