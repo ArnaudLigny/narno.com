@@ -1,13 +1,13 @@
 {% extends 'page.html.twig' %}
 
         {%- block content ~%}
-        <h1>Le blog</h1>
         <div class="posts">
-        {%- set pages = page.pages ~%}
-        {%- if page.paginator.pages is defined ~%}
-        {%- set pages = page.paginator.pages ~%}
-        {%- endif ~%}
-        {%- for post in pages ~%}
+          <h1>Le blog</h1>
+          {%- set pages = page.pages ~%}
+          {%- if page.paginator.pages is defined ~%}
+          {%- set pages = page.paginator.pages ~%}
+          {%- endif ~%}
+          {%- for post in pages ~%}
           <div class="post">
             <h2 class="post-title"><a href="{{ url(post) }}">{{ post.title }}</a></h2>
             <span class="post-date">{{ post.date|format_date('long') }}</span>
@@ -26,15 +26,15 @@
               <a href="{{ url(post) }}">Lire le billet ›</a>
             </footer>
             <footer class="tags">
-              {%- if post.tags is defined ~%}
+            {%- if post.tags|default([]) ~%}
               {%- for tag in post.tags ~%}
               <a href="{{ url('tags/' ~ tag) }}">#{{ tag }}</a>&nbsp;
               {%- endfor ~%}
-              {%- endif ~%}
+            {%- endif ~%}
             </footer>
           </div>
           <hr />
-        {%- endfor ~%}
+          {%- endfor ~%}
         </div>
         {%- if page.paginator.links is defined ~%}
         <div class="pagination">

@@ -1,13 +1,3 @@
-<a class="twitter-share-button"
-  href="https://twitter.com/share"
-  data-text="{{ title|default(page.title)|e }}"
-  data-url="{{ url(page, {canonical:true}) }}"
-  {%- if page.tags is defined ~%}
-  data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"
-  {%- endif ~%}
-  {%- if site.social.twitter.site is defined ~%}
-  data-related="{{ site.social.twitter.site }}"
-  {%- endif ~%}
->
-  Share on Twitter/X
-</a>
+<a class="twitter-share-button" href="https://twitter.com/share" data-text="{{ title|default(page.title)|e }}" data-url="{{ url(page, {canonical:true}) }}"
+  {%- if page.tags is defined %} data-hashtags="{{ page.tags|join(', ')|title|replace({' ':''}) }}"{% endif -%}
+  {%- if site.social.twitter.site is defined %} data-related="{{ site.social.twitter.site }}"{% endif %}>Share on Twitter/X</a>

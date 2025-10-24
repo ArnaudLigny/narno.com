@@ -1,13 +1,15 @@
 {% extends 'page.html.twig' %}
 
         {%- block content ~%}
-        <h1 class="page-title">{{ page.title }}</h1>
-        {{~ page.content ~}}
-        <ul>
-        {%- for post in page.pages ~%}
-          <li>
-            <a href="{{ url(post) }}">{{ post.title }}</a>
-          </li>
-        {%- endfor ~%}
-        </ul>
+        <div class="page">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {{~ page.content ~}}
+          <ul>
+          {%- for post in page.pages ~%}
+            <li>
+              <a href="{{ url(post) }}">{{ post.title }}</a>
+            </li>
+          {%- endfor ~%}
+          </ul>
+        </div>
         {%- endblock content ~%}

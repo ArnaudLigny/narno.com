@@ -1,6 +1,7 @@
 {% extends 'page.html.twig' %}
 
-          {%- block content ~%}
+        {%- block content ~%}
+        <div class="page">
           <h1 class="page-title">{{ page.title }}</h1>
           <span class="post-date">{{ page.date|format_date('long') }}</span>
           {%- set readtime = readtime(page.content) -%}
@@ -29,4 +30,5 @@
           {% block comments %}
           {{ include('partials/comments.html.twig') }}
           {% endblock comments %}
-          {%- endblock content ~%}
+        </div>
+        {%- endblock content ~%}
