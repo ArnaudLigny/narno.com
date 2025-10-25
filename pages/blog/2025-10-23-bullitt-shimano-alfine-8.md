@@ -23,7 +23,7 @@ Je m’étais renseigné sur les options possibles afin d’assembler une nouvel
 
 J’avais aussi étudié la possibilité de le faire moi même, mais j’avoue avoir douté de ma capacité à faire le choix des pièces compatibles et à réaliser le rayonnage sans expérience…
 
-C’est alors que j’ai découvert que [Larry vs Harry](https://larryvsharry.com), les créateurs du [Bullitt](/tags/bullitt), proposaient maintenant des roues prémontées directement à la vente en ligne. Excellente nouvelle !
+C’est alors que j’ai découvert que [Larry vs Harry](https://larryvsharry.com), les créateurs du [Bullitt](/tags/bullitt), proposaient maintenant des [roues complètes](https://larryvsharry.com/collections/complete-wheels) directement à la vente en ligne. Excellente nouvelle !
 
 ![Roue prémontée, posée sur son carton.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250114_141425149.jpg "Roue prémontée, posée sur son carton")
 
