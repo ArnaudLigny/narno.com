@@ -34,7 +34,9 @@ Le carton en lui même, arrivé sur une palette, livré par transporteur, est su
 Après avoir enlevé le carton contenant le HCB ([Honeycomb Board](http://shop.larryvsharry.com/shop/accessories/honeycomb-board.html)), voici comment se présente l’agencement du cadre, des différentes pièces et autres accessoires :
 
 ![Contenu du carton d’un vélo cargo Bullitt : vue de dessus](/images/bullitt-carton/IMG_20190412_134655.jpg "Contenu du carton : vue de dessus"){width="800"}
+
 ![Vu d’ensemble des cartons de pièces](/images/bullitt-carton/IMG_20190412_134904.jpg "Vu d’ensemble des cartons de pièces"){width="800"}
+
 ![Contenu du carton d’un vélo cargo Bullitt : vue de dessus, cadre](/images/bullitt-carton/IMG_20190412_135020.jpg "Contenu du carton : vue de dessus, cadre"){width="800"}
 
 ### Le cadre
@@ -96,4 +98,4 @@ Et voilà !
 
 J’essaierai de détailler un peu plus le montage dans un autre billet.
 
-Retenez que ça reste très facile, y compris pour un néophyte, d’autant plus une fois qu’on a mis la main sur le [manuel officiel](https://www.dropbox.com/scl/fi/lvc3jnylpmuefct4jxc34/Bullitt-manual-2018-NL.pdf?rlkey=77j5nn8v2tirrkv579hwkwb83&e=1&st=oxprbjcc&dl=0) après 1 heure de montage ! 😄
+Retenez que ça reste très facile, y compris pour un néophyte, d’autant plus une fois qu’on a mis la main sur le [manuel officiel](/files/Bullitt-manual-2018-NL.pdf) après 1 heure de montage ! 😄
