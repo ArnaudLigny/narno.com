@@ -2,7 +2,7 @@
 title: "Mon PC"
 description: "La configuration matérielle de mon PC de jeu."
 date: 2019-03-20
-updated: 2025-01-21
+updated: 2025-10-25
 menu:
   main:
     weight: 230
@@ -22,7 +22,7 @@ La configuration matérielle de mon PC de jeu.
 | Processeur      | [Intel CoreTM i7-12700K](https://www.intel.fr/content/www/fr/fr/products/sku/134594/intel-core-i712700k-processor-25m-cache-up-to-5-00-ghz/specifications.html) |
 | Ventirad        | [Corsair H100x RGB Elite](https://www.corsair.com/fr/fr/p/cpu-coolers/cw-9060065-ww/icue-h100x-rgb-elite-liquid-cpu-cooler) |
 | Carte Graphique | [GeForce RTX 4070 Ti SUPER Trinity Black Edition 16 Go GDDR6X](https://www.zotac.com/fr/product/graphics_card/zotac-gaming-geforce-rtx-4070-ti-super-trinity-black-edition-16gb-gddr6x-0) |
-| Mémoire         | [Corsair Vengeance RGB PRO 16 Go](https://www.corsair.com/fr/fr/p/memory/cmw16gx4m2c3200c16/vengeancea-rgb-pro-16gb-2-x-8gb-ddr4-dram-3200mhz-c16-memory-kit-a-black-cmw16gx4m2c3200c16) |
+| Mémoire         | [Corsair Vengeance RGB PRO 16 Go](https://www.corsair.com/fr/fr/p/memory/cmw16gx4m2z3600c18/vengeancea-rgb-pro-16gb-2-x-8gb-ddr4-dram-3600mhz-c18-amd-ryzen-memory-kit-a-black-cmw16gx4m2z3600c18) |
 | SSD + HDD       | [Solidigm P41 Plus 512 Go](https://www.solidigm.com/products/client/plus-series/p41.html) + Seagate Barracuda SATA-III |
 | Écran           | [iiyama Prolite XCB3494WQSN-B5 LED 34"](https://iiyama.com/fr_fr/produits/prolite-xcb3494wqsn-b5/) |
 | Souris          | [Razer Mamba Wireless](https://www.razer.com/fr-fr/gaming-mice/razer-mamba-wireless) |
