@@ -142,3 +142,26 @@ a.video img {
   margin: 0;
   width: 100%;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #c0c0c0;
+    background-color: #222;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #acacac;
+  }
+  a {
+    color: #268bd2;
+  }
+  .masthead-title a {
+    color: #acacac;
+  }
+  .page-title, .post-title, .post-title a {
+    color: #acacac;
+  }
+  .post-date, .post-readtime, .post-tags {
+    color: #acacac;
+  }
+}
