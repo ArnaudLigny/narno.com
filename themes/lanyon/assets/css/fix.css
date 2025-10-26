@@ -155,6 +155,23 @@ a.video img {
   a {
     color: #268bd2;
   }
+  hr {
+    border-top: 1px solid #acacac;
+    border-bottom: 1px solid #fff;
+  }
+  .sidebar-toggle {
+    color: #acacac;
+    background-color: #505050;
+  }
+  .sidebar-toggle:before {
+    background-image: -webkit-linear-gradient(to bottom,#acacac,#acacac 20%,#505050 20%,#505050 40%,#acacac 40%,#acacac 60%,#505050 60%,#505050 80%,#acacac 80%,#acacac 100%);
+    background-image: -moz-linear-gradient(to bottom,#acacac,#acacac 20%,#505050 20%,#505050 40%,#acacac 40%,#acacac 60%,#505050 60%,#505050 80%,#acacac 80%,#acacac 100%);
+    background-image: -ms-linear-gradient(to bottom,#acacac,#acacac 20%,#505050 20%,#505050 40%,#acacac 40%,#acacac 60%,#505050 60%,#505050 80%,#acacac 80%,#acacac 100%);
+    background-image: linear-gradient(to bottom, #acacac, #acacac 20%, #505050 20%, #505050 40%, #acacac 40%, #acacac 60%, #505050 60%, #505050 80%, #acacac 80%, #acacac 100%);
+  }
+  .masthead {
+    border-bottom: 1px solid #acacac;
+  }
   .masthead-title a {
     color: #acacac;
   }
