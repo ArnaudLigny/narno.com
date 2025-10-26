@@ -61,12 +61,12 @@ Et surtout, quand tu as goûté au moyeu à vitesses, difficile de revenir en ar
 
 Je m’y étais déjà habitué avec le Nexus 7, et c’est encore plus confortable avec l’Alfine 8.
 
-### Photos complémentaires
+### Photos
 
-Ci dessous quelques photos commentaires :
+Ci-dessous quelques photos complémentaires :
 
-![Frein à disque hydraulique arrière TRP Slate EVO.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161043807.jpg "Frein à disque hydraulique arrière TRP Slate EVO")
+![Shifter Shimano et manette de frein hydraulique TRP.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161106439.jpg "Shifter Shimano et manette de frein hydraulique TRP")
 
 ![Vue d’ensemble de la nouvelle roue installée sur mon Bullitt.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161034814.jpg "Vue d’ensemble de la nouvelle roue installée sur mon Bullitt")
 
-![Shifter Shimano et manette de frein hydraulique TRP.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161106439.jpg "Shifter Shimano et manette de frein hydraulique TRP")
+![Frein à disque hydraulique arrière TRP Slate EVO.](/images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161043807.jpg "Frein à disque hydraulique arrière TRP Slate EVO")
