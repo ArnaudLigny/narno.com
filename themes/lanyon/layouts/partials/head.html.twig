@@ -7,5 +7,5 @@
     {{- include('partials/metatags.html.twig') ~}}
     {%- set css = asset(['css/poole.css', 'css/syntax.css', 'css/lanyon.css', 'css/fix.css']) ~%}
     <style>{{ css|inline }}</style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    {#-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">~#}
     {{- include('partials/pwa.html.twig', {site}, with_context = false) ~}}
