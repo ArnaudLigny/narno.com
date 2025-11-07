@@ -22,13 +22,13 @@
           {%- endfor ~%}
           </footer>
           {%- endif ~%}
-          <footer class="twitter">
-            {{- include('partials/share-twitter.html.twig') -}}
+          {#-<footer class="twitter">
+            {{ include('partials/share-twitter.html.twig') -}}
             {{- include('partials/share-bluesky.html.twig') -}}
             {{- include('partials/share-mastodon.html.twig') ~}}
-          </footer>
-          {% block comments %}
-          {{ include('partials/comments.html.twig') }}
-          {% endblock comments %}
+          </footer>~#}
+          {%- block comments ~%}
+          {{- include('partials/comments.html.twig') ~}}
+          {%- endblock comments ~%}
         </div>
         {%- endblock content ~%}
