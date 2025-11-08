@@ -1,6 +1,6 @@
 {#- Partial to display the last blog posts ~#}
         <div class="lastposts">
-          <h2>Derniers <a href="/blog/">billets</a></h2>
+          <h2>Derniers billets</h2>
           <ul>
           {%- for post in site.pages.showable|filter_by('section', 'blog')|sort_by_date|slice(1, 5) ~%}
             <li><a href="{{ url(post) }}">{{ post.title }}</a></li>
