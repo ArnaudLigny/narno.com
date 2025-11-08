@@ -2,6 +2,10 @@ a {
   color: #185886;
 }
 
+.masthead-title small {
+  color: #767676;
+}
+
 .page, .post {
   margin-bottom: 1.5em;
 }
@@ -174,6 +178,9 @@ a.video img {
   }
   .masthead-title a {
     color: #acacac;
+  }
+  .masthead-title small {
+    color: silver;
   }
   .page-title, .post-title, .post-title a {
     color: #acacac;
