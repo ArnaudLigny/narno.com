@@ -83,12 +83,6 @@ img.center {
   max-height: 250px;
 }
 
-twitterwidget {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 img {
   /*display: unset;*/
   height: auto;
@@ -145,6 +139,24 @@ a.video .play-btn:focus svg {
 a.video img {
   margin: 0;
   width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+twitterwidget {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Dark mode */
