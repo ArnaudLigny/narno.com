@@ -7,7 +7,7 @@
         <a id="menu-{{ menu.id }}" weight="{{ menu.weight }}" class="sidebar-nav-item{% if url(page) == url(menu.url) or url(page) == url(menu.url)|trim('/') %} active{% endif %}" href="{{ url(menu.url) }}">{{ menu.name }}</a>
       {%- endfor ~%}
       </nav>
-      <div class="sidebar-item">
+      <footer class="sidebar-item">
         <p>&copy; 2001-{{ 'now'|date('Y') }} Arnaud Ligny</p>
         <p>Powered by <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://github.com/poole/lanyon">Lanyon</a></p>
-      </div>
+      </footer>
