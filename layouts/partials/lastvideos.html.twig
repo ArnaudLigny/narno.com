@@ -1,6 +1,6 @@
 {#- Partial to display the last videos ~#}
         <div class="lastposts">
-          <h2>Dernières <a href="/videos/">vidéos</a></h2>
+          <h2>Dernières vidéos</h2>
           <div class="videos">
             {%- for page_video in site.pages.showable|filter_by('section', 'videos')|sort_by_date|slice(0, 2) ~%}
             <a href="{{ url(page_video) }}" class="video" title="{{ page_video.title }}">
