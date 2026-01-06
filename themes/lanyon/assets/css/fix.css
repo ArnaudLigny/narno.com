@@ -85,6 +85,7 @@ img.center {
 
 img {
   /*display: unset;*/
+  margin-inline: auto;
   height: auto;
 }
 
@@ -172,8 +173,11 @@ twitterwidget {
     color: #268bd2;
   }
   hr {
-    border-top: 1px solid #acacac;
+    border-top: 1px solid #666565;
     border-bottom: 1px solid #fff;
+  }
+  tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+    background-color: #222;
   }
   .sidebar-toggle {
     color: #acacac;
