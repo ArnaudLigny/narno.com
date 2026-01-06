@@ -16,7 +16,7 @@ _Narno.com_ est un blog personnel qui parle de [vélo](/tags/velo/), de [jeux vi
 
 ## L’auteur
 
-![Avatar de Narno](https://gravatar.com/avatar/324fa39cabc600993a68d1aeace25f90?s=128){style=float:right}
+![Avatar de Narno](images/avatar.png){style=float:right}
 
 Je suis connu sous le pseudo de _Narno_, geek, papa, gamer, travailleur dans les Internet, contributeur open-source, agnostique, humaniste, cycliste urbain, amateur de bière.
 
