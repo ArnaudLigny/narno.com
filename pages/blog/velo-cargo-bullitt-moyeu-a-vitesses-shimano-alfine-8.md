@@ -1,7 +1,7 @@
 ---
 slug: velo-cargo-bullitt-moyeu-a-vitesses-shimano-alfine-8
 status: unpublished
-date: 1981
+date: ~
 updated: 2025-02-02
 ---
-unpublished
+<https://narno.com/blog/bullitt-shimano-alfine-8/>
