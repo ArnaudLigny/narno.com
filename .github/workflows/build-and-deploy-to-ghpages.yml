@@ -20,13 +20,13 @@ jobs:
         with:
           php-version: pre-installed
           extensions: mbstring, fileinfo, gd, imagick, intl, gettext, :redis
-      #- name: Restore Cecil cache
-      #  uses: actions/cache/restore@v4
-      #  with:
-      #    path: ./.cache
-      #    key: cecil-cache-
-      #    restore-keys: |
-      #      cecil-cache-
+      - name: Restore Cecil cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ./.cache
+          key: cecil-cache-
+          restore-keys: |
+            cecil-cache-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
