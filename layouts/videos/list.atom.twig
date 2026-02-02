@@ -6,6 +6,12 @@
     {%- endif ~%}
     <id>{{ url(p, {canonical: true}) }}</id>
     <title>{{ p.title|e }}</title>
+    <link href="{{ url(p, {canonical: true}) }}" rel="alternate" type="text/html" />
+    {#-{%- if video_asset is defined ~%}
+    <link href="{{ url(video_asset, {canonical: true}) }}" rel="enclosure" length="{{ video_asset.size }}" type="{{ video_asset.subtype }}" />
+    {%- endif ~%}~#}
+    <published>{{ p.date|date('c') }}</published>
+    <updated>{{ p.updated|date('c') }}</updated>
     {%- if 'txt' in p.output|default('html') ~%}
     <content type="text">
       <![CDATA[{{ p.content }}]]>
@@ -21,10 +27,4 @@
       ]]>
     </content>
     {%- endif ~%}
-    <link href="{{ url(p, {canonical: true}) }}" rel="alternate" type="text/html" />
-    {#-{%- if video_asset is defined ~%}
-    <link href="{{ url(video_asset, {canonical: true}) }}" rel="enclosure" length="{{ video_asset.size }}" type="{{ video_asset.subtype }}" />
-    {%- endif ~%}~#}
-    <published>{{ p.date|date('c') }}</published>
-    <updated>{{ p.updated|date('c') }}</updated>
     {%- endblock ~%}
