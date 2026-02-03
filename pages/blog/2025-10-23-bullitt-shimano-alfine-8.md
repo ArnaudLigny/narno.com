@@ -2,7 +2,7 @@
 title: "Vélo cargo Bullitt : moyeu à vitesses Shimano Alfine 8"
 description: "J'ai remplacé le Shimano Nexus 7 de mon vélo cargo Bullitt par un Alfine 8."
 date: 2025-10-23
-updated : 2026-02-02
+updated : 2026-02-03
 tags: [Vélo, Bullitt]
 image: images/2025-10-23-bullitt-shimano-alfine-8/PXL_20250116_161059380.jpg
 typora-root-url: ../../assets
