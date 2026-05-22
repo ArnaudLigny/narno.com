@@ -15,33 +15,20 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v6
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: pre-installed
-          extensions: mbstring, fileinfo, gd, imagick, intl, gettext, :redis
       - name: Restore Cecil cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: ./.cache
           key: cecil-cache-
           restore-keys: |
             cecil-cache-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
       - name: Build with Cecil
-        uses: Cecilapp/Cecil-Action@v3
-        with:
-          args: '-v --baseurl="${{ steps.pages.outputs.base_url }}/"'
+        uses: Cecilapp/Cecil-Action@4.0.0
       - name: Save Cecil cache
         uses: actions/cache/save@v5
         with:
           path: ./.cache
           key: cecil-cache-${{ hashFiles('./.cache/**/*') }}
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-
   deploy:
     needs: build
     permissions:
@@ -54,4 +41,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
