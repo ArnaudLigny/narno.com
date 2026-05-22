@@ -23,7 +23,7 @@ jobs:
           restore-keys: |
             cecil-cache-
       - name: Build with Cecil
-        uses: Cecilapp/Cecil-Action@4.0.0
+        uses: Cecilapp/Cecil-Action@v4
       - name: Save Cecil cache
         uses: actions/cache/save@v5
         with:
