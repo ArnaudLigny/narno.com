@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Restore Cecil cache
         uses: actions/cache/restore@v5
         with:
@@ -25,7 +25,7 @@ jobs:
       - name: Build with Cecil
         uses: Cecilapp/Cecil-Action@v4
       - name: Save Cecil cache
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@v6
         with:
           path: ./.cache
           key: cecil-cache-${{ hashFiles('./.cache/**/*') }}
@@ -41,4 +41,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v6
