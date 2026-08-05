@@ -6,7 +6,6 @@ social:
   twitter: Narno
   mastodon: narno@gazuji.com
 layout: photos
-typora-root-url: ../../static
 ---
 
 Quelques photos (en vrac) de la fin du montage.

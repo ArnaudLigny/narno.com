@@ -8,14 +8,13 @@ tags:
   - Bullitt
 image: /images/bullitt.jpg
 published: true
-typora-root-url: ../../static
 #photo: /images/bullitt.jpg
 #output: [html, oembed]
 ---
 
 Ces dernières semaines j’ai régulièrement été sollicité, soit via [Twitter](https://twitter.com/Narno), soit dans la rue, à propos de mon vélo cargo [Bullitt](/tags/bullitt).
 
-![Vélo cargo Bullitt Bluebird vu de profil](/images/bullitt.jpg "Vélo cargo Bullitt Bluebird vu de profil"){width=800}
+![Vélo cargo Bullitt Bluebird vu de profil](../../static/images/bullitt.jpg "Vélo cargo Bullitt Bluebird vu de profil"){width=800}
 
 Aussi je me suis dit que ça pourrait être intéressant de partager mon expérience, après plus d’un an d’utilisation de mon [Bullitt](/tags/bullitt) au quotidien.
 

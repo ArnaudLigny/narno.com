@@ -6,12 +6,12 @@ updated: 2022-06-11
 image: images/CanHard-IX.jpg
 author: Narno
 alias:
-- configpc
+  - configpc
 published: true
 ---
 ## La configuration matérielle de mon PC de jeu
 
-![CanHard IX](/images/CanHard-IX.jpg)
+![CanHard IX](../static/images/CanHard-IX.jpg)
 
 | Composant       | Description |
 | --------------- | ----------- |

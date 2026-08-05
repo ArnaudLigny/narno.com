@@ -5,7 +5,6 @@ tags: Windows
 image: /images/strategie-groupe-windows-update.png
 path: blog/windows-update-desactiver-le-redemarrage-automatique
 published: true
-typora-root-url: ../../static
 ---
 Windows Update permet la mise à jour de Windows et de ses applications de manière automatique. Ce système est indispensable afin d'assurer la sécurité et la stabilité de l'OS.
 
@@ -21,6 +20,6 @@ Pour cela il suffit de modifier un des paramètres du panel de [Stratégie de gr
 4. Double-cliquer sur "Pas de redémarrage automatique..."
 5. Choisir l'option ***Activé***, valider
 
-![](/images/strategie-groupe-windows-update.png)
+![](../../static/images/strategie-groupe-windows-update.png)
 
 Et voilà, maintenant vous avez le choix ! :-)

@@ -1,5 +1,5 @@
 ---
-title: "Paris Web 2007 : j'y suis passé !"
+title: "Paris Web 2007 : j'y suis passé"
 date: 2007-12-12
 tags:
   - Développement
@@ -7,11 +7,10 @@ tags:
 path: blog/paris-web-2007-jy-suis-passe
 image: /images/photos/paris-web-2007.jpg
 published: true
-typora-root-url: ../../static
 ---
 J'étais à [Paris Web 2007](https://www.paris-web.fr/2007/) pour la journée "libre" : pas de conférences mais des ateliers.
 
-![Fond d'écran Paris Web 2007](/images/photos/paris-web-2007.jpg "Fond d'écran Paris Web 2007")
+![Fond d'écran Paris Web 2007](../../static/images/photos/paris-web-2007.jpg "Fond d'écran Paris Web 2007")
 <!-- break -->
 **Ce que j'ai retenu :**
 

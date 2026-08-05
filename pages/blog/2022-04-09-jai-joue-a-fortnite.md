@@ -4,12 +4,12 @@ description: "Petit retour d’expérience sur le jeu vidéo Fortnite"
 date: 2022-04-09
 tags: [Jeux video]
 image: images/2022-04-09-jai-joue-a-fortnite/fortnite.jpg
-typora-root-url: ../../assets
 typora-copy-images-to: ../../assets/images/${filename}
 published: true
 ---
 ![Fortnite](../../assets/images/2022-04-09-jai-joue-a-fortnite/fortnite.jpg "Poster du jeu Fortnite présentant les différents personnages en avril 2022.")
 <!-- break -->
+
 [toc]
 
 ## Papa, on peut installer Fortnite ?

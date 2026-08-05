@@ -5,11 +5,10 @@ tags: Jeux vidéo
 path: blog/left-4-dead-pre-commande
 image: /images/left4dead.jpg
 published: true
-typora-root-url: ../../static
 ---
 Je viens de précommander [Left 4 Dead](http://store.steampowered.com/app/500/) sur Steam afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).
 
-![Left 4 Dead](/images/left4dead.jpg)
+![Left 4 Dead](../../static/images/left4dead.jpg)
 
 Bon, pour le moment c'est pas gagner : le téléchargement est terriblement lent (doit y avoir des amateurs !) et je n'ai pas pu le lancer avant de rentrer du boulot. Bref, pour patienter, j'écris ce petit billet.
 

@@ -9,7 +9,6 @@ menu:
 image: images/bullitt-bluebird.jpg
 author: Narno
 alias: [mon-velo]
-typora-root-url: ../static
 published: true
 ---
 - [Bullitt Bluebird](#bullitt-bluebird)

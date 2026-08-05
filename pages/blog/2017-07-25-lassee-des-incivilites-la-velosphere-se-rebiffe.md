@@ -6,9 +6,8 @@ tags:
   - Cycliste urbain
 image: /images/guerillavelo.jpg
 published: true
-typora-root-url: ../../static
 ---
-![guerillavelo](/images/guerillavelo.jpg)
+![guerillavelo](../../static/images/guerillavelo.jpg)
 
 Article de [Alexis Magnaval](https://twitter.com/alexis_magnaval) paru sur Slate.fr le 25 juillet 2017.
 
