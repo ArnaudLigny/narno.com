@@ -20,6 +20,6 @@ Pour cela il suffit de modifier un des paramètres du panel de [Stratégie de gr
 4. Double-cliquer sur "Pas de redémarrage automatique..."
 5. Choisir l'option ***Activé***, valider
 
-![](../../static/images/strategie-groupe-windows-update.png)
+![Fenêtre Windows de gestion de la stratégie de groupe](../../assets/images/strategie-groupe-windows-update.png "Fenêtre Windows de gestion de la stratégie de groupe")
 
 Et voilà, maintenant vous avez le choix ! :-)

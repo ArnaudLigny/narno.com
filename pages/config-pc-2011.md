@@ -11,7 +11,7 @@ published: true
 ---
 ## La configuration matérielle de mon PC de jeu
 
-![CanHard IX](../static/images/CanHard-IX.jpg)
+![CanHard IX](../assets/images/CanHard-IX.jpg)
 
 | Composant       | Description |
 | --------------- | ----------- |

@@ -13,7 +13,7 @@ Afin de simplifier les étapes d'installation et de démarrage du mod, j'ai cré
 
 Pour le télécharger rendez-vous sur le mini-site dédié : [_DayZ-Installer_](https://narno.dev/DayZ-Installer/).
 
-![Capture d'écran](../../static/images/DayZ-Mod-Installer-0.0.1.5.png)
+![Capture d'écran](../../assets/images/DayZ-Mod-Installer-0.0.1.5.png)
 
 > **Mise à jour (septembre 2012)**  
 > Depuis la version 1.7.2.x, l'installeur ne fonctionne plus car les fichiers du mod ont été packagés dans une archive unique.  

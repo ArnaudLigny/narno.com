@@ -10,7 +10,7 @@ published: true
 ---
 Dans mon billet [*Reboot du blog ?*](/blog/reboot-du-blog/) j'indiquais que *Narno.com* est maintenant un site statique : mais « statique », ça veut dire quoi ?
 
-![SSG host flow](../../static/images/ssg-host-flow.png "SSG host flow ([What is a Static Site Generator?](https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/))"){placeholder=color}
+![SSG host flow](../../assets/images/ssg-host-flow.png "SSG host flow ([What is a Static Site Generator?](https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/))"){placeholder=color}
 <!-- break -->
 
 ## Qu'appelle-t-on un « site statique » ?

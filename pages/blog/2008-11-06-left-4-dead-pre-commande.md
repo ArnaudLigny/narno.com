@@ -8,7 +8,7 @@ published: true
 ---
 Je viens de précommander [Left 4 Dead](http://store.steampowered.com/app/500/) sur Steam afin de pouvoir jouer à la démo ce soir (avant la sortie prévu dans 10 jours).
 
-![Left 4 Dead](../../static/images/left4dead.jpg)
+![Logo du jeu Left 4 Dead](../../assets/images/left4dead.jpg "Logo Left 4 Dead")
 
 Bon, pour le moment c'est pas gagner : le téléchargement est terriblement lent (doit y avoir des amateurs !) et je n'ai pas pu le lancer avant de rentrer du boulot. Bref, pour patienter, j'écris ce petit billet.
 

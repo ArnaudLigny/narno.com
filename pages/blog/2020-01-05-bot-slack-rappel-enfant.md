@@ -15,7 +15,7 @@ Depuis quelques années j’utilise [Slack](https://slack.com/intl/fr-fr/) dans 
 
 Aussi, j’ai pensé que ce serait l’outil idéal pour me rappeler l’heure à laquelle quitter mon bureau pour arriver à l’heure à l’école de mon fils.
 
-![Capture d'écran d'une notification Slack](../../static/images/leo-bot-demo.png "Capture d'écran d'une notification Slack")
+![Capture d'écran d'une notification Slack](../../assets/images/leo-bot-demo.png "Capture d'écran d'une notification Slack")
 
 J’ai donc entrepris de réaliser un bot très simple, à l’aide de [Botkit](https://github.com/howdyai/botkit), qui me hélerait au moment du départ.
 
@@ -28,6 +28,6 @@ Pour fonctionner le bot à besoin de :
 
 Pour plus de détails sur la mise en œuvre (et l’accès à la documentation) je vous invite à consulter la page GitHub du projet : [github.com/Narno/leo-bot](https://github.com/Narno/leo-bot).
 
-[![Deploy](../../assets/images/heroku/button.svg)](https://heroku.com/deploy?template=https://github.com/Narno/leo-bot)
+[![Deploy](../../assets/images/heroku-button.svg)](https://heroku.com/deploy?template=https://github.com/Narno/leo-bot)
 
 > Note : ce projet à plus de 3 ans, il est donc probable que certaines dépendances ne soient plus à jour.

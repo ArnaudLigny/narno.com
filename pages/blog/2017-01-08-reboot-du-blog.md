@@ -15,7 +15,7 @@ Comme on dit chez moi :
 
 Aussi, dans l'optique de péréniser son (peu de) contenu et de me simplifier la maintenance, je l'ai migré vers un site statique : contenu dans des fichiers textes et mise en forme minimaliste !
 
-![New plan: static site first](../../static/images/new-plan-static-site-first.jpg "New plan: static site first")
+![New plan: static site first](../../assets/images/new-plan-static-site-first.jpg "New plan: static site first")
 <!-- excerpt -->
 Maintenant, je n'ai plus à me tracasser de l'application des patchs de sécurité de [Drupal](/tags/drupal), ni du risque de perdre ou de corrompre la BDD MySQL.
 J'ai beaucoup aimé "jouer" avec [Drupal](/tags/drupal), mais il faut admettre qu'utiliser cette solution pour un petit blog, à peine dynamique, c'est d'avantage une contrainte qu'un outil.

@@ -7,7 +7,7 @@ tags:
 image: /images/guerillavelo.jpg
 published: true
 ---
-![guerillavelo](../../static/images/guerillavelo.jpg)
+![guerillavelo](../../assets/images/guerillavelo.jpg)
 
 Article de [Alexis Magnaval](https://twitter.com/alexis_magnaval) paru sur Slate.fr le 25 juillet 2017.
 

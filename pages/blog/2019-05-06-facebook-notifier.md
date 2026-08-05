@@ -12,7 +12,7 @@ Ainsi, il y a quelques années, j’avais développé une extension pour navigat
 
 Le principe de [***F-Notifier***](https://github.com/Narno/F-Notifier#f-notifier) principe est très simple : une fois installée, celle-ci affiche un badge avec le nombre de notifications non lues.
 
-[![F-Notifier screenshot](../../static/images/F-Notifier-screenshot.png)](https://github.com/Narno/F-Notifier#f-notifier)
+[![F-Notifier screenshot](../../assets/images/F-Notifier-screenshot.png)](https://github.com/Narno/F-Notifier#f-notifier)
 <!-- break -->
 
 > [***F-Notifier***](https://github.com/Narno/F-Notifier#f-notifier) est disponible à la fois pour [Google Chrome](https://chrome.google.com/webstore/detail/f-notifier/befpdcighpikpkklmfonkmdafmfnnkfn) et pour [Mozilla Firefox](https://addons.mozilla.org/fr/firefox/addon/f-notifier/), et son code source peut être consulté sur [GitHub](https://github.com/Narno/F-Notifier).

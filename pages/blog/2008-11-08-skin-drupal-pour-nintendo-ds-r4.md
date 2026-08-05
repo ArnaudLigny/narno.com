@@ -12,7 +12,7 @@ J'ai récemment fait l'acquisition d'un [R4](http://www.r4ndsl.com/) pour Ninten
 
 Etant donné qu'il n'existe pas de démo sur DS, cet accessoires me permet de tester les jeux avant des acheter (oui, j'achète encore des jeux). D'autre part, vous pouvez également transformer votre console portable en lecteur multimédia (MP3, vidéos, etc.)
 
-![Skin Drupal pour Nintendo DS R4](../../static/images/nds-r4-drupal-skin.png){style="float:right"}
+![Skin Drupal pour Nintendo DS R4](../../assets/images/nds-r4-drupal-skin.png){style="float:right"}
 
 Pour en revenir au sujet initiale, connaissant ma passion pour [Drupal](https://drupal.org/), [Oni](http://kobuta.fr/blog) a réalisé une skin aux couleurs de mon CMS préféré.
 Pour l'installer, il vous suffit de télécharger le [fichier joint](/files/nds-r4-drupal-skin.zip) et de le décompresser dans le répertoire `sytem` de votre cartouche.
