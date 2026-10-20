@@ -18,19 +18,19 @@ languages:
   - name: Français
     code: fr
     locale: fr_FR
-date:
-  format: "j M Y"
-  timezone: "Europe/Paris"
+
 taxonomies:
   tags: tag
 metatags:
   jsonld: true
+
 menus:
   main:
     - id: galeries
       enabled: false
     - id: tags
       enabled: false
+
 pages:
   default:
     blog/le-blog-avance:
@@ -61,18 +61,21 @@ layouts:
 theme:
   - lanyon
   - pwa
-manifest:
-  background_color: "#ffffff"
-  theme_color: "#202020"
-  shortcuts: true
-serviceworker:
-  enabled: true
-  update:
-    snackbar:
-      enabled: true
-  offline:
-    snackbar:
-      enabled: true
+
+pwa:
+  manifest:
+    background_color: "#ffffff"
+    theme_color: "#202020"
+    shortcuts: true
+  serviceworker:
+    enabled: true
+    update:
+      snackbar:
+        enabled: true
+    offline:
+      snackbar:
+        enabled: true
+
 #googleanalytics: UA-387892-1
 cloudflareinsights: c4839ad383494a2fb32c9a5a50d9c3fb
 disqus:
