@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "907a7b20abf15276d811a3652c750829",
+    "content-hash": "13857b39d18ca9990bc575a7d59f559a",
     "packages": [
         {
             "name": "cecil/theme-installer",
@@ -74,16 +74,16 @@
         },
         {
             "name": "cecil/theme-pwa",
-            "version": "2.21.1",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-pwa.git",
-                "reference": "d44e4a85147a3c82fedc2164899c9028e423ec92"
+                "reference": "f7e957eb39a56eac47f7588b145d20fa0c5c50a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/d44e4a85147a3c82fedc2164899c9028e423ec92",
-                "reference": "d44e4a85147a3c82fedc2164899c9028e423ec92",
+                "url": "https://api.github.com/repos/Cecilapp/theme-pwa/zipball/f7e957eb39a56eac47f7588b145d20fa0c5c50a6",
+                "reference": "f7e957eb39a56eac47f7588b145d20fa0c5c50a6",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
             "extra": {
                 "name": "pwa",
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "3.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -108,7 +108,7 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/Cecilapp/theme-pwa/tree/2.21.1"
+                "source": "https://github.com/Cecilapp/theme-pwa/tree/3.0.3"
             },
             "funding": [
                 {
@@ -120,7 +120,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-08-28T10:26:48+00:00"
+            "time": "2026-10-19T21:46:00+00:00"
         }
     ],
     "packages-dev": [],
