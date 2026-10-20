@@ -32,11 +32,12 @@ menus:
     - id: tags
       enabled: false
 pages:
-  virtual:
-    - path: blog/le-blog-avance
+  default:
+    blog/le-blog-avance:
+      path: blog/le-blog-avance
       redirect: /
-      title: Le blog avance !
-      date: 2008-12-08
+      title: 'Le blog avance !'
+      date: 2008-12-08T00:00:00+00:00
   paths:
     - section: videos
       path: :section/:year/:month/:day/:slug
