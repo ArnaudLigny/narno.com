@@ -1,5 +1,5 @@
 metatags:
-  jsonld: false
+  data: false
 pages:
   body:
     images:
@@ -11,5 +11,6 @@ assets:
     optimize: false
     formats: []
     responsive: false
-serviceworker:
-  enabled: false
+pwa:
+  serviceworker:
+    enabled: false

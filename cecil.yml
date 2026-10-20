@@ -13,6 +13,7 @@ social:
   steam:
     url: https://steamcommunity.com/id/narno
     username: narno
+
 language: fr
 languages:
   - name: Français
@@ -22,7 +23,7 @@ languages:
 taxonomies:
   tags: tag
 metatags:
-  jsonld: true
+  data: true
 
 menus:
   main:
@@ -70,11 +71,9 @@ pwa:
   serviceworker:
     enabled: true
     update:
-      snackbar:
-        enabled: true
+      snackbar: true
     offline:
-      snackbar:
-        enabled: true
+      snackbar: true
 
 #googleanalytics: UA-387892-1
 cloudflareinsights: c4839ad383494a2fb32c9a5a50d9c3fb
