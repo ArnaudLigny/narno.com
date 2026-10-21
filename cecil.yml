@@ -22,8 +22,12 @@ languages:
 
 taxonomies:
   tags: tag
+
 metatags:
-  data: true
+  data:
+    enabled: true
+    publisher:
+      type: Person
 
 menus:
   main:
