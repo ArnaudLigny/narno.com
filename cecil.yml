@@ -6,13 +6,15 @@ keywords: [développement web, vélo, jeu vidéo]
 image: icon.png
 email: me@narno.com
 social:
-  twitter:
-    site: Narno
-  mastodon:
-    url: https://gazuji.com/@narno
+  bluesky:
+    url: https://bsky.app/profile/narno.com
   steam:
     url: https://steamcommunity.com/id/narno
     username: narno
+  mastodon:
+    url: https://gazuji.com/@narno
+  twitter:
+    site: Narno
 
 language: fr
 languages:
