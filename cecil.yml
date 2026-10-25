@@ -90,8 +90,9 @@ paper:
 
 pwa:
   manifest:
-    background_color: "#ffffff"
-    theme_color: "#202020"
+    background_color: "#fdfdfd"
+    theme_color: "#fdfdfd"
+    theme_color_dark: "#212737"
     shortcuts: true
   serviceworker:
     enabled: true
