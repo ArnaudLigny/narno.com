@@ -79,7 +79,7 @@ paper:
   edit:
     url: https://github.com/ArnaudLigny/narno.com/edit/master/pages/
   socials:
-    - {name: rss, url: 'https://narno.com/atom.xml', title: "S'abonner au flux Atom"}
+    - {name: rss, url: 'atom.xml', title: "S'abonner au flux Atom"}
     - {name: mail, url: 'mailto:me@narno.com', title: "M'envoyer un e-mail"}
     - {name: bluesky, url: 'https://bsky.app/profile/narno.com'}
     - {name: mastodon, url: 'https://gazuji.com/@narno'}
