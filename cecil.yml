@@ -86,6 +86,7 @@ paper:
     - {name: steam, url: 'https://steamcommunity.com/id/narno'}
   share:
     - {name: bluesky, url: 'https://bsky.app/intent/compose?text='}
+    - {name: mastodon, url: 'https://s2f.kytta.dev/?text='}
     - {name: mail, url: 'mailto:?body='}
 
 pwa:
