@@ -26,7 +26,7 @@ Je suis connu sous le pseudo de _Narno_, geek, papa, gamer, travailleur dans les
 
 Ce blog est statique, c’est à dire qu'il n’est pas dépendant d’un quelconque CMS (tel que [Drupal](/tags/drupal) ou WordPress) :
 
-* Le thème HTML/CSS utilisé est [Poole/Lanyon](http://getpoole.com)
+* Le thème HTML/CSS utilisé est [Paper](https://github.com/Cecilapp/theme-paper) (portage d'[AstroPaper](https://github.com/satnaing/astro-paper))
 * Il est généré par [Cecil](https://cecil.app)
 * Il est hébergé sur [GitHub Pages](https://docs.github.com/pages)
 * Le code source est versionné via [GitHub](https://github.com/ArnaudLigny/narno.com)
