@@ -1,42 +1,12 @@
 {% extends '_default/page.html.twig' %}
 
-    {%- block head ~%}
-    {{- parent() ~}}
-    {#- webmention ~#}
-    {%- if site.webmention ~%}
+{%- block head %}
+    {{- parent() }}
+    {%- if site.webmention %}
     <link rel="pingback" href="https://webmention.io/narno.com/xmlrpc" />
     <link rel="webmention" href="https://webmention.io/narno.com/webmention" />
-    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-    {%- endif ~%}
-    {%- endblock head ~%}
-
-    {%- block sidebar ~%}
-      {{- parent() ~}}
-      <div class="sidebar-item">
-        <ul class="social inline">
-          <li>
-            <a title="S'abonner au flux RSS" href="{{ url('index', {format: 'atom'}) }}"><svg width="16" height="20" class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a>
-          </li>
-          <li>
-            <a rel="me" title="M'envoyer un e-mail" href="mailto:{{ site.email }}"><svg width="16" height="20" class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>
-          </li>
-          {%- if site.social is defined ~%}
-            {%- if site.social.twitter.url is defined ~%}
-          <li>
-            <a rel="me" title="Me suivre sur Twitter" href="{{ site.social.twitter.url }}"><svg width="16" height="20" class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
-          </li>
-            {%- endif ~%}
-            {#-{%- if site.social.github.url is defined ~%}
-          <li>
-            <a rel="me" title="Me suivre sur GitHub" href="{{ site.social.github.url }}"><svg width="16" height="20" class="icon icon-github"><use xlink:href="#icon-github"></use></svg></a>
-          </li>
-            {%- endif ~%}~#}
-            {%- if site.social.steam.url is defined ~%}
-          <li>
-            <a rel="me" title="Me suivre sur Steam" href="{{ site.social.steam.url }}"><svg width="16" height="20" class="icon icon-steam"><use xlink:href="#icon-steam"></use></svg></a>
-          </li>
-            {%- endif ~%}
-          {%- endif ~%}
-        </ul>
-      </div>
-    {%- endblock sidebar ~%}
+    {%- endif %}
+    {%- if site.cloudflareinsights is defined %}
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflareinsights }}"}'></script>
+    {%- endif %}
+{%- endblock head %}

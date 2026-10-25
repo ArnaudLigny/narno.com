@@ -4,27 +4,80 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13857b39d18ca9990bc575a7d59f559a",
+    "content-hash": "810f882d8c4b7b95956a1a42869ff29c",
     "packages": [
         {
-            "name": "cecil/theme-installer",
-            "version": "2.0.0",
+            "name": "cecil/theme-darkmodetoggle",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Cecilapp/theme-installer.git",
-                "reference": "588ec8523a978229d23e10a0b8e0b6420192c154"
+                "url": "https://github.com/Cecilapp/theme-darkmodetoggle.git",
+                "reference": "1b2089ce30adf5312797faa7f9e6d7c165b6c424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/588ec8523a978229d23e10a0b8e0b6420192c154",
-                "reference": "588ec8523a978229d23e10a0b8e0b6420192c154",
+                "url": "https://api.github.com/repos/Cecilapp/theme-darkmodetoggle/zipball/1b2089ce30adf5312797faa7f9e6d7c165b6c424",
+                "reference": "1b2089ce30adf5312797faa7f9e6d7c165b6c424",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": ">=2.0"
+                "cecil/theme-installer": "^1.4|^2.0"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "name": "darkmodetoggle",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil component theme Dark mode toggle",
+            "keywords": [
+                "cecil",
+                "color scheme",
+                "dark mode",
+                "theme"
+            ],
+            "support": {
+                "issues": "https://github.com/Cecilapp/theme-darkmodetoggle/issues",
+                "source": "https://github.com/Cecilapp/theme-darkmodetoggle/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ArnaudLigny",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/cecil",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2026-10-09T14:19:09+00:00"
+        },
+        {
+            "name": "cecil/theme-installer",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-installer.git",
+                "reference": "37c6f58e09cf36e94b10b078a9c5e1f3985d5a38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/37c6f58e09cf36e94b10b078a9c5e1f3985d5a38",
+                "reference": "37c6f58e09cf36e94b10b078a9c5e1f3985d5a38",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": "^8.1"
             },
             "require-dev": {
-                "composer/composer": ">=2.0"
+                "composer/composer": "^2.0",
+                "phpunit/phpunit": "^10.5"
             },
             "type": "composer-plugin",
             "extra": {
@@ -34,8 +87,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Cecil\\Installer\\Composer": "src/"
+                "psr-4": {
+                    "Cecil\\Installer\\Composer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -50,15 +103,17 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Installer for Cecil's themes",
+            "description": "Composer installer for Cecil's themes",
+            "homepage": "https://cecil.app",
             "keywords": [
                 "cecil",
+                "composer-plugin",
                 "installer",
                 "themes"
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-installer/issues",
-                "source": "https://github.com/Cecilapp/theme-installer/tree/2.0.0"
+                "source": "https://github.com/Cecilapp/theme-installer/tree/2.1.0"
             },
             "funding": [
                 {
@@ -70,7 +125,75 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-01-09T14:53:24+00:00"
+            "time": "2026-10-22T20:56:35+00:00"
+        },
+        {
+            "name": "cecil/theme-paper",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-paper.git",
+                "reference": "2aaa07034466815893b749c215ab117a7f873823"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-paper/zipball/2aaa07034466815893b749c215ab117a7f873823",
+                "reference": "2aaa07034466815893b749c215ab117a7f873823",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-darkmodetoggle": "^1.0",
+                "cecil/theme-installer": "^2.1"
+            },
+            "require-dev": {
+                "aligny/tailwind-builder": "^1.2"
+            },
+            "suggest": {
+                "cecil/theme-flexsearch": "Adds a search box to the header"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "cecil": {
+                    "theme-name": "paper"
+                },
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "scripts": {
+                "css:build": [
+                    "tailwind-builder assets/paper/tailwind.css --output=assets/paper/paper.css --minify"
+                ],
+                "css:watch": [
+                    "tailwind-builder assets/paper/tailwind.css --output=assets/paper/paper.css --watch"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil Paper theme, a port of AstroPaper",
+            "keywords": [
+                "Cecil",
+                "astropaper",
+                "blog",
+                "paper",
+                "theme"
+            ],
+            "support": {
+                "source": "https://github.com/Cecilapp/theme-paper/tree/1.0.1",
+                "issues": "https://github.com/Cecilapp/theme-paper/issues"
+            },
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/ArnaudLigny"
+                },
+                {
+                    "type": "open_collective",
+                    "url": "https://opencollective.com/cecil"
+                }
+            ],
+            "time": "2026-10-25T14:02:15+00:00"
         },
         {
             "name": "cecil/theme-pwa",

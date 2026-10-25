@@ -1,10 +1,16 @@
 {
   "require": {
-    "cecil/theme-pwa": "^3.0"
+    "cecil/theme-pwa": "^3.0",
+    "cecil/theme-paper": "^1.0"
   },
   "config": {
     "allow-plugins": {
       "cecil/theme-installer": true
     }
-  }
+  },
+  "repositories": [{
+    "name": "theme-paper",
+    "type": "vcs",
+    "url": "https://github.com/Cecilapp/theme-paper"
+  }]
 }
