@@ -1,7 +1,7 @@
 {
   "require": {
     "cecil/theme-pwa": "^3.0",
-    "cecil/theme-paper": "^1.0"
+    "cecil/theme-paper": "^2.0"
   },
   "config": {
     "allow-plugins": {

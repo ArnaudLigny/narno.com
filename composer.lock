@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "810f882d8c4b7b95956a1a42869ff29c",
+    "content-hash": "f6c44b81b1b776f6b293e45c3702cfd2",
     "packages": [
         {
             "name": "cecil/theme-darkmodetoggle",
@@ -129,16 +129,16 @@
         },
         {
             "name": "cecil/theme-paper",
-            "version": "1.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-paper.git",
-                "reference": "2aaa07034466815893b749c215ab117a7f873823"
+                "reference": "7569b5a59302eec3e898bc627f417680b26e82ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-paper/zipball/2aaa07034466815893b749c215ab117a7f873823",
-                "reference": "2aaa07034466815893b749c215ab117a7f873823",
+                "url": "https://api.github.com/repos/Cecilapp/theme-paper/zipball/7569b5a59302eec3e898bc627f417680b26e82ce",
+                "reference": "7569b5a59302eec3e898bc627f417680b26e82ce",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +180,7 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/Cecilapp/theme-paper/tree/1.0.1",
+                "source": "https://github.com/Cecilapp/theme-paper/tree/2.0.0",
                 "issues": "https://github.com/Cecilapp/theme-paper/issues"
             },
             "funding": [
@@ -193,7 +193,7 @@
                     "url": "https://opencollective.com/cecil"
                 }
             ],
-            "time": "2026-10-25T14:02:15+00:00"
+            "time": "2026-10-26T20:51:52+00:00"
         },
         {
             "name": "cecil/theme-pwa",
